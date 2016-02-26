@@ -1,0 +1,23 @@
+p {
+  font-weight: 300;
+}
+p.center {
+  text-align: center;
+}
+p.bold {
+  font-weight: 400;
+}
+p.headline {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+a {
+  color: $text;
+}
+a:hover {
+  color: $text-dark;
+}
+a:active,
+a:visited {
+  color: $text;
+}

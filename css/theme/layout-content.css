@@ -1,0 +1,6 @@
+section#content {
+  padding: 90px 0;
+}
+section#content .sidebar {
+  padding: 0 0.5rem 0 2rem;
+}

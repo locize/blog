@@ -1,0 +1,22 @@
+body {
+  background: $primary;
+  color: $text-light;
+  -webkit-font-smoothing: antialiased;
+  font-family: $font-primary;
+  font-size: 1.05em;
+  font-weight: 400;
+  height: auto !important;
+  height: 100%;
+  line-height: 1.6em;
+  min-height: 100%;
+}
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
