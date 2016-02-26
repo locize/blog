@@ -4,18 +4,18 @@ language: en
 
 # main menu navigation
 menu:
-  Home: /
-  About: /about
-  Contact: /contact
-  Archives: /archives
+  Home:
+  About: about
+  Contact: contact
+  Archives: archives
 
 # Miscelaneous
-favicon: /favicon.ico
+favicon: favicon.ico
 
 # stylesheets loaded in the <head>
 stylesheets:
-- /css/locize-theme.css
+- css/locize-theme.css
 
 # scripts loaded in the end of the body
 scripts:
-- /js/locize-theme.js
+- js/locize-theme.js
