@@ -1,7 +1,7 @@
 # Getting started
 
 ```
-npm install hexo -g
+npm install hexo-cli -g
 
 npm start
 ```
