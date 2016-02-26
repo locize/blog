@@ -1,27 +1,51 @@
 extends includes/layout
 
 block content
-  section#content-main.wrapper
-    include includes/recent-posts
-    include includes/pagination
+  section#content.wrapper
     
+    .row
+      .col-md-8
+        h1 Think global – get locized
   
     .row
       .col-md-8
-        h1 About
+        p.headline
+          | Get translated today. Effortless & Riskfree.
         p
-          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nulla in porttitor pharetra. Proin sit amet ipsum non tellus imperdiet viverra sed et sem. Nullam ligula tellus, feugiat a dolor ac, laoreet hendrerit neque. Donec vitae congue dui. Nulla varius lobortis nunc in adipiscing. Mauris sollicitudin tortor nec quam dapibus, nec euismod sem tincidunt. Sed sed ante urna. Curabitur sollicitudin enim id sapien fringilla pharetra in nec lectus. Praesent quis dolor bibendum lacus ullamcorper convallis nec consequat ligula. Sed augue ligula, feugiat sodales elit id, pretium tristique tortor. Proin malesuada tellus vel augue pharetra, a tempor massa varius. Quisque non euismod ipsum. Sed diam turpis, posuere at velit ut, vehicula faucibus nisi. Fusce rhoncus tincidunt erat vitae tincidunt.
+          | We at locize help you to automate your localization and translation process, decreasing development time and cost.
+    
+      
+        p.headline Localization as a service      
         p
-          | Suspendisse sed turpis vitae turpis condimentum eleifend. Ut faucibus iaculis urna, ut fringilla neque tristique a. Fusce dui nulla, venenatis lobortis dui eu, porta rutrum sapien. Donec lobortis est vel magna semper laoreet. Donec eu tortor pulvinar, sagittis nulla ac, adipiscing mauris. Vivamus iaculis commodo mattis. Aliquam vehicula, diam sit amet sagittis imperdiet, felis nulla molestie velit, quis luctus dui mi vel libero. In lobortis, velit id tincidunt venenatis, sapien tortor gravida quam, non condimentum enim erat nec purus. Ut velit nisl, vulputate eu sapien non, tristique mollis neque.
+          | Get your resources served with highspeed and with low latency. Benefit from our cloud knowhow. Our content delivery network serves your translations worldwide.
+      
+      
+        .box.box-dark.margin-top-40
+          h3 Benefits
+          ul
+            li Easy to integrate
+            li Order professional translations
+            li Analytics & Statistics
+            li Profit from our content delivery network
+            li Versioning of your translations
+            li Riskfree: Take your data with you
+            li Transparent and fair pricing
+      
       .col-md-4.sidebar
-        h3 Corporate Pages
-        ul
-          li.active
-            a(href='#') About the company
-          li
-            a(href='#') Meet the Team
-          li
-            a(href='#') Our Mission
+      
+        .box.box-dark
+          h3 Corporate Pages
+          ul
+            li
+              a(href='#') About the company
+            li
+              a(href='#') Meet the Team
+            li
+              a(href='#') Our Mission
+        
+        .box.box-white
+          include includes/recent-posts
+        
   footer.wrapper
     .row
       .col-md-12
