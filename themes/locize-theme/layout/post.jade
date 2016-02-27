@@ -1,7 +1,8 @@
 extends includes/layout
 
 block content
-  article#post
+  section.post#content.wrapper
     h1= page.title
+      time(datetime=page.date.toJSON())= date(page.date, date_format)
     != page.content
   include includes/pagination
