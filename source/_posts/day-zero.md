@@ -6,10 +6,10 @@ tags:
 
 ### Back in 2011
 
-All started back in 2011 when we were in search for a internationalization library that meets our demand - allowing to run both on serverside node.js and on our clientside singlepage applications. I18next was born and fastly grown to one of the most used frameworks for translating webapplications and in node.js. The response of the community was amazing and a fast growing ecosystem established itself around i18next.
+All started back in 2011 when we were in search for a internationalization library that meets our demand - allowing to run both on serverside node.js and on our clientside singlepage applications. [I18next](www.i18next.com) was born and fastly grown to one of the most used frameworks for translating webapplications and in node.js. The response of the community was amazing and a fast growing ecosystem established itself around i18next.
 
 
-### i18n is not enough
+### internationalization is not enough
 
 Our community provided us with great feedback. Out of that response and our own experiences we learnt providing instrumentation for doing proper internationalization just is not enough.
 

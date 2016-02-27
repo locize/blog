@@ -1,9 +1,6 @@
 p
   font-weight: 300
 
-  &.center
-    text-align: center
-
   &.bold
     font-weight: 400
 
@@ -11,11 +8,18 @@ p
     font-size: 1.2em
     text-transform: uppercase
 
-a
-  color: $text
+  &.callout
+    display: inline-block
+    font-size: 1.2em
+    text-transform: uppercase
+    padding: 1.2em 2em
+    border: 1px solid $text-light
 
-  &:hover
-    color: $text-dark
+a
+  color: $white
 
   &:active, &:visited
-   color: $text
+    color: $white
+
+  &:hover
+    color: $primary-light

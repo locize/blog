@@ -19,6 +19,15 @@
       border-left: 40px solid transparent
       width: 0
 
+    a
+      color: $text
+
+      &:active, &:visited
+        color: $text
+
+      &:hover
+        color: $primary-dark
+
 
   &.box-dark
     background: rgba(25, 118, 210, 0.5)
@@ -31,15 +40,6 @@
       border-bottom: 40px solid $primary
       border-left: 40px solid transparent
       width: 0
-
-    a
-      color: $text-light
-
-      &:hover
-        color: $primary-light
-
-      &:active, &:visited
-        color: $text-light
 
 
 @media screen and (min-width: $medium)

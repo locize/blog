@@ -1,7 +1,8 @@
 extends includes/layout
 
 block content
-  article#page
-    h1= page.title
+  section.page#content.wrapper
+    if page.showTitle !== false
+      h1= page.title
     != page.content
   include includes/pagination
