@@ -19,6 +19,16 @@
   border-left: 40px solid transparent;
   width: 0;
 }
+.box.box-white a {
+  color: $text;
+}
+.box.box-white a:active,
+.box.box-white a:visited {
+  color: $text;
+}
+.box.box-white a:hover {
+  color: $primary-dark;
+}
 .box.box-dark {
   background: rgba(25,118,210,0.5);
 }
@@ -31,13 +41,8 @@
   border-left: 40px solid transparent;
   width: 0;
 }
-.box.box-dark a {
-  color: $text-light;
-}
-.box.box-dark a:hover {
-  color: $primary-light;
-}
-.box.box-dark a:active,
-.box.box-dark a:visited {
-  color: $text-light;
+@media screen and (min-width: $medium) {
+  .box {
+    margin: 1em 0 2em;
+  }
 }
