@@ -1,9 +1,6 @@
 p {
   font-weight: 300;
 }
-p.center {
-  text-align: center;
-}
 p.bold {
   font-weight: 400;
 }
@@ -11,13 +8,24 @@ p.headline {
   font-size: 1.2em;
   text-transform: uppercase;
 }
-a {
-  color: $text;
+p.callout {
+  display: inline-block;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 1.2em 2em;
+  border: 1px solid $text-light;
 }
-a:hover {
-  color: $text-dark;
+a {
+  color: $white;
 }
 a:active,
 a:visited {
-  color: $text;
+  color: $white;
+}
+a:hover {
+  color: $primary-light;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1em;
 }

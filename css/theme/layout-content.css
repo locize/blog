@@ -5,6 +5,7 @@ section#content {
   min-height: calc(100% - 166px); /* native */
 }
 section#content .sidebar {
+  width: 100%;
   margin: -1em 0 0;
   padding: 0;
 }
@@ -17,8 +18,9 @@ section#content .sidebar {
 .center {
   text-align: center;
 }
-@media screen and (min-width: $small) {
+@media screen and (min-width: $large) {
   section#content .sidebar {
     padding: 0 0.5rem 0 2rem;
+    margin: 0;
   }
 }
