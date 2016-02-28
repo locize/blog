@@ -1,0 +1,11 @@
+.wrapper {
+  display: block;
+  padding: 0 10px;
+}
+@media screen and (min-width: $small) {
+  .wrapper {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+  }
+}
