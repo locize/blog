@@ -1,6 +1,24 @@
 section#content {
-  padding: 90px 0;
+  padding-top: 90px;
+  min-height: -webkit-calc(100% - 166px); /* Chrome */
+  min-height: -moz-calc(100% - 166px); /* Firefox */
+  min-height: calc(100% - 166px); /* native */
 }
 section#content .sidebar {
-  padding: 0 0.5rem 0 2rem;
+  margin: -1em 0 0;
+  padding: 0;
+}
+[class^="col-"] > .paragraph,
+[class^="col-"] > h1,
+[class^="col-"] > h2,
+[class^="col-"] > h3 {
+  padding: 0 10px;
+}
+.center {
+  text-align: center;
+}
+@media screen and (min-width: $small) {
+  section#content .sidebar {
+    padding: 0 0.5rem 0 2rem;
+  }
 }
