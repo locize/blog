@@ -1,0 +1,48 @@
+.box {
+  position: relative;
+  padding: 0.1em 1em 3em;
+  margin: 1em 0 2em;
+}
+.box.margin-top-40 {
+  margin-top: 40px;
+}
+.box.box-white {
+  background: rgba(254,254,254,0.8);
+  color: $text-dark;
+}
+.box.box-white:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 40px solid $primary;
+  border-left: 40px solid transparent;
+  width: 0;
+}
+.box.box-white a {
+  color: $text;
+}
+.box.box-white a:active,
+.box.box-white a:visited {
+  color: $text;
+}
+.box.box-white a:hover {
+  color: $primary-dark;
+}
+.box.box-dark {
+  background: rgba(25,118,210,0.5);
+}
+.box.box-dark:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 40px solid $primary;
+  border-left: 40px solid transparent;
+  width: 0;
+}
+@media screen and (min-width: $medium) {
+  .box {
+    margin: 1em 0 2em;
+  }
+}
