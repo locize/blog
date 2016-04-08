@@ -70,8 +70,6 @@ theme: locize-theme
 deploy:
   type: git
   repo: git@github.com:locize/locize.com.git
-  branch: gh-pages
-  message: deployed
 
 
 sitemap:
