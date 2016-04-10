@@ -33,7 +33,7 @@ We use the [node.js](https://nodejs.org) runtime for all our lambda functions.
 ### Amazon API Gateway
 [AWS API Gateway](https://aws.amazon.com/api-gateway) lets you create a RESTful API to expose selected back-end features. The back end can be another AWS service, such as [AWS Lambda](https://aws.amazon.com/lambda) or [AWS DynamoDB](https://aws.amazon.com/dynamodb), or it can be an existing web application.
 
-### Below you can see **locize** uses this services.
+### Below you can see how **locize** uses this services
 ![](/images/aws.png)
 
 
