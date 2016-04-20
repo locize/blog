@@ -98,4 +98,4 @@ Locize reserves the right to update and change the Terms of Service from time to
 
 11.5. You hereby indemnify and agree to protect, defend, save and hold Locize, its officers, directors, employees, agents, representatives and vendors harmless from and against any and all claims, losses, damages, liabilities and expenses of whatever nature (including attorney’s fees), that are incurred or asserted by any party as a result of the Service.
 
-<h2 class="h2-terms">This term of service was last updated on April 20th, 2016.</h2>
+<h2 class="h2-terms">This terms of service was last updated on April 20th, 2016.</h2>
