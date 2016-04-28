@@ -33,8 +33,6 @@ We prefer a simple pricing model - you pay dependent on you usage:
 <small style="font-size: 0.6em; text-transform: none;">prices excl. VAT | billed on a recurring monthly basis</small>
 </div>
 
-
-
 <p class="headline">1) Basic subscription</p>
 
 Will be billed monthly for basic service usage.
@@ -44,10 +42,15 @@ Will be billed monthly for basic service usage.
 When we charge your CreditCard for the basic subscription we will add an additional
 invoice item. Words are count on billing day for every language - but will exclude any additional version of your translations.
 
-<p class="headline">2) Downloads</p>
+<p class="headline">3) Downloads</p>
 
 An additional invoice item will be generated on the monthly invoice based on the translation files downloaded to your users. We will charge always the last full month.
 
+<p class="headline">invoice forecast / history</p>
+
+On your projects billing page you will find your current usage stats and a forecast for downloads.
+
+On the same page you're able to access your invoice history.
 
 <div class="center">
 <p class="callout">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
