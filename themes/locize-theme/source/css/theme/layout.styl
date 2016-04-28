@@ -13,3 +13,29 @@
 @media screen and (min-width: $large)
   .wrapper
     max-width: 800px
+
+
+.documentation,
+.documentation-body
+  display: flex
+  flex-direction: column
+
+.documentation-nav
+  order: -1
+
+@media (min-width: $medium)
+  .documentation-body
+    flex-direction: row
+    flex: 1
+
+    h1:first-child, h2:first-child
+      margin-top: 0
+
+  .documentation-content
+    flex: 1
+
+  .documentation-nav, .documentation-ads
+    flex: 0 0 12em
+
+    h6
+      margin: 0

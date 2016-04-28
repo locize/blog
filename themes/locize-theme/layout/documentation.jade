@@ -1,0 +1,15 @@
+extends includes/layout
+
+block content
+  section.page#content.wrapper.documentation-body
+    aside.documentation-nav
+      h6 Integration
+      a(href="/integration") Basic Integration
+      
+      
+    section.documentation-content
+      if page.showTitle !== false
+        h1= page.title
+      != page.content
+      
+  include includes/pagination
