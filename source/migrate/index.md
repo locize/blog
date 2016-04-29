@@ -54,3 +54,7 @@ i18next
 ```
 
 Find more details and configuration options on the [github page](https://github.com/locize/i18next-node-locize-backend).
+
+<div class="center">
+<p class="callout">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
+</div>

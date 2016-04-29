@@ -27,3 +27,7 @@ Using our **locizify script** is the most simplest way to get your website or we
 Reload your page and see the phrases ready to translate in your locize project.
 
 Find more details and configuration options on the [github page](https://github.com/locize/locizify).
+
+<div class="center">
+<p class="callout">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
+</div>
