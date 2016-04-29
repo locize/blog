@@ -13,7 +13,7 @@ No credit card required...try us 14 days for free.
 
 <p class="headline">Pay for use - not for arbitrary subscription plans</p>
 
-We prefer a simple pricing model - you pay dependent on you usage:
+We prefer a simple pricing model - you pay dependent on your usage:
 
 <div class="pricing">
 <table>
