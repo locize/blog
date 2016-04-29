@@ -9,25 +9,21 @@ showTitle: false
 
 Using our **locizify script** is the most simplest way to get your website or webapplication translated.
 
-Just drop the following script to your html document.
+<p class="headline">1) Drop the following script on your website</p>
+
 
 ```html
 <head>
-  <script src="/locizify.js"></script>
-  <script>
-    locizify.init({
-      saveMissing: true,
-      fallbackLng: '[REFERENCE_LANGUAGE]',
-      backend: {
-        referenceLng: '[REFERENCE_LANGUAGE]',
-        apiKey: '[API_KEY]',
-        projectId: '[PROJECT_ID]'
-      }
-    });
-  </script>
+  <script id="locizify" projectid="[PROJECT_ID]"
+    apikey="[API_KEY]" referencelng="[LNG]" fallbacklng="[LNG]"
+    src="/locizify.js" />
 
   // ...
 </head>
 ```
 
+<p class="headline">2) Reload your page</p>
+
 Reload your page and see the phrases ready to translate in your locize project.
+
+Find more details and configuration options on the [github page](https://github.com/locize/locizify).

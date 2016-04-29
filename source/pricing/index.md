@@ -5,7 +5,7 @@ showTitle: false
 breaks: false
 ---
 
-## PRICING
+## LOCIZE - PRICING
 
 <p class="headline">Free trial</p>
 
