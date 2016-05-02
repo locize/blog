@@ -1,15 +1,17 @@
 ---
-title: migrate
-date: 2016-04-29 21:32:17
+title: i18next
+date: 2016-05-02 17:29:37
 layout: documentation
 showTitle: false
 ---
 
-## Migrating an existing i18next project
+<p class="headline"><i class="material-icons">translate</i> using with i18next</p>
 
-Migrating an existing backend from i18next is just changing a few lines of code.
+You can use locize in combination with [i18next](http://i18next.com). I18next is a widely used internationalization framework and offers a wide range of framework integrations and plugins for almost every need.
 
-<p class="headline"><i class="material-icons">code</i> Browser</p>
+Check out their [getting started guide](http://i18next.com/docs/). For using locize you just need to use the plugins we offer:
+
+<p class="headline extra-margin"><i class="material-icons">code</i> Browser</p>
 
 Just use the `i18next-locize-backend`
 
@@ -54,13 +56,3 @@ i18next
 ```
 
 Find more details and configuration options on the [github page](https://github.com/locize/i18next-node-locize-backend).
-
-<p class="headline extra-margin"><i class="material-icons">content_copy</i> Migrating your data</p>
-
-You can use our [commandline tool](https://github.com/locize/locizify-cli) to copy your existing translations over to your locize project.
-
-
-
-<div class="center">
-<p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
-</div>

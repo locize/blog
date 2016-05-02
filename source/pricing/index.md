@@ -5,14 +5,15 @@ showTitle: false
 breaks: false
 ---
 
-<p class="headline">Free trial</p>
+<p class="headline"><i class="material-icons">card_giftcard</i> Free trial</p>
 
 No credit card required...try us 14 days for free.
 
-<p class="headline">Pay for use - not for arbitrary subscription plans</p>
+<p class="headline extra-margin"><i class="material-icons">payment</i> Pay for use - not for arbitrary subscription plans</p>
 
-We prefer a simple pricing model - you pay dependent on your usage:
+We prefer a transparent pricing model - you pay based on your usage:
 
+<div class="center" style="margin-top: 40px; margin-bottom: 40px;">
 <div class="pricing">
 <table>
 <tr>
@@ -30,26 +31,27 @@ We prefer a simple pricing model - you pay dependent on your usage:
 </table>
 <small style="font-size: 0.6em; text-transform: none;">prices excl. VAT | billed on a recurring monthly basis</small>
 </div>
+</div>
 
-<p class="headline">1) Basic subscription</p>
+<p class="footline">1) Basic subscription</p>
 
-Will be billed monthly for basic service usage.
+<p class="foottext">Will be billed monthly for basic service usage.</p>
 
-<p class="headline">2) Words</p>
+<p class="footline">2) Words</p>
 
-When we charge your CreditCard for the basic subscription we will add an additional
-invoice item. Words are count on billing day for every language - but will exclude any additional version of your translations.
+<p class="foottext">When we charge your CreditCard for the basic subscription we will add an additional
+invoice item. Words are count on billing day for every language - but will exclude any additional version of your translations.</p>
 
-<p class="headline">3) Downloads</p>
+<p class="footline">3) Downloads</p>
 
-An additional invoice item will be generated on the monthly invoice based on the translation files downloaded to your users. We will charge always the last full month.
+<p class="foottext">An additional invoice item will be generated on the monthly invoice based on the translation files downloaded to your users. We will charge always the last full month.</p>
 
-<p class="headline">invoice forecast / history</p>
+<p class="headline extra-margin"><i class="material-icons">update</i> invoice forecast / history</p>
 
 On your projects billing page you will find your current usage stats and a forecast for downloads.
 
 On the same page you're able to access your invoice history.
 
 <div class="center">
-<p class="callout">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
+<p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
 </div>

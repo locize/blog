@@ -42,5 +42,5 @@ Not only do you get a 14d free trial. On top of it you take no risks. If you're 
 
 
 <div class="center">
-<p class="callout">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
+<p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
 </div>

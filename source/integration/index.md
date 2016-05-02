@@ -5,29 +5,23 @@ layout: documentation
 showTitle: false
 ---
 
-## Basic Integration
-
 Using our **locizify script** is the most simplest way to get your website or webapplication translated.
 
-<p class="headline">1) Drop the following script on your website</p>
+<p class="headline"><i class="material-icons">done</i> Add the following script to your website</p>
 
 
 ```html
-<head>
-  <script id="locizify" projectid="[PROJECT_ID]"
+<script id="locizify" projectid="[PROJECT_ID]"
     apikey="[API_KEY]" referencelng="[LNG]" fallbacklng="[LNG]"
     src="/locizify.js" />
-
-  // ...
-</head>
 ```
 
-<p class="headline">2) Reload your page</p>
+<p class="headline extra-margin"><i class="material-icons">done_all</i> Reload your page</p>
 
 Reload your page and see the phrases ready to translate in your locize project.
 
 Find more details and configuration options on the [github page](https://github.com/locize/locizify).
 
 <div class="center">
-<p class="callout">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
+<p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
 </div>
