@@ -16,13 +16,13 @@ There is no need for extra infrastructure or tooling.
 
 <p class="headline extra-margin"><i class="material-icons">settings</i> Need more control?</p>
 
-While we recommend to use our locizify script for most cases there might be situations where you need more control.
+While we recommend to use our locizify script for most cases, there might be situations where you need more control.
 
 <div class="center">
 <img src="/images/frameworks.png" />
 </div>
 
-Locize is built on the [i18next framework](http://i18next.com) which provides you with more specialized integrations for [react, angular and others](http://i18next.com/docs/ecosystem/#frameworks).
+Locize is built on top of the [i18next framework](http://i18next.com) which provides you with more specialized integrations for [react, angular and others](http://i18next.com/docs/ecosystem/#frameworks). Just drop in our plugin and you're good to go.
 
 <p class="headline extra-margin"><i class="material-icons">equalizer</i> Keep the overview</p>
 
