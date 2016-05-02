@@ -38,7 +38,9 @@ html(lang=config.language)
   body
     header
       nav.wrapper
-        .brand: a(href=config.root) locize
+        .brand
+          a(href=config.root) 
+            img(src="/images/locize_white.svg")
         ul
           each url, label in theme.menu
             li: a(href=config.root + (url || ''))= label
