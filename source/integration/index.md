@@ -7,7 +7,7 @@ showTitle: false
 
 Using our **locizify script** is the most simplest way to get your website or webapplication translated.
 
-<p class="headline"><i class="material-icons">done</i> Add the following script to your website</p>
+<p class="headline"><i class="material-icons" translated>done</i> Add the following script to your website</p>
 
 
 ```html
@@ -16,7 +16,7 @@ Using our **locizify script** is the most simplest way to get your website or we
     src="/locizify.js" />
 ```
 
-<p class="headline extra-margin"><i class="material-icons">done_all</i> Reload your page</p>
+<p class="headline extra-margin"><i class="material-icons" translated>done_all</i> Reload your page</p>
 
 Reload your page and see the phrases ready to translate in your locize project.
 

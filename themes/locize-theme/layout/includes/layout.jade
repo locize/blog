@@ -35,6 +35,23 @@ html(lang=config.language)
       each url in theme.stylesheets
         link(rel='stylesheet', href=config.root + url)
     link(rel="icon", href=config.root + theme.favicon)
+    
+    script(src="https://cdn.rawgit.com/locize/locizify/master/locizify.js")
+    script.
+      window.locizify.init({
+        debug: true,
+        saveMissing: true,
+        fallbackLng: 'en',
+        namespaceFromPath: true,
+        backend: {
+          referenceLng: 'en',
+          apiKey: '7019ac98-5b52-4f2e-b123-d432d86430c6',
+          projectId: '2ffed1fd-f9d0-4d52-a9aa-08a83001c642',
+          // version: 'staging',
+          loadPath: 'https://api-dev.locize.io/2ffed1fd-f9d0-4d52-a9aa-08a83001c642/latest/{{lng}}/{{ns}}',
+          addPath: 'https://api-dev.locize.io/missing/2ffed1fd-f9d0-4d52-a9aa-08a83001c642/latest/{{lng}}/{{ns}}'
+        }
+      });
   body
     header
       nav.wrapper

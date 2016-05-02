@@ -5,11 +5,11 @@ showTitle: false
 breaks: false
 ---
 
-<p class="headline"><i class="material-icons">card_giftcard</i> Free trial</p>
+<p class="headline"><i class="material-icons" translated>card_giftcard</i> Free trial</p>
 
 No credit card required...try us 14 days for free.
 
-<p class="headline extra-margin"><i class="material-icons">payment</i> Pay for use - not for arbitrary subscription plans</p>
+<p class="headline extra-margin"><i class="material-icons" translated>payment</i> Pay for use - not for arbitrary subscription plans</p>
 
 We prefer a transparent pricing model - you pay based on your usage:
 
@@ -46,7 +46,7 @@ invoice item. Words are count on billing day for every language - but will exclu
 
 <p class="foottext">An additional invoice item will be generated on the monthly invoice based on the translation files downloaded to your users. We will charge always the last full month.</p>
 
-<p class="headline extra-margin"><i class="material-icons">update</i> invoice forecast / history</p>
+<p class="headline extra-margin"><i class="material-icons" translated>update</i> invoice forecast / history</p>
 
 On your projects billing page you will find your current usage stats and a forecast for downloads.
 
