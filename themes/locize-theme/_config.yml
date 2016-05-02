@@ -4,8 +4,7 @@ language: en
 
 # main menu navigation
 menu:
-  Home:
-  About: about
+  Features: features
 
 # Miscelaneous
 favicon: favicon.ico

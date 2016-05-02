@@ -5,8 +5,6 @@ showTitle: false
 breaks: false
 ---
 
-## LOCIZE - PRICING
-
 <p class="headline">Free trial</p>
 
 No credit card required...try us 14 days for free.
