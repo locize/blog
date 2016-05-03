@@ -36,13 +36,16 @@ html(lang=config.language)
         link(rel='stylesheet', href=config.root + url)
     link(rel="icon", href=config.root + theme.favicon)
     
-    script(src="https://cdn.rawgit.com/locize/locizify/master/locizify.js")
+    script(src="http://cdn.locize.io/locizify-dev.js")
     script.
       window.locizify.init({
         debug: true,
         saveMissing: true,
         fallbackLng: 'en',
         namespaceFromPath: true,
+        ns: ['common'],
+        ignoreIds: ['nudgespotInappContainer', 'nudgespotInappMessagesContainer', 'nudgespotInappConversationsContainer', '__bs_notify__'],
+        ignoreClasses: ['nudgespot-clean'],
         backend: {
           referenceLng: 'en',
           apiKey: '7019ac98-5b52-4f2e-b123-d432d86430c6',
@@ -53,7 +56,7 @@ html(lang=config.language)
         }
       });
   body
-    header
+    header(i18next-options='{"ns": "common"}')
       nav.wrapper
         .brand
           a(href=config.root) 
@@ -78,7 +81,7 @@ html(lang=config.language)
     //-     br
     //-     a(href=config.root) Home
     
-    footer.wrapper
+    footer.wrapper(i18next-options='{"ns": "common"}')
       .row
         .col-md-12(style="margin-top: 40px;")
           p Copyright inweso GmbH 2016 © | <a href="/privacy">privacy policy</a> | <a href="/terms">terms of service</a>  | <a href="/beta">beta disclaimer</a>
