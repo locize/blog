@@ -37,6 +37,18 @@ To add a new key select "Add new keys" in the menu.
 <img width="100%" src="/images/howto/work_keys.gif" />
 </div>
 
+</br>
+
+
+<p class="headline"><i class="material-icons" translated>language</i> How to add a new language?</p>
+
+Navigate to your project's dashboard and then select "settings" in the menu.
+Then switch to the "LANGUAGES" tab and in the appropriate menu choose "Add a new language".
+
+<div class="center">
+<img width="100%" src="/images/howto/add_language.gif" />
+</div>
+
 
 <div class="center">
 <p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
