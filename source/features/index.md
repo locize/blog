@@ -36,6 +36,10 @@ Never be unsure again. One look is enough to see if your pages are completely tr
 
 Locize comes with support for versioning. Your developers can work freely on the next big version while your translators are able to add new language support or fix spellings in the last version. Best of it, there is no need to deploy a hotfix or anything. Your products localization process is completely separated.
 
+<div class="center">
+<img width="60%" src="/images/features/versions.png" />
+</div>
+
 <p class="headline extra-margin"><i class="material-icons" translated>translate</i> [Coming soon] integrated online translation services</p>
 
 Having some bottleneck or want to completely outsource the translation. Get the translations done by one of our partners. The best offer is just one click away.
