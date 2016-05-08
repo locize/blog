@@ -7,7 +7,7 @@ breaks: false
 
 <p class="headline"><i class="material-icons" translated>card_giftcard</i> Free trial</p>
 
-No credit card required...try us 14 days for free.
+No credit card required...try us **14 days for free**.
 
 <p class="headline extra-margin"><i class="material-icons" translated>payment</i> Pay for use - not for arbitrary subscription plans</p>
 
@@ -50,7 +50,15 @@ invoice item. Words are count on billing day for every language - but will exclu
 
 On your projects billing page you will find your current usage stats and a forecast for downloads.
 
+<div class="center">
+<img width="60%" src="/images/pricing/forecast.png" />
+</div>
+
 On the same page you're able to access your invoice history.
+
+<div class="center">
+<img width="60%" src="/images/pricing/billing_history.png" />
+</div>
 
 <div class="center">
 <p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
