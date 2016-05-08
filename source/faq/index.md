@@ -1,6 +1,7 @@
 ---
 title: faq
 date: 2016-05-04 21:39:49
+layout: documentation
 showTitle: false
 ---
 
@@ -10,6 +11,8 @@ showTitle: false
 - <span><a href="#add-language" style="text-decoration: none;"><i class="material-icons" style="vertical-align: top;">language</i> How to add a new language?</a></span>
 
 </br>
+
+<hr />
 
 <p id="start" class="headline"><i class="material-icons">dashboard</i> Where to start?</p>
 
