@@ -28,6 +28,10 @@ Locize is built on top of the [i18next framework](http://i18next.com) which prov
 
 Never be unsure again. One look is enough to see if your pages are completely translated or not.
 
+<div class="center">
+<img width="60%" src="/images/features/overview.png" />
+</div>
+
 <p class="headline extra-margin"><i class="material-icons" translated>loop</i> Versioning</p>
 
 Locize comes with support for versioning. Your developers can work freely on the next big version while your translators are able to add new language support or fix spellings in the last version. Best of it, there is no need to deploy a hotfix or anything. Your products localization process is completely separated.
