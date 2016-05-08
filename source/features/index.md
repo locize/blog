@@ -19,7 +19,7 @@ There is no need for extra infrastructure or tooling.
 While we recommend to use our locizify script for most cases, there might be situations where you need more control.
 
 <div class="center">
-<img width="100%" src="/images/frameworks.png" />
+<img width="60%" src="/images/frameworks.png" />
 </div>
 
 Locize is built on top of the [i18next framework](http://i18next.com) which provides you with more specialized integrations for [react, angular and others](http://i18next.com/docs/ecosystem/#frameworks). Just drop in our plugin and you're good to go.
