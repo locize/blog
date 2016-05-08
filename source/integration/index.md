@@ -13,7 +13,7 @@ Using our **locizify script** is the most simplest way to get your website or we
 ```html
 <script id="locizify" projectid="[PROJECT_ID]"
     apikey="[API_KEY]" referencelng="[LNG]" fallbacklng="[LNG]"
-    src="/locizify.js" />
+    src="https://cdn.locize.io/locizify.min.js" />
 ```
 
 <p class="headline extra-margin"><i class="material-icons" translated>done_all</i> Reload your page</p>
