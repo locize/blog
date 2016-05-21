@@ -5,6 +5,8 @@ language: en
 # main menu navigation
 menu:
   Features: features
+  Pricing: pricing
+  Docs: integration
 
 # Miscelaneous
 favicon: favicon.ico

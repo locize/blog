@@ -33,6 +33,54 @@ We prefer a transparent pricing model - you pay based on your usage:
 </div>
 </div>
 
+
+<p class="headline extra-margin"><i class="material-icons" translated>payment</i> Price in context</p>
+
+<div class="center" style="margin-top: 40px; margin-bottom: 40px;">
+<div class="row box box-dark" style="width: 80%; margin: 0 auto;">
+<div class="col-sm-6">
+<p class="headline"><i class="material-icons" translated>phone_iphone</i> App</p>
+<table>
+<tr>
+<td>
+<p class="footline">2,000 Words</p>
+<p class="footline">&nbsp;40,000 Sessions</p>
+</td>
+<td>
+<td>
+<span style="margin-left: 40px; font-size: 25px; top: 4px; position: relative">
+<i class="material-icons">arrow_forward</i>
+</span>
+<span style="margin-left: 40px; font-size: 25px;">
+$29
+</span>
+</td>
+</table>
+</div>
+<div class="col-sm-6">
+<p class="headline"><i class="material-icons" translated>web</i> Website</p>
+<table>
+<tr>
+<td>
+<p class="footline">6,000 Words</p>
+<p class="footline">160,000 Sessions</p>
+</td>
+<td>
+<span style="margin-left: 40px; font-size: 25px; top: 4px; position: relative">
+<i class="material-icons">arrow_forward</i>
+</span>
+<span style="margin-left: 40px; font-size: 25px">$85
+</span>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+
+
 <p class="footline">1) Basic subscription</p>
 
 <p class="foottext">Will be billed monthly for basic service usage.</p>

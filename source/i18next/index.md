@@ -9,7 +9,40 @@ showTitle: false
 
 You can use locize in combination with [i18next](http://i18next.com). I18next is a widely used internationalization framework and offers a wide range of framework integrations and plugins for almost every need.
 
-Check out their [getting started guide](http://i18next.com/docs/). For using locize you just need to use the plugins we offer:
+<p class="headline extra-margin"><i class="material-icons" translated>code</i> use our custom bundle</p>
+
+Source can be loaded via [npm](https://www.npmjs.com/package/locize), bower or load it from our CDN [https://cdn.locize.io/locize.min.js](https://cdn.locize.io/locize.min.js).
+
+
+```
+import locize from 'locize';
+
+locize.init({
+  lng: 'en',
+  resources: {
+    en: {
+      translation: {
+        "key": "hello world"
+      }
+    }
+  }
+}, (err, t) => {
+  // initialized and ready to go!
+  const hw = locize.t('key'); // hw = 'hello world'
+});
+```
+
+For more information visit the i18next website:
+
+- [Getting started](http://i18next.com/docs/)
+- [Translation Functionality](http://i18next.com/translate/)
+- [API](http://i18next.com/docs/api/)
+
+Just replace i18next with locize on use.
+
+<p class="headline extra-margin"><i class="material-icons" translated>code</i> use our plugin with i18next</p>
+
+Alternatively use the plugins we offer with i18next:
 
 <p class="headline extra-margin"><i class="material-icons" translated>code</i> Browser</p>
 
