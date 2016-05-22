@@ -19,11 +19,17 @@ import locize from 'locize';
 
 locize.init({
   lng: 'en',
+  fallbacklng: 'en',
   resources: {
     en: {
       translation: {
         "key": "hello world"
       }
+    },
+    backend: {
+      projectId: '[PROJECT_ID]',
+      apiKey: '[API_KEY]',
+      referenceLng: 'en'
     }
   }
 }, (err, t) => {
