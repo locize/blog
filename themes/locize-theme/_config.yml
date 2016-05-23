@@ -17,4 +17,5 @@ stylesheets:
 
 # scripts loaded in the end of the body
 scripts:
+- js/okaynav.js
 - js/locize-theme.js

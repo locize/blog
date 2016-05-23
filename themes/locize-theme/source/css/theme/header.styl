@@ -2,56 +2,71 @@ header
 	background: $primary-dark
 	border-bottom: 1px solid rgba(0,0,0,.1)
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
-	display: block
-	height: 60px
-	line-height: 60px
 	overflow: hidden
 	position: fixed
 	width: 100%
 	z-index: 1000
 
-	nav
-		color: $text-light
-		font-size: 1em
-		font-weight: 600
+	.wrapper
+		height: 60px
+		align-items: center
+		display: flex
+		flex-direction: row
+		-webkit-justify-content: space-between
+		-ms-flex-pack: justify
+		justify-content: space-between
 
 		.brand
-			font-size: 1.5em
 			display: inline-block
 			width: 120px
-			padding: 7px 0
+			height: 35px
 
-			a
+		a
+			color: $text-light
+			text-decoration: none
+
+			&:active, &:visited
 				color: $text-light
-				text-decoration: none
 
-				&:active, &:visited
-					color: $text-light
+		nav
+			color: $text-light
+			font-size: 1em
+			font-weight: 600
+			height: 60px
 
-		ul
-			float: right
-			display: inline-block
-			list-style-type: none
-			margin: -1px 0 0 0
-			padding: 0
+			ul, .okayNav__nav--invisible
+				margin: -1px 0 0 0
+				padding: 0
 
-			li
-				display: inline-block
-				transition: all 0.1s linear
-				text-transform: uppercase
+				li
+					text-transform: uppercase
 
-				a
-					color: $text-light
-					font-size: .8em
-					font-weight: 600
-					display: block
-					letter-spacing: 1px
-					padding: 0 24px
-					text-decoration: none
-					text-shadow: 0 1px 1px rgba(0,0,0,.1)
-
-					&:active, &:visited, &:hover
+					a
+						line-height: 60px
 						color: $text-light
+						background: transparent
+						font-size: .8em
+						font-weight: 600
+						display: block
+						letter-spacing: 1px
+						padding: 0 24px
+						text-decoration: none
+						text-shadow: 0 1px 1px rgba(0,0,0,.1)
+
+						&:active, &:visited, &:hover
+							color: $text-light
+
+
+		.okayNav__menu-toggle
+			margin-top: 4px
+			position: relative
+
+			span
+				background: #fff
+
+		.okayNav__nav--invisible
+			top: 62px
+			background-color: $primary-dark
 
 nav > ul > li.active > a,
 nav > ul > li.logo > a {
@@ -60,12 +75,4 @@ nav > ul > li.logo > a {
 
 nav > ul > li:not([class="active"]):hover {
 	background-color: rgba(0,0,0,.1);
-}
-
-nav > ul > li.logo > a {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 1.15em;
-	font-style: italic;
-	letter-spacing: normal;
-	text-transform: none;
 }

@@ -1,0 +1,1 @@
+var navigation = $('#navigation').okayNav();
