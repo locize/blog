@@ -15,7 +15,7 @@ Our pricing model is variable. We prefer to have the pricing to grow with your s
 
 <p class="headline extra-margin"><i class="material-icons" translated>translate</i> Instrumentation</p>
 
-While we offer a [oneliner script solution](/integrate) to get you website translated we offer you the full power of an mature i18n framework ([i18next](http://i18next.com)). So our solution is flexible enough to respond on any demand you have. A living [ecosystem](http://i18next.com/docs/ecosystem/) is there to ensure your success.
+While we offer a [oneliner script solution](/integrate) to get you website translated we offer you the full power of a mature i18n framework ([i18next](http://i18next.com)). So our solution is flexible enough to respond on any demand you have. A living [ecosystem](http://i18next.com/docs/ecosystem/) is there to ensure your success.
 
 
 <p class="headline extra-margin"><i class="material-icons" translated>loop</i> Versioning</p>
