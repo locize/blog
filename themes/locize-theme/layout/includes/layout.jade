@@ -1,11 +1,11 @@
 
 - var pageTitle = page.title || config.subtitle || ''
-- if (is_archive()) pageTitle = 'Archives'
-- if (is_tag()) pageTitle = 'Tag: ' + page.tag
-- if (is_category()) pageTitle = 'Category: ' + page.category
+- if (is_archive()) pageTitle += ' Archives'
+- if (is_tag()) pageTitle += ' Tag: ' + page.tag
+- if (is_category()) pageTitle = ' Category: ' + page.category
 - if (is_month()) pageTitle += ': ' + page.month + '/' + page.year
 - if (is_year()) pageTitle += ': ' + page.year
-- pageTitle += ' [ ' + config.title + ' ]'
+- pageTitle = config.title + ' ' + pageTitle
 
 doctype html
 html(lang=config.language)
@@ -15,13 +15,15 @@ html(lang=config.language)
     
     meta(name='viewport', content='width=device-width, initial-scale=1')
     
-    if page.tags
-        - var keywords = [];
-        - for (var i in page.tags.data) {
-        -   keywords.push(page.tags.data[i].name)
-        - }
-        
-        meta(name='keywords', content=keywords.join(','))
+    - var keywords = [];
+    - if (page.tags) {
+    -   for (var i in page.tags.data) {
+    -     keywords.push(page.tags.data[i].name)
+    -   }
+    - }
+    - keywords = keywords.concat(('localization,internationalization,localize,translate,locize,l10n,i18n,javascript,nodejs,localization as a service,laas').split(','));
+    
+    meta(name='keywords', content=keywords.join(','))
     
     link(rel='alternative', hreflang='en', href=page.permalink || config.url)
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js")
