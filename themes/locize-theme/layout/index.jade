@@ -73,4 +73,19 @@ block content
         
         .box.box-white
           include includes/recent-posts
+
+
+        .box.box-white
+          h3 Social
+          ul.recent-posts
+            li
+              a.twitter-follow-button(href='https://twitter.com/locize', data-show-count='false', data-size='large') Follow @locize
+                script.
+                  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                
+            li
+              script(src='https://apis.google.com/js/platform.js')
+              .g-ytsubscribe(data-channelid='UCPYQjBbbXojUcB8qjeIB3uA', data-layout='full', data-count='hidden')
+
+
         
