@@ -1,3 +1,4 @@
+
 - var pageTitle = page.title || config.subtitle || ''
 - if (is_archive()) pageTitle += ' Archives'
 - if (is_tag()) pageTitle += ' Tag: ' + page.tag
@@ -9,8 +10,9 @@
 doctype html
 html(lang=config.language)
   head
-    title= pageTitle
     meta(charset='utf-8')
+    title= pageTitle
+    
     meta(content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', name='viewport')
     
     - var keywords = [];
@@ -162,38 +164,45 @@ html(lang=config.language)
                 .item.active
                   .row
                     .col-sm-12.col-md-offset-1.col-md-6
-                      h1 EASY TO INTEGRATE
-                      p
-                        | Getting your website translated can't get any easier. Just drop one line of code to your page.
-                        <table><tbody><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">id</span>=<span class="string">"locizify"</span> <span class="attr">projectid</span>=<span class="string">"[PROJECT_ID]"</span> <span class="attr">apikey</span>=<span class="string">"[API_KEY]"</span> <span class="attr">referencelng</span>=<span class="string">"[LNG]"</span> <span class="attr">fallbacklng</span>=<span class="string">"[LNG]"</span> <span class="attr">src</span>=<span class="string">"/locizify.js"</span> /&gt;</span><span class="undefined"></span></span><br></pre></td></tr></tbody></table>
-                      p
-                        There is no need for extra infrastructure or tooling.
+                      h1 FLEXIBLE INTEGRATION
+                      p Choose between flexible options meeting your needs. From integration for wordpress to instrumenting your react.js or angular application for i18n. All as easy as dropping one line to your code.
+                      p There is no need for extra infrastructure - your translations will be served from our content delivery network.
+                      p Your webproject stays connected with locize. No more moving files around. Always keeping the overview.
                     .col-sm-12.col-md-5
                       .app-screenshot
                         img.img-responsive(src='img/landingpage/screenshots/app-1.png', alt='App Screen 1')
                 .item
                   .row
                     .col-sm-12.col-md-offset-1.col-md-6
-                      h1 Keep the overview
-                      p
-                        | Never be unsure again. One look is enough to see if your pages are completely translated or not.
+                      h1 TRANSLATION MANAGEMENT
+                      p locize provides a complete management. Your content gets automatically parsed from your website and transfered to your locize project.
+                      p From there you start translating while always being uptodate over current progress.
                     .col-sm-12.col-md-5
                       .app-screenshot
                         img.img-responsive(src='img/landingpage/screenshots/app-2.png', alt='App Screen 2')
                 .item
                   .row
                     .col-sm-12.col-md-offset-1.col-md-6
-                      h1 Versioning
-                      p
-                        | Locize comes with support for versioning. Your developers can work freely on the next big version while your translators are able to add new language support or fix spellings in the last version. Best of it, there is no need to deploy a hotfix or anything. Your products localization process is completely separated from your application deployment.
+                      h1 PROFESSIONAL TRANSLATION
+                      p Needing extra help - or prefer to completely outsource the localization - choose one of our translation service partners.
                     .col-sm-12.col-md-5
                       .app-screenshot
                         img.img-responsive(src='img/landingpage/screenshots/app-3.png', alt='App Screen 3')
+                .item
+                  .row
+                    .col-sm-12.col-md-offset-1.col-md-6
+                      h1 LOCALIZATION LIFECYCLE
+                      p locize enables you to separate your development and translation process by providing a complete localization process.
+                      p Keep translating while the development adds new features to your webproject. Doing agile, lean or waterfall projects all is possible with the provided flexible versioning.
+                    .col-sm-12.col-md-5
+                      .app-screenshot
+                        img.img-responsive(src='img/landingpage/screenshots/app-4.png', alt='App Screen 4')
               // Indicators
               ol.carousel-indicators
                 li.active(data-target='#carousel-example-generic-2', data-slide-to='0')
                 li(data-target='#carousel-example-generic-2', data-slide-to='1')
                 li(data-target='#carousel-example-generic-2', data-slide-to='2')
+                li(data-target='#carousel-example-generic-2', data-slide-to='3')
     //
       FEATURES
       ==================================================
@@ -257,18 +266,14 @@ html(lang=config.language)
           .col-md-12
             hr
             ul
+              each url, label in theme.menu
+                li: a(href=config.root + (url || ''))= label
               li
-                a(href='#link-here') Contact
+                a(href='/privacy') privacy policy
               li
-                a(href='#link-here') Twitter
+                a(href='/terms') terms of service
               li
-                a(href='#link-here') Press
-              li
-                a(href='#link-here') Support
-              li
-                a(href='#link-here') Developers
-              li
-                a(href='#link-here') Privacy
+                a(href='/beta') beta disclaimer
     //
       JAVASCRIPT
       ==================================================
@@ -277,3 +282,12 @@ html(lang=config.language)
     script(src='js/landingpage/animatescroll.js')
     script(src='js/landingpage/scripts.js')
     script(src='js/landingpage/retina.min.js')
+
+    if theme.scripts !== undefined && theme.scripts.length > 0
+      //- scripts list from config.yml
+      each url in theme.scripts
+        script(src=config.root + url)
+
+    //- nudgespot script
+    script. 
+      (function(d,n){var s,a,p;s=document.createElement("script");s.type="text/javascript";s.async=true;s.src=(document.location.protocol==="https:"?"https:":"http:")+"//cdn.nudgespot.com"+"/nudgespot.js";a=document.getElementsByTagName("script");p=a[a.length-1];p.parentNode.insertBefore(s,p.nextSibling);window.nudgespot=n;n.init=function(t){function f(n,m){var a=m.split('.');2==a.length&&(n=n[a[0]],m=a[1]);n[m]=function(){n.push([m].concat(Array.prototype.slice.call(arguments,0)))}}n._version=0.1;n._globals=[t];n.people=n.people||[];n.params=n.params||[];m="track register unregister identify set_config people.delete people.create people.update people.create_property people.tag people.remove_Tag".split(" ");for(var i=0;i<m.length;i++)f(n,m[i])}})(document,window.nudgespot||[]);nudgespot.init("f8e0bca68e1111aba67da75647c0406a");

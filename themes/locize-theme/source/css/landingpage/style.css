@@ -549,3 +549,37 @@ header, .social{
     	color: white;
     }
 }
+
+
+
+
+#nudgespotInappContainer .nudgespot-launcher .nudgespot-launcher-inner {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappContainer .nudgespot-welcome-bubble .nudgespot-welcome-header {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappConversationsContainer .nudgespot-messages-container .nudgespot-new-conversation-content .nudgespot-welcome-message .nudgespot-welcome-message-header,
+#nudgespotInappMessagesContainer .nudgespot-messages-container .nudgespot-new-conversation-content .nudgespot-welcome-message .nudgespot-welcome-message-header {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappMessagesContainer .nudgespot-messages-container .nudgespot-message-content-container .nudgespot-message-details.nudgespot-message-subscriber .nudgespot-message-body {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappContainer .nudgespot-button,
+#nudgespotInappConversationsContainer .nudgespot-button,
+#nudgespotInappMessagesContainer .nudgespot-button {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappConversationsContainer .nudgespot-messages-container .nudgespot-messages-header .nudgespot-messages-header-contents .nudgespot-unread-count,
+#nudgespotInappMessagesContainer .nudgespot-messages-container .nudgespot-messages-header .nudgespot-messages-header-contents .nudgespot-unread-count {
+  background-color: #1976D2 !important;
+}
+.cc_banner.cc_container.cc_container--open {
+  background-color: rgba(0,0,0,0.7) !important;
+}
+.cc_btn.cc_btn_accept_all {
+  border-radius: 0 !important;
+  color: #fff !important;
+  background-color: #1976D2 !important;
+}
