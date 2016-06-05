@@ -1,32 +1,35 @@
 {
-  "name": "hexo-site",
+  "name": "locize.com",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "pull": "git pull",
+    "push": "git add . && git commit -m 'update' && git push",
+    "work": "hexo server",
+    "start": "hexo server",
+    "deploy": "rm -rf public && hexo deploy --generate",
+    "finish": "npm run push && npm run deploy"
+  },
   "hexo": {
     "version": "3.2.0"
   },
-  "scripts": {
-    "start": "hexo server",
-    "build": "hexo generate",
-    "deploy": "rm -rf public && hexo deploy --generate"
-  },
   "dependencies": {
-    "hexo": "^3.1.1",
+    "hexo": "^3.2.0",
+    "hexo-auto-canonical": "^0.1.0",
     "hexo-browsersync": "^0.2.0",
     "hexo-deployer-git": "^0.1.0",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",
     "hexo-generator-cname": "^0.3.0",
     "hexo-generator-feed": "^1.1.0",
-    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-json-content": "^2.1.2",
     "hexo-generator-robotstxt": "^0.2.0",
+    "hexo-generator-search": "^1.0.2",
     "hexo-generator-seo-friendly-sitemap": "0.0.15",
     "hexo-generator-tag": "^0.2.0",
-    "hexo-renderer-ejs": "^0.1.1",
-    "hexo-renderer-jade": "^0.2.0",
-    "hexo-renderer-less": "^0.1.3",
-    "hexo-renderer-markdown-it": "^3.4.1",
-    "hexo-renderer-stylus": "^0.3.0",
-    "hexo-server": "^0.1.3"
+    "hexo-renderer-ejs": "^0.2.0",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
   }
 }

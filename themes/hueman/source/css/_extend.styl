@@ -1,0 +1,111 @@
+$block-caption
+    text-decoration: none
+    text-transform: uppercase
+    color: color-default + #111
+    line-height: 1em
+    text-shadow: 0 1px #fff
+
+$base-style
+    h1
+        font-size: 2em
+    h2
+        font-size: 1.5em
+    h3
+        font-size: 1.3em
+    h4
+        font-size: 1.2em
+    h5
+        font-size: 1em
+    h6
+        font-size: 1em
+        color: color-grey
+    hr
+        border: 1px dashed color-border
+    strong
+        font-weight: bold
+    em, cite
+        font-style: italic
+    sup, sub
+        font-size: 0.75em
+        line-height: 0
+        position: relative
+        vertical-align: baseline
+    sup
+        top: -0.5em
+    sub
+        bottom: -0.2em
+    small
+        font-size: 0.85em
+    acronym, abbr
+        border-bottom: 1px dotted
+    ul, ol, dl
+        line-height: line-height
+    ul, ol
+        ul, ol
+            margin-top: 0
+            margin-bottom: 0
+            margin-left: 20px
+    ul
+        list-style: disc
+        list-style-position: inside
+    ol
+        list-style: decimal
+        list-style-position: inside
+    dt
+        font-weight: bold
+        list-style-position: inside
+
+/*
+ our extensions
+*/
+
+h4.headline
+  i
+    position: relative;
+    top: 4px;
+
+  &.extra-margin
+    margin-top: 60px
+
+.contact
+  text-align: center;
+  margin-top: 80px;
+
+  hr
+    border: none;
+    border-top: 1px solid #ddd;
+
+/*
+ nudgespot
+*/
+
+#nudgespotInappContainer .nudgespot-launcher .nudgespot-launcher-inner {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappContainer .nudgespot-welcome-bubble .nudgespot-welcome-header {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappConversationsContainer .nudgespot-messages-container .nudgespot-new-conversation-content .nudgespot-welcome-message .nudgespot-welcome-message-header,
+#nudgespotInappMessagesContainer .nudgespot-messages-container .nudgespot-new-conversation-content .nudgespot-welcome-message .nudgespot-welcome-message-header {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappMessagesContainer .nudgespot-messages-container .nudgespot-message-content-container .nudgespot-message-details.nudgespot-message-subscriber .nudgespot-message-body {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappContainer .nudgespot-button,
+#nudgespotInappConversationsContainer .nudgespot-button,
+#nudgespotInappMessagesContainer .nudgespot-button {
+  background-color: #1976D2 !important;
+}
+#nudgespotInappConversationsContainer .nudgespot-messages-container .nudgespot-messages-header .nudgespot-messages-header-contents .nudgespot-unread-count,
+#nudgespotInappMessagesContainer .nudgespot-messages-container .nudgespot-messages-header .nudgespot-messages-header-contents .nudgespot-unread-count {
+  background-color: #1976D2 !important;
+}
+.cc_banner.cc_container.cc_container--open {
+  background-color: rgba(0,0,0,0.7) !important;
+}
+.cc_btn.cc_btn_accept_all {
+  border-radius: 0 !important;
+  color: #fff !important;
+  background-color: #1976D2 !important;
+}

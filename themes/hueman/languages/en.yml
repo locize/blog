@@ -1,0 +1,39 @@
+index:
+    home: 'Home'
+    about: 'About'
+    search: 'Search'
+    archive: 'Archive'
+    pricing: 'Pricing'
+    docs: 'Docs'
+    blog: 'Blog'
+    features: 'Features'
+    category: 'Category'
+    uncategorized: 'uncategorized'
+    tag: 'Tag'
+nav:
+    current_page:
+        other: 'Page %d '
+    total_page:
+        other: 'of %d'
+sidebar:
+    more: 'more'
+    integration: 'integration'
+    follow: 'follow'
+    newer: 'newer'
+    older: 'older'
+    recents: 'recents'
+    archives: 'archives'
+    categories: 'categories'
+    links: 'links'
+    tags: 'tags'
+    tag_cloud: 'tag cloud'
+article:
+    comments: 'Comments'
+    share: 'Share'
+insight:
+    hint: 'Type something...'
+    posts: 'Posts'
+    pages: 'Pages'
+    categories: 'Categories'
+    tags: 'Tags'
+    untitled: '(Untitled)'

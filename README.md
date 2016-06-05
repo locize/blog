@@ -12,12 +12,12 @@ npm start
 hexo new [layout] <title>
 ```
 
-#### build / deploy
+#### work / finish
 
 ```
-npm run build
+npm run work
 
-npm run deploy
+npm run finish
 ```
 
 #### more info

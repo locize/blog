@@ -1,0 +1,71 @@
+<% if (page.landingpage) { %>
+  <%- partial('landingpage') %>
+<% } else if (page.noSidebar) { %>
+  <%- partial('common/head') %>
+  <body>
+     <div id="wrap">
+         <%- partial('common/header', null, {cache: !config.relative_link}) %>
+         <div class="container">
+             <div class="main-body container-inner">
+                 <div class="main-body-inner" style="padding: 0; background: #fff;">
+                     <section id="main">
+                         <%- partial('common/content-title') %>
+                         <div class="main-body-content">
+                             <%- body %>
+                         </div>
+                     </section>
+                 </div>
+             </div>
+         </div>
+         <%- partial('common/footer', null, {cache: !config.relative_link}) %>
+         <%- partial('common/scripts') %>
+     </div>
+  </body>
+  </html>
+<% } else if (page.docs) { %>
+  <%- partial('common/head') %>
+  <body>
+      <div id="wrap">
+          <%- partial('common/header', null, {cache: !config.relative_link}) %>
+          <div class="container">
+              <div class="main-body container-inner">
+                  <div class="main-body-inner">
+                      <section id="main">
+                          <%- partial('common/content-title') %>
+                          <div class="main-body-content">
+                              <%- body %>
+                          </div>
+                      </section>
+                      <%- partial('common/sidebar_docs') %>
+                  </div>
+              </div>
+          </div>
+          <%- partial('common/footer', null, {cache: !config.relative_link}) %>
+          <%- partial('common/scripts') %>
+      </div>
+  </body>
+  </html>
+<% } else { %>
+  <%- partial('common/head') %>
+  <body>
+      <div id="wrap">
+          <%- partial('common/header', null, {cache: !config.relative_link}) %>
+          <div class="container">
+              <div class="main-body container-inner">
+                  <div class="main-body-inner">
+                      <section id="main">
+                          <%- partial('common/content-title') %>
+                          <div class="main-body-content">
+                              <%- body %>
+                          </div>
+                      </section>
+                      <%- partial('common/sidebar') %>
+                  </div>
+              </div>
+          </div>
+          <%- partial('common/footer', null, {cache: !config.relative_link}) %>
+          <%- partial('common/scripts') %>
+      </div>
+  </body>
+  </html>
+<% } %>
