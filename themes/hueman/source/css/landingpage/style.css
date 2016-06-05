@@ -175,6 +175,7 @@ header h1{
 }
 
 header p.lead{
+	position: absolute;
 	font-size: 36px;
 	color: #ddd;
 }
@@ -190,7 +191,7 @@ header .carousel-iphone{
 }
 
 header .carousel-macbook {
-	margin-top: 250px;
+	margin-top: 300px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 800px;
@@ -559,7 +560,7 @@ header .carousel-indicators li {
 /*	MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
 
-@media (max-width:768px) {
+/*@media (max-width:768px) {
 
 	header{
 		padding-bottom: 50px;
@@ -572,77 +573,85 @@ header .carousel-indicators li {
 }
 
 
-}
+}*/
 
-@media (max-width:480px) {
+@media (max-width:780px) {
 
-.detail .carousel h1, .detail p{
-	text-align: center;
-}
+	header{
+		height: 815px;
+	}
 
-header .carousel-macbook {
-	width: 420px;
-	height: 245px;
-	margin-top: 150px;
-}
+	.detail .carousel h1, .detail p{
+		text-align: center;
+	}
 
-.carousel-macbook .detail .app-screenshot{
-	width: 280px;
-}
+	header .carousel-macbook {
+		width: 620px;
+	  height: 358px;
+	  margin-top: 150px;
+	}
 
-header .carousel, .detail .app-screenshot img{
-	padding-top: 22px;
-	width: 300px;
-	padding-left: 3px;
-}
+	.carousel-macbook .detail .app-screenshot{
+		width: 280px;
+	}
 
-.detail .app-screenshot img{
-	margin-top: 0px;
-  padding-top: 0px;
-  width: 278px;
-}
+	header .carousel, .detail .app-screenshot img{
+		padding-top: 31px;
+		width: 443px;
+		padding-left: 4px;
+	}
 
-.detail p{
+	header .carousel-inner {
+	  height: 274px;
+	}
+
+	.detail .app-screenshot img{
+		margin-top: 0px;
+	  padding-top: 0px;
+	  width: 278px;
+	}
+
+	.detail p{
+			margin-bottom: 60px;
+	}
+
+	header{
+		background-position-y: 0px;
+		background-size: 200%;
+	}
+
+	.social{
+		background-position-y: -85px;
+		background-size: 200%;
+		padding: 20px 0;
+		min-height: 150px;
+	}
+
+	.features{
+		padding: 50px 0;
+	}
+
+	.features.intro iframe{
+		width: 400px;
+	}
+
+	.payoff{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		min-height: 200px;
+	}
+
+	.payoff h1{
+		font-size: 24px;
+	}
+
+	.features .col-md-4{
 		margin-bottom: 60px;
-}
-
-header{
-	background-position-y: 0px;
-	background-size: 200%;
-}
-
-.social{
-	background-position-y: -85px;
-	background-size: 200%;
-	padding: 20px 0;
-	min-height: 150px;
-}
-
-.features{
-	padding: 50px 0;
-}
-
-.features.intro iframe{
-	width: 400px;
-}
-
-.payoff{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	min-height: 200px;
-}
-
-.payoff h1{
-	font-size: 24px;
-}
-
-.features .col-md-4{
-	margin-bottom: 60px;
-}
+	}
 
 }
 
-@media (max-width:480px){
+@media (max-width:640px){
 
 	header .carousel-iphone, .detail .app-screenshot{
 		width: 280px;
@@ -676,6 +685,7 @@ header{
 
 
 	header{
+		height: 560px;
 		padding-top: 30px;
 		padding-bottom: 0px;
 	}
@@ -693,7 +703,7 @@ header{
 	}
 
 	.purchase{
-		padding-top: 50px;
+		padding-top: 160px;
 	}
 
 	.social{
@@ -707,6 +717,35 @@ header{
 		margin-bottom: 50px;
 	}
 
+}
+
+@media (max-width:480px){
+	header{
+		height: 400px
+	}
+
+	header p.lead{
+		font-size: 24px;
+	}
+
+	header .carousel-iphone, .detail .app-screenshot{
+		width: 280px;
+	}
+
+	header .carousel-macbook {
+		width: 300px;
+    height: 176px;
+    margin-top: 150px;
+	}
+
+	header .carousel-inner{
+		height: 132px;
+	}
+
+	.carousel-macbook .carousel {
+		width: 216px;
+		padding-top: 15px
+	}
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
