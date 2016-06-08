@@ -64,6 +64,26 @@
         <%- partial('plugin/google-analytics') %>
     <% } %>
 
+    <!-- LOCIZIFY -->
+    <script src="https://cdn.locize.io/locizify.min.js"></script>
+    <script>
+      locizify.init({
+        // required
+        // saveMissing: true,
+        fallbackLng: 'en',
+        backend: {
+          projectId: '3d0aa5aa-4660-4154-b6d9-907dbef10bb2',
+          apiKey: 'KEY', // only needed if you like to add missing segments
+          referenceLng: 'en',
+          version: 'production'
+        },
+
+        ignoreIds: ['nudgespotInappContainer', 'nudgespotInappMessagesContainer', 'nudgespotInappConversationsContainer', '__bs_notify__'],
+        ignoreClasses: ['nudgespot-clean'],
+
+        namespace: 'landingpage'
+      });
+    </script>
   </head>
   <body>
     <!--
