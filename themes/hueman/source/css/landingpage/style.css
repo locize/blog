@@ -26,7 +26,7 @@ p{
 	font-weight: 300;
 }
 
-button {
+button, .btn {
 	font-family: 'Roboto Condensed', sans-serif;
 	display: inline-block;
 	margin-bottom: 0;
@@ -63,6 +63,17 @@ button {
 .btn:hover {
 	color: #fff;
 	background: #4B8DCE;
+}
+
+.btn.btn-login {
+	border: solid 1px #1976d2;
+	margin-left: 20px;
+}
+
+.btn.btn-signup {
+	background: #fff;
+	color: #1976d2;
+	border: solid 1px #1976d2;
 }
 
 .visibility{
