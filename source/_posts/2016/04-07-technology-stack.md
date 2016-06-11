@@ -1,4 +1,3 @@
----
 title: technology stack - locize is serverless
 date: 2016-04-07
 tags:

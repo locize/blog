@@ -1,4 +1,3 @@
----
 title: how we eat our own dogfood
 date: 2016-06-11
 tags:

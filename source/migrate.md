@@ -1,6 +1,4 @@
----
 title: Migrating i18next project
-date: 2016-04-29 21:32:17
 docs: true
 hideTitle: true
 noDate: true

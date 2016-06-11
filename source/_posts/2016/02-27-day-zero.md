@@ -1,4 +1,3 @@
----
 title: day zero - how all began
 date: 2016-02-27
 tags:

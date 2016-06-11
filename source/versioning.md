@@ -1,6 +1,4 @@
----
 title: versioning
-date: 2016-05-08 17:25:01
 docs: true
 hideTitle: true
 noDate: true

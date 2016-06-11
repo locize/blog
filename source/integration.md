@@ -1,6 +1,4 @@
----
 title: Getting started
-date: 2016-04-28 11:52:41
 hideTitle: true
 noDate: true
 docs: true

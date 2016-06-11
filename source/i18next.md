@@ -1,6 +1,4 @@
----
 title: Using with i18next
-date: 2016-05-02 17:29:37
 docs: true
 hideTitle: true
 noDate: true

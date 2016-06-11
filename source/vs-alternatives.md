@@ -1,6 +1,4 @@
----
 title: locize vs. alternatives
-date: 2016-05-24 20:30:26
 docs: true
 hideTitle: true
 noDate: true

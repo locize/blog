@@ -13,6 +13,7 @@ docs:
       Getting Started: /integration.html
       Using with i18next: /i18next.html
       Migrating i18next project: /migrate.html
+      API: /api.html
     more:
       locize vs. alternatives: /vs-alternatives.html
       Versioning: versioning.html
