@@ -1,0 +1,136 @@
+---
+title: how we eat our own dogfood
+date: 2016-06-11
+tags:
+  - locize
+  - locizify
+categories:
+  - Post
+---
+
+<div style="display: none;">
+![](/images/locize_color.svg "locize © inweso GmbH")
+</div>
+
+### How we eat our own dogfood
+
+After relaunching our website with new templates for our documentation, post pages and adding a new landing page, we decided to have at least the landing page translated.
+
+As we use [hexo](https://hexo.io/) to generate our static content it was just a natural fit to use our [locizify script](http://locize.com/integration.html) so we don't have to instrument the page ourself.
+
+As we might add other areas later we decided to have a fixed namespace (filename) for the landing page. We used the advanced option to init locizify like described [here](https://github.com/locize/locizify#via-init-function).
+
+We ended with following snipplet:
+
+```js
+<script src="https://cdn.locize.io/locizify.min.js"></script>
+<script>
+  locizify.init({
+    namespace: 'landingpage',
+    saveMissing: true,
+    fallbackLng: 'en',
+    backend: {
+      projectId: '3d0aa5aa-4660-4154-b6d9-907dbef10bb2',
+      apiKey: '******** private ********',
+      referenceLng: 'en',
+      version: 'production'
+    },
+
+    // ignore some dynamic widgets
+    ignoreIds: ['nudgespotInappContainer', 'nudgespotInappMessagesContainer', 'nudgespotInappConversationsContainer', '__bs_notify__'],
+    ignoreClasses: ['nudgespot-clean']
+  });
+</script>
+```
+
+After reloading the page we had the source content in english inside our project. We translated that to german and italian in no time using our editor.
+
+<div class="img-80">
+![](translate.png "translate to german")
+</div>
+
+As the latest version gets auto published reloading the page with the additional querystring parameter `?lng=de` (or switching browser language) was enough to test the translation.
+
+Next we created a production version (going to project settings -> versions) so we can change or prepare new content during development without messing with the currently released page version.
+
+
+<div class="img-60">
+![](version.png "translate to german")
+</div>
+
+After that we wanted to avoid the flickering on initial load where the page first gets displayed in the source language until locizify loaded and initial translated the page.
+
+To optimize this we just needed to add `display: none` to body [(more info)](https://github.com/locize/locizify#avoid-flickering-on-initial-load):
+
+```html
+<body style="display: none">
+```
+
+Finally we needed a solution to let the user change the language on our page. We started with a simple list of links:
+
+```html
+<ul>
+  <a href="/?lng=en">english</a>
+  <a href="/?lng=de">deutsch</a>
+  <a href="/?lng=it">italiano</a>
+</ul>
+```
+
+But decided a select element would fit more to our current layout. We needed to add binding to i18next [changeLanguage event](http://i18next.com/docs/api/#on-language-changed) to select current language and handle the select `onChange` event:
+
+**the select element:**
+
+```html
+<select id="languageSelect" onChange="handleSelectChange()">
+  <option value="en">english</option>
+  <option value="de">deutsch</option>
+  <option value="it">italiano</option>
+</select>
+```
+
+**the script:**
+
+```js
+// the select element
+var ele = document.getElementById('languageSelect');
+
+// reload page on selection
+function handleSelectChange() {
+  var value = ele.options[ele.selectedIndex].value;
+  window.location = updateQueryStringParameter(window.location.href, 'lng', value);
+}
+
+// bind i18next change language event
+locizify.i18next.on('languageChanged', function(lng) {
+  var lngs = ['en', 'de', 'it'];
+  var selected = 'en';
+
+  // iterate of users languages (eg. de-DE, de, en)
+  locizify.i18next.languages.forEach(function(l) {
+    if (lngs.indexOf(l) > -1) selected = l;
+  });
+
+  // set new value
+  ele.value = selected;
+});
+
+// just a helper to update uri with new params
+function updateQueryStringParameter(uri, key, value) {
+  var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+  var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+  if (uri.match(re)) {
+    return uri.replace(re, '$1' + key + "=" + value + '$2');
+  }
+  else {
+    return uri + separator + key + "=" + value;
+  }
+}
+```
+
+That's all. Our project was translated in no time including a custom language selector:
+
+<div class="img-80">
+![](result.png "translated to german")
+</div>
+
+We are very pleased with the outcome of eating our own dogfood. Next step will be to order professional translations for the languages we can't translate ourself...
