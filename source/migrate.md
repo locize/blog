@@ -12,7 +12,7 @@ Migrating an existing backend from i18next is just changing a few lines of code.
 
 Just use the `i18next-locize-backend`
 
-```html
+```js
 import i18next from 'i18next';
 import Backend from 'i18next-locize-backend';
 
@@ -35,7 +35,7 @@ Find more details and configuration options on the [github page](https://github.
 
 Just use the `i18next-node-locize-backend`
 
-```html
+```js
 import i18next from 'i18next';
 import Backend from 'i18next-node-locize-backend';
 

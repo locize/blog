@@ -15,7 +15,7 @@ You can use locize in combination with [i18next](http://i18next.com). I18next is
 Source can be loaded via [npm](https://www.npmjs.com/package/locize), bower or load it from our CDN [https://cdn.locize.io/locize.min.js](https://cdn.locize.io/locize.min.js).
 
 
-```
+```js
 import locize from 'locize';
 
 locize.init({
@@ -55,7 +55,7 @@ Alternatively use the plugins we offer with i18next:
 
 Just use the `i18next-locize-backend`
 
-```html
+```js
 import i18next from 'i18next';
 import Backend from 'i18next-locize-backend';
 
@@ -78,7 +78,7 @@ Find more details and configuration options on the [github page](https://github.
 
 Just use the `i18next-node-locize-backend`
 
-```html
+```js
 import i18next from 'i18next';
 import Backend from 'i18next-node-locize-backend';
 
