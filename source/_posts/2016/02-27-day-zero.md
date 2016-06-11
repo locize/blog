@@ -6,11 +6,8 @@ tags:
   - i18next
 categories:
   - Post
+thumbnail: /images/locize_color.svg
 ---
-
-<div style="display: none;">
-![](/images/locize_color.svg "locize © inweso GmbH")
-</div>
 
 ### Back in 2011
 

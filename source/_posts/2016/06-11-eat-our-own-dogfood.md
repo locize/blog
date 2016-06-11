@@ -6,11 +6,8 @@ tags:
   - locizify
 categories:
   - Post
+thumbnail: /2016-06-11-eat-our-own-dogfood/result.png
 ---
-
-<div style="display: none;">
-![](/images/locize_color.svg "locize © inweso GmbH")
-</div>
 
 ### How we eat our own dogfood
 

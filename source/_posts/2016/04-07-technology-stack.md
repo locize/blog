@@ -8,11 +8,8 @@ tags:
   - service
 categories:
   - Post
+thumbnail: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
 ---
-
-<div style="display: none;">
-![](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png "node.js")
-</div>
 
 ### No Servers?
 
