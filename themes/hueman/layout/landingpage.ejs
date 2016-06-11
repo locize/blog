@@ -433,7 +433,12 @@
       var ele = document.getElementById('languageSelect');
 
       function updateSelect(lng) {
-        ele.value = lng;
+        var lngs = ['en', 'de', 'it'];
+        var selected = 'en';
+        locizify.i18next.languages.forEach(function(l) {
+          if (lngs.indexOf(l) > -1) selected = l;
+        });
+        ele.value = selected;
       }
 
       function handleSelectChange() {
