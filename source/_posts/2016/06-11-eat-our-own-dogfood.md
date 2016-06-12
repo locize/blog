@@ -94,9 +94,15 @@ var availableLngs = [];
 locizify.getLanguages(function(err, lngs) {
   availableLngs = Object.keys(lngs || {});
   availableLngs.forEach(function(l) {
+    var lng = lngs[l];
+
+    // return if not at least 90% is translated
+    if (lng.translated.production < 0.9) return;
+
+    // append ele
     var optEle = document.createElement("OPTION");
     optEle.setAttribute('value', l);
-    optEle.innerHTML = lngs[l].nativeName;
+    optEle.innerHTML = lng.nativeName;
     ele.appendChild(optEle);
   });
 
