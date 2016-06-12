@@ -85,11 +85,11 @@
       });
 
       locizify.i18next.on('languageChanged', function(lng) {
-        updateSelect(lng);
+        updateSelect();
       });
     </script>
   </head>
-  <body style="display: none">
+  <body style="display: none;">
     <!--
     NAVBAR
     ==================================================
@@ -122,11 +122,8 @@
     -->
     <header>
       <div class="container">
-        <div class="languagePicker">
+        <div class="languagePicker" translated>
           <select id="languageSelect" class="minimal" onChange="handleSelectChange()">
-            <option value="en">english</option>
-            <option value="de">deutsch</option>
-            <option value="it">italiano</option>
           </select>
         </div>
         <div class="row">
@@ -431,14 +428,28 @@
     <script>
       // location change
       var ele = document.getElementById('languageSelect');
+      var availableLngs = [];
 
-      function updateSelect(lng) {
-        var lngs = ['en', 'de', 'it'];
-        var selected = 'en';
-        locizify.i18next.languages.forEach(function(l) {
-          if (lngs.indexOf(l) > -1) selected = l;
+      // create select options based on project languages
+      locizify.getLanguages(function(err, lngs) {
+        availableLngs = Object.keys(lngs || {});
+        availableLngs.forEach(function(l) {
+          var optEle = document.createElement("OPTION");
+          optEle.setAttribute('value', l);
+          optEle.innerHTML = lngs[l].nativeName;
+          ele.appendChild(optEle);
         });
-        ele.value = selected;
+
+        updateSelect();
+      });
+
+      function updateSelect() {
+        var selected;
+        locizify.i18next.languages.forEach(function(l) {
+          if (!selected && availableLngs.indexOf(l) > -1) selected = l;
+        });
+
+        ele.value = selected || 'en';
       }
 
       function handleSelectChange() {

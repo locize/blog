@@ -72,15 +72,14 @@ Finally we needed a solution to let the user change the language on our page. We
 </ul>
 ```
 
-But decided a select element would fit more to our current layout. We needed to add binding to i18next [changeLanguage event](http://i18next.com/docs/api/#on-language-changed) to select current language and handle the select `onChange` event:
+But decided a select element would fit more to our current layout. We needed to add binding to i18next [changeLanguage event](http://i18next.com/docs/api/#on-language-changed) to select current language and handle the select `onChange` event.
+
+Further we use `locizify.getLanguages` to get current available languages in our project, so we don't have to touch the code when we add new languages:
 
 **the select element:**
 
 ```html
-<select id="languageSelect" onChange="handleSelectChange()">
-  <option value="en">english</option>
-  <option value="de">deutsch</option>
-  <option value="it">italiano</option>
+<select id="languageSelect" onChange="handleSelectChange()" translated>
 </select>
 ```
 
@@ -89,6 +88,30 @@ But decided a select element would fit more to our current layout. We needed to 
 ```js
 // the select element
 var ele = document.getElementById('languageSelect');
+var availableLngs = [];
+
+// create select options based on project languages
+locizify.getLanguages(function(err, lngs) {
+  availableLngs = Object.keys(lngs || {});
+  availableLngs.forEach(function(l) {
+    var optEle = document.createElement("OPTION");
+    optEle.setAttribute('value', l);
+    optEle.innerHTML = lngs[l].nativeName;
+    ele.appendChild(optEle);
+  });
+
+  updateSelect();
+});
+
+// selects the value based on i18next lngs
+function updateSelect() {
+  var selected;
+  locizify.i18next.languages.forEach(function(l) {
+    if (!selected && availableLngs.indexOf(l) > -1) selected = l;
+  });
+
+  ele.value = selected || 'en';
+}
 
 // reload page on selection
 function handleSelectChange() {
@@ -98,16 +121,7 @@ function handleSelectChange() {
 
 // bind i18next change language event
 locizify.i18next.on('languageChanged', function(lng) {
-  var lngs = ['en', 'de', 'it'];
-  var selected = 'en';
-
-  // iterate of users languages (eg. de-DE, de, en)
-  locizify.i18next.languages.forEach(function(l) {
-    if (lngs.indexOf(l) > -1) selected = l;
-  });
-
-  // set new value
-  ele.value = selected;
+  updateSelect();
 });
 
 // just a helper to update uri with new params
