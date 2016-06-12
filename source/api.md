@@ -49,16 +49,28 @@ curl -X GET https://api.locize.io/languages/3d0aa5aa-4660-4154-b6d9-907dbef10bb2
 # {
 #   "en": {
 #     "name": "English",
-#     "nativeName": "English"
+#     "nativeName": "English",
+#     "translated": {
+#       "latest": 1,
+#       "production": 1
+#     }
 #   },
 #   "de-CH": {
 #     "name": "German",
 #     "nativeName": "Deutsch",
-#     "region": "CH"
+#     "region": "CH",
+#     "translated": {
+#       "latest": 1,
+#       "production": 0.521
+#     }
 #   },
 #   "it": {
 #     "name": "Italian",
-#     "nativeName": "Italiano"
+#     "nativeName": "Italiano",
+#     "translated": {
+#       "latest": 1,
+#       "production": 1
+#     }
 #   },
 #   ...
 # }
