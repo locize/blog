@@ -803,6 +803,10 @@ header .carousel-indicators li {
 		margin-bottom: 50px;
 	}
 
+	.detail {
+		min-height: 1025px;
+	}
+
 }
 
 @media (max-width:480px){
@@ -831,6 +835,10 @@ header .carousel-indicators li {
 	.carousel-macbook .carousel {
 		width: 216px;
 		padding-top: 15px
+	}
+
+	.detail {
+		min-height: 1050px;
 	}
 }
 

@@ -106,7 +106,7 @@ function parallax() {
 
         if (iOS === false) {
             $('.payoff').css('background-position-y', scaleBg + 250);
-            $('.social').css('background-position-y', scaleBg + 400);
+            $('.social').css('background-position-y', scaleBg + 700);
         }
 
 }
@@ -160,5 +160,5 @@ $('header .carousel').carousel({
 
 // iPhone Features Carousel
 $('.detail .carousel').carousel({
-  interval: 4000
+  interval: 10000
 })
