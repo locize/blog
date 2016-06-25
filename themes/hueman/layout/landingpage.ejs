@@ -69,13 +69,13 @@
     <script>
       locizify.init({
         // required
-        // saveMissing: true,
+        saveMissing: true,
         fallbackLng: 'en',
         backend: {
           projectId: '3d0aa5aa-4660-4154-b6d9-907dbef10bb2',
-          apiKey: 'KEY', // only needed if you like to add missing segments
+          apiKey: 'e857f8c5-a7fc-436f-846f-7641890d5dcd', // only needed if you like to add missing segments
           referenceLng: 'en',
-          version: 'production'
+          version: 'latest'
         },
 
         ignoreIds: ['nudgespotInappContainer', 'nudgespotInappMessagesContainer', 'nudgespotInappConversationsContainer', '__bs_notify__'],
@@ -122,7 +122,8 @@
     -->
     <header>
       <div class="container">
-        <div class="languagePicker" translated>
+        <div class="header-btns" translated>
+          <a class="btn-header-login" href="https://www.locize.io/login">Login</a>
           <select id="languageSelect" class="minimal" onChange="handleSelectChange()">
           </select>
         </div>
