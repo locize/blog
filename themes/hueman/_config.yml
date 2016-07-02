@@ -16,8 +16,9 @@ docs:
       API: /api.html
     more:
       locize vs. alternatives: /vs-alternatives.html
-      Versioning: versioning.html
-      FAQ: faq.html
+      Versioning: /versioning.html
+      FAQ: /faq.html
+      Changelog: /changelog.html
 
 
 # Customize
