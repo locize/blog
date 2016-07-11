@@ -6,6 +6,26 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+
+<h5>v1.1.1 <small>2016-07-11</small></h5>
+
+<h6>highlight</h6>
+
+<div class="img-60">
+![](/images/changelog/highlight_v1_1_1.png "compare")
+</div>
+
+You can order translations from [gengo](http://gengo.com) and [one hour translation](onehourtranslation.com).
+
+<h6>more</h6>
+
+- adds additional filter in editor to only show untranslated
+- change password
+- invite user with role admin
+
+---------
+
+
 <h5>v1.1.0 <small>2016-07-02</small></h5>
 
 <h6>highlight</h6>
