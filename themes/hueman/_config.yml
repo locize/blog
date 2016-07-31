@@ -15,6 +15,7 @@ docs:
       Migrating i18next project: /migrate.html
       API: /api.html
     more:
+      Services: /services.html
       locize vs. alternatives: /vs-alternatives.html
       Versioning: /versioning.html
       FAQ: /faq.html
