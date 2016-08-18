@@ -45,27 +45,27 @@ function load(lng, callback) {
 
 ```json
 {
-  “interpolate”: “Hello, %{name}.”,
-  “intro”: “The locize.com platform is fully compatible with airbnb’s polyglot i18n module.”,
-  “plural”: “%{smart_count} car |||| %{smart_count} cars”,
-  “something”: {
-    “nested”: “Nested value something.nested”
+  "interpolate": "Hello, %{name}.",
+  "intro": "The locize.com platform is fully compatible with airbnb’s polyglot i18n module.",
+  "plural": "%{smart_count} car |||| %{smart_count} cars",
+  "something": {
+    "nested": "Nested value something.nested"
   },
-  “title”: “Using polyglot with locize.com”
+  "title": "Using polyglot with locize.com"
 }
 ```
 
 **We return a html file injecting the loaded json when requesting the root:**
 
 ```js
-app.get(‘/’, function(req, res) {
-  var lng = req.query.lng || ‘en’;
+app.get('/', function(req, res) {
+  var lng = req.query.lng || 'en';
 
-  fs.readFile(__dirname + ‘/index.html’, (err, data) => {
+  fs.readFile(__dirname + '/index.html', (err, data) => {
     if (err) console.log(err);
-    data = data.toString().replace(‘###locals###’, JSON.stringify(locals[lng])).replace(‘###lng###’, lng);
+    data = data.toString().replace('###locals###', JSON.stringify(locals[lng])).replace('###lng###', lng);
 
-    res.set(‘content-type’,’text/html’);
+    res.set('content-type', 'text/html');
     res.send(data);
   });
 });
@@ -73,13 +73,14 @@ app.get(‘/’, function(req, res) {
 
 **In the html we basically use polyglot as described on it’s website:**
 
-```js
+```html
 <script>
   // initialize polyglot by settings phrases on server
-  var polyglot = new Polyglot({ phrases: JSON.parse(###locals###), locale: ‘###lng###’ });
+  var polyglot = new Polyglot({ phrases: JSON.parse('###locals###'), locale: '###lng###' });
   // translate
-  document.getElementById(‘headline’).innerHTML = polyglot.t(‘title’);
+  document.getElementById('headline').innerHTML = polyglot.t('title');
   ...
+</script>
 ```
 
 You can checkout this example on github: [https://github.com/locize/locize-polyglot-example](https://github.com/locize/locize-polyglot-example).
@@ -107,11 +108,11 @@ So we started from what we did with polyglot. For the backend there was no chang
 
 **In the html we use the [IntlMessageFormat](https://github.com/yahoo/intl-messageformat) module and created a little helper function**
 
-```js
+```html
 <script>
   // initialize
-  var resources = JSON.parse(###locals###);
-  var lng = ‘###lng###’;
+  var resources = JSON.parse('###locals###');
+  var lng = '###lng###';
   // translation helper
   function t(key, opts) {
     opts = opts || {};
@@ -119,8 +120,9 @@ So we started from what we did with polyglot. For the backend there was no chang
     return m.format(opts);
   }
   // translate
-  document.getElementById(‘headline’).innerHTML = t(‘title’);
+  document.getElementById('headline').innerHTML = t('title');
   ...
+</script>
 ```
 
 You can see the full example on github: [https://github.com/locize/locize-formatjs-example](https://github.com/locize/locize-formatjs-example).
