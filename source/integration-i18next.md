@@ -4,11 +4,11 @@ hideTitle: true
 noDate: true
 ---
 
-<h4 class="headline"><i class="material-icons" translated>translate</i> using with i18next</h4>
+<h4 class="headline">Using locize with i18next</h4>
 
 You can use locize in combination with [i18next](http://i18next.com). I18next is a widely used internationalization framework and offers a wide range of framework integrations and plugins for almost every need.
 
-<h4 class="headline extra-margin"><i class="material-icons" translated>code</i> use our custom bundle</h4>
+<h4 class="headline extra-margin">A) use our custom bundle</h4>
 
 Source can be loaded via [npm](https://www.npmjs.com/package/locize), bower or load it from our CDN [https://cdn.locize.io/locize.min.js](https://cdn.locize.io/locize.min.js).
 
@@ -37,6 +37,8 @@ locize.init({
 });
 ```
 
+(You can find your projectId and API Key in your projects settings under the API Tab.)
+
 For more information visit the i18next website:
 
 - [Getting started](http://i18next.com/docs/)
@@ -45,7 +47,7 @@ For more information visit the i18next website:
 
 Just replace i18next with locize on use.
 
-<h4 class="headline extra-margin"><i class="material-icons" translated>code</i> use our plugin with i18next</h4>
+<h4 class="headline extra-margin">B) use our plugin with i18next</h4>
 
 Alternatively use the plugins we offer with i18next:
 
@@ -69,6 +71,8 @@ i18next
     }
   });
 ```
+
+(You can find your projectId and API Key in your projects settings under the API Tab.)
 
 Find more details and configuration options on the [github page](https://github.com/locize/i18next-locize-backend).
 

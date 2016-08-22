@@ -31,6 +31,8 @@ curl -X GET https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/productio
 # }
 ```
 
+(You can find your projectId and API Key in your projects settings under the API Tab.)
+
 
 <h4 class="headline"><i class="material-icons" translated>code</i> Fetch the available languages</h4>
 
@@ -99,6 +101,8 @@ EOF
 
 curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer mysecret-very-4f2e-b123-d432d86430c6" -d $body https://api.locize.io/missing/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/en/landingpage
 ```
+
+(You can find your projectId and API Key in your projects settings under the API Tab.)
 
 
 <div class="contact">

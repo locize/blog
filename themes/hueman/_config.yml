@@ -11,14 +11,17 @@ menu:
 docs:
     integration:
       Getting Started: /integration.html
-      Using with i18next: /i18next.html
-      Migrating i18next project: /migrate.html
-      API: /api.html
+      Using the locizify script: /integration-locizify.html
+      Using with i18next: /integration-i18next.html
+      Using with polyglot: /integration-polyglot.html
+      Using with formatJS / messageformat: /integration-formatjs.html
+      Using the API: /api.html
     more:
-      Services: /services.html
-      locize vs. alternatives: /vs-alternatives.html
+      Integrated Services: /services.html
       Versioning: /versioning.html
+      Migrating an i18next project: /migrate-i18next.html
       FAQ: /faq.html
+      locize vs. alternatives: /vs-alternatives.html
       Changelog: /changelog.html
 
 

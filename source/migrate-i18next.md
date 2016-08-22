@@ -27,6 +27,8 @@ i18next
   });
 ```
 
+(You can find your projectId and API Key in your projects settings under the API Tab.)
+
 Find more details and configuration options on the [github page](https://github.com/locize/i18next-locize-backend).
 
 <h4 class="headline extra-margin"><i class="material-icons" translated>code</i> node.js</h4>
@@ -49,6 +51,8 @@ i18next
     }
   });
 ```
+
+(You can find your projectId and API Key in your projects settings under the API Tab.)
 
 Find more details and configuration options on the [github page](https://github.com/locize/i18next-node-locize-backend).
 
