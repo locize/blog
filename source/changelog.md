@@ -12,7 +12,6 @@ noDate: true
 - enabled diffs on changes
 - adds tab to change different modes on editor for easier toggling
 - adds anchor tag to segment so they can be referenced by email, messenger,...
-
 - adds link to published file
 
 <h5>v1.3.0 <small>2016-08-28</small></h5>
