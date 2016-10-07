@@ -133,6 +133,51 @@ curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer mysec
 (You can find your projectId and API Key in your projects settings under the API Tab.)
 
 
+<h4 class="headline"><i class="material-icons" translated>code</i> List all namespace resources</h4>
+
+If you need an overview of all published translation files of your project, you can do this with a simple HTTP GET request with this url pattern:
+
+`https://api.locize.io/download/{projectId}/{version}/{language}/{namespace}`
+
+{namespace}, {language} and {version} are optional and are used as filter.
+
+<h5>example:</h5>
+
+```sh
+curl -X GET https://api.locize.io/download/3d0aa5aa-4660-4154-b6d9-907dbef10bb2
+# will return something like:
+# [
+#   {
+#     "url": "https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/de/common",
+#     "key": "3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/de/common"
+#   },
+#   {
+#     url: "https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/de/landingpage",
+#     key: "3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/de/landingpage"
+#   },
+#   {
+#     url: "https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/en/common",
+#     key: "3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/en/common"
+#   },
+#   {
+#     url: "https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/en/common",
+#     key: "3d0aa5aa-4660-4154-b6d9-907dbef10bb2/latest/en/common"
+#   },
+#   ...
+#   {
+#     url: "https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/production/en/common",
+#     key: "3d0aa5aa-4660-4154-b6d9-907dbef10bb2/production/en/common"
+#   },
+#   {
+#     url: "https://api.locize.io/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/production/en/common",
+#     key: "3d0aa5aa-4660-4154-b6d9-907dbef10bb2/production/en/common"
+#   }
+# ]
+```
+
+(You can find your projectId in your projects settings under the API Tab.)
+
+
 <div class="contact">
 <hr />
 <p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
