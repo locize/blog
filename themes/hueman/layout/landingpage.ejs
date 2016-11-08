@@ -83,10 +83,6 @@
 
         namespace: 'landingpage'
       });
-
-      locizify.i18next.on('languageChanged', function(lng) {
-        updateSelect();
-      });
     </script>
   </head>
   <body style="display: none;">
@@ -471,6 +467,10 @@
 
         ele.value = selected || 'en';
       }
+
+      locizify.i18next.on('languageChanged', function(lng) {
+        updateSelect();
+      });
 
       function handleSelectChange() {
         var value = ele.options[ele.selectedIndex].value;
