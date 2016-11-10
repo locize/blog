@@ -24,7 +24,7 @@ Common max-age values are:
 - One day: max-age=86400
 - One week: max-age=604800
 
-When using max-age to define your cache times one should consider how fast your users should should be able to request the updated files.
+When using max-age to define your cache times one should consider how fast your users should be able to request the updated files.
 
 For example for versions used by the development teams we recommend to disable the cache functionality.
 
