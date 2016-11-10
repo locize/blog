@@ -19,6 +19,7 @@ docs:
     more:
       Integrated Services: /services.html
       Versioning: /versioning.html
+      Caching: /cache-control.html
       Migrating an i18next project: /migrate-i18next.html
       FAQ: /faq.html
       locize vs. alternatives: /vs-alternatives.html
