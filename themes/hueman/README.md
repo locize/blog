@@ -45,16 +45,12 @@ Hueman has more than 60 themes imported from [Highlight.js](https://github.com/i
 
 ![](https://camo.githubusercontent.com/29244be9b08db085cc83244e9add325eaf5d0945/68747470733a2f2f6f6f6f2e306f302e6f6f6f2f323031362f30312f31342f353639373362663136383064312e706e67)
 
-### Scroll Loading
+### lightgallery
 
-Scroll loading means you don't have to load all the images the second you opened the blog. When you scroll down, the plugin make images inside your vision loaded automatically. You can enable/disable this feature in `scrollLoading` setting.
-
-### Fancybox
-
-Hueman uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
+Hueman uses [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) to showcase your photos. Just enable it in your configuration, and that's all!
 
 ```
-![img caption](img url)
+![](http://ppoffice.github.io/hexo-theme-hueman/gallery/lightgallery.jpg "")
 ```
 
 ### Sidebar
