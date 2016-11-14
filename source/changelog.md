@@ -6,6 +6,14 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.0.0 <small>2016-11-14</small></h5>
+
+- complete redesign (UI/UX)
+- now you can control the Cache-Control max-age for the published namespaces
+- optimize filter capabilities in namespace editor (i.e. for missing)
+- monthly growth statistics
+- various bug fixes
+
 <h5>v1.4.0 <small>2016-09-04</small></h5>
 
 - projectUrl is now optional
