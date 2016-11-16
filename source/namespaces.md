@@ -48,7 +48,10 @@ locize.init({
 locize.loadNamespaces('myNamespace', (err, t) => { /* ... */ });
 ```
 
-There are more advanced options like calling the with multiple namespaces to look a key up or default fallback namespaces to lookup keys in.
+There are advanced options like:
+
+- calling t function with multiple namespaces to look a key up
+- default fallback namespaces to lookup keys in
 
 more details: [locize / i18next](http://i18next.com/translate/namespace/)
 
@@ -61,7 +64,7 @@ locizify.init({
 });
 ```
 
-You can access different namespace by setting attribute i18next-options:
+You can access different namespaces by setting attribute i18next-options:
 
 ```html
 <div i18next-options='{"ns": "common"}'>
