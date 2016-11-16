@@ -8,8 +8,6 @@ categories:
 thumbnail: /2016-06-11-eat-our-own-dogfood/result.png
 ---
 
-### How we eat our own dogfood
-
 After relaunching our website with new templates for our documentation, post pages and adding a new landing page, we decided to have at least the landing page translated.
 
 As we use [hexo](https://hexo.io/) to generate our static content it was just a natural fit to use our [locizify script](http://locize.com/integration.html) so we don't have to instrument the page ourself.
