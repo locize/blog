@@ -18,6 +18,7 @@ docs:
       Using the API: /api.html
     more:
       Integrated Services: /services.html
+      Namespaces: /namespaces.html
       Versioning: /versioning.html
       Caching: /cache-control.html
       Migrating an i18next project: /migrate-i18next.html
