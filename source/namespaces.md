@@ -64,7 +64,7 @@ locizify.init({
 });
 ```
 
-You can access a different namespace by setting attribute i18next-options:
+You can access a different namespace by setting the attribute i18next-options:
 
 ```html
 <div i18next-options='{"ns": "common"}'>
