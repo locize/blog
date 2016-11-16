@@ -45,7 +45,7 @@ To have a comparison with the updated workflow we like to describe how things go
 - Goes crazy and starts searching for a new job ;)
 
 
-Doing agile / continous localization could be hard...you can improve this by doing the steps in waterfall manner: development -> techical editor -> translations. But not only takes this a lot longer but also the problems come back as soon development starts work on next version having semi-finished texts from the technical editor.
+Doing agile / continous localization could be hard...you can improve this by doing the steps in waterfall manner: development -> techical editor -> translations. But not only takes this a lot longer but also the problems come back as soon as development starts work on next version having semi-finished texts from the technical editor.
 
 Things need to get better - so lets have a look on how our experience was using locize:
 
