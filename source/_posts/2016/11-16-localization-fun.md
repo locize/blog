@@ -41,11 +41,11 @@ To have a comparison with the updated workflow we like to describe how things go
 
 ##### Poor guys path
 
-- tries to merge files coming from development and Technical Editor
+- tries to merge files coming from development and technical editor
 - Goes crazy and starts searching for a new job ;)
 
 
-Doing agile / continous localization could be hard...you can improve this by doing the steps in waterfall manner: development -> techical editor -> translations. But not only takes this a lot longer but also the problems come back as soon as development starts work on next version having semi-finished texts from the technical editor.
+Doing agile / continuous localization could be hard...you can improve this by doing the steps in waterfall manner: development -> technical editor -> translations. But not only takes this a lot longer but also the problems come back as soon as development starts work on next version having semi-finished texts from the technical editor.
 
 Things need to get better - so lets have a look on how our experience was using locize:
 
@@ -87,4 +87,4 @@ What happened to the **poor guy**? He was not needed any longer and lost his job
 
 -----
 
-Separating development and content editing made both sides work more efficient, with less errors and a lot faster. Developers, technical editor and translators could work hand in hand without distorbing each others work.
+Separating development and content editing made both sides work more efficient, with less errors and a lot faster. Developers, technical editor and translators could work hand in hand without disturbing each others work.
