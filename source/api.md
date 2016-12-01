@@ -6,7 +6,10 @@ noDate: true
 
 Do you prefer to integrate the locize api on your own?
 
-No problem! If you want to make a low level integration or just did not found an appropriate client library here you have our simple api description:
+No problem! If you want to make a low level integration or just did not found an appropriate client library here you find our simple api description or you can access API via:
+
+- [Command Line](https://github.com/locize/locize-cli)
+- [Locizer (Browser)](https://github.com/locize/locizer)
 
 <h4 class="headline"><i class="material-icons" translated>code</i> Fetch the namespace resources</h4>
 

@@ -10,6 +10,26 @@ You can use locize in combination with [polyglot](http://airbnb.io/polyglot.js/)
 
 To integrate locize into your polyglot you will need to load the translations from our CDN via [our API](/api.html) and needs a little more coding as using the locizify or i18next scripts.
 
+*Eg. Browser using the our API client locizer:*
+
+The script enables easy translation loading and provides on top functions to detect users language and to load the available languages on your project.
+
+```js
+// <script src="https://unpkg.com/locizer/locizer.min.js"></script>
+locizer
+  .init({
+    fallbackLng: 'en',
+    referenceLng: 'en',
+    projectId: '[your project id]'
+  })
+  .load('translation', function(err, translations, lng) {
+    const polyglot = new Polyglot({ phrases: translations, locale: lng });
+    console.log(polyglot.t('some key'));
+  });
+```
+
+[Complete locizer documentation](https://github.com/locize/locizer)
+
 *Eg. Browser using the window.fetch:*
 
 ```js
