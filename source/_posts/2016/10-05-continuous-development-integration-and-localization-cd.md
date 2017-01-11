@@ -24,9 +24,9 @@ thumbnail: /2016-10-05-continuous-development-integration-and-localization-cd/ha
 
 ### Past times
 
-In the past most organizations that have to write some software; planned, developed and released their product in one-year or even multiple-year cycles. =>Typical waterfall process.
+In the past most organizations that have to write some software planned, developed and released their product in one-year or even multiple-year cycles. =>Typical waterfall process.
 Every time the developer team had finished implementing the features, the product manager could start to organize and initiate the translation process.
-So the only thing the developers has to guarantee, was to be able to export and import text resources.
+So the only thing the developers had to guarantee, was to be able to export and import text resources.
 That way the texts could be translated all together, by sending them to different agencies or regional market organizations, etc…
 When translations were done (after days, weeks or even months), they’d be sent back to the product manager who forwarded them to the developers.
 They then had taken the translations, imported and merged them into the product, and (re-)released.
@@ -45,7 +45,7 @@ Developers focuses on instrumenting the code with the help of some i18n librarie
 [http://airbnb.io/polyglot.js/](http://airbnb.io/polyglot.js/)
 
 and extract texts into resource files so someone can translate them later.
-Normally during a development iteration or sprint there is no time to translate the resources, and not just because most people has this sort of attitude:
+Normally during a development iteration or sprint there is no time to translate the resources, and not just because most people have this sort of attitude:
 
 > << We are not interested in the translation process itself. >>
 
@@ -64,18 +64,9 @@ By doing this it is even possible to change or add translations without shipping
 
 > Cool, but isn’t this a little over the top… an extra tooling and deployment — doesn’t all this just add more complexity and effort?
 
-#### You don’t have to build this yourself!!! — There is:
+#### You don’t have to build this yourself!!! — There is locize
 
-[![](/images/locize_color.svg)](http://www.locize.com/)
-
-[locize](http://www.locize.com) is a new online service that pushes you to the level of Continuous Localization.
-The translations are managed in your [locize](http://www.locize.com) project and published from there to the [locize](http://www.locize.com) CDN to be consumed from your application.
-The technical writer team can take care of the translations from the first day and keep up with changes with ease.
-The processes are separated. Translations can be updated without the need to release an update of your app.
-Further you keep full overview about what is translated and what not — even more if you order translations from the integrated translation providers you also keep track of your open orders.
-And even if you decide to export and import translations from your project, you never loose control, as the tooling helps you when merging by showing you all the changes that are made with a nice diff.
-[locize](http://www.locize.com) helps you to handle the localization process in your projects...
 <div class="contact" style="margin-top: 0px;">
 <hr />
-<p class="callout extra-margin">...you really should give it a try: <strong><a href="https://www.locize.io/register">Register!</a></strong></p>
+<p class="callout extra-margin">...give it a try: <strong><a href="https://www.locize.io/register">Register!</a></strong></p>
 </div>
