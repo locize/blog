@@ -6,6 +6,14 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.2.0 <small>2017-01-25</small></h5>
+
+- copy a key
+- extended touch target for namespaces
+- optimized axis on charts
+- bug fixes and small improvements
+
+
 <h5>v2.1.0 <small>2016-12-10</small></h5>
 
 - complete rewrite of backend code
