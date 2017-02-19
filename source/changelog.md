@@ -6,6 +6,12 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.3.0 <small>2017-02-19</small></h5>
+
+- download all translation of a version
+- bug fixes
+
+
 <h5>v2.2.0 <small>2017-01-25</small></h5>
 
 - copy a key
