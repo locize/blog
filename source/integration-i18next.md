@@ -10,7 +10,7 @@ You can use locize in combination with [i18next](http://i18next.com). I18next is
 
 <h4 class="headline extra-margin">A) use our custom bundle</h4>
 
-Source can be loaded via [npm](https://www.npmjs.com/package/locize), bower or load it from our CDN [https://cdn.locize.io/locize.min.js](https://cdn.locize.io/locize.min.js).
+Source can be loaded via [npm](https://www.npmjs.com/package/locize), bower or load it from npm CDN [https://unpkg.com/locize@^1.0.0](https://unpkg.com/locize@^1.0.0).
 
 
 ```js

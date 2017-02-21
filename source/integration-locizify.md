@@ -13,7 +13,7 @@ Using our **locizify script** is the most simplest way to get your website or we
 <script id="locizify" projectid="[PROJECT_ID]"
     apikey="[API_KEY]" referencelng="[LNG]"
     fallbacklng="[LNG]" saveMissing="true"
-    src="https://cdn.locize.io/locizify.min.js" />
+    src="https://unpkg.com/locizify@^2.0.0" />
 ```
 
 (You can find your projectId and API Key in your projects settings under the API Tab.)

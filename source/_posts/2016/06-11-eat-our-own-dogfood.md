@@ -17,7 +17,7 @@ As we might add other areas later we decided to have a fixed namespace (filename
 We ended with following snipplet:
 
 ```js
-<script src="https://cdn.locize.io/locizify.min.js"></script>
+<script src="https://unpkg.com/locizify@^2.0.0"></script>
 <script>
   locizify.init({
     namespace: 'landingpage',

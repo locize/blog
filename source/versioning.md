@@ -53,7 +53,7 @@ Update your locizify script to include targeted version:
 
 ```html
 <script id="locizify" version="staging" ...
-  src="https://cdn.locize.io/locizify.min.js" />
+  src="https://unpkg.com/locizify@^2.0.0" />
 ```
 
 Update i18next with locize backend:
