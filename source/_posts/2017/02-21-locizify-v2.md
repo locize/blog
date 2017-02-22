@@ -32,7 +32,7 @@ full sample:
 
 ### merging
 
-Sometime you want to keep innerHTML of an element together to make it easier to translate.
+Sometimes you want to keep innerHTML of an element together to make it easier to translate.
 
 Before:
 
@@ -61,7 +61,7 @@ Using merge:
 }
 ```
 
-While you can set the `merge` attribute on every element you like to have this behaviour you also can specify this globally on init:
+While you can set the `merge` attribute on every element you like to have this behaviour. You can also specify this globally on init:
 
 ```html
 <!DOCTYPE html>
