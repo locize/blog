@@ -17,6 +17,7 @@ docs:
       Using with formatJS / messageformat: /integration-formatjs.html
       Using the API: /api.html
     more:
+      NEW InContext Editor: /incontext-editor.html
       Integrated Services: /services.html
       Namespaces: /namespaces.html
       Versioning: /versioning.html
