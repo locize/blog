@@ -14,7 +14,7 @@ So we decided to bring the locize project closer to your website / application:
 ![](/images/editor/editor.png "Screen of InContext Editor")
 </div>
 
-Simply turn on this feature by calling your url with appending `?locize=true` (**locizify script > v2.3.0**). On the right hand locize will be opened and you can login as usual. Now you're ready to go — click on any content to open that text inside your project.
+Simply turn on this feature by calling your url by appending `?locize=true` (**locizify script > v2.3.0**). On the right hand locize will be opened and you can login as usual. Now you're ready to go — click on any content to open that text inside your project.
 
 You can disable the linking by clicking the bottom right button or pressing `ctrl-x`.
 

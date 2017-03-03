@@ -6,6 +6,11 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.4.0 <small>2017-03-02</small></h5>
+
+- Introducing the InContext Editor [read more](/incontext-editor.html)
+- optimization in locizify parsing and cleaning [read more](/2017-02-21-locizify-v2/)
+
 <h5>v2.3.0 <small>2017-02-19</small></h5>
 
 - download all translation of a version
