@@ -6,6 +6,12 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.5.0 <small>2017-03-08</small></h5>
+
+- option to restict user access to one or more languages
+- only admins can manually publish versions
+- locize-cli: expose functionality for usage inside node.js
+
 <h5>v2.4.0 <small>2017-03-02</small></h5>
 
 - Introducing the InContext Editor [read more](/incontext-editor.html)
