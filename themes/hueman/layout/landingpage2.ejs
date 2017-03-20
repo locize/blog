@@ -4,9 +4,39 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <title>locize - localization as a service</title>
+
+    <%
+      var keywords = [];
+      if (page.tags) {
+        for (var i in page.tags.data) {
+            keywords.push(page.tags.data[i].name);
+        }
+      }
+      keywords = keywords.concat(('localization,internationalization,localize,translate,locize,l10n,i18n,javascript,nodejs,localization as a service,laas').split(','));
+    %>
+    <meta name="keywords" content="<%= keywords.join(',') %>" />
+    <%- open_graph({
+        image:          thumbnail(page),
+        fb_app_id:      theme.miscellaneous.open_graph.fb_app_id,
+        fb_admins:      theme.miscellaneous.open_graph.fb_admins,
+        twitter_id:     theme.miscellaneous.open_graph.twitter_id,
+        google_plus:    theme.miscellaneous.open_graph.google_plus
+    }) %>
+    <%- meta(page) %>
+
+    <% if (theme.rss) { %>
+        <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="<%= theme.rssType || "application/atom+xml" %>" />
+    <% } %>
+
+    <% if (theme.customize.favicon) { %>
+        <link rel="icon" href="<%- url_for(theme.customize.favicon) %>" />
+    <% } %>
+
+    <% if (theme.plugins.google_analytics) { %>
+        <%- partial('plugin/google-analytics') %>
+    <% } %>
+
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
