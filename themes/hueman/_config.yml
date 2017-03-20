@@ -1,9 +1,8 @@
 # Menus
 menu:
     Home: /
-    Features: /#features
-    Pricing: /#pricing
     Docs: /integration.html
+    Pricing: /pricing.html
     Blog: /categories/Post/
     # Delete this row if you don't want categories in your header nav bar
     # Categories:

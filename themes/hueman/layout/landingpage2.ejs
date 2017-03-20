@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>locize - localization as a service</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+    <link href="css/main.min.css" rel="stylesheet">
+    <!--if lt IE 9
+    script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+    script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+
+    -->
+    <!-- consent script    -->
+    <script>window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://locize.com/privacy.html","theme":"dark-bottom"};</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!-- LOCIZIFY-->
+    <script src="https://unpkg.com/locizify@^2.0.0"></script>
+    <script>
+      locizify.init({
+        // saveMissing: true,
+        fallbackLng: 'en',
+        debug: false,
+        backend: {
+          projectId: '3d0aa5aa-4660-4154-b6d9-907dbef10bb2',
+          apiKey: 'key', // only needed if you like to add missing segments
+          referenceLng: 'en',
+          version: 'latest'
+        },
+        editor: {
+          bodyStyle: 'width: calc(100% - 505px);'
+        },
+        namespace: 'landingpageV2',
+        onInitialTranslate: function() {
+          window.initParticle();
+        }
+      });
+
+    </script>
+  </head>
+  <body id="page-top" style="display: none;">
+    <nav class="navbar navbar-default navbar-fixed-top" id="mainNav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i></button><a class="navbar-brand page-scroll" href="#page-top"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href="#features">Features</a></li>
+            <li><a href="/integration.html">Documentation</a></li>
+            <li><a href="/categories/Post/">Blog</a></li>
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
+            <li><a href="https://www.locize.io/login" target="_blank">Login</a></li>
+            <li class="selectLng">
+              <select id="languageSelect" translated="" onChange="handleSelectChange()"></select><i class="fa fa-caret-down" aria-hidden="true"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="header-overlay">
+        <div id="particles-js"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7">
+              <div class="header-content">
+                <div class="header-content-inner"><img id="brand-logo" src="img/locize_white.svg" style="max-width: 300px; margin-bottom: 30px;">
+                  <h1>Bridging the gap between translation and development.</h1><a class="btn btn-outline btn-xl page-scroll" href="https://www.locize.io/register" target="_blank">Start Now for Free!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="device-container">
+                <div class="device-mockup iphone6_plus portrait white">
+                  <div class="device">
+                    <div class="screen"><img class="img-responsive" src="img/screenshots/iphone6/dashboard.png" alt=""></div>
+                    <!-- .button-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="features bg-primary text-center" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">
+              <h2>Grow global &ndash; get locized</h2>
+              <p class="head">You're in need of a localization solution that keeps up with your vibrant business environment?</p>
+              <p class="head">Does your current process break your agile development or continuous deployment process?</p>
+              <p style="margin-top: 20px;">Find out what locize can offer to make your localization experience a success story.</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="container-fluid">
+              <a name="features" ></a>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="device-container">
+                      <div class="device-mockup macbook_2015 silver">
+                        <div class="device">
+                          <div class="screen"><img class="img-responsive" src="img/screenshots/screen/integrate_s.jpg" alt=""></div>
+                          <div class="button"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3>Time saving over 60%</h3>
+                    <p>Adding one line of code to your website is all needed to get started. All your content gets extracted and sent to your locize project ready to be translated.</p>
+                    <p>Every change to your translations gets instantly reflected on your website and vice versa.</p>
+                    <p>Never again copy/paste translations from a to b.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="device-container">
+                      <div class="device-mockup macbook_2015 silver">
+                        <div class="device">
+                          <div class="screen"><img class="img-responsive" src="img/screenshots/screen/stats_s.jpg" alt=""></div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3>Continuous Localization Lifecycle</h3>
+                    <p>Locize enables you to separate your development and translation process. Keep translating while your development team adds new features to your project.</p>
+                    <p>Update translations anytime, anywhere. No longer depend on your development team adding the new translation files to the codebase.</p>
+                    <p>Keep track of newly added segments. Never lose the overview over your translation progress.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="device-container">
+                      <div class="device-mockup macbook_2015 silver">
+                        <div class="device">
+                          <div class="screen"><img class="img-responsive" src="img/screenshots/screen/incontext_editor_s.jpg" alt=""></div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3>Context Matters &mdash; InContext Editing</h3>
+                    <p>Doing proper translations needs more information by providing the context. The best context is always the place where the content is used – your website!</p>
+                    <p>Our incontext editor enables you to directly update your translations from within your website.</p>
+                    <p>Every text segment is one click away! Stop loosing time searching...</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="device-container">
+                      <div class="device-mockup macbook_2015 silver">
+                        <div class="device">
+                          <div class="screen"><img class="img-responsive" src="img/screenshots/screen/editor_s.jpg" alt=""></div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3>Translation Management</h3>
+                    <p>You can translate your content using our powerful editor.</p>
+                    <p>Invite your inhouse translators giving them the rights for the languages needed.</p>
+                    <p>Got a language not covered? Need extra help or prefer to completely outsource the job? Choose one of our translation service partners.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">
+              <h2>Get translated today. Effortless &amp; riskfree.</h2>
+              <p class="text-muted">Got a small landing page or a big web application - locize gets you there!</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="device-container">
+              <div class="device-mockup ipad_air_2 portrait silver">
+                <div class="device">
+                  <div class="screen"><img class="img-responsive" src="img/screenshots/ipad/project_stat.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="feature-item"><i class="icon-directions text-primary"></i>
+                    <h3>Flexible Integration</h3>
+                    <p class="text-muted">Choose between flexible integration options meeting your needs. From integration to wordpress or to your app built with react.js, angular, vue, ...</p>
+                    <p class="text-muted">From our one liner script enabling localization even for non developers to instrumenting your code using i18next, formatjs, polyglot, ...</p>
+                    <p class="text-muted">Profit from our experience. We will help you to decide for the best solution.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item"><i class="icon-target text-primary"></i>
+                    <h3>Risk free</h3>
+                    <p class="text-muted">In contrast to other solutions out there we built ours on most popular open source frameworks.</p>
+                    <p class="text-muted">If you ever plan to stop using locize your translations could be used by i18next, formatjs or polyglot. Nothing lost. Zero risk.</p>
+                    <p class="text-muted">We believe in the value of our product. No need to make you dependent by being incompatible with standards.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="feature-item"><i class="icon-pie-chart text-primary"></i>
+                    <h3>Project progress</h3>
+                    <p class="text-muted">We provide you with all analytics information needed to keep control over your localization progress!</p>
+                    <p class="text-muted">Always keep the overview and keep up translating your website just in time.</p>
+                    <p class="text-muted">Never fall behind in translating your project. Stop being the bottleneck in your agile prozess.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item"><i class="icon-credit-card text-primary"></i>
+                    <h3>Variable pricing</h3>
+                    <p class="text-muted">Pay for what you use. There are no intransparent plans forcing you to pay for stuff you do not need.</p>
+                    <p class="text-muted" merge="">Costs are based on your usage. Learn more using our&nbsp;<a href="/pricing.html">price calculator</a>.</p>
+                    <p class="text-muted">Find a detailed billing forecast and history on your project.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Stop waiting.<br>Start localizing.</h2>
+          <h3>Start by trying our demo generated on your newly registered account or create a new project and translate your application.</h3><a class="btn btn-outline btn-xl page-scroll" href="https://www.locize.io/register" target="_blank">Let&apos;s Get Started!</a>
+          <p class="hint">* 14d free trial. No credit card needed! No obligations!</p>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <section class="contact bg-tertiary" id="contact">
+      <div class="container">
+        <h2>Have questions?</h2>
+        <p>Building a global business can be challenging. We will help you getting there.</p><a class="btn btn-outline btn-xl page-scroll" href="mailto:support@locize.com">Contact us!</a>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><img src="img/locize_color.svg" style="max-width: 120px; margin-left: -5px;">
+            <p>inweso GmbH</p>
+            <p>Switzerland</p>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li><a href="/integration.html">Documentation</a></li>
+              <li><a href="/pricing.html">Pricing</a></li>
+              <li><a href="/categories/Post/">Blog</a></li>
+              <li><a href="/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li>
+                <ul class="list-inline list-social">
+                  <li class="social-twitter"><a href="https://twitter.com/locize" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-facebook"><a href="https://www.facebook.com/Locize-1672640746084189/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="social-youtube"><a href="https://www.youtube.com/channel/UCPYQjBbbXojUcB8qjeIB3uA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+              </li>
+              <li><a href="/privacy.html">Privacy</a></li>
+              <li><a href="/terms.html">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center footer-copyright">
+          <p>&copy; 2017 inweso GmbH. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
