@@ -6,6 +6,12 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.6.0 <small>2017-04-01</small></h5>
+
+- enable machine translations
+- optimizations in incontext editor for using on bootstrap templates
+- bug fixes
+
 <h5>v2.5.0 <small>2017-03-08</small></h5>
 
 - option to restict user access to one or more languages
