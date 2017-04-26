@@ -176,6 +176,7 @@ There is a graduated price per unit. Find more information below the calculator.
 
 #### graduated prices
 
+The unit prices are graduated. So every customer profits from discounted pricing while growing. So your locize projects pricing will always stay affordable.
 
 ##### words
 

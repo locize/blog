@@ -14,9 +14,11 @@ docs:
       Using with i18next: /integration-i18next.html
       Using with polyglot: /integration-polyglot.html
       Using with formatJS / messageformat: /integration-formatjs.html
+      Using with react, angular, ...: /integration-frameworks.html
+      Using with xliff, gettext: /integration-nonjson.html
       Using the API: /api.html
     more:
-      NEW InContext Editor: /incontext-editor.html
+      InContext Editor: /incontext-editor.html
       Pricing: /pricing.html
       Integrated Services: /services.html
       Namespaces: /namespaces.html
