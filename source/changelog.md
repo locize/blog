@@ -6,6 +6,14 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.8.0 <small>2017-06-13</small></h5>
+
+- adds auditing feature: [read more](/services.html#auditing)
+- Password recovery by email
+- export for xliff and android resources
+- update of build chain
+
+
 <h5>v2.7.0 <small>2017-05-31</small></h5>
 
 - option to set languages to be (un)tracked under settings - untracked languages will be not showing warning indications for not being 100% translated - use that for eg. en-GB to only translate segments which are different from en (based on american english)

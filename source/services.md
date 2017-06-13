@@ -4,6 +4,33 @@ hideTitle: true
 noDate: true
 ---
 
+## Addon services
+
+
+<a name="auditing" />
+<img style="margin-left: 0px;" alt="" title="MateCat" data-url="/images/services/matecat.png" class="scrollLoading" src="/images/services/auditing.png">
+
+<div style="margin: 20px 0px;">
+  <span style="background-color: #607d8b; color: #fff; padding: 5px 10px; margin-right: 5px;" title="Powered by locize">Powered by locize</span>
+  <span style="background-color: #607d8b; color: #fff; padding: 5px 10px; margin-right: 5px;" title="Auditing">Auditing</span>
+</div>
+
+<h5>$0.02 per audit unit <sup>1)</sup></h5>
+
+Auditing enables you to track any changes done to your translations. It empowers you to prove anytime when a content fragment was changed. You can choose between a time to live starting from 3 months up to 10 years.
+
+*1) Audit unit is calculated per modification multiplied with time to live, eg:*
+<br />
+*&nbsp;&nbsp;- You save 3 changes and auditing set to 3 years ttl: 3 &#42; 3 -> 9 audit units*
+<br />
+*&nbsp;&nbsp;- You save 4 changes and auditing set to 3 months ttl: 4 &#42; 0.25 -> 1 audit unit*
+
+
+<br>
+
+## Translation partners
+
+
 Needing extra help, having some bottleneck or want to completely outsource the translation.
 Get the translations done by one of our partners:
 
