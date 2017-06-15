@@ -6,15 +6,39 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons">payment</i> Pricing</h4>
 
-Our pricing is variable and gets calculated based on 3 metrics:
+We offer no fix price plans. All our **cost are variable** and based on your real usage.
 
-- Amount of words translated in your project
-- Amount of downloads to your client (your users load your app / website)
-- Amount of modifications you do using our application / API
+**This means for you:**
 
-There is a graduated price per unit. Find more information below the calculator.
+- Never being forced to be auto upgraded from a $49 to a $199 plan just because you cross a limit (words, pageviews, languages, users) just marginally *(your real usage would be around $50 - but the plan forces you to be a enterprisy $199 plan consumer)*.
+- Never pay a bigger plan just because of that one feature you need most but was not included in your current plan
 
-[Signup for a free 14d trial](https://www.locize.io/register) - using the billing forecast in your project you always got your costs under control.
+**The costs are based on following metrics:**
+
+- Amount of words *(in source and target languages, excluding versions)*
+- Amount of downloads *(of translation files from our CDN to your users)*
+- Amount of modifications *(adding, updating, deleting translations)*
+
+Cost per unit are graduated.
+
+**This means for you:**
+
+- Costs are based on your projects size and success
+- Costs adapt to your usage: having months with less modifications (usage of locize app) you pay less
+- Costs grow slower the bigger your project gets
+- No limit on users
+- No limit on languages
+- All the features - no paywalls
+
+<div class="img-100">
+![](/images/pricing/cost_comparison.gif "cost comparison")
+</div>
+
+As you can see our costs are higher when using locize during times of high usage (eg. initial translation, adding a new language, adding new content to be translated) - this is also the time you save the most using locize by saving time and effort. The costs overall are lower compared to a fix price subscription plan. There are no permanent big raises of costs which were introduced by having to switch to a bigger plan because your plan reached limits or because you needed some feature that was locked behind a paywall.
+
+
+[Signup for a free 14d trial](https://www.locize.io/register) - never pay more
+
 
 --------
 
@@ -174,9 +198,9 @@ There is a graduated price per unit. Find more information below the calculator.
 
 ----------
 
-#### graduated prices
+#### graduated cost per unit
 
-The unit prices are graduated. So every customer profits from discounted pricing while growing. So your locize projects pricing will always stay affordable.
+The unit prices are graduated. Every customer profits from discounted pricing while growing. Your locize projects costs will always stay affordable.
 
 ##### words
 
