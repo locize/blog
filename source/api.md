@@ -181,6 +181,24 @@ curl -X GET https://api.locize.io/download/3d0aa5aa-4660-4154-b6d9-907dbef10bb2
 (You can find your projectId in your projects settings under the API Tab.)
 
 
+<h4 class="headline"><i class="material-icons" translated>code</i> Copy version</h4>
+
+If you are using multiple versions of your translations you can ask locize to copy (replace) all translations from one version to the other.
+For example this is very useful when you release your translation files from one version to the other via your custom tooling.
+
+This is easy. It's a HTTP POST request without body with this url pattern:
+
+`https://api.locize.io/copy/{projectId}/version/{fromVersion}/{toVersion}`
+
+<h5>example:</h5>
+
+```sh
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer mysecret-very-4f2e-b123-d432d86430c6" https://api.locize.io/copy/3d0aa5aa-4660-4154-b6d9-907dbef10bb2/version/latest/production
+```
+
+(You can find your projectId and API Key in your projects settings under the API Tab. Keep in mind to use the API Key for `{toVersion}`)
+
+
 <div class="contact">
 <hr />
 <p class="callout extra-margin">Have questions? <strong><a href="mailto:support@locize.com">Contact us!</a></strong></p>
