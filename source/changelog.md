@@ -6,6 +6,11 @@ noDate: true
 
 <h4 class="headline"><i class="material-icons" translated>track_changes</i> Changelog</h4>
 
+<h5>v2.9.0 <small>2017-06-15</small></h5>
+
+- change to billing mode to charge based on current open modifications, downloads instead of last month
+
+
 <h5>v2.8.0 <small>2017-06-13</small></h5>
 
 - adds auditing feature: [read more](/services.html#auditing)
