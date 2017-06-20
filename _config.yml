@@ -18,7 +18,7 @@ timezone: Europe/Zurich
 # root: /
 # url: http://erirai.github.io/
 # root: /blog/
-url: http://locize.com/
+url: http://blog.locize.com/
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -79,8 +79,8 @@ time_format: HH:mm:ss
 per_page: 12
 pagination_dir: page
 
-exclude_generators:
-- index
+#exclude_generators:
+#- index
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
