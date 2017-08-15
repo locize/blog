@@ -11,7 +11,7 @@ thumbnail: /2017-06-22-how-locize-leverages-serverless/title.png
 ---
 
 <div class="img-100">
-![](title.png "locize flexibility")
+![](title.png "locize © inweso GmbH")
 </div>
 
 _[slides](https://www.slideshare.net/adrai/locize-tech-talk)_
