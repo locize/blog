@@ -100,8 +100,8 @@ There are some libraries that can help with this issue i.e. [Fragment replacemen
 
 ## Did you put the original text through a spelling, grammar, and style check?
 Prevent back-and-forth rechecking that my stall the whole process.
-As an alternative you should be thinking of making some sort of [Continuous Localization](https://medium.com/@adrai/continuous-development-integration-and-localization-continuous-deployment-40ca6b9be771).
-With [Continuous Localization](https://medium.com/@adrai/continuous-development-integration-and-localization-continuous-deployment-40ca6b9be771) you can take care of the translations from the first day and keep up with changes with ease.
+As an alternative you should be thinking of making some sort of [Continuous Localization](https://blog.locize.com/2016-10-05-continuous-development-integration-and-localization-cd/).
+With [Continuous Localization](https://blog.locize.com/2016-10-05-continuous-development-integration-and-localization-cd/) you can take care of the translations from the first day and keep up with changes with ease.
 The process of translation and development are separated.
 
 
@@ -118,7 +118,7 @@ Even better are localization management systems that offers a completely integra
 
 ## Where are the localization assets?
 Store localization assets in an easy to access location, for swift access, import and export.
-With a proper [Continuous Localization](https://medium.com/@adrai/continuous-development-integration-and-localization-continuous-deployment-40ca6b9be771) solution translations can be updated without the need to release an update of your app.
+With a proper [Continuous Localization](https://blog.locize.com/2016-10-05-continuous-development-integration-and-localization-cd/) solution translations can be updated without the need to release an update of your app.
 For example: translations deployed to a CDN and consumed from your application.
 
 
