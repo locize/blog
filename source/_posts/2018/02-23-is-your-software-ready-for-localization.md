@@ -4,7 +4,6 @@ tags:
   - locize
   - localization
   - internationalization
-  - internationalization
   - continuous development
   - continuous integration
   - continuous localization
