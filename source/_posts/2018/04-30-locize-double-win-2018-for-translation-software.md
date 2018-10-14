@@ -20,4 +20,4 @@ locize earned FinancesOnline’s **Great User Experience** award under their [be
 
 ![](Risign-Star2018.png "locize © inweso GmbH")
 
-The FinancesOnline review team also regarded locize as a **Rising Star** for 2018 due to our highly positive traction with clients. It isn’t a surprise to see our software receive this distinction after FinancesOnline wrote positive remarks in their locize review such sa *“cost-effective”*, *“always safe”* content thanks to our two-factor authentication, and accelerated and streamlined localization processes. 
+The FinancesOnline review team also regarded locize as a **Rising Star** for 2018 due to our highly positive traction with clients. It isn’t a surprise to see our software receive this distinction after FinancesOnline wrote positive remarks in their locize review such as *“cost-effective”*, *“always safe”* content thanks to our two-factor authentication, and accelerated and streamlined localization processes. 
