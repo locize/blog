@@ -68,5 +68,5 @@ By doing this it is even possible to change or add translations without shipping
 
 <div class="contact" style="margin-top: 0px;">
 <hr />
-<p class="callout extra-margin">...give it a try: <strong><a href="https://www.locize.io/register">Register!</a></strong></p>
+<p class="callout extra-margin">...give it a try: <strong><a href="https://www.locize.app/register">Register!</a></strong></p>
 </div>

@@ -48,7 +48,7 @@ Additionally AWS has not only lambda but completes the serverless offering with:
 
 ![](setup.png "locize © inweso GmbH")
 
-When Developers/Translation Editors/Managers, etc… goes to www.locize.io, the locize-app-client (which is hosted on S3 and exposed by CloudFront) is served. The client then accesses our lambda backend through the API-Gateway also exposed by CloudFront. Our main working storage (DynamoDB) is then accessed by our lambda functions.
+When Developers/Translation Editors/Managers, etc… goes to www.locize.app, the locize-app-client (which is hosted on S3 and exposed by CloudFront) is served. The client then accesses our lambda backend through the API-Gateway also exposed by CloudFront. Our main working storage (DynamoDB) is then accessed by our lambda functions.
 Each time someone publishes (or auto-publishes) a translation resource a lambda function will save that resource to S3. When published, the endusers of your product can access them via CDN edge locations offered and exposed by CloudFront too.
 
 

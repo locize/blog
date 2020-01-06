@@ -32,7 +32,7 @@ We decided to do a short spike using a node.js express server loading the resour
 
 ```js
 function load(lng, callback) {
-  var url = 'https://api.locize.io/[YOUR_PROJECT_ID]/latest/{{lng}}/translation'.replace('{{lng}}', lng);
+  var url = 'https://api.locize.app/[YOUR_PROJECT_ID]/latest/{{lng}}/translation'.replace('{{lng}}', lng);
   request(url, function(err, res, body) {
     callback(err, lng, body);
   });
@@ -41,7 +41,7 @@ function load(lng, callback) {
 
 **The JSON we load from the locize project looks like:**
 
-[https://api.locize.io/897381a6-125c-40b8-9b28-2f80ae9a3612/latest/en/translation](https://api.locize.io/897381a6-125c-40b8-9b28-2f80ae9a3612/latest/en/translation)
+[https://api.locize.app/897381a6-125c-40b8-9b28-2f80ae9a3612/latest/en/translation](https://api.locize.app/897381a6-125c-40b8-9b28-2f80ae9a3612/latest/en/translation)
 
 ```json
 {
@@ -95,7 +95,7 @@ So we started from what we did with polyglot. For the backend there was no chang
 
 **The JSON we load from the locize project looks like:**
 
-[https://api.locize.io/9ac4fb1f-be22-4028-bcbc-0da13010b35e/latest/en/translation](https://api.locize.io/9ac4fb1f-be22-4028-bcbc-0da13010b35e/latest/en/translation)
+[https://api.locize.app/9ac4fb1f-be22-4028-bcbc-0da13010b35e/latest/en/translation](https://api.locize.app/9ac4fb1f-be22-4028-bcbc-0da13010b35e/latest/en/translation)
 
 ```json
 {
