@@ -32,11 +32,11 @@ The application was rewritten from the ground up and now splits into two major p
 ## Project pages
 The project pages consists of details and actions about your versions, languages, namespaces, etc.
 
-There's also optional cards about your orders and another card about your branched projects (crowdbased and localistars)
+There's also an optional card about your orders and another card about your branched projects (crowdbased and localistars)
 ![](orders.jpg "locize © inweso GmbH")
 ![](branches.jpg "locize © inweso GmbH")
 
-We moved everything developer related to a dedicated page, containing development settings, api keys and relevant metrics. There's also the possibility to configure a webhook or integrate slack.
+We moved everything related to the development to a dedicated page, containing development settings, api keys and relevant metrics. There's also the possibility to configure a webhook or integrate slack.
 ![](dev.jpg "locize © inweso GmbH")
 
 ## CAT pages
