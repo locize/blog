@@ -1,0 +1,653 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>locizify v2 - improvements | locize - localization as a service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="locizify" />
+    
+    <meta name="description" content="We use the unpkg CDNIn the past we deployed the locizify script to our own CDN space. While this was ok migrating over to https://unpkg.com allows us to provide you an improved usage. In the past your">
+<meta name="keywords" content="locizify">
+<meta property="og:type" content="article">
+<meta property="og:title" content="locizify v2 - improvements">
+<meta property="og:url" content="http://blog.locize.com/2017-02-21-locizify-v2/index.html">
+<meta property="og:site_name" content="locize - localization as a service">
+<meta property="og:description" content="We use the unpkg CDNIn the past we deployed the locizify script to our own CDN space. While this was ok migrating over to https://unpkg.com allows us to provide you an improved usage. In the past your">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://blog.locize.com/images/locize_color.svg">
+<meta property="og:updated_time" content="2017-06-23T11:05:30.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="locizify v2 - improvements">
+<meta name="twitter:description" content="We use the unpkg CDNIn the past we deployed the locizify script to our own CDN space. While this was ok migrating over to https://unpkg.com allows us to provide you an improved usage. In the past your">
+<meta name="twitter:image" content="http://blog.locize.com/images/locize_color.svg">
+<meta name="twitter:creator" content="@locize">
+    
+
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <script type="text/javascript">
+// (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+// (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+// m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+// })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+// ga('create', 'UA-78143856-1', 'auto');
+// ga('send', 'pageview');
+// ga('set', 'anonymizeIp', true);
+
+</script>
+    
+    
+
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+
+  <body>
+      <div id="wrap">
+          <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <!--<a href="/" class="logo"></a>-->
+                        <a href="http://www.locize.com" class="logo" target="_new"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                            <li class="main-nav-list-item" >
+                              <a class="main-nav-list-link" href="https://docs.locize.com" target="_new">Docs</a>
+                              <a class="main-nav-list-link" href="https://faq.locize.com" target="_new">FAQ</a>
+                              <a class="main-nav-list-link" href="https://www.locize.app/login" target="_new">Login</a>
+                            </li>
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+          <div class="container">
+              <div class="main-body container-inner">
+                  <div class="main-body-inner">
+                      <section id="main">
+                          <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/Post/">Post</a>
+    </h1>
+</div>
+                          <div class="main-body-content">
+                              <article id="post-2017-02-21-locizify-v2" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+          <header class="article-header">
+              
+    
+        <h1 class="article-title" itemprop="name">
+        locizify v2 - improvements
+        </h1>
+    
+
+          </header>
+        
+        
+        <div class="article-subtitle">
+            <a href="/2017-02-21-locizify-v2/" class="article-date">
+    <time datetime="2017-02-20T23:00:00.000Z" itemprop="datePublished">21/02/2017</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/locizify/">locizify</a></li></ul>
+
+        </div>
+        
+        
+
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="We-use-the-unpkg-CDN"><a href="#We-use-the-unpkg-CDN" class="headerlink" title="We use the unpkg CDN"></a>We use the unpkg CDN</h2><p>In the past we deployed the locizify script to our own CDN space. While this was ok migrating over to <a href="https://unpkg.com" target="_blank" rel="external">https://unpkg.com</a> allows us to provide you an improved usage. In the past your code was bound to the latest deployed script on our CDN. As we strongly respect <a href="http://semver.org/" target="_blank" rel="external">semver</a> we just were able to update the script with non breaking updates.</p>
+<p>Now as you could use the source from unpkg you&#39;re able to fix the version in your code like:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">https://unpkg.com/locizify // latest</div><div class="line">https://unpkg.com/locizify@2.0.1 // specific version</div><div class="line">https://unpkg.com/locizify@^2.0.0 // latest non breaking version 2.x.x</div></pre></td></tr></table></figure>
+<p>full sample:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">id</span>=<span class="string">"locizify"</span> <span class="attr">projectid</span>=<span class="string">"[PROJECT_ID]"</span></span></div><div class="line"><span class="tag">    <span class="attr">apikey</span>=<span class="string">"[API_KEY]"</span> <span class="attr">referencelng</span>=<span class="string">"[LNG]"</span></span></div><div class="line"><span class="tag">    <span class="attr">fallbacklng</span>=<span class="string">"[LNG]"</span> <span class="attr">saveMissing</span>=<span class="string">"true"</span></span></div><div class="line"><span class="tag">    <span class="attr">src</span>=<span class="string">"https://unpkg.com/locizify@^2.0.0"</span> /&gt;</span><span class="undefined"></span></div></pre></td></tr></table></figure>
+<h2 id="New-Features"><a href="#New-Features" class="headerlink" title="New Features"></a>New Features</h2><h3 id="merging"><a href="#merging" class="headerlink" title="merging"></a>merging</h3><p>Sometimes you want to keep innerHTML of an element together to make it easier to translate.</p>
+<p>Before:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Might be easier to translate this <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>the new way<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// resulting keys</span></div><div class="line">&#123;</div><div class="line">  <span class="string">"Might be easier to translate this "</span>: <span class="string">"Might be easier to translate this "</span>,</div><div class="line">  <span class="string">"the new way"</span>: <span class="string">"the new way"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Using merge:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">merge</span>&gt;</span>Might be easier to translate this <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>the new way<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// resulting keys</span></div><div class="line">&#123;</div><div class="line">  "Might be easier to translate this &lt;a href="#"&gt;the new way&lt;/a&gt;": "Might be easier to translate this &lt;a href="#"&gt;the new way&lt;/a&gt;"</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>While you can set the <code>merge</code> attribute on every element you like to have this behaviour. You can also specify this globally on init:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://unpkg.com/locizify@^2.0.0"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line"><span class="undefined">      locizify.init(&#123;</span></div><div class="line"><span class="javascript">        <span class="comment">// merging content (eg. a tags in p tags)</span></span></div><div class="line"><span class="javascript">        mergeTags: [], <span class="comment">// tags to merge innerHtml to one key</span></span></div><div class="line"><span class="javascript">        inlineTags: [], <span class="comment">// tags to inline (eg. a, span, abbr, ...)</span></span></div><div class="line"><span class="javascript">        ignoreInlineOn: [], <span class="comment">// tags to ignore inlining tags under inlineTags</span></span></div><div class="line"><span class="undefined">      &#125;);</span></div><div class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">  ...</div></pre></td></tr></table></figure>
+<h3 id="cleanup-for-keys"><a href="#cleanup-for-keys" class="headerlink" title="cleanup for keys"></a>cleanup for keys</h3><p>With v2 we improved the key generation from content by removing unused whitespaces:</p>
+<p>Before:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">  Having text</div><div class="line">  over multiple lines</div><div class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span> with space in front<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// resulting keys</span></div><div class="line">&#123;</div><div class="line">  <span class="string">"  Having text/n  over multiple lines"</span>: <span class="string">"  Having text/n  over multiple lines"</span>,</div><div class="line">  <span class="string">" with space in front"</span>: <span class="string">" with space in front"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Using cleanup (default enabled in v2):</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">  Having text</div><div class="line">  over multiple lines</div><div class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span> with space in front<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// resulting keys</span></div><div class="line">&#123;</div><div class="line">  <span class="string">"Having text over multiple lines"</span>: <span class="string">"Having text over multiple lines"</span>,</div><div class="line">  <span class="string">"with space in front"</span>: <span class="string">"with space in front"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>All the unnecessary whitespaces get removed making translation more easy. You can manually toggle this off or ignore it for certain tags:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://unpkg.com/locizify@^2.0.0"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line"><span class="undefined">      locizify.init(&#123;</span></div><div class="line"><span class="javascript">        <span class="comment">// cleanup for keys</span></span></div><div class="line"><span class="javascript">        cleanIndent: <span class="literal">true</span>, <span class="comment">// removes indent, eg. if a p tag spans multiple lines</span></span></div><div class="line"><span class="javascript">        ignoreCleanIndentFor: [<span class="string">'PRE'</span>, <span class="string">'CODE'</span>], <span class="comment">// ignores cleaning up of indent for those tags needing that extra spaceing</span></span></div><div class="line"><span class="javascript">        cleanWhitespace: <span class="literal">true</span>, <span class="comment">// removes surrounding whitespace from key</span></span></div><div class="line"><span class="undefined">      &#125;);</span></div><div class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">  ...</div></pre></td></tr></table></figure>
+<h3 id="Fragment-replacement-for-links-and-images"><a href="#Fragment-replacement-for-links-and-images" class="headerlink" title="Fragment replacement for links and images"></a>Fragment replacement for links and images</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/images/&#123;&#123;a.png&#125;&#125;"</span> <span class="attr">alt</span>=<span class="string">"big A"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"/&#123;&#123;statistic&#125;&#125;"</span>&gt;</span>Open my statistics<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>You will find <code>a.png</code> and <code>statistic</code> to be a key in your translations - it&#39;s value can be replaced to eg. a-de.png for german (all other languages will fallback to a.png)</p>
+<h3 id="Translate-other-then-default-attributes-on-elements"><a href="#Translate-other-then-default-attributes-on-elements" class="headerlink" title="Translate other then default attributes on elements"></a>Translate other then default attributes on elements</h3><p>eg: for validation error messages
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">data-parsley-error-message</span>=<span class="string">"This field is required"</span> /&gt;</span></div></pre></td></tr></table></figure></p>
+<p>Just add <code>data-parsley-error-message</code> to the <code>translateAttributes</code> Array on init:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://unpkg.com/locizify@^2.0.0"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line"><span class="undefined">      locizify.init(&#123;</span></div><div class="line"><span class="javascript">        translateAttributes: [<span class="string">'placeholder'</span>, <span class="string">'title'</span>, <span class="string">'alt'</span>, <span class="string">'value#input.type=button'</span>, <span class="string">'value#input.type=submit'</span>],</span></div><div class="line"><span class="undefined">      &#125;);</span></div><div class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">  ...</div></pre></td></tr></table></figure>
+<p>You can define rules like:</p>
+<p><code>`[attributeToTranslate]#element.andOrAttributeWithValue</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">value#input // all values on input</div><div class="line">value#type // all values on elements having an attribute type</div><div class="line">value#input.type=button // all values on input element having an attribute type set to button</div></pre></td></tr></table></figure>
+<h2 id="Migration-from-v1"><a href="#Migration-from-v1" class="headerlink" title="Migration from v1"></a>Migration from v1</h2><p>To make v2 having the same behaviour as v1 you could change the init options like:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://unpkg.com/locizify@^2.0.0"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line"><span class="undefined">      locizify.init(&#123;</span></div><div class="line"><span class="javascript">        <span class="comment">// cleanup for keys</span></span></div><div class="line"><span class="javascript">        cleanIndent: <span class="literal">false</span>,</span></div><div class="line"><span class="javascript">        cleanWhitespace: <span class="literal">false</span>,</span></div><div class="line"><span class="undefined"></span></div><div class="line"><span class="undefined">        ...</span></div><div class="line"><span class="undefined">      &#125;);</span></div><div class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">  ...</div></pre></td></tr></table></figure>
+<p>This way you assert keys get not cleaned of whitespaces so they match the counterpart of v1.</p>
+
+        </div>
+        <footer class="article-footer">
+          
+          
+
+
+
+    <a data-url="http://blog.locize.com/2017-02-21-locizify-v2/" data-id="cjlddaolp000lt1z3sgf0l44n" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+          
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+    </section>
+
+
+                          </div>
+                      </section>
+                      <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/locize" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="youtube" href="https://www.youtube.com/channel/UCPYQjBbbXojUcB8qjeIB3uA" target="_blank">
+                        <i class="icon fa fa-youtube"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="https://www.facebook.com/Locize-1672640746084189/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017-06-22-how-locize-leverages-serverless/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            How locize leverages serverless
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016-11-16-localization-fun/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">Localization should be fun</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020-12-02-new-locize/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2020-12-02-new-locize/title.jpg)" alt="What&#39;s new in locize" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
+                            <p class="item-title"><a href="/2020-12-02-new-locize/" class="title">What&#39;s new in locize</a></p>
+                            <p class="item-date"><time datetime="2020-12-01T23:00:00.000Z" itemprop="datePublished">02/12/2020</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020-06-13-localistars/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2020-06-13-localistars/title.jpg)" alt="Stay ahead of the game with localistars" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
+                            <p class="item-title"><a href="/2020-06-13-localistars/" class="title">Stay ahead of the game with localistars</a></p>
+                            <p class="item-date"><time datetime="2020-06-12T22:00:00.000Z" itemprop="datePublished">13/06/2020</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018-08-28-a-tale-of-the-last-10-years-in-web-development/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2018-08-28-a-tale-of-the-last-10-years-in-web-development/title.png)" alt="A tale of the last 10 years in web development" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
+                            <p class="item-title"><a href="/2018-08-28-a-tale-of-the-last-10-years-in-web-development/" class="title">A tale of the last 10 years in web development</a></p>
+                            <p class="item-date"><time datetime="2018-08-27T22:00:00.000Z" itemprop="datePublished">28/08/2018</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018-04-30-locize-double-win-2018-for-translation-software/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2018-04-30-locize-double-win-2018-for-translation-software/title.png)" alt="locize - Translation Software Distinguished by Platform for SaaS Reviews as a Great User Experience and Rising Star for 2018" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
+                            <p class="item-title"><a href="/2018-04-30-locize-double-win-2018-for-translation-software/" class="title">locize - Translation Software Distinguished by Platform for SaaS Reviews as a Great User Experience and Rising Star for 2018</a></p>
+                            <p class="item-date"><time datetime="2018-04-29T22:00:00.000Z" itemprop="datePublished">30/04/2018</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018-02-23-is-your-software-ready-for-localization/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2018-02-23-is-your-software-ready-for-localization/title.png)" alt="Is your software ready for localization?" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
+                            <p class="item-title"><a href="/2018-02-23-is-your-software-ready-for-localization/" class="title">Is your software ready for localization?</a></p>
+                            <p class="item-date"><time datetime="2018-02-22T23:00:00.000Z" itemprop="datePublished">23/02/2018</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Post/">Post</a><span class="category-list-count">14</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/award/">award</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/aws/">aws</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/backend/">backend</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/beginning/">beginning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-delivery/">continuous delivery</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-development/">continuous development</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-integration/">continuous integration</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-localization/">continuous localization</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-translation/">continuous translation</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/formatjs/">formatjs</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/i18next/">i18next</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/internationalization/">internationalization</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/localistars/">localistars</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/localization/">localization</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/locize/">locize</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/locizify/">locizify</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/order/">order</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/polyglot/">polyglot</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/serverless/">serverless</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/service/">service</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technology/">technology</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/translation/">translation</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/award/" style="font-size: 10px;">award</a> <a href="/tags/aws/" style="font-size: 12px;">aws</a> <a href="/tags/backend/" style="font-size: 12px;">backend</a> <a href="/tags/beginning/" style="font-size: 10px;">beginning</a> <a href="/tags/continuous-delivery/" style="font-size: 12px;">continuous delivery</a> <a href="/tags/continuous-development/" style="font-size: 12px;">continuous development</a> <a href="/tags/continuous-integration/" style="font-size: 12px;">continuous integration</a> <a href="/tags/continuous-localization/" style="font-size: 14px;">continuous localization</a> <a href="/tags/continuous-translation/" style="font-size: 12px;">continuous translation</a> <a href="/tags/formatjs/" style="font-size: 14px;">formatjs</a> <a href="/tags/i18next/" style="font-size: 16px;">i18next</a> <a href="/tags/internationalization/" style="font-size: 18px;">internationalization</a> <a href="/tags/localistars/" style="font-size: 10px;">localistars</a> <a href="/tags/localization/" style="font-size: 18px;">localization</a> <a href="/tags/locize/" style="font-size: 20px;">locize</a> <a href="/tags/locizify/" style="font-size: 14px;">locizify</a> <a href="/tags/order/" style="font-size: 10px;">order</a> <a href="/tags/polyglot/" style="font-size: 12px;">polyglot</a> <a href="/tags/serverless/" style="font-size: 10px;">serverless</a> <a href="/tags/service/" style="font-size: 14px;">service</a> <a href="/tags/technology/" style="font-size: 10px;">technology</a> <a href="/tags/translation/" style="font-size: 12px;">translation</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://i18next.com" target="_blank">i18next</a>
+                    </li>
+                
+                    <li>
+                        <a href="/privacy.html" target="_blank">privacy policy</a>
+                    </li>
+                
+                    <li>
+                        <a href="/terms.html" target="_blank">terms</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                  </div>
+              </div>
+          </div>
+          <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <div style="float: left;">
+                  <h1 class="logo-wrap">
+                      <a href="/" class="logo"></a>
+                  </h1>
+                  <p>&copy; 2020 inweso GmbH</p>
+                  <!-- <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Original theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+          
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+    function enableCookies() {
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-78143856-1', 'auto');
+        ga('send', 'pageview');
+        ga('set', 'anonymizeIp', true);
+    }
+
+    function disableCookies() {
+        var cookies = document.cookie.split(";");
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = cookies[i];
+            var eqPos = cookie.indexOf("=");
+            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+            document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        }
+    }
+
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#2196f3",
+                "text": "#ffffff"
+            },
+            "button": {
+                "background": "#1976d2",
+                "text": "#ffffff"
+            }
+        },
+        "theme": "edgeless",
+        "type": "opt-in",
+        "content": {
+            "message": "This website uses cookies to ensure you get the best experience on our website.",
+            "allow": "Accept",
+            "dismiss": "Decline",
+            "link": "learn",
+            "href": "https://locize.com/privacy.html"
+        },
+        onInitialise: function (status) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+                enableCookies();
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+                disableCookies();
+            }
+        },
+        onStatusChange: function(status, chosenBefore) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+                enableCookies();
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+                disableCookies();
+            }
+        },
+        onRevokeChoice: function() {
+            var type = this.options.type;
+            if (type == 'opt-in') {
+                // disable cookies
+                disableCookies();
+            }
+            if (type == 'opt-out') {
+                // enable cookies
+                enableCookies();
+            }
+        }
+    });
+</script>
+      </div>
+  </body>
+  </html>
+
