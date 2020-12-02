@@ -32,7 +32,7 @@ The application was rewritten from the ground up and now splits into two major p
 ## Project pages
 The project pages consists of details and actions about your versions, languages, namespaces, etc.
 
-There's also optional card about your orders and another card about your branched projects (crowdbased and localistars)
+There's also optional cards about your orders and another card about your branched projects (crowdbased and localistars)
 ![](orders.jpg "locize © inweso GmbH")
 ![](branches.jpg "locize © inweso GmbH")
 
