@@ -54,6 +54,8 @@ Focus on translating, assisted by machine translation (MT), smart translation me
 The InContext Editor just needs a little script ([locize](https://github.com/locize/locize) or [locizify](https://github.com/locize/locizify)) added to your site, so it can exchange information (clicked text, saved changes, etc.).
 ![](incontext.jpg "locize © inweso GmbH")
 
+### [Find more information in the documentation](https://docs.locize.com/different-views)
+
 
 # New features
 The new locize app does not only come with a new fresh look – but also brings you a ton of new awesome features, like the review workflow or the key history.
