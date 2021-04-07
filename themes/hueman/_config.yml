@@ -71,6 +71,6 @@ miscellaneous:
         twitter_id: locize
         google_plus:
     links:
-        i18next: http://i18next.com
-        privacy policy: /privacy.html
-        terms: /terms.html
+        i18next: httsps://i18next.com
+        privacy policy: https://locize.com/privacy.html
+        terms: https://locize.com/terms.html
