@@ -109,4 +109,4 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:locize/locize.com.git
+  repo: git@github.com:locize/blog.git
