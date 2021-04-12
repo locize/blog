@@ -14,9 +14,7 @@ categories:
 thumbnail: /2020-06-13-localistars/title.jpg
 ---
 
-<div class="img-100">
 ![](title.jpg "locize © inweso GmbH")
-</div>
 
 While you can let your translation done by freelancers or inhouse employees using locize itself you also got the options to directly order translations from inside locize.
 With the existing integrations we weren't that happy. That's one of the reasons why we decided to integrate a complete new marketplace platform, which works in a more fair way.
@@ -61,6 +59,6 @@ Translators always get paid on approval.
 # Getting started with localistars
 Getting started is simple – the first step is to [signup or signin on localistars](https://www.localistars.app). Set up your profile and your organisation. Then follow [this guide](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars).
 
-**Check out the [_video_](https://youtu.be/5dV9nzciwZE) and be a localistar!**
+**Check out the [_video_](https://youtu.be/WobsZ_er0I4) and be a localistar!**
 
-{% youtube 5dV9nzciwZE %}
+{% youtube WobsZ_er0I4 %}

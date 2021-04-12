@@ -11,9 +11,7 @@ categories:
 thumbnail: /2020-12-02-new-locize/title.jpg
 ---
 
-<div class="img-100">
 ![](title.jpg "locize © inweso GmbH")
-</div>
 
 A lot of work may be virtual now, but that doesn’t mean we’ve slowed down! In fact, we spent the last months working on a new locize version with a bunch of fabulous updates. Here's a run-down of some of the most important tweaks that make a huge difference.
 
