@@ -297,15 +297,15 @@ export default i18n;
 
 ![](app_1.jpg "locize © inweso GmbH")
 
-**Awesome, you've just created your first language switcher!**
+**🥳 Awesome, you've just created your first language switcher!**
 
 Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persistet in the localStorage, next time you visit the page, that language is used as preferred language.
 
 
-## Interpolation and Pluralisation
+## Interpolation and Pluralization
 
 i18next goes beyond just providing the standard i18n features.
-But for sure it's able to handle plurals and interpolation.
+But for sure it's able to handle [plurals](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation).
 
 Let's count each time the language gets changed:
 
@@ -415,7 +415,7 @@ Read more about [pluralization](https://www.i18next.com/translation-function/plu
 
 ![](app_2.jpg "locize © inweso GmbH")
 
-*fyi: i18next is also able to handle languages with multiple plural forms, like arabic:*
+*💡 i18next is also able to handle languages with multiple plural forms, like arabic:*
 
 ```javascript
 // translation resources:
@@ -447,7 +447,7 @@ Now, let’s check out how we can use different date formats with the help of [i
 
 `npm install luxon`
 
-We like to have a Footer displaying the current date:
+We like to have a footer displaying the current date:
 
 ```javascript
 import './Footer.css';
@@ -525,7 +525,7 @@ i18n
 export default i18n;
 ```
 
-**Cool, now we have a language specific date formatting!**
+**😎 Cool, now we have a language specific date formatting!**
 
 English:
 ![](app_3.jpg "locize © inweso GmbH")
@@ -639,7 +639,7 @@ i18n
 export default i18n;
 ```
 
-**Yeah, It works!**
+**😁 Yeah, It works!**
 
 ![](app_5.jpg "locize © inweso GmbH")
 
@@ -720,9 +720,9 @@ This gives you the possibility to send the translations to some translators.
 Or if you're working with a translation management system you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
-*btw: you can also have [multiple translation files](https://react.i18next.com/guides/multiple-translation-files) thanks to the [namespaces](https://www.i18next.com/principles/namespaces) feature of i18next*
+*💡 btw: you can also have [multiple translation files](https://react.i18next.com/guides/multiple-translation-files) thanks to the [namespaces](https://www.i18next.com/principles/namespaces) feature of i18next*
 
-*The code of this first part can be found [here](https://github.com/locize/react-i18next-example-app/tree/i18next).*
+*🧑‍💻 The code of this first part can be found [here](https://github.com/locize/react-i18next-example-app/tree/i18next).*
 
 
 ## Better translation management
@@ -741,7 +741,7 @@ i18next helps to get the application translated, and this is great - but there i
 - How you deploy translation changes without deploying your complete application?
 - and a lot more...
 
-**Looking for something like this:**
+**Looking for something like this❓**
 
 - [Easy to integrate](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
 - Continuous deployment? [Continuous localization](https://locize.com//how-it-works.html#continouslocalization)!
@@ -944,7 +944,7 @@ will result in locize like this:
 ![](missing_key.jpg "locize © inweso GmbH")
 
 
-### but there's more...
+### 👀 but there's more...
 
 Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -1028,7 +1028,7 @@ export default i18n;
 ![](in_context.jpg "locize © inweso GmbH")
 
 
-### Let's prepare for production
+### 📦 Let's prepare for production 🚀
 
 Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
 
@@ -1137,13 +1137,15 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 ![](overwrite_version.jpg "locize © inweso GmbH")
 
-*The complete code can be found [here](https://github.com/locize/react-i18next-example-app).*
+*🧑‍💻 The complete code can be found [here](https://github.com/locize/react-i18next-example-app).*
 
 
-# Congratulations!
+# 🎉🥳 Congratulations 🎊🎁
 
 I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [React.js localization](https://react.i18next.com) and [modern localization workflows](https://locize.com).
 
 So if you want to take your i18n topic to the next level, it's worth to try [locize](https://locize.com).
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+
+# 👍
