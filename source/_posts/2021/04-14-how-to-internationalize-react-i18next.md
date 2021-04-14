@@ -20,7 +20,7 @@ As of [March 2020](https://www.internetworldstats.com/stats7.htm), only 25.9% of
 The chances are high that your users will skip past your website if non-localised.
 Therefore, without a multilingual website you might missing out on a large share of potential users.
 
-In the JavaScript ecosystem, there are a lot of internationalization frameworks. [Here] you can find some details about some JavaScript internationalization frameworks.
+In the JavaScript ecosystem, there are a lot of internationalization frameworks. [Here](https://medium.com/@jamuhl/i18n-frameworks-the-unfair-showdown-8d436cd6f470) you can find some details about some JavaScript internationalization frameworks.
 In this article, we will be using the [i18next](https://www.i18next.com) framework to internationalize a [React.js](https://reactjs.org) app.
 
 
