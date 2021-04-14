@@ -55,7 +55,7 @@ When it comes to React localization. One of the most popular is [i18next](https:
 
 ## Prerequisites
 
-Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React, before jumping to react-i18next.
+Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React.js, before jumping to [react-i18next](https://react.i18next.com).
 
 
 ## Getting started
