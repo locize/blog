@@ -60,7 +60,7 @@ Make sure you have Node.js and npm installed. It's best, if you have some experi
 
 ## Getting started
 
-Take your own React project or create a new one, i.e. with [create-react-app](https://create-react-app.dev)
+Take your own React project or create a new one, i.e. with [create-react-app](https://create-react-app.dev).
 
 `npx create-react-app my-app`
 
