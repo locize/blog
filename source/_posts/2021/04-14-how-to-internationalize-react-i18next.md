@@ -17,7 +17,7 @@ thumbnail: /2021-04-14-how-to-internationalize-react-i18next/title.jpg
 Overcoming the language barrier for users who use your software is an important topic.
 English is no longer the universal language of the internet.
 As of [March 2020](https://www.internetworldstats.com/stats7.htm), only 25.9% of internet users were English speakers.
-The chances are high that your users will skip past your website if non-localised.
+The chances are high that your users will skip past your website if non-localized.
 Therefore, without a multilingual website you might missing out on a large share of potential users.
 
 In the JavaScript ecosystem, there are a lot of internationalization frameworks. [Here](https://medium.com/@jamuhl/i18n-frameworks-the-unfair-showdown-8d436cd6f470) you can find some details about some JavaScript internationalization frameworks.
