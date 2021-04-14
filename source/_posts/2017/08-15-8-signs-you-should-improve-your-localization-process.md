@@ -9,9 +9,7 @@ categories:
 thumbnail: /2017-08-15-8-signs-you-should-improve-your-localization-process/title.png
 ---
 
-<div class="img-100">
 ![](title.png "locize © inweso GmbH")
-</div>
 
 Very often, when you're engrossed in the everyday work, you do not realize how easily your localization process could be improved.
 For this reason, it is important to me to show you the following 8 warning signs you should look out for:

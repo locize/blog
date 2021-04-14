@@ -12,9 +12,7 @@ categories:
 thumbnail: /2018-08-28-a-tale-of-the-last-10-years-in-web-development/title.png
 ---
 
-<div class="img-100">
 ![](title.png "locize © inweso GmbH")
-</div>
 
 > This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents depicted in this story are either the products of my imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
 

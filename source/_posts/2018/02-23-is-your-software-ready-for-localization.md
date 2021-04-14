@@ -16,9 +16,7 @@ categories:
 thumbnail: /2018-02-23-is-your-software-ready-for-localization/title.png
 ---
 
-<div class="img-100">
 ![](title.png "locize © inweso GmbH")
-</div>
 
 > So you want people from all around the world to use and understand your software...
 
