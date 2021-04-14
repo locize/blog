@@ -7,23 +7,23 @@
     <title>How locize leverages serverless | locize - localization as a service</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="backend,aws,service,serverless" />
+        <meta name="keywords" content="serverless,backend,aws,service" />
     
-    <meta name="description" content="slides Why we choose serverless? When we started with locize we did not know how fast it would scale… serverless means we didn’t need to make that choice. The serverless architecture scales with o">
+    <meta name="description" content="![](title.png &quot;locize © inweso GmbH&quot;)   slides Why we choose serverless? When we started with locize we did not know how fast it would scale… serverless means we didn’t need to make that choice. The">
 <meta property="og:type" content="article">
 <meta property="og:title" content="How locize leverages serverless">
 <meta property="og:url" content="http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/index.html">
 <meta property="og:site_name" content="locize - localization as a service">
-<meta property="og:description" content="slides Why we choose serverless? When we started with locize we did not know how fast it would scale… serverless means we didn’t need to make that choice. The serverless architecture scales with o">
+<meta property="og:description" content="![](title.png &quot;locize © inweso GmbH&quot;)   slides Why we choose serverless? When we started with locize we did not know how fast it would scale… serverless means we didn’t need to make that choice. The">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/title.png">
 <meta property="article:published_time" content="2017-06-21T22:00:00.000Z">
 <meta property="article:modified_time" content="2020-01-06T13:59:54.064Z">
 <meta property="article:author" content="inweso GmbH">
+<meta property="article:tag" content="serverless">
 <meta property="article:tag" content="backend">
 <meta property="article:tag" content="aws">
 <meta property="article:tag" content="service">
-<meta property="article:tag" content="serverless">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/title.png">
 <meta name="twitter:creator" content="@locize">
@@ -195,16 +195,16 @@
 
         <div class="article-entry" itemprop="articleBody">
             <div class="img-100">
-<img src="title.png" alt="" title="locize © inweso GmbH">
+![](title.png "locize © inweso GmbH")
 </div>
 
-<p><em><a href="https://www.slideshare.net/adrai/locize-tech-talk" target="_blank" rel="external">slides</a></em></p>
-<h2 id="Why-we-choose-serverless"><a href="#Why-we-choose-serverless" class="headerlink" title="Why we choose serverless?"></a>Why we choose serverless?</h2><p><img src="why.png" alt="" title="locize © inweso GmbH"></p>
-<p>When we started with <a href="http://www.locize.com" target="_blank" rel="external">locize</a> we did not know how fast it would scale… serverless means we didn’t need to make that choice. The serverless architecture scales with our business model.</p>
+<p><em><a target="_blank" rel="noopener" href="https://www.slideshare.net/adrai/locize-tech-talk">slides</a></em></p>
+<h2 id="Why-we-choose-serverless"><a href="#Why-we-choose-serverless" class="headerlink" title="Why we choose serverless?"></a>Why we choose serverless?</h2><p><img src="why.png" title="locize © inweso GmbH"></p>
+<p>When we started with <a target="_blank" rel="noopener" href="http://www.locize.com/">locize</a> we did not know how fast it would scale… serverless means we didn’t need to make that choice. The serverless architecture scales with our business model.</p>
 <p>The next argument is, we hate maintaining and operating infrastructure. We believe in NoOps. Here serverless saves not only computing power but human resources too.</p>
 <p>Finally you may ask: Why not a PaaS solution? =&gt; We are working with PaaS solutions since early 2011 and we always had the dream to have a platform where you really pay only when something is used (i.e. call of a function, query of a table, etc…) so you can fully concentrate to the business code.
 And last but not least: serverless is really cool!</p>
-<h2 id="Why-we-choose-AWS"><a href="#Why-we-choose-AWS" class="headerlink" title="Why we choose AWS?"></a>Why we choose AWS?</h2><p><img src="why_aws.png" alt="" title="locize © inweso GmbH"></p>
+<h2 id="Why-we-choose-AWS"><a href="#Why-we-choose-AWS" class="headerlink" title="Why we choose AWS?"></a>Why we choose AWS?</h2><p><img src="why_aws.png" title="locize © inweso GmbH"></p>
 <p>We think AWS is the only production-ready FaaS provider (and more) that works out of the box and scales like you expected. It’s designed with an API-first approach, so everything can be automated.
 We think AWS has in mind a possible future where you can also run functions directly on the edge (directly on hardware).
 Additionally AWS has not only lambda but completes the serverless offering with:</p>
@@ -216,36 +216,36 @@ Additionally AWS has not only lambda but completes the serverless offering with:
 <li>Simple Email Service (SES)</li>
 <li>and a lot more...</li>
 </ul>
-<h2 id="The-basic-setup"><a href="#The-basic-setup" class="headerlink" title="The basic setup"></a>The basic setup</h2><p><img src="setup.png" alt="" title="locize © inweso GmbH"></p>
-<p>When Developers/Translation Editors/Managers, etc… goes to www.locize.app, the locize-app-client (which is hosted on S3 and exposed by CloudFront) is served. The client then accesses our lambda backend through the API-Gateway also exposed by CloudFront. Our main working storage (DynamoDB) is then accessed by our lambda functions.
+<h2 id="The-basic-setup"><a href="#The-basic-setup" class="headerlink" title="The basic setup"></a>The basic setup</h2><p><img src="setup.png" title="locize © inweso GmbH"></p>
+<p>When Developers/Translation Editors/Managers, etc… goes to <a target="_blank" rel="noopener" href="http://www.locize.app/">www.locize.app</a>, the locize-app-client (which is hosted on S3 and exposed by CloudFront) is served. The client then accesses our lambda backend through the API-Gateway also exposed by CloudFront. Our main working storage (DynamoDB) is then accessed by our lambda functions.
 Each time someone publishes (or auto-publishes) a translation resource a lambda function will save that resource to S3. When published, the endusers of your product can access them via CDN edge locations offered and exposed by CloudFront too.</p>
-<h2 id="Full-Stack-JavaScript"><a href="#Full-Stack-JavaScript" class="headerlink" title="Full-Stack JavaScript"></a>Full-Stack JavaScript</h2><p><img src="full_js.png" alt="" title="locize © inweso GmbH"></p>
+<h2 id="Full-Stack-JavaScript"><a href="#Full-Stack-JavaScript" class="headerlink" title="Full-Stack JavaScript"></a>Full-Stack JavaScript</h2><p><img src="full_js.png" title="locize © inweso GmbH"></p>
 <p>locize is a single language solution! Everything is JavaScript!
-The complete application backend, the api, the cli and other tools runs on <a href="https://nodejs.org" target="_blank" rel="external">node.js</a>… and the locize-app-client is a modern SPA based on <a href="https://facebook.github.io/react/" target="_blank" rel="external">React</a> and <a href="http://redux.js.org/" target="_blank" rel="external">Redux</a>.</p>
-<h2 id="Lambda-functions"><a href="#Lambda-functions" class="headerlink" title="Lambda functions"></a>Lambda functions</h2><p><img src="types.png" alt="" title="locize © inweso GmbH"></p>
+The complete application backend, the api, the cli and other tools runs on <a target="_blank" rel="noopener" href="https://nodejs.org/">node.js</a>… and the locize-app-client is a modern SPA based on <a target="_blank" rel="noopener" href="https://facebook.github.io/react/">React</a> and <a target="_blank" rel="noopener" href="http://redux.js.org/">Redux</a>.</p>
+<h2 id="Lambda-functions"><a href="#Lambda-functions" class="headerlink" title="Lambda functions"></a>Lambda functions</h2><p><img src="types.png" title="locize © inweso GmbH"></p>
 <p>locize uses 3 different base lambda types.
 These are not real „AWS-defined“ lambda types but we&#39;ve defined these types ourself.</p>
-<h3 id="Express"><a href="#Express" class="headerlink" title="Express"></a>Express</h3><p><img src="express.png" alt="" title="locize © inweso GmbH"></p>
+<h3 id="Express"><a href="#Express" class="headerlink" title="Express"></a>Express</h3><p><img src="express.png" title="locize © inweso GmbH"></p>
 <p>The first type is the express type.
-It defines RESTful APIs using the normal <a href="http://expressjs.com/" target="_blank" rel="external">express</a> framework.
-You see the app.js file looks like a normal <a href="http://expressjs.com/" target="_blank" rel="external">express</a>  based project.
+It defines RESTful APIs using the normal <a target="_blank" rel="noopener" href="http://expressjs.com/">express</a> framework.
+You see the app.js file looks like a normal <a target="_blank" rel="noopener" href="http://expressjs.com/">express</a>  based project.
 But at the end of the file you see that if this file is executed directly (like <code>node app.js</code>) it will start to listen on port 3000 and can be used to test locally.
-But if required by another file it exports the configured <a href="http://expressjs.com/" target="_blank" rel="external">express</a> app.
-For this scenario there is an additional file (lambda.js) that uses the help of the npm module „aws-serverless-express“ to proxy and map the lambda function calls to http requests and responses. </p>
-<h3 id="Async"><a href="#Async" class="headerlink" title="Async"></a>Async</h3><p><img src="async.png" alt="" title="locize © inweso GmbH"></p>
+But if required by another file it exports the configured <a target="_blank" rel="noopener" href="http://expressjs.com/">express</a> app.
+For this scenario there is an additional file (lambda.js) that uses the help of the npm module „aws-serverless-express“ to proxy and map the lambda function calls to http requests and responses. </p>
+<h3 id="Async"><a href="#Async" class="headerlink" title="Async"></a>Async</h3><p><img src="async.png" title="locize © inweso GmbH"></p>
 <p>The second type is the async type.
 This lambda function is triggered by other lambda functions to compute non blocking tasks. i.e. calculation of current words in project, or publishing translation resources to S3, etc…
 The key element here is that a lambda function is able to call another lambda function by simply using the official aws-sdk npm module.
 With the help of AWS policies you can define exactly which function can be invoked.</p>
-<h3 id="S3-event"><a href="#S3-event" class="headerlink" title="S3 event"></a>S3 event</h3><p><img src="s3.png" alt="" title="locize © inweso GmbH"></p>
+<h3 id="S3-event"><a href="#S3-event" class="headerlink" title="S3 event"></a>S3 event</h3><p><img src="s3.png" title="locize © inweso GmbH"></p>
 <p>The last type is the S3 event type.
 This lambda function is i.e. triggered by a new CloudFront log file that was saved to s3 (this feature can be enabled on CloudFront).
 We use this to i.e. calculate the amount of downloads or to generate statistics.</p>
-<h2 id="Our-tooling"><a href="#Our-tooling" class="headerlink" title="Our tooling"></a>Our tooling</h2><p><img src="claudia.png" alt="" title="locize © inweso GmbH"></p>
-<p>Because we have a pure JavaScript landscape we’ve chosen <a href="https://claudiajs.com/" target="_blank" rel="external">claudia.js</a>
+<h2 id="Our-tooling"><a href="#Our-tooling" class="headerlink" title="Our tooling"></a>Our tooling</h2><p><img src="claudia.png" title="locize © inweso GmbH"></p>
+<p>Because we have a pure JavaScript landscape we’ve chosen <a target="_blank" rel="noopener" href="https://claudiajs.com/">claudia.js</a>
 It automatically installs and configures a lot on AWS. From API-Gateway to Lambda versioning.
-<a href="https://claudiajs.com/" target="_blank" rel="external">Claudia.js</a> does not abstract away AWS services. It’s really transparent and easy to understand.
-That’s why our advice is: if you want to build simple services and run them with AWS lambda, and you&#39;re looking for something low-overhead, easy to get started with, and you only want to use the <a href="https://nodejs.org" target="_blank" rel="external">node.js</a> runtime, Claudia is a good choice.</p>
+<a target="_blank" rel="noopener" href="https://claudiajs.com/">Claudia.js</a> does not abstract away AWS services. It’s really transparent and easy to understand.
+That’s why our advice is: if you want to build simple services and run them with AWS lambda, and you&#39;re looking for something low-overhead, easy to get started with, and you only want to use the <a target="_blank" rel="noopener" href="https://nodejs.org/">node.js</a> runtime, Claudia is a good choice.</p>
 
         </div>
         <footer class="article-footer">
@@ -254,7 +254,7 @@ That’s why our advice is: if you want to build simple services and run them wi
 
 
 
-    <a data-url="http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/" data-id="cjlddaolq000ot1z3wa2nmc5u" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/" data-id="cknh6trf70002i8xr4819fwrt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -394,6 +394,26 @@ That’s why our advice is: if you want to build simple services and run them wi
                     <li>
                         
                         <div class="item-thumbnail">
+                            <a href="/2021-04-14-how-to-internationalize-react-i18next/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2021-04-14-how-to-internationalize-react-i18next/title.jpg)" alt="How to properly internationalize a React application using i18next" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
+                            <p class="item-title"><a href="/2021-04-14-how-to-internationalize-react-i18next/" class="title">How to properly internationalize a React application using i18next</a></p>
+                            <p class="item-date"><time datetime="2021-04-13T22:00:00.000Z" itemprop="datePublished">14/04/2021</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
                             <a href="/2020-12-02-new-locize/" class="thumbnail">
     
     
@@ -471,26 +491,6 @@ That’s why our advice is: if you want to build simple services and run them wi
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2018-02-23-is-your-software-ready-for-localization/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/2018-02-23-is-your-software-ready-for-localization/title.png)" alt="Is your software ready for localization?" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Post/">Post</a></p>
-                            <p class="item-title"><a href="/2018-02-23-is-your-software-ready-for-localization/" class="title">Is your software ready for localization?</a></p>
-                            <p class="item-date"><time datetime="2018-02-22T23:00:00.000Z" itemprop="datePublished">23/02/2018</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -500,7 +500,7 @@ That’s why our advice is: if you want to build simple services and run them wi
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Post/">Post</a><span class="category-list-count">14</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Post/">Post</a><span class="category-list-count">15</span></li></ul>
         </div>
     </div>
 
@@ -510,7 +510,7 @@ That’s why our advice is: if you want to build simple services and run them wi
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -520,7 +520,7 @@ That’s why our advice is: if you want to build simple services and run them wi
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/award/" rel="tag">award</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/aws/" rel="tag">aws</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/backend/" rel="tag">backend</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/beginning/" rel="tag">beginning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-delivery/" rel="tag">continuous delivery</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-development/" rel="tag">continuous development</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-integration/" rel="tag">continuous integration</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-localization/" rel="tag">continuous localization</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-translation/" rel="tag">continuous translation</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/formatjs/" rel="tag">formatjs</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/i18next/" rel="tag">i18next</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/internationalization/" rel="tag">internationalization</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/localistars/" rel="tag">localistars</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/localization/" rel="tag">localization</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/locize/" rel="tag">locize</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/locizify/" rel="tag">locizify</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/order/" rel="tag">order</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/polyglot/" rel="tag">polyglot</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/serverless/" rel="tag">serverless</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/service/" rel="tag">service</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technology/" rel="tag">technology</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/translation/" rel="tag">translation</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/" rel="tag">web</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/award/" rel="tag">award</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/aws/" rel="tag">aws</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/backend/" rel="tag">backend</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/beginning/" rel="tag">beginning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-delivery/" rel="tag">continuous delivery</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-development/" rel="tag">continuous development</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-integration/" rel="tag">continuous integration</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-localization/" rel="tag">continuous localization</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/continuous-translation/" rel="tag">continuous translation</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/formatjs/" rel="tag">formatjs</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/i18next/" rel="tag">i18next</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/internationalization/" rel="tag">internationalization</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/localistars/" rel="tag">localistars</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/localization/" rel="tag">localization</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/locize/" rel="tag">locize</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/locizify/" rel="tag">locizify</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/order/" rel="tag">order</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/polyglot/" rel="tag">polyglot</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/serverless/" rel="tag">serverless</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/service/" rel="tag">service</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technology/" rel="tag">technology</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/translation/" rel="tag">translation</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/" rel="tag">web</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -530,7 +530,7 @@ That’s why our advice is: if you want to build simple services and run them wi
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/award/" style="font-size: 10px;">award</a> <a href="/tags/aws/" style="font-size: 12px;">aws</a> <a href="/tags/backend/" style="font-size: 12px;">backend</a> <a href="/tags/beginning/" style="font-size: 10px;">beginning</a> <a href="/tags/continuous-delivery/" style="font-size: 12px;">continuous delivery</a> <a href="/tags/continuous-development/" style="font-size: 12px;">continuous development</a> <a href="/tags/continuous-integration/" style="font-size: 12px;">continuous integration</a> <a href="/tags/continuous-localization/" style="font-size: 14px;">continuous localization</a> <a href="/tags/continuous-translation/" style="font-size: 12px;">continuous translation</a> <a href="/tags/formatjs/" style="font-size: 14px;">formatjs</a> <a href="/tags/i18next/" style="font-size: 16px;">i18next</a> <a href="/tags/internationalization/" style="font-size: 18px;">internationalization</a> <a href="/tags/localistars/" style="font-size: 10px;">localistars</a> <a href="/tags/localization/" style="font-size: 18px;">localization</a> <a href="/tags/locize/" style="font-size: 20px;">locize</a> <a href="/tags/locizify/" style="font-size: 14px;">locizify</a> <a href="/tags/order/" style="font-size: 10px;">order</a> <a href="/tags/polyglot/" style="font-size: 12px;">polyglot</a> <a href="/tags/serverless/" style="font-size: 10px;">serverless</a> <a href="/tags/service/" style="font-size: 14px;">service</a> <a href="/tags/technology/" style="font-size: 10px;">technology</a> <a href="/tags/translation/" style="font-size: 12px;">translation</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
+            <a href="/tags/award/" style="font-size: 10px;">award</a> <a href="/tags/aws/" style="font-size: 12px;">aws</a> <a href="/tags/backend/" style="font-size: 12px;">backend</a> <a href="/tags/beginning/" style="font-size: 10px;">beginning</a> <a href="/tags/continuous-delivery/" style="font-size: 12px;">continuous delivery</a> <a href="/tags/continuous-development/" style="font-size: 12px;">continuous development</a> <a href="/tags/continuous-integration/" style="font-size: 12px;">continuous integration</a> <a href="/tags/continuous-localization/" style="font-size: 14px;">continuous localization</a> <a href="/tags/continuous-translation/" style="font-size: 12px;">continuous translation</a> <a href="/tags/formatjs/" style="font-size: 14px;">formatjs</a> <a href="/tags/i18next/" style="font-size: 16px;">i18next</a> <a href="/tags/internationalization/" style="font-size: 18px;">internationalization</a> <a href="/tags/localistars/" style="font-size: 10px;">localistars</a> <a href="/tags/localization/" style="font-size: 18px;">localization</a> <a href="/tags/locize/" style="font-size: 20px;">locize</a> <a href="/tags/locizify/" style="font-size: 14px;">locizify</a> <a href="/tags/order/" style="font-size: 10px;">order</a> <a href="/tags/polyglot/" style="font-size: 12px;">polyglot</a> <a href="/tags/serverless/" style="font-size: 10px;">serverless</a> <a href="/tags/service/" style="font-size: 14px;">service</a> <a href="/tags/technology/" style="font-size: 10px;">technology</a> <a href="/tags/translation/" style="font-size: 14px;">translation</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
         </div>
     </div>
 
