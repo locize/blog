@@ -9,6 +9,38 @@
 
 
     <url>
+        <loc>http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/</loc>
+        <lastmod>2021-04-14T14:33:24.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.locize.com/2017-08-15-8-signs-you-should-improve-your-localization-process/</loc>
+        <lastmod>2021-04-14T14:33:24.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.locize.com/2018-02-23-is-your-software-ready-for-localization/</loc>
+        <lastmod>2021-04-14T14:33:24.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.locize.com/2018-08-28-a-tale-of-the-last-10-years-in-web-development/</loc>
+        <lastmod>2021-04-14T14:33:24.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://blog.locize.com/2021-04-14-how-to-internationalize-react-i18next/</loc>
         <lastmod>2021-04-14T13:32:47.797Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,14 +73,6 @@
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/</loc>
-        <lastmod>2020-01-06T13:59:54.064Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://blog.locize.com/2016-10-05-continuous-development-integration-and-localization-cd/</loc>
         <lastmod>2020-01-06T13:59:54.064Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -67,30 +91,6 @@
     <url>
         <loc>http://blog.locize.com/2018-04-30-locize-double-win-2018-for-translation-software/</loc>
         <lastmod>2019-03-07T13:51:18.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.locize.com/2018-08-28-a-tale-of-the-last-10-years-in-web-development/</loc>
-        <lastmod>2018-08-28T07:18:33.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.locize.com/2018-02-23-is-your-software-ready-for-localization/</loc>
-        <lastmod>2018-08-28T07:03:39.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.locize.com/2017-08-15-8-signs-you-should-improve-your-localization-process/</loc>
-        <lastmod>2017-08-15T09:59:58.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
