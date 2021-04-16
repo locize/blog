@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>http://blog.locize.com/2021-04-14-how-to-internationalize-react-i18next/</loc>
+        <lastmod>2021-04-16T14:05:15.402Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/</loc>
         <lastmod>2021-04-14T14:33:24.586Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -35,14 +43,6 @@
     <url>
         <loc>http://blog.locize.com/2018-08-28-a-tale-of-the-last-10-years-in-web-development/</loc>
         <lastmod>2021-04-14T14:33:24.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.locize.com/2021-04-14-how-to-internationalize-react-i18next/</loc>
-        <lastmod>2021-04-14T13:32:47.797Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
