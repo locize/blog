@@ -2,126 +2,126 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://blog.locize.com/</loc>
+        <loc>https://blog.locize.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
 
     <url>
-        <loc>http://blog.locize.com/2021-04-14-how-to-internationalize-react-i18next/</loc>
-        <lastmod>2021-05-10T19:30:45.633Z</lastmod>
+        <loc>https://blog.locize.com/2017-02-21-locizify-v2/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2020-06-13-localistars/</loc>
-        <lastmod>2021-05-10T19:15:03.178Z</lastmod>
+        <loc>https://blog.locize.com/2017-06-22-how-locize-leverages-serverless/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2018-08-28-a-tale-of-the-last-10-years-in-web-development/</loc>
-        <lastmod>2021-05-10T19:14:59.230Z</lastmod>
+        <loc>https://blog.locize.com/2017-08-15-8-signs-you-should-improve-your-localization-process/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2017-08-15-8-signs-you-should-improve-your-localization-process/</loc>
-        <lastmod>2021-05-10T19:14:55.489Z</lastmod>
+        <loc>https://blog.locize.com/2016-02-27-day-zero/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2017-06-22-how-locize-leverages-serverless/</loc>
-        <lastmod>2021-04-14T14:33:24.586Z</lastmod>
+        <loc>https://blog.locize.com/2016-06-11-eat-our-own-dogfood/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2018-02-23-is-your-software-ready-for-localization/</loc>
-        <lastmod>2021-04-14T14:33:24.586Z</lastmod>
+        <loc>https://blog.locize.com/2016-08-18-the-freedom-of-choice/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2020-12-02-new-locize/</loc>
-        <lastmod>2021-04-12T08:36:26.470Z</lastmod>
+        <loc>https://blog.locize.com/2016-10-05-continuous-development-integration-and-localization-cd/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2016-06-11-eat-our-own-dogfood/</loc>
-        <lastmod>2021-04-07T14:33:18.411Z</lastmod>
+        <loc>https://blog.locize.com/2016-11-16-localization-fun/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2016-10-05-continuous-development-integration-and-localization-cd/</loc>
-        <lastmod>2020-01-06T13:59:54.064Z</lastmod>
+        <loc>https://blog.locize.com/2018-02-23-is-your-software-ready-for-localization/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2016-08-18-the-freedom-of-choice/</loc>
-        <lastmod>2020-01-06T13:59:54.063Z</lastmod>
+        <loc>https://blog.locize.com/2018-04-30-locize-double-win-2018-for-translation-software/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2018-04-30-locize-double-win-2018-for-translation-software/</loc>
-        <lastmod>2019-03-07T13:51:18.000Z</lastmod>
+        <loc>https://blog.locize.com/2018-08-28-a-tale-of-the-last-10-years-in-web-development/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2017-02-21-locizify-v2/</loc>
-        <lastmod>2017-06-23T11:05:30.000Z</lastmod>
+        <loc>https://blog.locize.com/2020-12-02-new-locize/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2016-11-16-localization-fun/</loc>
-        <lastmod>2017-01-11T13:49:26.000Z</lastmod>
+        <loc>https://blog.locize.com/2020-06-13-localistars/</loc>
+        <lastmod>2021-05-19T12:31:38.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2016-02-27-day-zero/</loc>
-        <lastmod>2016-11-10T07:17:23.000Z</lastmod>
+        <loc>https://blog.locize.com/2021-04-14-how-to-internationalize-react-i18next/</loc>
+        <lastmod>2021-05-19T12:31:20.885Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://blog.locize.com/2016-04-07-technology-stack/</loc>
+        <loc>https://blog.locize.com/2016-04-07-technology-stack/</loc>
         <lastmod>2016-11-10T07:17:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
