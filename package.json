@@ -8,7 +8,9 @@
     "work": "hexo server",
     "start": "hexo server",
     "deploy": "rm -rf public && hexo deploy --generate",
-    "finish": "npm run push && npm run deploy"
+    "finish": "npm run push && npm run deploy",
+    "generate": "hexo generate",
+    "static": "hexo server --static"
   },
   "hexo": {
     "version": "5.4.0"

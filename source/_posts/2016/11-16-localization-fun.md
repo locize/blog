@@ -4,7 +4,7 @@ tags:
   - locize
 categories:
   - Post
-thumbnail: /2016-11-16-localization-fun/thumb.png
+thumbnail: 2016-11-16-localization-fun/thumb.png
 ---
 
 Learn from our experience we made during using the locize service on our own new webapplication.

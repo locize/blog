@@ -9,7 +9,7 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: /2021-04-14-how-to-internationalize-react-i18next/title.jpg
+thumbnail: 2021-04-14-how-to-internationalize-react-i18next/title.jpg
 ---
 
 ![](title.jpg "locize © inweso GmbH")

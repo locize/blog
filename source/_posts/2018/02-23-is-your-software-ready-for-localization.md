@@ -13,7 +13,7 @@ tags:
   - formatjs
 categories:
   - Post
-thumbnail: /2018-02-23-is-your-software-ready-for-localization/title.png
+thumbnail: 2018-02-23-is-your-software-ready-for-localization/title.png
 ---
 
 ![](title.png "locize © inweso GmbH")

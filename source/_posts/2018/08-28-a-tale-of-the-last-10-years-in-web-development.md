@@ -9,7 +9,7 @@ tags:
   - i18next
 categories:
   - Post
-thumbnail: /2018-08-28-a-tale-of-the-last-10-years-in-web-development/title.png
+thumbnail: 2018-08-28-a-tale-of-the-last-10-years-in-web-development/title.png
 ---
 
 ![](title.png "locize © inweso GmbH")

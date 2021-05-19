@@ -10,7 +10,8 @@ customize:
     logo:
         width: 165
         height: 60
-        url: /images/locize_white.svg
+        url: images/locize_white.svg
+        root: /
     theme_color: '#15419A'
     highlight: androidstudio
     sidebar: left # sidebar position, options: left, right
@@ -71,6 +72,6 @@ miscellaneous:
         twitter_id: locize
         google_plus:
     links:
-        i18next: httsps://i18next.com
+        i18next: https://www.i18next.com
         privacy policy: https://locize.com/privacy.html
         terms: https://locize.com/terms.html

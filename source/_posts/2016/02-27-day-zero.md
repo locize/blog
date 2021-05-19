@@ -5,7 +5,7 @@ tags:
   - i18next
 categories:
   - Post
-thumbnail: /images/locize_color.svg
+thumbnail: images/locize_color.svg
 ---
 
 ### Back in 2011

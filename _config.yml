@@ -18,8 +18,10 @@ timezone: Europe/Zurich
 # root: /
 # url: http://erirai.github.io/
 # root: /blog/
-url: http://blog.locize.com/
+url: https://blog.locize.com/
 root: /
+# url: https://blog.locize.com/blog
+# root: /blog/
 # permalink: :year/:month/:day/:title/
 permalink: :title/
 permalink_defaults:
@@ -106,7 +108,7 @@ feed:
   hub:
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: git@github.com:locize/blog.git

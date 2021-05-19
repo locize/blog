@@ -4,7 +4,7 @@ tags:
   - locizify
 categories:
   - Post
-thumbnail: /images/locize_color.svg
+thumbnail: images/locize_color.svg
 ---
 
 ## We use the unpkg CDN
