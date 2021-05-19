@@ -20,7 +20,7 @@ timezone: Europe/Zurich
 # root: /blog/
 # url: https://blog.locize.com/
 # root: /
-url: https://blog.locize.com/blog
+url: https://locize.com/blog
 root: /blog/ # do not forget to update also the _config.yml in the themes/hueman folder
 # permalink: :year/:month/:day/:title/
 permalink: :title/
