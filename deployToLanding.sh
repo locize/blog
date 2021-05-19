@@ -10,9 +10,14 @@ DIR="$PWD/$INTERNAL_GIT_FOLDER_NAME/.git"
 
 mkdir -p $INTERNAL_GIT_FOLDER_NAME
 
+if [[ -d "$DIR" && $(grep -L $REPO "$DIR/config") ]]; then
+  # wrong repo...
+  rm -rf $INTERNAL_GIT_FOLDER_NAME
+fi
+
 if [ ! -d "$DIR" ]; then
   # folder does not exist...
-  git clone $REPO $INTERNAL_GIT_FOLDER_NAME
+  git clone -b $BRANCH $REPO $INTERNAL_GIT_FOLDER_NAME
 fi
 
 cd $INTERNAL_GIT_FOLDER_NAME
