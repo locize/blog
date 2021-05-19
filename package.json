@@ -7,10 +7,12 @@
     "push": "git add . && git commit -m 'update' && git push",
     "work": "hexo server",
     "start": "hexo server",
-    "deploy": "rm -rf public && hexo deploy --generate",
-    "finish": "npm run push && npm run deploy",
-    "generate": "hexo generate",
-    "static": "hexo server --static"
+    "deploy_old": "rm -rf public && hexo deploy --generate",
+    "finish_old": "npm run push && npm run deploy_old",
+    "generate": "rm -rf public && hexo generate",
+    "static": "hexo server --static",
+    "deploy": "npm run generate && ./deployToLanding.sh",
+    "finish": "npm run push && npm run deploy"
   },
   "hexo": {
     "version": "5.4.0"
@@ -22,7 +24,6 @@
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-cname": "^0.3.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-json-content": "^4.2.3",

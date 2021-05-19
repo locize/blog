@@ -11,7 +11,8 @@ customize:
         width: 165
         height: 60
         url: images/locize_white.svg
-        root: /
+        # root: /
+        root: /blog/
     theme_color: '#15419A'
     highlight: androidstudio
     sidebar: left # sidebar position, options: left, right
