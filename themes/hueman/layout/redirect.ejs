@@ -1,0 +1,9 @@
+<% const newUrl = url_for(page.target.path) %>
+<% const newUrlFull = full_url_for(page.target.path) %>
+
+<h1>Page address was changed</h1>
+<p>The new page address is <a href="<%= newUrl %>"><%= newUrlFull %></a></p>
+
+<script type="text/javascript">
+  document.location.href = '<%= newUrl %>';
+</script>

@@ -5,7 +5,9 @@ tags:
   - locizify
 categories:
   - Post
-thumbnail: 2016-06-11-eat-our-own-dogfood/result.png
+thumbnail: eat-our-own-dogfood/result.png
+redirect_from:
+- /2016-06-11-eat-our-own-dogfood
 ---
 
 After relaunching our website with new templates for our documentation, post pages and adding a new landing page, we decided to have at least the landing page translated.

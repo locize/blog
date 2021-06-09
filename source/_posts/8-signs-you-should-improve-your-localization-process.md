@@ -6,7 +6,9 @@ tags:
   - internationalization
 categories:
   - Post
-thumbnail: 2017-08-15-8-signs-you-should-improve-your-localization-process/title.png
+thumbnail: 8-signs-you-should-improve-your-localization-process/title.png
+redirect_from:
+- /2017-08-15-8-signs-you-should-improve-your-localization-process
 ---
 
 ![](title.png "locize © inweso GmbH")

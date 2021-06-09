@@ -8,7 +8,9 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: 2020-12-02-new-locize/title.jpg
+thumbnail: new-locize/title.jpg
+redirect_from:
+- /2020-12-02-new-locize
 ---
 
 ![](title.jpg "locize © inweso GmbH")

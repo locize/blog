@@ -7,7 +7,9 @@ tags:
   - service
 categories:
   - Post
-thumbnail: 2017-06-22-how-locize-leverages-serverless/title.png
+thumbnail: how-locize-leverages-serverless/title.png
+redirect_from:
+- /2017-06-22--how-locize-leverages-serverless
 ---
 
 ![](title.png "locize © inweso GmbH")

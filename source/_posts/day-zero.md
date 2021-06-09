@@ -6,6 +6,8 @@ tags:
 categories:
   - Post
 thumbnail: images/locize_color.svg
+redirect_from:
+- /2016-02-27-day-zero
 ---
 
 ### Back in 2011

@@ -11,7 +11,9 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: 2020-06-13-localistars/title.jpg
+thumbnail: localistars/title.jpg
+redirect_from:
+- /2020-06-13-localistars
 ---
 
 ![](title.jpg "locize © inweso GmbH")

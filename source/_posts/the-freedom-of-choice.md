@@ -8,7 +8,9 @@ tags:
   - formatjs
 categories:
   - Post
-thumbnail: 2016-08-18-the-freedom-of-choice/idea.jpg
+thumbnail: the-freedom-of-choice/idea.jpg
+redirect_from:
+- /2016-08-18-the-freedom-of-choice
 ---
 
 

@@ -11,7 +11,9 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: 2021-06-08-give-vue-i18n-more-superpowers/title.jpg
+thumbnail: give-vue-i18n-more-superpowers/title.jpg
+redirect_from:
+- /2021-06-08-give-vue-i18n-more-superpowers
 ---
 
 ![](title.jpg "locize © inweso GmbH")
@@ -540,11 +542,11 @@ Lastly, with the help of the [auto-machinetranslation workflow](https://docs.loc
 
 [Caching](https://docs.locize.com/more/caching):
 
-![](../2021-04-14-how-to-internationalize-react-i18next/caching.jpg "locize © inweso GmbH")
+![](../how-to-internationalize-react-i18next/caching.jpg "locize © inweso GmbH")
 
 [Merging versions](https://docs.locize.com/more/versioning#merging-versions):
 
-![](../2021-04-14-how-to-internationalize-react-i18next/overwrite_version.jpg "locize © inweso GmbH")
+![](../how-to-internationalize-react-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
 *🧑‍💻 The code can be found [here](https://github.com/locize/locizer/tree/master/example/vue).*
 

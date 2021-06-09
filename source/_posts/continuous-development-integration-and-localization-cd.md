@@ -14,7 +14,9 @@ tags:
   - formatjs
 categories:
   - Post
-thumbnail: 2016-10-05-continuous-development-integration-and-localization-cd/hands_world.jpg
+thumbnail: continuous-development-integration-and-localization-cd/hands_world.jpg
+redirect_from:
+- /2016-10-05-continuous-development-integration-and-localization-cd
 ---
 
 

@@ -13,7 +13,9 @@ tags:
   - formatjs
 categories:
   - Post
-thumbnail: 2018-02-23-is-your-software-ready-for-localization/title.png
+thumbnail: is-your-software-ready-for-localization/title.png
+redirect_from:
+- /2018-02-23-is-your-software-ready-for-localization
 ---
 
 ![](title.png "locize © inweso GmbH")

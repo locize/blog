@@ -7,7 +7,9 @@ tags:
   - service
 categories:
   - Post
-thumbnail: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
+thumbnail: technology-stack/nodejs-new-pantone-black.png
+redirect_from:
+- /2016-04-07-technology-stack
 ---
 
 ### No Servers?

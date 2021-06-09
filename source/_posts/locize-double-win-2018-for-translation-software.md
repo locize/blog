@@ -7,7 +7,9 @@ tags:
   - continuous localization
 categories:
   - Post
-thumbnail: 2018-04-30-locize-double-win-2018-for-translation-software/title.png
+thumbnail: locize-double-win-2018-for-translation-software/title.png
+redirect_from:
+- /2018-04-30-locize-double-win-2018-for-translation-software
 ---
 
 Efficient localization need not to be expensive, disorganized, and time-consuming for development and localization teams. We designed locize with this core ideas in mind, and a popular software review platform has recently recognized our efforts and affirmed that we have succeeded in our endeavor. FinancesOnline recently distinguished [locize](https://reviews.financesonline.com/p/locize/) with the **Great User Experience** and **Rising Star** awards for 2018 due to our localization and internationalization software’s capability to satisfy the large demands of global businesses. 
