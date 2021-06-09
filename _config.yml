@@ -110,12 +110,6 @@ feed:
   limit: 20
   hub:
 
-seo_structured_data:
-  organization:
-    name: locize
-    url: https://www.locize.com/blog/
-    logoUrl: https://www.locize.com/blog/images/locize_color.svg
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
