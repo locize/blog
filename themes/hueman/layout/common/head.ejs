@@ -22,6 +22,7 @@
         <meta http-equiv="refresh" content="0; URL=<%= url_for(page.target.path) %>" />
     <% } %>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <%- autoCanonical(config, page) %>
     <% if (config.root && config.root.indexOf('blog') < 0) { %><link rel="canonical" href="https://locize.com/blog/<%- page.path %>"/><% } %>
     <% if (page.tags) {
         var keywords = [];
@@ -59,4 +60,6 @@
     <%- partial('plugin/scripts', { isHead: true }) %>
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+    <%- seoStructuredData(config) %>
 </head>
