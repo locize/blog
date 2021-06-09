@@ -6,7 +6,7 @@ const organisationTemplateContent = `<script type="application/ld+json">
   "@type" : "Organization",
   "name" : "locize",
   "url" : "https://locize.com",
-  "logo": "https://locize.com/locize_color.svg",
+  "logo": "https://locize.com/img/locize_color.svg",
   "sameAs" : [ "" ]
 }
 </script>`;
