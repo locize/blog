@@ -274,7 +274,7 @@ Let's meet [locizer](https://github.com/locize/locizer)...
 
 [locizer](https://github.com/locize/locizer) is a lightweight module to access data from your [locize](https://www.locize.com) project and use that inside your application.
 
-> [What is locize?](../2021-04-14-how-to-internationalize-react-i18next/#for-sure)
+> [What is locize?](../how-to-internationalize-react-i18next/#for-sure)
 
 ### How does this look like? <a name="how-look"></a>
 

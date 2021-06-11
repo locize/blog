@@ -15,7 +15,7 @@ const websiteTemplateContent = `<script type="application/ld+json">
   "@context" : "http://schema.org",
   "@type" : "WebSite",
   "name" : "locize",
-  "url": "https://locize.com/blog/,
+  "url": "https://locize.com/blog/",
   "logo": "https://locize.com/blog/images/locize_color.svg"
 }
 </script>`;

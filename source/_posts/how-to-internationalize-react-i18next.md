@@ -3,6 +3,8 @@ title: How to properly internationalize a React application using i18next
 date: 2021-04-14
 tags:
   - i18next
+  - react
+  - react-i18next
   - locize
   - localization
   - internationalization
