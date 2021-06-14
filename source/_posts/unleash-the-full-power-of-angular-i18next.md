@@ -378,7 +378,7 @@ export const I18N_PROVIDERS = [
 export class AppModule { }
 ```
 
-The app looks still the same, but the translations are now completely separated fom the app and can be managed and released seperately.
+The app looks still the same, but the translations are now completely separated from the app and can be managed and released separately.
 ![](app_4.jpg "locize © inweso GmbH")
 
 
