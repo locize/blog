@@ -12,12 +12,12 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: how-to-internationalize-react-i18next/title.jpg
+thumbnail: how-to-internationalize-react-i18next/react-localization.jpg
 redirect_from:
 - /2021-04-14-how-to-internationalize-react-i18next
 ---
 
-![](title.jpg "React Localization example")
+![](react-localization.jpg "React Localization example")
 
 Overcoming the language barrier for users who use your software is an important topic.
 English is no longer the universal language of the internet.
