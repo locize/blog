@@ -320,7 +320,7 @@ export default i18n;
 
 **🥳 Awesome, you've just created your first language switcher!**
 
-Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persistet in the localStorage, next time you visit the page, that language is used as preferred language.
+Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
 
 
 ## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
