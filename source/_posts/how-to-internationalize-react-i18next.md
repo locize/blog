@@ -1,5 +1,5 @@
 title: React Localization - How to properly internationalize a React application using i18next
-description: React Localization made easy with this step-by-step guide using i18next. This React JS example helps you simple usage of most popular library.
+description: React Localization made easy with this step-by-step guide using i18next. This React JS example helps you with the simple usage of most popular i18n library.
 
 date: 2021-04-14
 tags:
@@ -26,7 +26,7 @@ The chances are high that your users will skip past your website if non-localize
 Therefore, without a multilingual website you might missing out on a large share of potential users.
 
 In the JavaScript ecosystem, there are a lot of internationalization frameworks. [Here](https://medium.com/@jamuhl/i18n-frameworks-the-unfair-showdown-8d436cd6f470) you can find some details about some JavaScript internationalization frameworks.
-In this article, we will be using the [i18next](https://www.i18next.com) framework to internationalize a [React.js](https://reactjs.org) app. This step-by-step guide is for you if you're looking for a way to create an internationalized Create React App (React JS). 
+In this article, we will be using the [i18next](https://www.i18next.com) framework to internationalize a [React.js](https://reactjs.org) app. This step-by-step guide is for you if you're looking for a way to create an internationalized React.js app (with or without Create React App). 
 
 ## TOC
   * [So first of all: "Why i18next?"](#why-i18next)
@@ -77,7 +77,7 @@ When it comes to React localization. One of the most popular is [i18next](https:
 
 ## Prerequisites <a name="prerequisites"></a>
 
-Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React.js, before jumping to [react-i18next](https://react.i18next.com). This react localization example is not intended to be a react beginner tutorial.
+Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React.js, before jumping to [react-i18next](https://react.i18next.com). This react localization example is not intended to be a React beginner tutorial.
 
 
 ## Getting started <a name="getting-started"></a>
@@ -1167,7 +1167,7 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [React.js localization](https://react.i18next.com) and [modern localization workflows](https://locize.com).
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform](https://locize.com) of locize.
+So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
