@@ -2,19 +2,19 @@ const ejs = require('ejs');
 const { stripHTML, escapeHTML } = require('hexo-util');
 
 const organisationTemplateContent = `<script type="application/ld+json">
-{ "@context" : "http://schema.org",
-  "@type" : "Organization",
-  "name" : "locize",
-  "url" : "https://locize.com",
+{ "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "locize",
+  "url": "https://locize.com",
   "logo": "https://locize.com/img/locize_color.svg",
-  "sameAs" : [ "" ]
+  "sameAs": [""]
 }
 </script>`;
 const websiteTemplateContent = `<script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "WebSite",
-  "name" : "locize",
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "locize",
   "url": "https://locize.com/blog/",
   "logo": "https://locize.com/blog/images/locize_color.svg"
 }
