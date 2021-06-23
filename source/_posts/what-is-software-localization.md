@@ -8,6 +8,8 @@ tags:
   - what is software-localization
   - localization definition
   - localization process
+categories:
+  - Post
 thumbnail: what-is-software-localization/software-localization.jpg
 ---
 
