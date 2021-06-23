@@ -2,12 +2,13 @@
 title: What is Software Localization (l10n)
 description: What is Software Localization (l10n), why it's important and how to get it if you need it.
 
-date: 2021-06-23 14:16:23
+date: 2021-06-23
 tags:
-	- software localization
-	- what is software-localization
-	- localization definition
-	- localization process
+  - software localization
+  - what is software-localization
+  - localization definition
+  - localization process
+thumbnail: what-is-software-localization/software-localization.jpg
 ---
 
 ![](software-localization.jpg "Software Localization")
@@ -21,7 +22,7 @@ For many developers, the software localization process is often only considered 
 ## What is software localization?
 The software-localization-definition is the process of adjusting the software to ensure that it can meet the language, culture, and style of the end-user. This means that not only is the text being adapted into the relevant language, but the design and overall user experience are amended to ensure that it meets the needs of the target audience.
  
-While [internationalization (i18n)](https://de.wikipedia.org/wiki/Internationalisierung_(Softwareentwicklung)) is about developing a product to meet the demands of a specific culture or audience, localization of software is a far more in-depth solution. The process usually requires the complete modification of text and multimedia for a software product. For example, trying to localize a piece of software that is in English into Chinese is not simply a case of translating the wording. The length of text and symbols are entirely different, meaning the whole visual layout will need to be amended to ensure the overall user experience remains the same.
+While [internationalization (i18n)](https://en.wikipedia.org/wiki/Internationalization_and_localization) is about developing a product to meet the demands of a specific culture or audience, localization of software is a far more in-depth solution. The process usually requires the complete modification of text and multimedia for a software product. For example, trying to localize a piece of software that is in English into Chinese is not simply a case of translating the wording. The length of text and symbols are entirely different, meaning the whole visual layout will need to be amended to ensure the overall user experience remains the same.
  
 Software localization goes much further than that, too. It also looks at the resources and links being used, the time- and date-format, the use of images or gestures to ensure they are culturally appropriate, and even the direction the text needs to be read in.
  
@@ -64,7 +65,7 @@ Effective processes work best when you keep your language and copy simple. While
 It would help if you also considered implementing a style guide, covering things such as your branding, tone of voice, and formality. This will ensure a consistent and clear approach, no matter where in the world your users are accessing your software.
  
 ### Use a localization platform
-Effective software localization is a vast project, and utilizing a proven <a href="/?lng=en" title="localization management platform">localization management platform</a> can help to make the process easier. When choosing a platform, you should ensure that it has been developed specifically for localization. This will help to offer greater customization and allow you to integrate essential tools. For example <a href="/blog/how-to-internationalize-react-i18next/" title="react localization">react localization</a> is made incredibly simple for developers when used in conjunction with the <a href="https://www.i18next.com/" title="i18next">i18next</a> framework.
+Effective software localization is a vast project, and utilizing a proven <a href="https://locize.com" title="localization management platform">localization management platform</a> can help to make the process easier. When choosing a platform, you should ensure that it has been developed specifically for localization. This will help to offer greater customization and allow you to integrate essential tools. For example <a href="/blog/how-to-internationalize-react-i18next/" title="react localization">react localization</a> is made incredibly simple for developers when used in conjunction with the <a href="https://www.i18next.com/" title="i18next">i18next</a> framework.
 
 You may use locize to make the process of the localization-projects of your company easier. Locize is the platform for effectively localizing your website, mobile app, video game or any other web product.
 ![](software_localization_process.png "software_localization_process")
@@ -83,9 +84,9 @@ The translation is one of the most important parts of your localization, so once
 Once completed, you will then need to copy the translations into your software and begin to testing it in every locality you are targeting. When you are certain that the software is working as designed and free from bugs, it can then be released to the public.
  
 ## Do you need localization of software?
-Now you know the answer to the question, “What is 10n?” the next decision is to decide whether it is right for you. If your software is being targeted for a specific community or a select region, then localization might not be required.
+Now you know the answer to the question, “What is l10n?” the next decision is to decide whether it is right for you. If your software is being targeted for a specific community or a selected region, then localization might not be required.
  
-However, if you are looking to expand into wider communities or give yourself the opportunity to do that at a later date, then it should be something you should consider. Even if you are not considering an international move just yet, you should prep as much as you can during the build stage.
+However, if you are looking to expand into wider communities or give yourself the opportunity to do that at a later date, then it should be something you should consider. Even if you are not considering an international move just yet, you should prepare as much as you can during the development stage.
  
 The industry you work in should also be a major consideration. <b>Software localization should be a major consideration</b> for those working in the e-commerce, legal, or governmental sectors. Of course, it is not just limited to these sectors, so make sure you consider both your current and future requirements when deciding if you need l10n.
  
@@ -95,10 +96,10 @@ In this technology-driven world, globalization is seeing an increasing number of
 Connect your project directly to locize and get automatically new "non-translated" parts of your application sent to locize. You will be able to use locize CDN translations or translate within your web application directly. All newly generated keys in the reference language are automatically translated into the target languages using machine translation, such as Google Translate, when this option is selected.
 
 #### Try it for free
-For a 14-day free trial period, <a href="https://www.locize.app/login" title="login to locize">register</a> for free and login to locize. 
+For a 14-day free trial period, <a href="https://www.locize.app/register" title="register to locize">register</a> for free and <a href="https://www.locize.app/login" title="login to locize">login</a> to locize. 
 
 #### More information
-<a href="https://locize.com/how-it-works.html" title="how it works">Here</a> is where you can learn more about the platform's features, benefits, and if it's for you.
+<a href="https://locize.com/how-it-works.html" title="how it works">Here</a> is where you can learn more about the platform's features, benefits, and if it is something for you.
 
 
 
