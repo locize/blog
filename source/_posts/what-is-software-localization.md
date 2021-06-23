@@ -2,7 +2,7 @@
 title: What is Software Localization (l10n)
 description: What is Software Localization (l10n), why it's important and how to get it if you need it.
 
-date: 2021-06-23 16:16:23
+date: 2021-06-23 16:58:23
 tags:
   - software localization
   - what is software-localization
