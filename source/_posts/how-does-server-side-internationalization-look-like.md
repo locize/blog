@@ -20,7 +20,7 @@ categories:
 thumbnail: how-does-server-side-internationalization-look-like/server_side_backend.jpg
 ---
 
-![](server_side_backend.jpg "Server Side Internationalization")
+![server side internationalization next](server_side_backend.jpg "Server Side Internationalization")
 
 You may already know how to properly internationalize a client side application, like described in this [React based tutorial](/how-to-internationalize-react-i18next/), this [Angular based tutorial](/unleash-the-full-power-of-angular-i18next/) or this [Vue based tutorial](/give-vue-i18n-more-superpowers/).
 
@@ -326,7 +326,7 @@ const html = mail({
 
 This is how the resulting html could look like:
 
-![](mail_preview.jpg)
+![mail preview](mail_preview.jpg)
 
 *🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-fs-backend/blob/master/example/fastify/app.js#L14-L19).*
 
@@ -457,7 +457,7 @@ app.listen(port, (err) => {
 ```
 
 Now start the app and check what language you're seeing...
-![](pug_fastify.jpg)
+![pug fastify](pug_fastify.jpg)
 
 If you check the console output you'll also see something like this:
 
@@ -598,7 +598,7 @@ By default, `next-i18next` expects your translations to be organised as such:
 
 A demo of how such an app looks like when it is deployed, can be found [here](https://next-i18next.com).
 
-[![](next-i18next_demo.jpg)](https://next-i18next.com)
+[![next i18next demo](next-i18next_demo.jpg)](https://next-i18next.com)
 
 **This looks really simple, right?**
 

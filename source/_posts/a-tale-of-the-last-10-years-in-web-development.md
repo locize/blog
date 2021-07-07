@@ -14,7 +14,7 @@ redirect_from:
 - /2018-08-28-a-tale-of-the-last-10-years-in-web-development
 ---
 
-![](title.png "locize © inweso GmbH")
+![web development](title.png "locize © inweso GmbH")
 
 > This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents depicted in this story are either the products of my imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
 
@@ -81,7 +81,7 @@ In the meantime, the backend had turned into a solid foundation based on DDD, CQ
 During a late-night beer, Dorian told Shaun about [React](https://reactjs.org/) and [Redux](https://redux.js.org/). He said that when he read about [React](https://reactjs.org/), [Redux](https://redux.js.org/) and FLUX he immediately felt that this was a natural fit to the existing backend.  
 Finally, they convinced Patty to rewrite the whole frontend with these arguments:
 
-![](react.gif "https://blog.gisspan.com")
+![react](react.gif "https://blog.gisspan.com")
 
 
 *   [Angular](https://angular.io/) was a framework vs. [React](https://reactjs.org/) was a library

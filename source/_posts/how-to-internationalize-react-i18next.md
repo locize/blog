@@ -1,5 +1,5 @@
-title: React Localization - How to properly internationalize a React application using i18next
-description: React Localization made easy with this step-by-step guide using i18next. This React JS example helps you with the simple usage of most popular i18n library.
+title: React Localization - Internationalize with i18next
+description: React Localization made easy with this ✅step-by-step guide using i18next.
 
 date: 2021-04-14
 tags:
@@ -17,7 +17,7 @@ redirect_from:
 - /2021-04-14-how-to-internationalize-react-i18next
 ---
 
-![](react-localization.jpg "React Localization example")
+![react localization](react-localization.jpg "React Localization example")
 
 Overcoming the language barrier for users who use your software is an important topic.
 English is no longer the universal language of the internet.
@@ -86,7 +86,7 @@ Take your own React project or create a new one, i.e. with [create-react-app](ht
 
 `npx create-react-app my-app`
 
-![](app_0.jpg "locize © inweso GmbH")
+![learn react logo](app_0.jpg "locize © inweso GmbH")
 
 We are going to adapt the app to detect the language according to the user’s preference.
 And we will create a language switcher to make the content change between different languages.
@@ -318,7 +318,7 @@ i18n
 export default i18n;
 ```
 
-![](app_1.jpg "locize © inweso GmbH")
+![react language switcher](app_1.jpg "locize © inweso GmbH")
 
 **🥳 Awesome, you've just created your first language switcher!**
 
@@ -436,7 +436,7 @@ export default i18n;
 Based on the count value i18next will choose the correct plural form.
 Read more about [pluralization](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation) in the [official i18next documentation](https://www.i18next.com/).
 
-![](app_2.jpg "locize © inweso GmbH")
+![react pluralization](app_2.jpg "locize © inweso GmbH")
 
 *💡 i18next is also able to handle languages with multiple plural forms, like arabic:*
 
@@ -551,10 +551,10 @@ export default i18n;
 **😎 Cool, now we have a language specific date formatting!**
 
 English:
-![](app_3.jpg "locize © inweso GmbH")
+![react english](app_3.jpg "locize © inweso GmbH")
 
 German:
-![](app_4.jpg "locize © inweso GmbH")
+![react german](app_4.jpg "locize © inweso GmbH")
 
 
 ## Context <a name="context"></a>
@@ -664,7 +664,7 @@ export default i18n;
 
 **😁 Yeah, It works!**
 
-![](app_5.jpg "locize © inweso GmbH")
+![react translations](app_5.jpg "locize © inweso GmbH")
 
 
 ## Separate translations from code <a name="separate"></a>
@@ -678,7 +678,7 @@ Because this is a web application, [i18next-http-backend](https://github.com/i18
 
 Move the translations to the public folder:
 
-![](public_locales.jpg "locize © inweso GmbH")
+![public locales](public_locales.jpg "locize © inweso GmbH")
 
 Adapt the i18n.js file to use the i18next-http-backend:
 
@@ -778,7 +778,7 @@ i18next helps to get the application translated, and this is great - but there i
 - [Transparent and fair pricing](https://locize.com/pricing.html)
 - and a lot more...
 
-![](transform_your_localization_process_small.jpg "locize © inweso GmbH")
+![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
 ### How does this look like? <a name="how-look"></a>
 
@@ -791,7 +791,7 @@ Done so, we're going to replace [i18next-http-backend](https://github.com/i18nex
 
 After having imported the translations to locize, delete the locales folder:
 
-![](public_locales_removed.jpg "locize © inweso GmbH")
+![public locales removed](public_locales_removed.jpg "locize © inweso GmbH")
 
 Adapt the i18n.js file to use the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project:
 
@@ -964,7 +964,7 @@ Each time you'll use a new key, it will be sent to locize, i.e.:
 
 will result in locize like this:
 
-![](missing_key.jpg "locize © inweso GmbH")
+![missing key](missing_key.jpg "locize © inweso GmbH")
 
 
 ### 👀 but there's more... <a name="more"></a>
@@ -1040,15 +1040,15 @@ export default i18n;
 
 [Automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation):
 
-![](missing_key_auto_mt.jpg "locize © inweso GmbH")
+![missing key auto](missing_key_auto_mt.jpg "locize © inweso GmbH")
 
 [Last used translations filter]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
 
-![](last_used.jpg "locize © inweso GmbH")
+![i18next last used](last_used.jpg "locize © inweso GmbH")
 
 [InContext Editor](https://docs.locize.com/more/incontext-editor):
 
-![](in_context.jpg "locize © inweso GmbH")
+![i18next incontext](in_context.jpg "locize © inweso GmbH")
 
 
 ### 📦 Let's prepare for production 🚀 <a name="production"></a>
@@ -1154,11 +1154,11 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 [Caching](https://docs.locize.com/more/caching):
 
-![](caching.jpg "locize © inweso GmbH")
+![i18next caching](caching.jpg "locize © inweso GmbH")
 
 [Merging versions](https://docs.locize.com/more/versioning#merging-versions):
 
-![](overwrite_version.jpg "locize © inweso GmbH")
+![overwrite version](overwrite_version.jpg "locize © inweso GmbH")
 
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/react-i18next-example-app).*
 

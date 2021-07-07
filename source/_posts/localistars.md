@@ -16,7 +16,7 @@ redirect_from:
 - /2020-06-13-localistars
 ---
 
-![](title.jpg "locize © inweso GmbH")
+![what is localistars](title.jpg "locize © inweso GmbH")
 
 While you can let your translation done by freelancers or inhouse employees using locize itself you also got the options to directly order translations from inside locize.
 With the existing integrations we weren't that happy. That's one of the reasons why we decided to integrate a complete new marketplace platform, which works in a more fair way.

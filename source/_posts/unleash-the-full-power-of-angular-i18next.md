@@ -1,4 +1,5 @@
-title: Unleash the full power of angular-i18next
+title: Angular Localization - Unleash the full power of i18next
+description: A step-by-step guide how to implement angular-i18next into your application.
 
 date: 2021-06-14
 tags:
@@ -13,7 +14,7 @@ categories:
 thumbnail: unleash-the-full-power-of-angular-i18next/title.jpg
 ---
 
-![](title.jpg "locize © inweso GmbH")
+![angular localization](title.jpg "locize © inweso GmbH")
 
 Let's talk about internationalization (i18n) for Angular (not AngularJS, not Angular 2, just Angular 😉).
 
@@ -72,7 +73,7 @@ Take your own Angular project or create a new one, i.e. with [the Angular cli](h
 `npx @angular/cli new my-app`
 
 *To simplify let's remove the "generated" content of the angular-cli:*
-![](app_0.jpg "locize © inweso GmbH")
+![angular cli](app_0.jpg "locize © inweso GmbH")
 
 We are going to adapt the app to detect the language according to the user’s preference.
 And we will create a language switcher to make the content change between different languages.
@@ -176,7 +177,7 @@ Ok, now let's update the `app.component.html`:
 ```
 
 You should now see something like this:
-![](app_1.jpg "locize © inweso GmbH")
+![app 1](app_1.jpg "locize © inweso GmbH")
 
 
 Nice! So let's add an additional text, with an [interpolated unescaped](https://www.i18next.com/translation-function/interpolation#unescape) value:
@@ -224,11 +225,11 @@ const i18nextOptions = {
 ```
 
 Does it work? - Of course!
-![](app_2.jpg "locize © inweso GmbH")
+![app 2](app_2.jpg "locize © inweso GmbH")
 
 
 And thanks to the language-detector, you can also try to switch the language with the query parameter `?lng=de`:
-![](app_3.jpg "locize © inweso GmbH")
+![language detector](app_3.jpg "locize © inweso GmbH")
 
 
 ## Language Switcher <a name="language-switcher"></a>
@@ -289,7 +290,7 @@ export class AppComponent {
 }
 ```
 
-![](app_4.jpg "locize © inweso GmbH")
+![app 4](app_4.jpg "locize © inweso GmbH")
 
 **🥳 Awesome, you've just created your first language switcher!**
 
@@ -411,7 +412,7 @@ Each time you'll use a new key, it will be sent to locize, i.e.:
 
 will result in locize like this:
 
-![](missing_key.jpg "locize © inweso GmbH")
+![missing key](missing_key.jpg "locize © inweso GmbH")
 
 
 ### 👀 but there's more... <a name="more"></a>
@@ -421,7 +422,7 @@ Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugi
 With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
 
 Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation:
-![](locize_autotranslate.jpg "locize © inweso GmbH")
+![locize autotranslate](locize_autotranslate.jpg "locize © inweso GmbH")
 
 `npm install locize-lastused locize`
 
@@ -512,23 +513,23 @@ export class AppModule { }
 
 [Automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation):
 
-![](locize_autotranslate.jpg "locize © inweso GmbH")
+![locize autotranslate](locize_autotranslate.jpg "locize © inweso GmbH")
 
 [Last used translations filter]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
 
-![](../how-to-internationalize-react-i18next/last_used.jpg "locize © inweso GmbH")
+![react localization](../how-to-internationalize-react-i18next/last_used.jpg "locize © inweso GmbH")
 
 [InContext Editor](https://docs.locize.com/more/incontext-editor):
 
-![](in_context.jpg "locize © inweso GmbH")
+![in context](in_context.jpg "locize © inweso GmbH")
 
 [Caching](https://docs.locize.com/more/caching):
 
-![](../how-to-internationalize-react-i18next/caching.jpg "locize © inweso GmbH")
+![react localization caching](../how-to-internationalize-react-i18next/caching.jpg "locize © inweso GmbH")
 
 [Merging versions](https://docs.locize.com/more/versioning#merging-versions):
 
-![](../how-to-internationalize-react-i18next/overwrite_version.jpg "locize © inweso GmbH")
+![overwrite version](../how-to-internationalize-react-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-angular-example).*
 

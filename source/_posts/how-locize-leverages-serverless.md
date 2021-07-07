@@ -18,7 +18,7 @@ _[slides](https://www.slideshare.net/adrai/locize-tech-talk)_
 
 ## Why we choose serverless?
 
-![](why.png "locize © inweso GmbH")
+![why](why.png "locize © inweso GmbH")
 
 When we started with [locize](http://www.locize.com) we did not know how fast it would scale… serverless means we didn’t need to make that choice. The serverless architecture scales with our business model.
 
@@ -30,7 +30,7 @@ And last but not least: serverless is really cool!
 
 ## Why we choose AWS?
 
-![](why_aws.png "locize © inweso GmbH")
+![why aws](why_aws.png "locize © inweso GmbH")
 
 We think AWS is the only production-ready FaaS provider (and more) that works out of the box and scales like you expected. It’s designed with an API-first approach, so everything can be automated.
 We think AWS has in mind a possible future where you can also run functions directly on the edge (directly on hardware).
@@ -46,7 +46,7 @@ Additionally AWS has not only lambda but completes the serverless offering with:
 
 ## The basic setup
 
-![](setup.png "locize © inweso GmbH")
+![setup](setup.png "locize © inweso GmbH")
 
 When Developers/Translation Editors/Managers, etc… goes to www.locize.app, the locize-app-client (which is hosted on S3 and exposed by CloudFront) is served. The client then accesses our lambda backend through the API-Gateway also exposed by CloudFront. Our main working storage (DynamoDB) is then accessed by our lambda functions.
 Each time someone publishes (or auto-publishes) a translation resource a lambda function will save that resource to S3. When published, the endusers of your product can access them via CDN edge locations offered and exposed by CloudFront too.
@@ -54,7 +54,7 @@ Each time someone publishes (or auto-publishes) a translation resource a lambda 
 
 ## Full-Stack JavaScript
 
-![](full_js.png "locize © inweso GmbH")
+![full js](full_js.png "locize © inweso GmbH")
 
 locize is a single language solution! Everything is JavaScript!
 The complete application backend, the api, the cli and other tools runs on [node.js](https://nodejs.org)… and the locize-app-client is a modern SPA based on [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/).
@@ -62,14 +62,14 @@ The complete application backend, the api, the cli and other tools runs on [node
 
 ## Lambda functions
 
-![](types.png "locize © inweso GmbH")
+![types](types.png "locize © inweso GmbH")
 
 locize uses 3 different base lambda types.
 These are not real „AWS-defined“ lambda types but we've defined these types ourself.
 
 ### Express
 
-![](express.png "locize © inweso GmbH")
+![express](express.png "locize © inweso GmbH")
 
 The first type is the express type.
 It defines RESTful APIs using the normal [express](http://expressjs.com/) framework.
@@ -80,7 +80,7 @@ For this scenario there is an additional file (lambda.js) that uses the help of 
 
 ### Async
 
-![](async.png "locize © inweso GmbH")
+![async](async.png "locize © inweso GmbH")
 
 The second type is the async type.
 This lambda function is triggered by other lambda functions to compute non blocking tasks. i.e. calculation of current words in project, or publishing translation resources to S3, etc…
@@ -89,7 +89,7 @@ With the help of AWS policies you can define exactly which function can be invok
 
 ### S3 event
 
-![](s3.png "locize © inweso GmbH")
+![s3](s3.png "locize © inweso GmbH")
 
 The last type is the S3 event type.
 This lambda function is i.e. triggered by a new CloudFront log file that was saved to s3 (this feature can be enabled on CloudFront).
@@ -97,7 +97,7 @@ We use this to i.e. calculate the amount of downloads or to generate statistics.
 
 ## Our tooling
 
-![](claudia.png "locize © inweso GmbH")
+![claudia js](claudia.png "locize © inweso GmbH")
 
 Because we have a pure JavaScript landscape we’ve chosen [claudia.js](https://claudiajs.com/)
 It automatically installs and configures a lot on AWS. From API-Gateway to Lambda versioning.
