@@ -18,7 +18,7 @@ redirect_from:
 - /2018-02-23-is-your-software-ready-for-localization
 ---
 
-![](title.png "locize © inweso GmbH")
+![software ready for localization](title.png "locize © inweso GmbH")
 
 > So you want people from all around the world to use and understand your software...
 
@@ -80,7 +80,7 @@ Different languages, different needs: for special characters, word order, even n
 Allow date, time, currency, and numbers to be displayed with differing figures and number separators by language or even region.
 Make sure the date format is right because Americans do month/day/year Brit day/month/year and by the way in America the week starts on a Sunday and in Britain the week starts on Monday. Europe wants 24 hour clocks and America wants 12 hour clocks.
 Regarding numbers, here a little list:
-![](numbers.png "locize © inweso GmbH")
+![numbers](numbers.png "locize © inweso GmbH")
 [source](https://en.wikipedia.org/wiki/Decimal_separator)
 
 
