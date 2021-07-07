@@ -17,7 +17,7 @@
             title = __('index.tag') + ': ' + page.tag;
         }
     %>
-    <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
+    <title><% if (title) { %><%= title %> <% } else { %><%= config.title %><% } %></title>
     <% if (page.layout === 'redirect') { %>
         <meta http-equiv="refresh" content="0; URL=<%= url_for(page.target.path) %>" />
     <% } %>
