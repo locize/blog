@@ -104,18 +104,33 @@ All information must be given in a genuine manner to other locals so that they f
 ## Examples <a name="examples"></a>
 
 
-There are well-known examples all across the world of <b>companies that have effectively implemented multilingual websites</b> as part of their overall business strategy. [www.tesla.com](https://www.tesla.com/) was one of the most well-known examples we checked out. They offer a large number of regions from which to choose. They also adjust things like privacy policies and graphics to meet the needs of different locations. They do an excellent job of localizing their website, but it isn't perfect, and there are certain areas where they could improve.
+There are well-known examples all across the world of <b>companies that have effectively implemented multilingual websites</b> as part of their overall business strategy. [www.tesla.com](https://www.tesla.com/) was one of the most well-known examples we checked out. They offer a large number of regions from which to choose. They also adjust things like privacy policies and graphics to meet the needs of different locations. They do an excellent job of localizing their website, but it isn't perfect, and there are certain areas where they could improve. 
 
+The following improvements are some general areas that, in the author's view, may be improved by not deeply analyzing their situation. 
+
+##### First finding 
+In the author's opinion, the language selector is difficult to discover and therefore not well situated for a good website-experience. It's great that the website displays it based on IP address in advance.
+
+##### Second finding 
+In the author's opinion, although switching languages is possible, the user does not receive sufficient tailored info for his intended location. The available Tesla Store Locations are hidden in a bottom menu and are difficult to find. It may help to direct the user's attention to these Locations, allowing the consumer to feel more home.
+
+##### Third finding 
+In the author's opinion, some product description information is tailored to a larger geographic area, such as Europe. It isn't particular to different areas of Europe; they used the same data across many countries. However, this may be wanted from them, because the efforts would be excessive in comparison to the results they would get. "The product speaks for itself".
+
+
+The author is unable to conduct a thorough analysis of the technical localization aspects as part of this article. If they're interested, our team would be delighted to assist them :-)
 
 
 ### Locize examples
 
-We, at locize [localization management platform](https://locize.com/?lng=en), <b>have assisted many customers in achieving their goals with website-localization</b>. The following examples can assist you in escaping your strategy:
+We, at locize [localization management platform](https://locize.com), <b>have assisted many customers in achieving their goals with website-localization</b>. The following examples can assist you in escaping your strategy:
 
-#### 1) [www.withlocals.com](https://www.withlocals.com/)
-Withlocals has been able to efficiently localize the website in numerous languages thanks to [locize](https://locize.com/?lng=en). They were able to focus entirely on the development of the product as a result of choosing locize, while also providing a user-friendly tool to their translators all over the world.
+#### 1) [globalfinreg.com](https://globalfinreg.com/)
+Globalfinreg has been able to efficiently localize their two websites thanks to [locize](https://locize.com). They said locize is for them:
 
-<a href="https://www.withlocals.com/" title="withlocals">![withlocals](withlocals.png "withlocals")</a>
+An easy-to-use interface for managing translations. It is possible to regulate exactly what each translator sees, and they enjoy doing so. The UI also allows you to easily check which translations are needed and divide your application into separate namespaces.
+
+<a href="https://globalfinreg.com/" title="globalfinreg">![globalfinreg](finreg.png "globalfinreg")</a>
 
 #### 2) [www.redcross.ch](https://support.redcross.ch)
 
@@ -157,7 +172,7 @@ Testing the localization ensures that your various language site versions work p
 
 A multilingual website is typically a large undertaking, and using a well-established localization management solution will assist you in completing it more quickly. When choosing a platform, make sure it was created specifically for your needs. You will be able to provide greater user-experience and add appropriate tools as a result of this.
 
-With locize, a modern and economical [localization management platform](https://locize.com/?lng=en), you can bridge the gap between translation and development. It makes your site, app, game, or whatever project you're working on more global, dynamic, and engaging, particularly when you use the continuous localization features.
+With locize, a modern and economical [localization management platform](https://locize.com), you can bridge the gap between translation and development. It makes your site, app, game, or whatever project you're working on more global, dynamic, and engaging, particularly when you use the continuous localization features.
 
 While we hope you enjoy our services, we will not lock you into a contract. We believe in the added value of our services, so you can export your translations and utilize them with [i18next](https://www.i18next.com/). If you are a developer, this could be a possibility for you, or you can look at our step-by-step guide for [JavaScript localization](https://locize.com/javascript-localization.html)
 
@@ -171,7 +186,7 @@ Consumers have a clear requirement for a website that is tailored to customized 
 
 As you can see from our real-world examples, the most well-known organizations in any industry have used website localization. As a result, <b>you should address it as soon as possible</b> in <b>your company's internationalization process</b>. It is significant due to the commitment your organization would make to potential clients in the newly targeted area. This target audience will thank you by purchasing your goods or service. In this market, your company's brand awareness will grow as well, a situation that is critical to successful business in the internet.
 
-The "how to locize your website" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. Our team has considerable experience to assist you with your project or development needs, thanks to many [customers](https://locize.com/customers.html) that we assisted with the localization of their website. The [localization management platform](https://locize.com/?lng=en) can assist you in remaining organized and adaptable during your continuous-localization. We've also supplied the <b>most valuable pricing</b> of our services because of our many years of expertise with these consumers, and we don't require you to sign long-term contracts.
+The "how to locize your website" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. Our team has considerable experience to assist you with your project or development needs, thanks to many [customers](https://locize.com/customers.html) that we assisted with the localization of their website. The [localization management platform](https://locize.com) can assist you in remaining organized and adaptable during your continuous-localization. We've also supplied the <b>most valuable pricing</b> of our services because of our many years of expertise with these consumers, and we don't require you to sign long-term contracts.
 
 
 ➡️ [Watch our introduction video](https://docs.locize.com/)
