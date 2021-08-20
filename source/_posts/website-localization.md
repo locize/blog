@@ -194,3 +194,5 @@ The "how to locize your website" is <b>easy to answer, select the right platform
 ➡️ [Create a new user account for free](https://www.locize.app/register)
 
 ➡️ [Check out how to add a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
+
+➡️ Check the [website-internationalization-best practices](/blog/website-internationalization-best-practices/)
