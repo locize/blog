@@ -1,15 +1,13 @@
 ---
 title: Website Localization Fundamentals & Examples
+
 date: 2021-07-12 10:21:36
 tags: 
-
-- best practices
-- website localization techniques
-- website-localization-definition
-
+  - best practices
+  - website localization techniques
+  - website-localization-definition
 categories:
- - Post
-
+  - Post
 thumbnail: website-localization/website-localization.webp
 ---
 

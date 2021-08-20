@@ -1,3 +1,4 @@
+---
 title: React Localization - Internationalize with i18next
 description: React Localization made easy with this ✅step-by-step guide using i18next.
 

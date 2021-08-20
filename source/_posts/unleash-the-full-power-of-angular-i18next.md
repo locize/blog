@@ -1,3 +1,4 @@
+---
 title: Angular Localization - Unleash the full power of i18next
 description: A step-by-step guide how to implement angular-i18next into your application.
 

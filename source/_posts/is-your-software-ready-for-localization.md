@@ -84,7 +84,7 @@ Regarding numbers, here a little list:
 [source](https://en.wikipedia.org/wiki/Decimal_separator)
 
 
-## What encoding do you use for your text assets?
+## What encoding do you use for your text assets? <a name="encoding"></a>
 Choose an encoding that supports all target languages.
 If you don't know, just choose UTF-8.
 If you want to know [Why UTF-8 is the best encoding?](http://codel10n.com/why-utf8-is-best-encoding-for-your-customers/) read this [article](http://codel10n.com/why-utf8-is-best-encoding-for-your-customers/).
