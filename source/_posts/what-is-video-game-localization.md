@@ -1,5 +1,5 @@
 ---
-title: What is video game localization | Locize
+title: What is video game localization
 description: Learn how video game translation works and how you can utilize it to boost your company's revenue.
 
 date: 2021-09-15 10:01:48
