@@ -63,7 +63,7 @@ When it comes to understanding “what is localization in video games?” it is 
 
 However, to truly maximize the commercial appeal of the game, developers need to ensure that they are localizing their marketing campaign. Without doing so, they risk alienating certain audiences and losing a vital opportunity to maximize pre-launch interest in the game. 
 
-Localizing your marketing content requires a comprehensive review of all materials. From the images and graphics being used to the language and wording, you want to ensure you are targeting the gaming habits of those players in each region you are launching in. This is also important in other areas of localization like webapps, for this check out this guide on <a href="/blog/how-to-internationalize-react-i18next/" title="react localization">react localization</a>.
+Localizing your marketing content requires a comprehensive review of all materials. From the images and graphics being used to the language and wording, you want to ensure you are targeting the gaming habits of those players in each region you are launching in. This is also important in other areas of localization like webapps, for this check out this guide on <a href="../how-to-internationalize-react-i18next/" title="react localization">react localization</a>.
 
 
 ## Why is video game localization important
