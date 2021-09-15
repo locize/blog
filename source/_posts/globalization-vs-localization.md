@@ -1,5 +1,6 @@
 ---
 title: Globalization vs. Localization - What is the difference
+description: What is the difference between globalization and localization, what does each include and what are pros and cons.
 
 date: 2021-09-15 08:02:53
 tags:
