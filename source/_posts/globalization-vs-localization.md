@@ -18,7 +18,7 @@ thumbnail: globalization-vs-localization/globalization-vs-localization.webp
 
 Do you know what is meant by globalization versus localization? From the outside, these two terms could appear like complete opposites of each other. However, that is not quite the case, and they actually go hand-in-hand, which is often where the confusion arises. 
 
-To help you understand the differences between globalization versus localization, we thought we would take a closer at what they mean and why they are important. 
+To help you understand the differences between globalization versus localization, we were thinking we could take a closer look at what they mean and why they are important.
 
 
 ## What is globalization?
@@ -79,7 +79,7 @@ When it comes to looking at the differences between the two, there are three key
 1 - <b>Localization is the process of focusing on a specific culture, location, or audience</b>. Globalization is the process of looking at multiple cultures, locations, or audiences. 
 
 2 - <b>Localization is a part of the wider globalization process</b>, whereas globalization forms part of your overall business strategy. 
-  	
+
 3 - <b>Globalization is often part of a larger long-term business <a href="https://en.wikipedia.org/wiki/Global_strategy" title="strategy">strategy</a></b>, while localization is often used for more short-term actions.
 
 
@@ -89,22 +89,22 @@ Both the globalization or localization strategy can be a complex process, but th
 
 
 ### Pros and cons of globalization 
-Globalization is able to provide businesses with a wide range of benefits, helping them to reach a far greater audience. Not only can this help to increase revenue by expanding your customer base, but it is also able to significantly enhance your overall brand reputation and global image. This, in turn, can help to decrease dependence on a single market, ensuring your business is more resilient in the face of economic challenges. 
+Globalization is able to provide businesses with a wide range of benefits, helping them to reach a far greater audience. Not only can this help to increase revenue by expanding your customer base, but it is also able to significantly enhance your overall brand reputation and global image. This, in turn, can help to decrease dependence on a single market, ensuring your business is more resilient in the face of economic challenges.
 
-However, globalization can be a very time-consuming process and does require additional resources alongside the many challenges of expanding a business. 
+However, globalization can be a very time-consuming process and does require additional resources alongside the many challenges of expanding a business.
 
 ### Pros and cons of localization 
-If you are looking to enter specific new markets, then localization is essential in helping to facilitate this. It can help to create significant brand loyalty from customers, improving their overall experience with your company. By building loyal customers, you will be able to increase revenue and secure a more competitive advantage in that market. 
+If you are looking to enter specific new markets, then localization is essential in helping to facilitate this. It can help to create significant brand loyalty from customers, improving their overall experience with your company. By building loyal customers, you will be able to increase revenue and secure a more competitive advantage in that market.
 
-Of course, just like globalization, localization does require significant investment in terms of time and resources. If not done correctly, it can also have a negative impact on your brand image, so it is always recommended you work with a professional partner who can help you. 
+Of course, just like globalization, localization does require significant investment in terms of time and resources. If not done correctly, it can also have a negative impact on your brand image, so it is always recommended you work with a professional partner who can help you.
 
 
 ## So which is right for you?
-When it comes to globalization versus localization, both strategies can help you to transform your business. While they might sound like two completely different methods, globalization and localization can work in tandem to help you successfully branch out into new markets and increase your revenue. 
+When it comes to globalization versus localization, both strategies can help you to transform your business. While they might sound like two completely different methods, globalization and localization can work in tandem to help you successfully branch out into new markets and increase your revenue.
 
-Knowing which option will be right for you will depend on the overall strategy and the audience you are looking to reach. Whichever you choose, partnering with a professional translation and localization team from a <a href="/" title="translation management platform">translation management platform</a>  will help ensure that it is completed to the highest standards alongside reducing the time and resource investment that you need to make. 
+Knowing which option will be right for you will depend on the overall strategy and the audience you are looking to reach. Whichever you choose, partnering with a professional translation and localization team from a <a href="/" title="translation management platform">translation management platform</a>  will help ensure that it is completed to the highest standards alongside reducing the time and resource investment that you need to make.
 
 ## Further to read (examples)
-If you want to read about real-world i18n localization examples from our client cases, check out our recent blog post on <a href="/blog/website-localization/" title="website localization">website localization</a>.  
+If you want to read about real-world i18n localization examples from our client cases, check out our recent blog post on  <a href="../website-localization/" title="website localization">website localization</a>.
 
-Read more about how software is affected from globalization and localization and what potential localization of software has in the <a href="/blog/what-is-software-localization/" title="what is software localization">"what is software localization"</a> blog post.
+Read more about how software is affected from globalization and localization and what potential localization of software has in the <a href="../what-is-software-localization/" title="what is software localization">"what is software localization"</a> blog post.
