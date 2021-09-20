@@ -249,7 +249,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.language === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
               {lngs[lng].nativeName}
             </button>
           ))}
@@ -354,7 +354,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.language === lng ? 'bold' : 'normal' }} type="submit" onClick={() => {
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => {
               i18n.changeLanguage(lng);
               setCounter(count + 1);
             }}>
@@ -414,8 +414,8 @@ i18n
             part1: 'Edit <1>src/App.js</1> and save to reload.',
             part2: 'Learn React'
           },
-          counter: 'Changed language just once',
-          counter_plural: 'Changed language already {{count}} times'
+          counter_one: 'Changed language just once',
+          counter_other: 'Changed language already {{count}} times'
         }
       },
       de: {
@@ -424,8 +424,8 @@ i18n
             part1: 'Ändere <1>src/App.js</1> und speichere um neu zu laden.',
             part2: 'Lerne React'
           },
-          counter: 'Die Sprache wurde erst ein mal gewechselt',
-          counter_plural: 'Die Sprache wurde {{count}} mal gewechselt'
+          counter_one: 'Die Sprache wurde erst ein mal gewechselt',
+          counter_other: 'Die Sprache wurde {{count}} mal gewechselt'
         }
       }
     }
@@ -444,12 +444,12 @@ Read more about [pluralization](https://www.i18next.com/translation-function/plu
 ```javascript
 // translation resources:
 {
-  "key_0": "zero",
-  "key_1": "singular",
-  "key_2": "two",
-  "key_3": "few",
-  "key_4": "many",
-  "key_5": "other"
+  "key_zero": "zero",
+  "key_one": "singular",
+  "key_two": "two",
+  "key_few": "few",
+  "key_many": "many",
+  "key_other": "other"
 }
 
 // usage:
@@ -523,8 +523,8 @@ i18n
             part1: 'Edit <1>src/App.js</1> and save to reload.',
             part2: 'Learn React'
           },
-          counter: 'Changed language just once',
-          counter_plural: 'Changed language already {{count}} times',
+          counter_one: 'Changed language just once',
+          counter_other: 'Changed language already {{count}} times',
           footer: {
             date: 'Today is {{date, DATE_HUGE}}'
           }
@@ -536,8 +536,8 @@ i18n
             part1: 'Ändere <1>src/App.js</1> und speichere um neu zu laden.',
             part2: 'Lerne React'
           },
-          counter: 'Die Sprache wurde erst ein mal gewechselt',
-          counter_plural: 'Die Sprache wurde {{count}} mal gewechselt',
+          counter_one: 'Die Sprache wurde erst ein mal gewechselt',
+          counter_other: 'Die Sprache wurde {{count}} mal gewechselt',
           footer: {
             date: 'Heute ist {{date, DATE_HUGE}}'
           }
@@ -631,8 +631,8 @@ i18n
             part1: 'Edit <1>src/App.js</1> and save to reload.',
             part2: 'Learn React'
           },
-          counter: 'Changed language just once',
-          counter_plural: 'Changed language already {{count}} times',
+          counter_one: 'Changed language just once',
+          counter_other: 'Changed language already {{count}} times',
           footer: {
             date: 'Today is {{date, DATE_HUGE}}',
             date_morning: 'Good morning! Today is {{date, DATE_HUGE}} | Have a nice day!',
@@ -647,8 +647,8 @@ i18n
             part1: 'Ändere <1>src/App.js</1> und speichere um neu zu laden.',
             part2: 'Lerne React'
           },
-          counter: 'Die Sprache wurde erst ein mal gewechselt',
-          counter_plural: 'Die Sprache wurde {{count}} mal gewechselt',
+          counter_one: 'Die Sprache wurde erst ein mal gewechselt',
+          counter_other: 'Die Sprache wurde {{count}} mal gewechselt',
           footer: {
             date: 'Heute ist {{date, DATE_HUGE}}',
             date_morning: 'Guten Morgen! Heute ist {{date, DATE_HUGE}} | Wünsche einen schönen Tag!',
@@ -867,7 +867,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.language === lng ? 'bold' : 'normal' }} type="submit" onClick={() => {
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => {
               i18n.changeLanguage(lng);
               setCounter(count + 1);
             }}>
