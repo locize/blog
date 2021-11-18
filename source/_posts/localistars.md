@@ -61,6 +61,6 @@ Translators always get paid on approval.
 # Getting started with localistars
 Getting started is simple – the first step is to [signup or signin on localistars](https://www.localistars.app). Set up your profile and your organisation. Then follow [this guide](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars).
 
-**Check out the [_video_](https://youtu.be/WobsZ_er0I4) and be a localistar!**
+**Check out the [_video_](https://youtu.be/T0giUsKS5KQ) and be a localistar!**
 
-{% youtube WobsZ_er0I4 %}
+{% youtube T0giUsKS5KQ %}
