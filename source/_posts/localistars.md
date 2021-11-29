@@ -27,14 +27,14 @@ localistars is the go-to marketplace for clients and translators to get translat
 As client you'll find translators and as translator you'll find translation jobs.
 **Direct contact, no middleman – just collaborating!**
 
-![localistars logo](https://localistars.com/img/localistars_logo.svg)
+![localistars logo](https://localistars.com/logo/logo-black.svg)
 
 # How is localistars different?
 As we know how hard it can be to have a solid and working localization process between developers and technical editors / translators, our mission is to offer a platform where everybody is efficient to do its own work and everybody is happy.
 
 localistars is completely in line with locize's mission: "Bridging the gap between translation and development"
 
-[With localistars you're in direct contact with the translator](https://www.localistars.com/for-clients.html) – it's your project, you hold the reins. In contrast to other services localistars don't set the price and forward the contract to the cheapest translator to maximize the profit. You choose the translator for your projects yourself, it's your contractor.
+[With localistars you're in direct contact with the translator](https://www.localistars.com/translator) – it's your project, you hold the reins. In contrast to other services localistars don't set the price and forward the contract to the cheapest translator to maximize the profit. You choose the translator for your projects yourself, it's your contractor.
 
 ## Find the best offer
 Choose the best fitting translators.
