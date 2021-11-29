@@ -27,7 +27,7 @@ localistars is the go-to marketplace for clients and translators to get translat
 As client you'll find translators and as translator you'll find translation jobs.
 **Direct contact, no middleman – just collaborating!**
 
-![localistars logo](https://localistars.com/logo/logo-black.svg)
+![localistars logo](https://localistars.com/image/logo/logo-black.svg)
 
 # How is localistars different?
 As we know how hard it can be to have a solid and working localization process between developers and technical editors / translators, our mission is to offer a platform where everybody is efficient to do its own work and everybody is happy.
