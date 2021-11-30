@@ -14,9 +14,7 @@ redirect_from:
 ---
 
 
-<div class="img-100">
 ![](idea.jpg "locize flexibility")
-</div>
 
 When we started work on locize.com our localization as a service platform we basically had in mind to solve the translation process for developers using our i18n framework [i18next.com](http://i18next.com).
 

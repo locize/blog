@@ -20,9 +20,7 @@ redirect_from:
 ---
 
 
-<div class="img-100">
 ![](hands_world.jpg "localization")
-</div>
 
 ### Past times
 

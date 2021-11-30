@@ -11,9 +11,7 @@ redirect_from:
 
 Learn from our experience we made during using the locize service on our own new webapplication.
 
-<div class="img-100">
 ![](thumb.png "working hard")
-</div>
 
 In an early stage of drafting out our plan to completely rewrite our locize webclient we decided to use our own service to manage the content on it. There was no plan on providing it in another language then english - but we strongly believed even not having the demand of translating we could profit of separating the content from the application logic. This way we could go full speed during development while working on final terminology later. As a plus we could change all the texts in production without having to deploy a new client.
 
