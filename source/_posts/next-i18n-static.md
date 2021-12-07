@@ -30,13 +30,13 @@ Next.js is awesome! It gives you the best developer experience with all the feat
 ## TOC
   * [BUT, you may have heared about this](#but)
   * [So what can we do now?](#what-do)
-  * [The receipe](#receipe)
+  * [The recipe](#recipe)
   * [The outcome](#outcome)
   * [The voluntary part](#voluntary)
   * [🎉🥳 Congratulations 🎊🎁](#congratulations)
       
 
-# **BUT**, you may have heared about this: <a name="but"></a>
+# **BUT**, you may have heard about this: <a name="but"></a>
 
 >Error: i18n support is not compatible with next export. See here for more info on deploying: https://nextjs.org/docs/deployment
 
@@ -51,7 +51,7 @@ This is the case if you're using [next-i18next](https://github.com/isaachinman/n
 
 An obious option is, to renounce to the static HTML export and use a Node.js server or [Vercel](https://vercel.com) as deployment environment.
 
-But sometimes, due to company or architectural guidelines it is mandatory to use a static webserver.
+But sometimes, due to company or architectural guidelines it is mandatory to use a static web server.
 <br/>
 Ok then renounce to i18n? - Not really, if we are here, it seems like to be a requirement.
 <br/>
@@ -61,9 +61,9 @@ Executing `next export` when not using i18n seems to work.
 What if we do not try to use the [internationalized routing](https://nextjs.org/docs/advanced-features/i18n-routing) feature and do the i18n routing on our own?
 
 
-# The receipe <a name="receipe"></a>
+# The recipe <a name="recipe"></a>
 
-![](cook-book.jpg "receipe")
+![](cook-book.jpg "recipe")
 
 To "cook" this recipe you will need the following ingredients:
 
