@@ -376,7 +376,7 @@ Export successful. Files written to /Users/usr/projects/my-awesome-project/out
 
 **Yeah no `i18n support is not compatible with next export` error anymore!!!**
 
-**Congratulations! Now you can "deploy" the content of your `out` directory to any static werbserver.**
+**Congratulations! Now you can "deploy" the content of your `out` directory to any static web server.**
 
 *🧑‍💻 The complete code can be found [here](https://github.com/adrai/next-language-detector/tree/main/example).*
 
