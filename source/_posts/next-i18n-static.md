@@ -49,7 +49,7 @@ This is the case if you're using [next-i18next](https://github.com/isaachinman/n
 
 ![](what.jpg)
 
-An obious option is, to renounce to the static HTML export and use a Node.js server or [Vercel](https://vercel.com) as deployment environment.
+An obvious option is, to renounce to the static HTML export and use a Node.js server or [Vercel](https://vercel.com) as deployment environment.
 
 But sometimes, due to company or architectural guidelines it is mandatory to use a static web server.
 <br/>
