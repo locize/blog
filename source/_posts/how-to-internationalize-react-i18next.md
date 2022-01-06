@@ -71,7 +71,7 @@ When it comes to React localization. One of the most popular is [i18next](https:
 **➡️ rich**
 
 
-[Here you can find more information about why i18next is special.](https://www.i18next.com/overview/comparison-to-others)
+[Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
 
 
 # Let's get into it... <a name="start"></a>
