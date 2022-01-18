@@ -162,7 +162,7 @@ Let's get started.
   ## Additional links <a name="links"></a>
 
 
-➡️ Create a free new [ user account ](https://www.locize.app/register) for advanced i18n-experience with locize
+➡️ Create a free new [user account](https://www.locize.app/register) for advanced i18n-experience with locize
 
 ➡️ Find out more about [react-i18n](/blog/how-to-internationalize-react-i18next/)
 
