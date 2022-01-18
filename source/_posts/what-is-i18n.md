@@ -152,7 +152,7 @@ Let's get started.
   
 
   ## Conclusion <a name="conclusion"></a>
-  How do you manage the internationalization of your application? <b>Either way, let us know by write us an email to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> or leave us a comment on <a href="https://www.facebook.com/locize" title="facebook locize">facebook</a> right now.</b>
+  How do you manage the internationalization of your application? <b>Either way, let us know by write us an email to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> or leave us a comment on <a href="https://twitter.com/locize" title="twitter locize">twitter</a> or <a href="https://www.facebook.com/locize" title="facebook locize">facebook</a> right now.</b>
 
   The term "i18n" is mostly associated with the software business. It defines the development operations required when a corporation expands into new countries or markets. i18n refers to a complete business that was created to meet the needs of clients who needed to convert their programs, websites, or <a href="/blog/what-is-video-game-localization/" title="video-games">video-games</a>..
 
