@@ -103,6 +103,6 @@ For a 14-day free trial period, <a href="https://www.locize.app/register" title=
 #### More information
 <a href="https://locize.com/how-it-works.html" title="how it works">Here</a> is where you can learn more about the platform's features, benefits, and if it is something for you.
 
-
-
 ![](locize.jpg "locize")
+
+If you want to read more about internatationalization, check out our guide <a href="/blog/what-is-i18n/" title="what is i18n">what is i18n</a>.

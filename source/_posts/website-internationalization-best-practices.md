@@ -16,7 +16,7 @@ thumbnail: website-internationalization-best-practices/website-internationalizat
 
 When it comes to internationalizing your website, this article should assist you in determining your best practices. This could be as a result of a strategic shift or if you want to start an international company or project this is for you. The process when your web app becomes international should not be a difficult task. 
 
-Another article about <a href="/blog/website-localization/" title="website localization">website localization</a> shows you the process of planning, and if you read further in this article we try to help you to avoid any mistake. Make **website internationalization** easy with these couple of **best practices**:
+Another article about <a href="/blog/website-localization/" title="website localization">website localization</a> shows you the process of planning, and if you read further in this article we try to help you to avoid any mistake. If you're not sure what internatationalization is, check out our guide <a href="/blog/what-is-i18n/" title="what is i18n">what is i18n</a>. Make **website internationalization** easy with these couple of **best practices**:
 
 ## Best practices summary
   1. [Use as little text as possible in your pictures](#little-text)
