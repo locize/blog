@@ -509,12 +509,12 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     },
     resources: {
       en: {
@@ -545,6 +545,11 @@ i18n
       }
     }
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
@@ -617,12 +622,12 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     },
     resources: {
       en: {
@@ -659,6 +664,11 @@ i18n
       }
     }
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
@@ -707,14 +717,19 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     }
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
@@ -826,15 +841,20 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     },
     backend: locizeOptions
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
@@ -943,16 +963,21 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     },
     backend: locizeOptions,
     saveMissing: true
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
@@ -1024,17 +1049,22 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     },
     backend: locizeOptions,
     locizeLastUsed: locizeOptions,
     saveMissing: true
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
@@ -1133,17 +1163,22 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
-      format: (value, format, lng) => {
-        if (value instanceof Date) {
-          return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
-        }
-        return value;
-      }
+      // format: (value, format, lng) => { // legacy usage
+      //   if (value instanceof Date) {
+      //     return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime[format])
+      //   }
+      //   return value;
+      // }
     },
     backend: locizeOptions,
     locizeLastUsed: locizeOptions,
     saveMissing: !isProduction // you should not use saveMissing in production
   });
+
+// new usage
+i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
+  return DateTime.fromJSDate(value).setLocale(lng).toLocaleString(DateTime.DATE_HUGE)
+});
 
 export default i18n;
 ```
