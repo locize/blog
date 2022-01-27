@@ -662,7 +662,7 @@ Just download or sync your local translations before "deploying" your app.
 
 [Here](https://github.com/locize/next-i18next-locize#possibility-2-bundle-translations-with-app) you'll find more information and an example on how this looks like.
 
-You can, for example, run an [npm script script](https://github.com/locize/next-i18next-locize/blob/main/package.json#L6) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. `./public/locales`). This way the translations are bundled in your app and you will not generate any CDN downloads during runtime.
+You can, for example, run an [npm script](https://github.com/locize/next-i18next-locize/blob/main/package.json#L6) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. `./public/locales`). This way the translations are bundled in your app and you will not generate any CDN downloads during runtime.
 
 i.e. `locize download --project-id=d3b405cf-2532-46ae-adb8-99e88d876733 --ver=latest --clean=true --path=./public/locales`
 
