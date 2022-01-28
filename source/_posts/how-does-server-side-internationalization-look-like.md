@@ -340,7 +340,7 @@ We will try 2 different SSR examples, a classic one using [Fastify with pug](#pu
 For this example we will use my favorite http framework [Fastify](https://www.fastify.io) (created by [Matteo Collina](https://twitter.com/matteocollina) and [Tomas Della Vedova](https://twitter.com/delvedor)), but any other framework will also work.
 
 This time we will use a different i18next module, [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware).
-It can be used for all Node.js web frameworks, like [express](https://expressjs.com) or [Fastify](https://www.fastify.io), but also for Deno web frameworks, like [abc](https://github.com/zhmushan/abc) or [ServestJS](https://github.com/keroxp/servest).
+It can be used for all Node.js web frameworks, like [express](https://expressjs.com) or [Fastify](https://www.fastify.io), but also for [Deno](../i18n-for-deno-with-i18next) web frameworks, like [abc](https://github.com/zhmushan/abc) or [ServestJS](https://github.com/keroxp/servest).
 
 As already said, here we will use [Fastify](https://www.fastify.io), my favorite 😉.
 
