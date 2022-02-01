@@ -1198,6 +1198,8 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/react-i18next-example-app).*
 
+*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks)*
+
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
