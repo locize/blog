@@ -957,7 +957,7 @@ Just pass `saveMissing: true` in the i18next options:
   debug: true,
   fallbackLng: 'en',
   backend: locizeOptions,
-  saveMissing: true
+  saveMissing: true // do not enable it on production
 }, (err, t) => {
 // ...
 ```
