@@ -3,7 +3,9 @@ date: 2018-02-23
 tags:
   - locize
   - localization
+  - l10n
   - internationalization
+  - i18n
   - continuous development
   - continuous integration
   - continuous localization

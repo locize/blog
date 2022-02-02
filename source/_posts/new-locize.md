@@ -4,7 +4,9 @@ date: 2020-12-02
 tags:
   - locize
   - localization
+  - l10n
   - internationalization
+  - i18n
   - translation
 categories:
   - Post

@@ -8,6 +8,8 @@ tags:
   - react
   - react-i18next
   - locize
+  - l10n
+  - i18n
   - localization
   - internationalization
   - translation
@@ -488,7 +490,7 @@ export default Footer;
 // <Footer t={t} />
 ```
 
-import luxon and define a format function in the interpolation options of i18next, like documented in the [documentation](https://www.i18next.com/translation-function/formatting) and add the new translation key:
+import luxon and define a format function, like documented in the [documentation](https://www.i18next.com/translation-function/formatting) and add the new translation key:
 
 ```javascript
 import i18n from 'i18next';
@@ -1198,7 +1200,7 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/react-i18next-example-app).*
 
-*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks)*
+*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>

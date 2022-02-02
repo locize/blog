@@ -7,7 +7,9 @@ tags:
   - i18next
   - locize
   - localization
+  - l10n
   - internationalization
+  - i18n
   - translation
   - angular
 categories:

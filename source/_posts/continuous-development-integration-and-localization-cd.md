@@ -3,6 +3,7 @@ date: 2016-10-05
 tags:
   - locize
   - localization
+  - l10n
   - internationalization
   - continuous development
   - continuous integration

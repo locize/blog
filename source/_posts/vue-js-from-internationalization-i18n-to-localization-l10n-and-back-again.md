@@ -5,6 +5,7 @@ tags:
   - vue-i18n
   - vue-i18next
   - i18n
+  - l10n
   - locize
   - localization
   - internationalization

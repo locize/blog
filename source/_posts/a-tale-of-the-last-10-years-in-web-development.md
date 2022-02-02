@@ -6,6 +6,8 @@ tags:
   - localization
   - internationalization
   - web
+  - l10n
+  - i18n
   - i18next
 categories:
   - Post
