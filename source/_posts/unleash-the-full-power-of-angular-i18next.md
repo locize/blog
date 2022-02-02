@@ -311,7 +311,7 @@ Let's separate the translations from the code and pleace them in dedicated json 
 
 ### How does this look like? <a name="how-look"></a>
 
-First you need to signup at [locize](https://locize.com/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
+First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations) or by using the [CLI](https://github.com/locize/locize-cli).
 
 `npm install i18next-locize-backend`

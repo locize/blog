@@ -824,7 +824,7 @@ i18next helps to get the application translated, and this is great - but there i
 
 ### How does this look like? <a name="how-look"></a>
 
-First you need to signup at [locize](https://locize.com/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
+First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
 
 Done so, we're going to replace [i18next-http-backend](https://github.com/i18next/i18next-http-backend) with [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).

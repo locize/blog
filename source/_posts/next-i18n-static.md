@@ -393,7 +393,7 @@ Let's synchronize the translation files with [locize](https://locize.com).
 This can be done on-demand or on the CI-Server or before deploying the app.
 
 ## What to do to reach this step:
-1. in locize: signup at https://locize.com/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
+1. in locize: signup at https://locize.app/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language))
 4. install the [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
