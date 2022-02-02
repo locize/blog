@@ -26,7 +26,7 @@ Every web developer may have met the perennial [Methuselah](https://en.wikipedia
 Created back in January 2006 at [BarCamp NYC](https://en.wikipedia.org/wiki/BarCamp) by [John Resig](https://en.wikipedia.org/wiki/John_Resig) and currently maintained by a [team of developers](https://jquery.org/team/) led by [Timmy Willison](https://timmywil.com).
 
 *You may think:*
->Why a blog post abaut the venerable but aged JavaScript library, that made things like HTML document traversal and manipulation, etc. easier?
+>Why a blog post about the venerable but aged JavaScript library, that made things like HTML document traversal and manipulation, etc. easier?
 
 **Because with a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript!**
 
