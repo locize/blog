@@ -93,7 +93,7 @@ When it comes to jQuery localization. One of the most popular is [i18next](https
 
 ## Prerequisites <a name="prerequisites"></a>
 
-Make sure you have a jQuery based website or web app. It's best, if you have some experience with simple HTML, JavaScript and basic jQuery, before jumping to [jquery-i18next](https://github.com/i18next/jquery-i18next). This jQuery localization example is not intended to be a jQuery beginner tutorial.
+Make sure you have a jQuery based website or web app. It's best, if you have some experience with simple HTML, JavaScript and basic jQuery, before jumping to [jquery-i18next](https://github.com/i18next/jquery-i18next). This jQuery i18n example is not intended to be a jQuery beginner tutorial.
 
 
 ## Getting started <a name="getting-started"></a>
@@ -944,6 +944,8 @@ $(function () {
   });
 });
 ```
+
+Now the translations are served directly from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network). The jQuery i18n has now CDN superpower 😁.
 
 ### save missing translations <a name="save-missing"></a>
 
