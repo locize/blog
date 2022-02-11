@@ -112,6 +112,9 @@ No matter whether you are looking to localize your website, marketing material, 
 *Check out this [video](https://youtu.be/YQryHo1iHb8) to explore how our <a href="https://locize.com/" title="localization software">localization-software</a> can help you improve your process in terms of translation:*
 {% youtube YQryHo1iHb8 %}
 
+And watch the demo [video](https://youtu.be/ds-yEEYP1Ks) to learn more:
+{% youtube ds-yEEYP1Ks %}
+
   ## Final thoughts <a name="thoughts"></a>
 
 Hopefully, this blog has helped to answer the initial question and given you more of an idea on how it can benefit your business. Implementing localisation can be applied to any aspect of your business, and our highly experienced team has years of experience in helping clients. These are companies, software developers, and project-managers with all of their translation- and localization-management needs.
