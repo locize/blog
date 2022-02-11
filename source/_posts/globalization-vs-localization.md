@@ -68,6 +68,8 @@ Another important aspect of localization is ensuring that you are using the righ
 ### Consider the design 
 The design and style are also a very important part of the localization process. This requires ensuring that the visuals match with the requirements of your target audience. This includes everything from the photography and layout of the site to the colors and tone of the writing. 
 
+More detailled information wanted, read this article about <a href="/blog/localization/" title="what is localization">what is localization</a>.
+
 
 ## Globalization versus localization, what comes first?
 When it comes to understanding what is meant by globalization versus localization, you should now have a clearer idea of what both terms mean. However, which one should you focus on first? While both options can help you to create a more inclusive and engaging piece of content, no matter whether it is a website, manual, or marketing material. 
