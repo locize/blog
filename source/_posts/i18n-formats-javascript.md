@@ -10,7 +10,7 @@ categories:
   - Post
 thumbnail: i18n-multiverse/i18n_in_the_multiverse_of_madness.jpg
 redirect_from:
-- /2022-02-18-i18n-multiverse
+- /i18n-multiverse
 ---
 
 ![](i18n_in_the_multiverse_of_madness.jpg "I18N in the Multiverse of Madness")

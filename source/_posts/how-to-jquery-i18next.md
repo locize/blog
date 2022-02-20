@@ -16,8 +16,6 @@ tags:
 categories:
   - Post
 thumbnail: how-to-jquery-i18next/jquery-localization.jpg
-redirect_from:
-- /2022-02-02-how-to-jquery-i18next
 ---
 
 ![jQuery localization](jquery-localization.jpg "jQuery Localization example")
