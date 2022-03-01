@@ -53,29 +53,21 @@ Things need to get better - so lets have a look on how our experience was using 
 
 Developing new components / pages we directly instrumented the code. In the early stage we still started with having the texts in code and instrument after being functional working. With getting more used to the new workflow we just removed that step and directly used to call the translation function.
 
-<div class="img-80">
 ![](1_instrument_code.png "instrumented code")
-</div>
 
 Using webpacks hot-module-reload feature we just needed to save the file and the webapplication did it's reload magic:
 
-<div class="img-80">
 ![](2_trigger_savemissing.png "save missing was triggered")
-</div>
 
 This triggered the save missing feature which was enabled during development. So all the untranslated texts were passed automatically to our locize project.
 
 Time to reload the new data on our locize project using the new filter "was created by missing" to only show newly submitted texts:
 
-<div class="img-80">
 ![](3_managecontent.png "edit content")
-</div>
 
 Just fill the newly added keys with the content it should have - press save - and done. Reload the application and all the new texts are there:
 
-<div class="img-80">
 ![](4_done.png "content loaded from locize")
-</div>
 
 From here the technical editor / translators could change texts as needed and verify those in the test environment completely independent of the development.
 

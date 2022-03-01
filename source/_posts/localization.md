@@ -27,7 +27,7 @@ Let's get started.
   * [How it can be done](#process)
   * [Final thoughts](#thoughts)
 
-  ## What is localization? <a name="intro"></a>
+## What is localization? <a name="intro"></a>
 
 Often confused with language translation, localisation is a far more comprehensive process. The use of it is about adapting your entire content so that it meets the norms and expectations of a specific location or market. 
 
@@ -72,9 +72,9 @@ No matter what industry you work in, with this article get an idea on how it can
 A good example of <a href="/blog/what-is-software-localization/" title="software-localization">software-localization</a> is Netflix. The global streaming giant has become synonymous with efforts on both the translation side of things and on the developer side. The technology and processes that they utilize are translated and localized in every region, meaning the interface and apps change, as do the subtitles and voice dubbing of content. Even the films and TV shows they develop are localized for specific countries. 
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
-<h3 style="color:orange;"> Bonus Tip</h3>
-<p style="color:grey;">Check out our <a href="https://locize.com/customers.html" title="Customer Success Stories">Customer Success Stories</a> for more examples of our clients. </p>
- </div>
+  <h3 style="color:orange;">Bonus Tip</h3>
+  <p style="color:grey;">Check out our <a href="https://locize.com/customers.html" title="Customer Success Stories">Customer Success Stories</a> for more examples of our clients.</p>
+</div>
 
 
   ## What is the goal of localization  <a name="goal"></a>

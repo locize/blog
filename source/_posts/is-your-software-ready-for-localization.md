@@ -34,7 +34,7 @@ Sometimes the used library already pretends a format.
 #### For web projects for example this can be:
 - JSON (i.e. used by [i18next](https://i18next.com))
 - ICU Message syntax (i.e. used by [formatjs](https://formatjs.io/))
-- ...
+- [...](../i18n-formats-javascript/)
 
 #### For mobile projects for example this can be:
 - Localizable.strings (i.e. used by iOS)
