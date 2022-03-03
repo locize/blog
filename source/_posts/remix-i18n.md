@@ -1,6 +1,6 @@
 ---
-title: How to internationalize a Remix application
-description: Remix localization made easy with this ✅step-by-step guide using i18next.
+title: How to internationalize a Remix application (Part 1)
+description: Simple Remix localization made easy with this ✅step-by-step guide using i18next.
 
 date: 2022-03-02
 tags:
@@ -18,8 +18,6 @@ tags:
 categories:
   - Post
 thumbnail: remix-i18n/remix-localization.jpg
-redirect_from:
-- /2022-03-02-remix-i18n
 ---
 
 ![remix localization](remix-localization.jpg "Remix Localization example")
@@ -29,6 +27,8 @@ Let's talk about internationalization (i18n) for [Remix](https://remix.run)...
 When it comes to JavaScript localization. One of the most popular frameworks is [i18next](https://www.i18next.com). One of the most famous Remix module for i18next is [remix-i18next](https://github.com/sergiodxa/remix-i18next).
 It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodxa).
 
+***There is also a [second part of this blog post](../remix-i18next/), that focuses more on a continuous localization workflow.***
+
 ## TOC
   * [So first of all: "Why i18next?"](#why-i18next)
   * [Let's get into it...](#start)
@@ -36,7 +36,8 @@ It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodx
     - [Getting started](#getting-started)
     - [Language Switcher](#language-switcher)
     - [The voluntary part](#voluntary)
-    - [🎉🥳 Congratulations 🎊🎁](#congratulations)
+  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
+  * [Part 2](../remix-i18next/)
 
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
@@ -124,7 +125,7 @@ export default new RemixI18Next(backend, {
 Prepare some folders like this:
 ![](folder.jpg)
 
-Now in your `entry.client.js` adapt the code like this:
+Now in your `entry.client.jsx` adapt the code like this:
 ```javascript
 import { hydrate } from 'react-dom'
 import { RemixBrowser } from 'remix'
@@ -154,7 +155,7 @@ if (!i18next.isInitialized) // prevent i18next to be initialized multiple times
     })
 ```
 
-And in your `entry.server.js` adapt the code like this:
+And in your `entry.server.jsx` adapt the code like this:
 ```javascript
 import { renderToString } from 'react-dom/server'
 import { RemixServer } from 'remix'
@@ -191,7 +192,7 @@ export default async function handleRequest(
 }
 ```
 
-The last important piece is the `root.js` file:
+The last important piece is the `root.jsx` file:
 ```javascript
 import {
   Links,
@@ -325,7 +326,7 @@ Due to we're not using `Suspense` here, just make sure you check the `ready` fla
 
 We can also translate stuff like the page title.
 <br />
-Since remix-i18next can translate text [inside loaders or actions](https://github.com/sergiodxa/remix-i18next#translating-text-inside-loaders-or-actions), we can do this for example in our `root.js`:
+Since remix-i18next can translate text [inside loaders or actions](https://github.com/sergiodxa/remix-i18next#translating-text-inside-loaders-or-actions), we can do this for example in our `root.jsx`:
 
 ```javascript
 import {
@@ -481,7 +482,7 @@ So this means we're using the lng search parameter to change the language.
 This works, but we would like to make the chosen language persistent.
 To do so we will save it in a cookie.
 
-In the `i18n.server.js` file, we'll cofigure a cookie:
+In the `i18n.server.js` file, we'll configure a cookie:
 
 ```javascript
 import { RemixI18Next, FileSystemBackend } from 'remix-i18next'
@@ -498,7 +499,7 @@ export default new RemixI18Next(backend, {
 })
 ```
 
-And in the `root.js`file, we'll detect if the lng search parameter has been sent and the language should be changed. If so, we'll respond with an appropriate `Set-Cookie` header:
+And in the `root.jsx` file, we'll detect if the lng search parameter has been sent and the language should be changed. If so, we'll respond with an appropriate `Set-Cookie` header:
 ```javascript
 import {
   Links,
@@ -570,7 +571,7 @@ export default function App() {
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-remix-i18next-example/tree/local).*
 
 
-# The voluntary part <a name="voluntary"></a>
+## The voluntary part <a name="voluntary"></a>
 
 ![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
@@ -600,3 +601,5 @@ So if you want to take your i18n topic to the next level, it's worth to try the 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍
+
+*If you like to know how to unleash the full power of i18next, [check out **"Part 2"**](../remix-i18next/)!*
