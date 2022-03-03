@@ -567,7 +567,7 @@ export default function App() {
 
 **🥳 Awesome, the app is internationalized and we've just created our first language switcher!**
 
-*🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-remix-i18next-example).*
+*🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-remix-i18next-example/tree/local).*
 
 
 # The voluntary part <a name="voluntary"></a>
