@@ -581,7 +581,7 @@ And in production environment, saveMissing and lastused are disabled. => `npm ru
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
-Awesome! Thanks to [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [React.js localization](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
+Awesome! Thanks to [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
 
 So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
 
