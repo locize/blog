@@ -1,8 +1,7 @@
 ---
-layout: blog
 title: App localization Guide - localize mobile apps	
 description: Learn the latest mobile app localization tips. This guide is for you if you want to find out what ✅ app localization is.
-date: 2022-03-22 16:01:01
+date: 2022-03-22
 tags:
   - mobile app
   - android
