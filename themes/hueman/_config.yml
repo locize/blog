@@ -68,11 +68,12 @@ plugins:
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
-        fb_app_id:
+        fb_app_id: locize
         fb_admins:
         twitter_id: locize
         google_plus:
     links:
+        localistars: https://www.localistars.com
         i18next: https://www.i18next.com
         privacy policy: https://locize.com/privacy.html
         terms: https://locize.com/terms.html

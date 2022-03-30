@@ -21,7 +21,7 @@ redirect_from:
 
 It’s joyful to work with [Vue.js](https://vuejs.org/). The design is elegant and the robust first-party additions which can be coupled with, make building browser apps a pleasure.
 
-The most famous i18n plugin for the progressive JavaScript framework [Vue.js](https://vuejs.org/) is probably [Vue I18n](https://kazupon.github.io/vue-i18n/).
+The most famous i18n plugin for the progressive JavaScript framework [Vue.js](https://vuejs.org/) is probably [Vue I18n](https://vue-i18n.intlify.dev/).
 
 >[Kazuya](https://github.com/kazupon), thank you for this great i18n plugin!
 
@@ -44,8 +44,8 @@ The most famous i18n plugin for the progressive JavaScript framework [Vue.js](ht
 
 # New versions <a name="new-versions"></a>
 
-Beside templates, directives, data binding, event handling, etc... with v3 Vue.js is now introducing also [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html), [Teleport](https://v3.vuejs.org/guide/teleport.html), [Fragments](https://v3.vuejs.org/guide/migration/fragments.html)... and [Suspense](https://v3.vuejs.org/guide/migration/suspense.html).
-The appropriate version to Vue.js v3 for Vue I18n is [v9](https://blog.intlify.dev/posts/vue-i18n-9.html).
+Beside templates, directives, data binding, event handling, etc... with v3 Vue.js is now introducing also [Composition API](https://vuejs.org/api/composition-api-setup.html), [Teleport](https://vuejs.org/guide/built-ins/teleport.html), Fragments... and [Suspense](https://vuejs.org/guide/built-ins/suspense.html).
+The appropriate version to Vue.js v3 for [Vue I18n](https://vue-i18n.intlify.dev/) is [v9](https://blog.intlify.dev/posts/vue-i18n-9.html).
 
 
 # So how does a basic vue-i18n setup look like? <a name="start"></a>
@@ -53,7 +53,7 @@ The appropriate version to Vue.js v3 for Vue I18n is [v9](https://blog.intlify.d
 
 ## Prerequisites <a name="prerequisites"></a>
 
-Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic Vue.js, before jumping to [vue-i18n](https://kazupon.github.io/vue-i18n/).
+Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic Vue.js, before jumping to [vue-i18n](https://vue-i18n.intlify.dev/).
 
 
 ## Getting started <a name="getting-started"></a>
@@ -67,7 +67,7 @@ npx @vue/cli create vue-starter-project
 
 Let's install the vue-i18n dependency:
 
-`npm install vue-i18n@9`
+`npm install vue-i18n`
 
 Let's prepare the `main.js` file:
 
@@ -360,7 +360,7 @@ export default {
 </style>
 ```
 
-Additionally, we make use of the new [Suspense](https://v3.vuejs.org/guide/migration/suspense.html) functionality of Vue.js.
+Additionally, we make use of the new [Suspense](https://vuejs.org/guide/built-ins/suspense.html) functionality of Vue.js.
 Let's create a new file: i.e. `Suspenser.vue`:
 
 ```javascript
@@ -554,7 +554,7 @@ Lastly, with the help of the [auto-machinetranslation workflow](https://docs.loc
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
-I hope you’ve learned a few new things about [Vue.js localization](https://kazupon.github.io/vue-i18n/) and [modern localization workflows](https://locize.com).
+I hope you’ve learned a few new things about [Vue.js localization](https://vue-i18n.intlify.dev/) and [modern localization workflows](https://locize.com).
 
 So if you want to take your i18n topic to the next level, it's worth to try [locize](https://locize.com).
 
