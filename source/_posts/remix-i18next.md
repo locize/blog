@@ -127,7 +127,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
       backend: locizeOptions
     })
     .then(() => {
-      // then hydrate your app wrapped in the RemixI18NextProvider
+      // then hydrate your app
       return hydrate(
         <RemixBrowser />,
         document
@@ -144,8 +144,7 @@ Adapt the options in the `entry.server.jsx` file and the `i18nextOptions.js` fil
 import { renderToString } from 'react-dom/server'
 import { RemixServer } from 'remix'
 import i18next from 'i18next'
-import { RemixI18NextProvider } from 'remix-i18next'
-import { initReactI18next } from 'react-i18next'
+import { I18nextProvider, initReactI18next } from 'react-i18next'
 import i18nextOptions from './i18nextOptions'
 
 export default async function handleRequest(
@@ -162,12 +161,12 @@ export default async function handleRequest(
       resources: {} // prevents init warning
     })
 
-  // Then you can render your app wrapped in the RemixI18NextProvider as in the
+  // Then you can render your app wrapped in the I18nextProvider as in the
   // entry.client file
   let markup = renderToString(
-    <RemixI18NextProvider i18n={i18next}>
+    <I18nextProvider i18n={i18next}>
       <RemixServer context={remixContext} url={request.url} />
-    </RemixI18NextProvider>
+    </I18nextProvider>
   )
 
   responseHeaders.set('Content-Type', 'text/html')
@@ -203,7 +202,7 @@ import {
   json,
   useLoaderData
 } from 'remix'
-import { useRemixI18Next } from 'remix-i18next'
+import { useSetupTranslations } from 'remix-i18next'
 import remixI18n from './i18n.server'
 import { useTranslation } from 'react-i18next'
 import styles from './styles/index.css'
@@ -228,7 +227,7 @@ const isBrowser = typeof window === 'object' && typeof document === 'object'
 export default function App() {
   const { i18n } = useTranslation()
   const { locale } = useLoaderData()
-  if (!isBrowser) useRemixI18Next(locale) // only use remix-i18next on server side
+  if (!isBrowser) useSetupTranslations(locale) // only use remix-i18next on server side
   return (
     <html lang={i18n.language}>
       <head>
@@ -380,7 +379,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
       saveMissing: true
     })
     .then(() => {
-      // then hydrate your app wrapped in the RemixI18NextProvider
+      // then hydrate your app
       return hydrate(
         <RemixBrowser />,
         document
@@ -466,7 +465,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
       saveMissing: true
     })
     .then(() => {
-      // then hydrate your app wrapped in the RemixI18NextProvider
+      // then hydrate your app
       return hydrate(
         <RemixBrowser />,
         document
@@ -552,7 +551,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
       saveMissing: !isProduction // you should not use saveMissing in production
     })
     .then(() => {
-      // then hydrate your app wrapped in the RemixI18NextProvider
+      // then hydrate your app
       return hydrate(
         <RemixBrowser />,
         document
