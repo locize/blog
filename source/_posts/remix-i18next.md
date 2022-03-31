@@ -88,7 +88,7 @@ We have to install [i18next-locize-backend](https://github.com/locize/i18next-lo
 `npm install i18next-locize-backend i18next-browser-languagedetector`
 
 Adapt the `entry.client.jsx` file to use the i18next-browser-languagedetector and the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project.
-Also the `RemixI18NextProvider` is not used anymore:
+Also the `I18nextProvider` is not used anymore:
 ```javascript
 import { hydrate } from 'react-dom'
 import { RemixBrowser } from 'remix'
