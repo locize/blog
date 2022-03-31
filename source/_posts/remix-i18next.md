@@ -346,7 +346,7 @@ import { hydrate } from 'react-dom'
 import { RemixBrowser } from 'remix'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import { initReactI18next } from 'react-i18next'
+import { I18nextProvider, initReactI18next } from 'react-i18next'
 import Backend from 'i18next-locize-backend'
 import i18nextOptions from './i18nextOptions'
 
@@ -382,7 +382,9 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     .then(() => {
       // then hydrate your app
       return hydrate(
-        <RemixBrowser />,
+        <I18nextProvider i18n={i18next}>
+          <RemixBrowser />
+        </I18nextProvider>,
         document
       )
     })
@@ -421,7 +423,7 @@ import { hydrate } from 'react-dom'
 import { RemixBrowser } from 'remix'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import { initReactI18next } from 'react-i18next'
+import { I18nextProvider, initReactI18next } from 'react-i18next'
 import Backend from 'i18next-locize-backend'
 import LastUsed from 'locize-lastused'
 import { locizePlugin } from 'locize'
@@ -468,7 +470,9 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     .then(() => {
       // then hydrate your app
       return hydrate(
-        <RemixBrowser />,
+        <I18nextProvider i18n={i18next}>
+          <RemixBrowser />
+        </I18nextProvider>,
         document
       )
     })
@@ -502,7 +506,7 @@ import { hydrate } from 'react-dom'
 import { RemixBrowser } from 'remix'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import { initReactI18next } from 'react-i18next'
+import { I18nextProvider, initReactI18next } from 'react-i18next'
 import Backend from 'i18next-locize-backend'
 import LastUsed from 'locize-lastused'
 import { locizePlugin } from 'locize'
@@ -554,7 +558,9 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     .then(() => {
       // then hydrate your app
       return hydrate(
-        <RemixBrowser />,
+        <I18nextProvider i18n={i18next}>
+          <RemixBrowser />
+        </I18nextProvider>,
         document
       )
     })
