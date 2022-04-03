@@ -41,7 +41,7 @@ This process slows down the release of the software in all languages quite a bit
 
 
 ## 3. Missing context
-***Are the translated texts too long? Do you feel the translator does not have understood what the product is?***
+***Are the translated texts too long? Do you feel the translator did not understand what the product is?***
 
 ![context](context.png "locize © inweso GmbH")
 
@@ -79,7 +79,7 @@ Very often the localization process enforces to develop very customized tools an
 Not having a centralized collaborative translation management system that is actively used by developers and translation editors makes it very difficult to forecast when a translation is fully translated and to plan its release.
 
 ## 8. Expensive
-***Are your translation orders to expensive? Do you have multiple dedicated personal resources?***
+***Are your translation orders too expensive? Do you have multiple dedicated personal resources?***
 
 ![costs](costs.png "locize © inweso GmbH")
 
