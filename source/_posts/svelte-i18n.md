@@ -354,7 +354,7 @@ if (!initialLocale) initialLocale = fallbackLocale;
 init({
   fallbackLocale,
   initialLocale,
-  handleMissingMessage: apiKey ? (locale, id, defaultValue) => {
+  handleMissingMessage: apiKey ? ({ locale, id, defaultValue }) => {
     if (locale !== locizer.referenceLng) return;
     locizer.add(namespace, id, defaultValue);
   } : undefined
@@ -447,7 +447,7 @@ if (!initialLocale) initialLocale = fallbackLocale;
 init({
   fallbackLocale,
   initialLocale,
-  handleMissingMessage: apiKey ? (locale, id, defaultValue) => {
+  handleMissingMessage: apiKey ? ({ locale, id, defaultValue }) => {
     if (locale !== locizer.referenceLng) return;
     locizer.add(namespace, id, defaultValue);
   } : undefined
