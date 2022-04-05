@@ -1,5 +1,5 @@
 ---
-title: All side optimized Next.js translations
+title: All side optimized Next.js translations (a next-i18next guide)
 description: Optimize your Next.js app to best work with translations on server side and on client side with next-i18next.
 
 date: 2022-04-03
@@ -27,6 +27,8 @@ Writing [Next.js](https://nextjs.org) code blurs the lines between client side a
 The code is written once and depending on your needs it is then executed as SSG (static-site generation), SSR (server-side rendering) or CSR (client-side rendering), etc.
 
 >So also the internationalization, right?
+
+# How to optimize Next.js apps to best work with translations on server side and on client side with next-i18next?
 
 Let's take the example of [next-i18next](https://github.com/isaachinman/next-i18next).
 While next-i18next uses [i18next](https://www.i18next.com) and [react-i18next](https://react.i18next.com) under the hood, users of next-i18next simply need to include their translation content as JSON files and don't have to worry about much else.
