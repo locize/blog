@@ -41,6 +41,7 @@ In this article, we will be using the [i18next](https://www.i18next.com) framewo
     - [Formatting](#formatting)
     - [Context](#context)
     - [Separate translations from code](#separate)
+      - [Multiple namespaces](#multiple-namespaces)
     - [Better translation management](#better-translation-management)
       - [For sure!](#for-sure)
       - [How does this look like?](#how-look)
@@ -782,10 +783,36 @@ This gives you the possibility to send the translations to some translators.
 Or if you're working with a translation management system you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
-*💡 btw: you can also have [multiple translation files](https://react.i18next.com/guides/multiple-translation-files) thanks to the [namespaces](https://www.i18next.com/principles/namespaces) feature of i18next*
-
 *🧑‍💻 The code of this first part can be found [here](https://github.com/locize/react-i18next-example-app/tree/i18next).*
 
+### Multiple namespaces <a name="multiple-namespaces"></a>
+
+*💡 btw: you can also have [multiple translation files](https://react.i18next.com/guides/multiple-translation-files) thanks to the [namespaces](https://www.i18next.com/principles/namespaces) feature of i18next*
+
+One of the advantages of react-i18next is based on i18next it supports the separation of translations into multiple files - which are called namespaces in i18next.
+
+In order to use multiple namespaces/translation files, you need to specify it when calling [`useTranslation`](https://react.i18next.com/latest/usetranslation-hook):
+```javascript
+const { t } = useTranslation(['translation', 'common']);
+// ...
+// t('look.deep', { ns: 'common' })
+```
+
+[`withTranslation`](https://react.i18next.com/latest/withtranslation-hoc):
+```javascript
+withTranslation(['translation', 'common'])(MyComponent);
+// ...
+// t('look.deep', { ns: 'common' })
+```
+
+or [`Translation`](https://react.i18next.com/latest/translation-render-prop):
+```javascript
+<Translation ns={['translation', 'common']}>
+{
+  (t) => <p>{t('look.deep', { ns: 'common' })}</p>
+}
+</Translation>
+```
 
 ## Better translation management <a name="better-translation-management"></a>
 
