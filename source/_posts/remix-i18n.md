@@ -133,7 +133,6 @@ export default new RemixI18Next({
   // a backend here
   backend: Backend,
 })
-
 ```
 
 Prepare some folders like this:
