@@ -94,7 +94,7 @@ Let's install some i18next dependencies:
 - [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend)
 - [i18next-http-backend](https://github.com/i18next/i18next-http-backend)
 
-`npm install remix-i18next i18next react-i18next i18next-fs-backend i18next-http-backend`
+`npm install remix-i18next i18next react-i18next i18next-browser-languagedetector i18next-fs-backend i18next-http-backend`
 
 Create a `i18nextOptions.js` file and add the following code:
 ```javascript

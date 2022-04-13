@@ -83,18 +83,21 @@ Instead on server side we'll continue to "bundle" the translations first.
 See [downloadLocales script in package.json](https://github.com/locize/locize-remix-i18next-example/blob/main/package.json#L34).
 We're doing so to prevent an elevated amount of downloads generated on server side. [Read this](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc) for more information about this topic about serverless environments.
 
-We have to install [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) and [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector).
+We have to install [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
 
-`npm install i18next-locize-backend i18next-browser-languagedetector`
+`npm install i18next-locize-backend`
 
-Adapt the `entry.client.jsx` file to use the i18next-browser-languagedetector and the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project.
+Adapt the `entry.client.jsx` file to use the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project.
 ```javascript
 import { hydrate } from 'react-dom'
-import { RemixBrowser } from 'remix'
+import { RemixBrowser } from '@remix-run/react'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
+import { getInitialNamespaces } from 'remix-i18next'
 import Backend from 'i18next-locize-backend'
+import LastUsed from 'locize-lastused'
+import { locizePlugin } from 'locize'
 import i18nextOptions from './i18nextOptions'
 
 const locizeOptions = {
@@ -119,9 +122,17 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       ...i18nextOptions,
+      // This function detects the namespaces your routes rendered while SSR use
+      // and pass them here to load the translations
+      ns: getInitialNamespaces(),
       detection: {
-        caches: ['cookie'],
-        lookupCookie: 'i18next'
+        // Here only enable htmlTag detection, we'll detect the language only
+        // server-side with remix-i18next, by using the `<html lang>` attribute
+        // we can communicate to the client the language detected server-side
+        order: ['htmlTag'],
+        // Because we only use htmlTag, there's no reason to cache the language
+        // on the browser, so we disable it
+        caches: [],
       },
       backend: locizeOptions
     })
@@ -137,44 +148,60 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 }
 ```
 
-Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the cookie, next time you visit the page, that language is used as preferred language.
-
-Adapt the options in the `entry.server.jsx` file and the `i18nextOptions.js` file:
+The `entry.server.jsx` file, the `root.jsx` and the `i18nextOptions.js` file should still look the same:
 
 ```javascript
 import { renderToString } from 'react-dom/server'
 import { RemixServer } from 'remix'
-import i18next from 'i18next'
+import { createInstance } from 'i18next'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
+import Backend from 'i18next-fs-backend'
+import { resolve } from 'node:path'
 import i18nextOptions from './i18nextOptions'
+import i18n from './i18n.server'
 
 export default async function handleRequest(
   request,
-  responseStatusCode,
-  responseHeaders,
-  remixContext
+  statusCode,
+  headers,
+  context
 ) {
-  // Here you also need to initialize i18next using initReactI18next, you should
-  // use the same configuration as in your client side.
-  if (!i18next.isInitialized) // prevent i18next to be initialized multiple times
-    await i18next.use(initReactI18next).init({
-      ...i18nextOptions,
-      resources: {} // prevents init warning
+  // First, we create a new instance of i18next so every request will have a
+  // completely unique instance and not share any state
+  const instance = createInstance()
+
+  // Then we could detect locale from the request
+  const lng = await i18n.getLocale(request)
+  // And here we detect what namespaces the routes about to render want to use
+  const ns = i18n.getRouteNamespaces(context)
+
+  // First, we create a new instance of i18next so every request will have a
+  // completely unique instance and not share any state.
+  await instance
+    .use(initReactI18next) // Tell our instance to use react-i18next
+    .use(Backend) // Setup our backend.init({
+    .init({
+      ...i18nextOptions, // use the same configuration as in your client side.
+      lng, // The locale we detected above
+      ns, // The namespaces the routes about to render want to use
+      backend: {
+        loadPath: resolve('./public/locales/{{lng}}/{{ns}}.json'),
+      }
     })
 
   // Then you can render your app wrapped in the I18nextProvider as in the
   // entry.client file
-  let markup = renderToString(
-    <I18nextProvider i18n={i18next}>
-      <RemixServer context={remixContext} url={request.url} />
+  const markup = renderToString(
+    <I18nextProvider i18n={instance}>
+      <RemixServer context={context} url={request.url} />
     </I18nextProvider>
-  )
+  );
 
-  responseHeaders.set('Content-Type', 'text/html')
+  headers.set("Content-Type", "text/html");
 
-  return new Response('<!DOCTYPE html>' + markup, {
-    status: responseStatusCode,
-    headers: responseHeaders
+  return new Response("<!DOCTYPE html>" + markup, {
+    status: statusCode,
+    headers: headers,
   })
 }
 ```
@@ -185,7 +212,6 @@ export default {
   fallbackLng: 'en',
   supportedLngs: ['en', 'de'],
   defaultNS: 'common',
-  ns: [],
   react: { useSuspense: false }
 }
 ```
@@ -200,10 +226,10 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  json,
   useLoaderData
-} from 'remix'
-import { useSetupTranslations } from 'remix-i18next'
+} from '@remix-run/react'
+import { json } from '@remix-run/node'
+import { useChangeLanguage } from 'remix-i18next'
 import remixI18n from './i18n.server'
 import { useTranslation } from 'react-i18next'
 import styles from './styles/index.css'
@@ -215,6 +241,12 @@ export const loader = async ({ request }) => {
   return json({ locale, title })
 }
 
+export const handle = {
+  // In the handle export, we could add a i18n key with namespaces our route
+  // will need to load. This key can be a single string or an array of strings.
+  i18n: ['common']
+};
+
 export function meta({ data }) {
   return { title: data.title }
 }
@@ -223,14 +255,18 @@ export const links = () => {
   return [{ rel: 'stylesheet', href: styles }]
 }
 
-const isBrowser = typeof window === 'object' && typeof document === 'object'
-
 export default function App() {
   const { i18n } = useTranslation()
   const { locale } = useLoaderData()
-  if (!isBrowser) useSetupTranslations(locale) // only use remix-i18next on server side
+  
+  // This hook will change the i18n instance language to the current locale
+  // detected by the loader, this way, when we do something to change the
+  // language, this locale will change and i18next will load the correct
+  // translation files
+  useChangeLanguage(locale)
+
   return (
-    <html lang={i18n.language}>
+    <html lang={i18n.resolvedLanguage}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -244,84 +280,6 @@ export default function App() {
         <LiveReload />
       </body>
     </html>
-  )
-}
-```
-
-Ok, we're ready, but since we've now more control on client side, we can also adapt our language switcher, to use the `i18n.changeLanguage()` function:
-
-```javascript
-import { json, Link, useLoaderData } from 'remix'
-import remixI18n from '../i18n.server'
-import { useTranslation, withTranslation, Trans } from 'react-i18next'
-import { Component } from 'react'
-import logo from '../logo.svg'
-import styles from '../styles/app.css'
-import Loading from '../components/Loading'
-
-export const loader = async ({ request }) => {
-  return json({
-    i18n: await remixI18n.getTranslations(request, ['index']),
-    locale: await remixI18n.getLocale(request),
-    lngs: {
-      en: { nativeName: 'English' },
-      de: { nativeName: 'Deutsch' }
-    }
-  })
-}
-
-export const links = () => {
-  return [{ rel: 'stylesheet', href: styles }]
-}
-
-class LegacyWelcomeClass extends Component {
-  render() {
-    const { t } = this.props
-    return <h2>{t('title')}</h2>
-  }
-}
-const Welcome = withTranslation('index')(LegacyWelcomeClass)
-
-// Component using the Trans component
-function MyComponent({ t }) {
-  return (
-    <Trans t={t} i18nKey="description.part1">
-      To get started, edit <code>src/App.js</code> and save to reload.
-    </Trans>
-  )
-}
-
-export default function Index() {
-  const { lngs } = useLoaderData()
-  const { t, ready, i18n } = useTranslation('index')
-  if (!ready) return <Loading />
-
-  return (
-    <div className="App">
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Welcome />
-      </div>
-      <div className="App-intro">
-        <div>
-          {Object.keys(lngs).map((lng) => (
-            <button
-              key={lng}
-              style={{ marginRight: 5, fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }}
-              onClick={() => i18n.changeLanguage(lng)}
-            >
-              {lngs[lng].nativeName}
-            </button>
-          ))}
-        </div>
-        <MyComponent t={t} />
-      </div>
-      <div>{t('description.part2')}</div>
-      <hr />
-      <div>
-        <Link to="/second">{t('goto.second')}</Link>
-      </div>
-    </div>
   )
 }
 ```
@@ -343,10 +301,11 @@ Just pass `saveMissing: true` in the i18next options:
 
 ```javascript
 import { hydrate } from 'react-dom'
-import { RemixBrowser } from 'remix'
+import { RemixBrowser } from '@remix-run/react'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
+import { getInitialNamespaces } from 'remix-i18next'
 import Backend from 'i18next-locize-backend'
 import i18nextOptions from './i18nextOptions'
 
@@ -372,9 +331,17 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       ...i18nextOptions,
+      // This function detects the namespaces your routes rendered while SSR use
+      // and pass them here to load the translations
+      ns: getInitialNamespaces(),
       detection: {
-        caches: ['cookie'],
-        lookupCookie: 'i18next'
+        // Here only enable htmlTag detection, we'll detect the language only
+        // server-side with remix-i18next, by using the `<html lang>` attribute
+        // we can communicate to the client the language detected server-side
+        order: ['htmlTag'],
+        // Because we only use htmlTag, there's no reason to cache the language
+        // on the browser, so we disable it
+        caches: [],
       },
       backend: locizeOptions,
       saveMissing: true
@@ -420,10 +387,11 @@ use them like this:
 
 ```javascript
 import { hydrate } from 'react-dom'
-import { RemixBrowser } from 'remix'
+import { RemixBrowser } from '@remix-run/react'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
+import { getInitialNamespaces } from 'remix-i18next'
 import Backend from 'i18next-locize-backend'
 import LastUsed from 'locize-lastused'
 import { locizePlugin } from 'locize'
@@ -459,9 +427,17 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       ...i18nextOptions,
+      // This function detects the namespaces your routes rendered while SSR use
+      // and pass them here to load the translations
+      ns: getInitialNamespaces(),
       detection: {
-        caches: ['cookie'],
-        lookupCookie: 'i18next'
+        // Here only enable htmlTag detection, we'll detect the language only
+        // server-side with remix-i18next, by using the `<html lang>` attribute
+        // we can communicate to the client the language detected server-side
+        order: ['htmlTag'],
+        // Because we only use htmlTag, there's no reason to cache the language
+        // on the browser, so we disable it
+        caches: [],
       },
       backend: locizeOptions,
       locizeLastUsed: locizeOptions,
@@ -503,10 +479,11 @@ Let's adapt the `entry.client.jsx` file:
 
 ```javascript
 import { hydrate } from 'react-dom'
-import { RemixBrowser } from 'remix'
+import { RemixBrowser } from '@remix-run/react'
 import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
+import { getInitialNamespaces } from 'remix-i18next'
 import Backend from 'i18next-locize-backend'
 import LastUsed from 'locize-lastused'
 import { locizePlugin } from 'locize'
@@ -547,9 +524,17 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       ...i18nextOptions,
+      // This function detects the namespaces your routes rendered while SSR use
+      // and pass them here to load the translations
+      ns: getInitialNamespaces(),
       detection: {
-        caches: ['cookie'],
-        lookupCookie: 'i18next'
+        // Here only enable htmlTag detection, we'll detect the language only
+        // server-side with remix-i18next, by using the `<html lang>` attribute
+        // we can communicate to the client the language detected server-side
+        order: ['htmlTag'],
+        // Because we only use htmlTag, there's no reason to cache the language
+        // on the browser, so we disable it
+        caches: [],
       },
       backend: locizeOptions,
       locizeLastUsed: locizeOptions,
