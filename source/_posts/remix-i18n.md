@@ -91,6 +91,7 @@ Let's install some i18next dependencies:
 - [remix-i18next](https://github.com/sergiodxa/remix-i18next)
 - [i18next](https://www.i18next.com)
 - [react-i18next](https://react.i18next.com)
+- [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector)
 - [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend)
 - [i18next-http-backend](https://github.com/i18next/i18next-http-backend)
 
