@@ -413,3 +413,10 @@ So if you want to take your i18n topic to the next level, it's worth to try the 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍
+
+---
+
+# Looking for an optimized Next.js translations setup?
+
+[![next-i18next](../next-i18next/next-i18next.jpg)](../next-i18next/)
+[Here](../next-i18next/) you'll find a blog post on how to best use next-i18next with client side translation download and SEO optimization.
