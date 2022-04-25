@@ -18,7 +18,7 @@ thumbnail: localization-strategy/localization-strategy.webp
 
 Today, you're going to learn how to build your strategy for a successful globalization.
 
-The best part?
+> The best part?
 
 We provide you with a <b>step-by-step plan of what you need</b> to get to your localization strategies. 
 
@@ -37,7 +37,8 @@ We'll also show you some examples of major brands and how they did it.
 ## What is a localization strategy?<a name="what"></a>
 A localization strategy is a <b>way of dealing with a company's customers' purchasing habits, behavior, and cultural differences</b> throughout globalization.
 
- 
+{% youtube PtFEPtsmp-Y %}
+
 ## Why do you need it?<a name="why"></a>
 It will undoubtedly be difficult to develop local leadership, sales, and other skills. In a local market, there may be unanticipated obstacles, ranging from minor details to issues with complying with country-specific legislation.
 
