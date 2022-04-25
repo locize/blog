@@ -81,7 +81,7 @@ A good example of <a href="/blog/what-is-software-localization/" title="software
   The ultimate goal is to develop a clear user experience that helps to drive your marketing and support you in achieving your goals. However, there are many benefits that can come from implementing it, including:
 
   ### Enter new markets 
-  One of the main goals of a <a href="https://www.forbes.com/sites/forbesbusinesscouncil/2021/05/11/how-to-build-a-localization-strategy-for-your-global-brand-in-2021/?sh=ec88f5c552c1" title="localization-strategy">localization-strategy</a> is to help brands to easily enter new markets. It will help overcome any logistical or legal hurdles, ensuring smooth communication across every partner. 
+  One of the main goals of a <a href="/blog/localization-strategy" title="localization-strategy">localization-strategy</a> is to help brands to easily enter new markets. It will help overcome any logistical or legal hurdles, ensuring smooth communication across every partner. 
 
 
   ### Secure a competitive edge 

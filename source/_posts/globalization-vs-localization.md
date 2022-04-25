@@ -87,7 +87,7 @@ When it comes to looking at the differences between the two, there are three key
 
 
 ## The pros and cons of globalization versus localization 
-Both the globalization or localization strategy can be a complex process, but they are an essential part of any customer service strategy for your business. Both options are able to provide companies with a wide range of benefits, but they do also have some drawbacks. 
+Both the globalization or <a href="/blog/localization-strategy" title="localization strategy">localization strategy</a> can be a complex process, but they are an essential part of any customer service strategy for your business. Both options are able to provide companies with a wide range of benefits, but they do also have some drawbacks. 
 
 
 
