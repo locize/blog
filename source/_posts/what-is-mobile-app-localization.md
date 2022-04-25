@@ -58,7 +58,7 @@ While there can be no denying the many benefits that come from localization, it 
 The first stage of any localization strategy is to ensure that you focus on your planning. This process should cover the research into the languages you are looking to focus on, how you will do this, and what requirements are needed to successfully meet the demands of your target audience. 
  
 ### 2)  	Execution 
-Once you have comprehensively planned your localization strategy for the app, the next step is to execute the changes. This should be taken with the utmost care and attention, carefully working through every aspect and feature of the app to ensure that they are meeting the requirements. 
+Once you have comprehensively planned your <a href="/blog/localization-strategy" title="localization strategy">localization strategy</a> for the app, the next step is to execute the changes. This should be taken with the utmost care and attention, carefully working through every aspect and feature of the app to ensure that they are meeting the requirements. 
 
 ### 3)  	Testing 
 With the translations made, you need to ensure that you are conducting a comprehensive testing strategy to ensure that it meets the exact requirements of your target audience.  A beta test is the most effective way of doing this. 
