@@ -42,11 +42,9 @@ So while language translation is the process of converting written content from 
 
 Localization is an important strategy for organizations of all sizes and helps to make their content more appealing to their target audience. 
 
-According to this  <a href="https://insights.csa-research.com/reportaction/305013126/Marketing" title="article">article</a> 40% of consumers have said that they will never purchase from a website that wasn’t in their native language. While 75% have said that they would be more likely to use a business again if their aftersales care was in their native language. 
+According to [this article](https://insights.csa-research.com/reportaction/305013126/Marketing) 40% of consumers have said that they will never purchase from a website that wasn’t in their native language. While 75% have said that they would be more likely to use a business again if their aftersales care was in their native language.
 
-No matter what industry you work in, with this article get an idea on how it can help your business. And we will give you some tools to the hand which can transform your business. 
-
-
+No matter what industry you work in, with this article get an idea on how it can help your business. And we will give you some tools to the hand which can transform your business.
 
 
   ## Examples by type <a name="examples"></a>

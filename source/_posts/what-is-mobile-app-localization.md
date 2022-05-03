@@ -30,13 +30,13 @@ This extensive use means localization of an app is crucial in ensuring your prod
 ## Why should you use localization for an app?
 Mobile-app-localization is a highly beneficial aspect of any business. This is a unique process that requires you to adapt your app so that it can be used by consumers in a wide range of localities. 
 
-This could require adapting the wording so that it is in the right language, or even changing the layout to suit the target market. With nearly <a href="https://www.statista.com/statistics/274774/forecast-of-mobile-phone-users-worldwide/" title="five billion smartphone users">five billion smartphone users</a> in the world, the localization of apps ensures that your product can be enjoyed by customers no matter where they might be located. 
+This could require adapting the wording so that it is in the right language, or even changing the layout to suit the target market. With nearly [five billion smartphone users](https://www.statista.com/statistics/274774/forecast-of-mobile-phone-users-worldwide/) in the world, the localization of apps ensures that your product can be enjoyed by customers no matter where they might be located. 
 
-Effective <a href="/blog/localization/" title="localization">localization</a> will ensure that your product is not only meeting the requirements of your chosen demographics, but also helping you to reach new audiences. 
+Effective [localization](../localization/) will ensure that your product is not only meeting the requirements of your chosen demographics, but also helping you to reach new audiences. 
 
 ![five billion smartphone users](smartphone-users.webp "five billion smartphone users")
 
- 
+
 ## What is the difference between localization and internationalization?
 Localization and internationalization are two vital strategies for any business, but many people often confuse the two. While they are two similar methods and both rely on each other, they do have two very different approaches. 
 
