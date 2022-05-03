@@ -78,7 +78,7 @@ When we count the top 10 most spoken languages according to the total number of 
 **A little mind experiment:** *What would happen if you would offer your website and product also in Chinese, Hindi and Spanish, beside English?*
 
 You would target an additional audience of 2.266 billion speakers.
-This makes a potential grow of **268%**!
+This makes a potential growth of **268%**!
 
 
 If you think that it would now make sense to offer your offering in other languages, then take a look at these other articles:
