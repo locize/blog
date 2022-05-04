@@ -1,47 +1,80 @@
 ---
-title: Website Localization Fundamentals & Examples
+title: Website Localization - How to localize your website
+description: What is the most effective method for localizing your website? Learn from popular examples how to take your brand global.
 
-date: 2021-07-12 10:21:36
+date: 2022-05-04 09:09:36
 tags: 
+  - guide
+  - localization techniques
+  - refining website content
   - best practices
-  - website localization techniques
-  - website-localization-definition
 categories:
   - Post
 thumbnail: website-localization/website-localization.webp
 ---
 
-![Website Localization Fundamentals & Examples](website-localization.webp "Website Localization Fundamentals & Examples")
+
+![website localization](website-localization.webp)
 
 
-This article gives you an idea about <b>website localization</b>, this is the process of <b>adapting an existing website to the language and culture of a target market</b>. It is part of internationalization and localization and entails much more than just simple text translation; it must take into account all language and cultural variables. If you are selling a decent product in your home market, it is possible that you are also doing so in other countries. If you wish to sell in Spain, for example, your information must be translated into an adapted message in their original language. This article is specific for websites, if you need more general information, check out our blogpost about [software localization](http://localhost:4000/blog/what-is-software-localization/). Otherwise, keep reading because the information in this post will save you time during your intended endeavor.
+This is the most comprehensive guide about <b>website localization</b>,  the process of <b>adapting an existing website to the language and culture of a target market</b>. 
+
+This article is specific for websites, if you need more general information, check out our blogpost about [software localization](http://localhost:4000/blog/what-is-software-localization/).
+
+<b>The question is: How can you get the most efficient way to localize your website for your users? This is where the following guide comes into play.</b> 
 
 ## Table of contents
-  * [Why a good outcome is important?](#good-outcome)
+  * [What is website localization?](#weblocalization)
+  * [Why should you be interested in a positive outcome?](#good-outcome)
+  * [When is it appropriate to localize your website?](#right-time)
   * [Prepare the localization of your website](#half-done)
-  * [Techniques](#techniques)
-  * [Examples](#examples)
-  * [Quality ensurance](#quality)
+  * [A step-by-step process for web localization](#step-by-step)
+  * [Examples: Popular and from our clients ](#examples)
+  * [How to measure the quality](#quality)
   * [Choose the right platform](#platform)
   * [Conclusion](#conclusion)
 
 
 
+## What is website localization? <a name="weblocalization"></a>
+It is part of internationalization and localization and entails much more than just simple text translation; it must take into account all language and cultural variables. If you are selling a decent product in your home market, it is possible that you are also doing so in other countries. If you wish to sell in Spain, for example, your information must be translated into an adapted message in their original language. 
+
 You understand what website localization is? Now, let's find out why it's important:
 
 
  
-## Why a good outcome is important <a name="good-outcome"></a>
+## Why should you be interested in a positive outcome? <a name="good-outcome"></a>
 
-A good website localization may help multinational businesses establish significant brand awareness outside of their home country. <b>People on the internet clearly desire to buy from websites in their own language</b>, as evidenced by several [studies](https://insights.csa-research.com/reportaction/305013126/Marketing). Many firms utilize landingpages for a specific area to provide basic corporate information. This is not the strategy to take since the target audience may perceive a lack of enthusiasm for their location and requirements. Local customers anticipate a website that is identical to the one in your primary market.
+A good website localization may help multinational businesses establish significant brand awareness outside of their home country. 
 
-![Create considerable brand awareness](establish.webp "Create considerable brand awareness")
+<b>People on the internet clearly desire to buy from websites in their own language</b>, as evidenced by several [studies](https://insights.csa-research.com/reportaction/305013126/Marketing). Many firms utilize landingpages for a specific area to provide basic corporate information. 
+
+This is not the strategy to take since the target audience may perceive a lack of enthusiasm for their location and requirements. Local customers anticipate a website that is identical to the one in your primary market.
+
+![fifty-two-percent](fifty-two-percent.webp)
 
 The localization of a <b>website can increase the revenue</b> of your company. It appears to be an administrative concern in most circumstances, but it is an investment in yourself and your organization.
+
+
+## When is it appropriate to localize your website? <a name="right-time"></a>
+
+You're wondering when to start localizing a site. This varies from firm to company, and a variety of factors can influence when the ideal time is reached.
+
+However, there are a few scenarios to bring you to start thinking about it:
+
+- Your business is launching a new product.
+- You must adhere to market standards.
+- Your company is expanding internationally.
+- Your company establishes a new branch in another country.
+- Your business follows the franchising model.
+- Your business figures are lower in some areas than in others.
+- Your company acts as a global platform.
+- Your company's global branding strategy is shifting.
+
  
 ## Prepare the localization of your website <a name="half-done"></a>
 
-Look for a good preparation of your localization strategy, because it will end up in more than just translate some sentence. This process should be part of your overall business strategy, because there are many non-technical-aspects to consider when going into new markets:
+Look for a good preparation of your <a href="/blog/localization-strategy" title="localization strategy">localization strategy</a>, because it will end up in more than just translate some sentence. This process should be part of your overall business strategy, because there are many non-technical-aspects to consider when going into new markets:
 
 
 ### A step-by-step checklist for the business questions
@@ -62,7 +95,17 @@ Look for a good preparation of your localization strategy, because it will end u
 If you come up with a strong plan and take into account all of the above checkpoints. Then it's time to go more into the webpage's details.
 
 
-### Here a list of techniques to use <a name="techniques"></a>
+## A step-by-step process for web localization <a name="step-by-step"></a>
+
+1. [Define the strategy](#half-done)  of your website localisation 
+2. Design the content of all pages with internationalization in mind
+3. Execute <a href="/blog/what-is-i18n/" title="i18n">i18n</a> on your website
+4. Arrange your team the right way
+5. Translate your webpages
+6. [Measure the quality](#quality) and strategy
+7. Keep up localization with the [right software](#platform)
+
+
 
 Keep the following techniques in mind for a successfull implementation:
 
@@ -96,13 +139,21 @@ This list gives you an overview about what you need to keep an eye on when inter
 * the videos
 
 
-All information must be given in a genuine manner to other locals so that they feel it is tailored to them. Also, the website's navigation may vary as visitors from different regions engage differently with your website. Gender-specific words can also be another possibility, which we do not discuss in detail here, but take that in mind. Understanding the language is frequently insufficient, because people will not buy from a webpage in English if it is not their first language. The material must reflect all of their familiar conditions, not just the language. 
+All information must be given in a genuine manner to other locals so that they feel it is tailored to them. Also, the website's navigation may vary as visitors from different regions engage differently with your website. Gender-specific words can also be another possibility, which we do not discuss in detail here, but take that in mind. 
 
+Understanding the language is frequently insufficient, because people will not buy from a webpage in English if it is not their first language. The material must reflect all of their familiar conditions, not just the language. 
+
+### Best practices
+➡️ More about the topic? Check the [website-internationalization-best practices](/blog/website-internationalization-best-practices/)
+
+![Create considerable brand awareness](establish.webp)
 
 ## Examples <a name="examples"></a>
 
 
-There are well-known examples all across the world of <b>companies that have effectively implemented multilingual websites</b> as part of their overall business strategy. [www.tesla.com](https://www.tesla.com/) was one of the most well-known examples we checked out. They offer a large number of regions from which to choose. They also adjust things like privacy policies and graphics to meet the needs of different locations. They do an excellent job of localizing their website, but it isn't perfect, and there are certain areas where they could improve. 
+There are well-known examples all across the world of <b>companies that have effectively implemented multilingual websites</b> as part of their overall business strategy. [www.tesla.com](https://www.tesla.com/) was one of the most well-known examples we checked out. 
+
+They offer a large number of regions from which to choose. They also adjust things like privacy policies and graphics to meet the needs of different locations. They do an excellent job of localizing their website, but it isn't perfect, and there are certain areas where they could improve. 
 
 The following improvements are some general areas that, in the author's view, may be improved by not deeply analyzing their situation. 
 
@@ -138,7 +189,9 @@ The headless websites of the Swiss Red Cross could be translated into multiple l
 
 ## Quality ensurance <a name="quality"></a>
 
-The quality check is essential for the team to get a measurement of where the project is standing in order to provide the correct website-experience. As a result of this, improving any project milestones or refining website content will be beneficial. This should also contain a check to see if the translators did a good job. In some circumstances, contemporary technology such as machine translation will automate the procedure. As a result, human monitoring can assure not only the quality of the language on the website, but also its functionality and site experience.
+The quality check is essential for the team to get a measurement of where the project is standing in order to provide the correct website-experience. As a result of this, improving any project milestones or refining website content will be beneficial. This should also contain a check to see if the translators did a good job. 
+
+In some circumstances, contemporary technology such as machine translation will automate the procedure. As a result, human monitoring can assure not only the quality of the language on the website, but also its functionality and site experience.
 
 We have the following two areas of testing for localization in the web:
 
@@ -153,7 +206,9 @@ Is the language properly tested, and are all of the words correct and understood
 
 
 ### Localization Testing
-Testing the localization ensures that your various language site versions work properly. Distribute your testers by newly targeted markets. Check the operation of all web forms and checkout functionality. Also if there is any broken design to fix. A short list you can find below:
+Testing the localization ensures that your various language site versions work properly. Distribute your testers by newly targeted markets. 
+
+Check the operation of all web forms and checkout functionality. Also if there is any broken design to fix. A short list you can find below:
 
 * Check for non-translated strings 
 * Long website loading times 
@@ -165,10 +220,16 @@ Testing the localization ensures that your various language site versions work p
 
 
 
-
 ## Choose the right platform <a name="platform"></a>
 
 A multilingual website is typically a large undertaking, and using a well-established localization management solution will assist you in completing it more quickly. When choosing a platform, make sure it was created specifically for your needs. You will be able to provide greater user-experience and add appropriate tools as a result of this.
+
+➡️ [Watch our introduction video](https://docs.locize.com/)
+
+➡️ [Create a new user account for free](https://www.locize.app/register)
+
+➡️ [Check out how to add a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
+
 
 With locize, a modern and economical [localization management platform](https://locize.com), you can bridge the gap between translation and development. It makes your site, app, game, or whatever project you're working on more global, dynamic, and engaging, particularly when you use the continuous localization features.
 
@@ -180,17 +241,30 @@ While we hope you enjoy our services, we will not lock you into a contract. We b
 
 ## Conclusion <a name="conclusion"></a>
 
-Consumers have a clear requirement for a website that is tailored to customized and localized content. As a result, the localization of a website is the tech-part for any company looking to expand into new areas or market segment. As we have built it up for you, it must comprise a good business strategy, which is the starting point for a solid technological implementation. 
-
-As you can see from our real-world examples, the most well-known organizations in any industry have used website localization. As a result, <b>you should address it as soon as possible</b> in <b>your company's internationalization process</b>. It is significant due to the commitment your organization would make to potential clients in the newly targeted area. This target audience will thank you by purchasing your goods or service. In this market, your company's brand awareness will grow as well, a situation that is critical to successful business in the internet.
-
-The "how to locize your website" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. Our team has considerable experience to assist you with your project or development needs, thanks to many [customers](https://locize.com/customers.html) that we assisted with the localization of their website. The [localization management platform](https://locize.com) can assist you in remaining organized and adaptable during your continuous-localization. We've also supplied the <b>most valuable pricing</b> of our [website localization services](https://locize.com/website-localization-services.html) because of our many years of expertise with these consumers, and we don't require you to sign long-term contracts.
+Consumers have a clear requirement for a website that is tailored to customized and localized content. As a result, the localization of a site is the tech-part for any company looking to expand into new areas or market segment. As we have built it up for you, it must comprise a good business strategy, which is the starting point for a solid technological implementation.
 
 
-➡️ [Watch our introduction video](https://docs.locize.com/)
+### Global brands do it
 
-➡️ [Create a new user account for free](https://www.locize.app/register)
+As you can see from our real-world examples, the most well-known organizations in any industry have used website localization. As a result, <b>you should address it as soon as possible</b> in <b>your company's internationalization process</b>. It is significant due to the commitment your organization would make to potential clients in the newly targeted area. 
 
-➡️ [Check out how to add a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
+### Users will appreciate it
+Your target audience will thank you by buying your product or service. In this market, your company's brand awareness will grow as well, which is essential for internet business success.
 
-➡️ Check the [website-internationalization-best practices](/blog/website-internationalization-best-practices/)
+### Use this guide
+
+The "how to locize your website" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. 
+
+
+### Keep it organized
+The [localization management platform](https://locize.com) can assist you in remaining organized and adaptable during your continuous-localization.
+
+
+## Why locize should be your choice 
+Our team has considerable experience to assist you with your project or development needs, thanks to many [customers](https://locize.com/customers.html) that we assisted with the localization of their website. 
+
+We've also supplied the <b>most valuable pricing</b> of our [website localization services](https://locize.com/website-localization-services.html) because of our many years of expertise with these consumers, and we don't require you to sign long-term contracts.
+
+
+
+
