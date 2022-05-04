@@ -19,7 +19,7 @@ thumbnail: website-localization/website-localization.webp
 
 This is the most comprehensive guide about <b>website localization</b>,  the process of <b>adapting an existing website to the language and culture of a target market</b>. 
 
-This article is specific for websites, if you need more general information, check out our blogpost about [software localization](http://localhost:4000/blog/what-is-software-localization/).
+This article is specific for websites, if you need more general information, check out our blogpost about [software localization](../what-is-software-localization/).
 
 <b>The question is: How can you get the most efficient way to localize your website for your users? This is where the following guide comes into play.</b> 
 
