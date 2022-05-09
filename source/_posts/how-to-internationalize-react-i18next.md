@@ -1,6 +1,6 @@
 ---
 title: React Localization - Internationalize with i18next
-description: React Localization made easy with this ✅step-by-step guide using i18next.
+description: React Localization made easy with this ✅ step-by-step guide using i18next.
 
 date: 2021-04-14
 tags:
@@ -20,7 +20,7 @@ redirect_from:
 - /2021-04-14-how-to-internationalize-react-i18next
 ---
 
-![react localization](react-localization.jpg "React Localization example")
+![React Localization made easy with this step-by-step guide using i18next ✅](react-localization.jpg "React Localization example")
 
 Overcoming the language barrier for users who use your software is an important topic.
 English is no longer the universal language of the internet.
@@ -486,6 +486,24 @@ t('key', {count: 5}); // -> "few"
 t('key', {count: 11}); // -> "many"
 t('key', {count: 99}); // -> "many"
 t('key', {count: 100}); // -> "other"
+```
+
+### Why are my plural keys not working? <a name="pluralsv4"></a>
+
+Are you seeing this warning in the development console (`debug: true`)?
+
+> i18next::pluralResolver: Your environment seems not to be Intl API compatible, use an Intl.PluralRules polyfill. Will fallback to the compatibilityJSON v3 format handling.
+
+With [v21](https://www.i18next.com/misc/migration-guide#v20.x.x-to-v21.0.0) i18next streamlined the suffix with the one used in the [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules).
+In environments where the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API  is not available (like older Android devices), you may need to [polyfill](https://github.com/eemeli/intl-pluralrules) the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API.
+In case it is not available it will fallback to the [i18next JSON format v3](https://www.i18next.com/misc/json-format#i-18-next-json-v3) plural handling. And if your json is already using the new suffixes, your plural keys will probably not be shown.
+
+*tldr;*
+
+`npm install intl-pluralrules`
+
+```javascript
+import 'intl-pluralrules'
 ```
 
 
