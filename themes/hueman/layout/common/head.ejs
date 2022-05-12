@@ -33,7 +33,7 @@
         <meta name="keywords" content="<%= keywords.join(',') %>" />
     <% } %>
     <%- open_graph({
-        image:          thumbnail(page),
+        image:          thumbnail(page) ? (config.root + thumbnail(page)) : (theme.customize.logo.root + 'images/locize_color.svg'),
         fb_app_id:      theme.miscellaneous.open_graph.fb_app_id,
         fb_admins:      theme.miscellaneous.open_graph.fb_admins,
         twitter_id:     theme.miscellaneous.open_graph.twitter_id,
