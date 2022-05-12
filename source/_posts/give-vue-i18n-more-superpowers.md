@@ -30,7 +30,7 @@ The most famous i18n plugin for the progressive JavaScript framework [Vue.js](ht
 ## TOC
   * [New versions](#new-versions)
   * [So how does a basic vue-i18n setup look like? Let's get into it...](#start)
-  * [Is it possible to make a vue-18n setup even better?](#vue-i18n-better)
+  * Is it possible to make a vue-18n setup even better?
     - [Prerequisites](#prerequisites)
     - [Getting started](#getting-started)
     - [Language Switcher](#language-switcher)
