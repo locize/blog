@@ -104,7 +104,7 @@ Let's install some i18next dependencies:
 
 `npm install i18next react-i18next i18next-browser-languagedetector`
 
-Let's prepare an i18n.js file:
+Let's prepare an `i18n.js` file:
 ```javascript
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
@@ -136,7 +136,7 @@ i18n
 export default i18n;
 ```
 
-Let's import that file somewhere in our index.js file:
+Let's import that file somewhere in our `index.js` file:
 
 For React >= 18.0.0 use:
 
@@ -762,7 +762,7 @@ export default i18n;
 
 ## Separate translations from code <a name="separate"></a>
 
-Having the translations in our i18n.js file works, but is not that suitable to work with, for translators.
+Having the translations in our `i18n.js` file works, but is not that suitable to work with, for translators.
 Let's separate the translations from the code and pleace them in dedicated json files.
 
 Because this is a web application, [i18next-http-backend](https://github.com/i18next/i18next-http-backend) will help us to do so.
@@ -773,7 +773,7 @@ Move the translations to the public folder:
 
 ![public locales](public_locales.jpg "locize © inweso GmbH")
 
-Adapt the i18n.js file to use the i18next-http-backend:
+Adapt the `i18n.js` file to use the `i18next-http-backend`:
 
 ```javascript
 import i18n from 'i18next';
@@ -917,7 +917,7 @@ After having imported the translations to locize, delete the locales folder:
 
 ![public locales removed](public_locales_removed.jpg "locize © inweso GmbH")
 
-Adapt the i18n.js file to use the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project:
+Adapt the `i18n.js` file to use the `i18next-locize-backend` and make sure you copy the project-id and api-key from within your locize project:
 
 ```javascript
 import i18n from 'i18next';
@@ -1115,7 +1115,7 @@ Lastly, with the help of the [auto-machinetranslation workflow](https://docs.loc
 
 `npm install locize-lastused locize`
 
-use them in i18n.js:
+use them in `i18n.js`:
 
 ```javascript
 import i18n from 'i18next';
@@ -1201,7 +1201,7 @@ Let's making use of the [environment feature of react-scripts](https://create-re
 
 Lets' create a default environment file and one for development and one for production:
 
-.env:
+`.env`:
 ```
 SKIP_PREFLIGHT_CHECK=true
 
@@ -1212,13 +1212,13 @@ REACT_APP_LOCIZE_PROJECTID=0bbc223a-9aba-4a90-ab93-ab9d7bf7f780
 REACT_APP_LOCIZE_REFLNG=en
 ```
 
-.env.development:
+`.env.development`:
 ```
 REACT_APP_LOCIZE_VERSION=latest
 REACT_APP_LOCIZE_APIKEY=aaad4141-54ba-4625-ae37-657538fe29e7
 ```
 
-.env.production:
+`.env.production`:
 ```
 REACT_APP_LOCIZE_VERSION=production
 ```
