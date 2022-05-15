@@ -37,6 +37,7 @@ In this article, we will be using the [i18next](https://www.i18next.com) framewo
     - [Prerequisites](#prerequisites)
     - [Getting started](#getting-started)
     - [Language Switcher](#language-switcher)
+      - [How to get the current language?](#current-language)
     - [Interpolation and Pluralization](#interpolation-pluralization)
     - [Formatting](#formatting)
     - [Context](#context)
@@ -349,6 +350,45 @@ export default i18n;
 
 Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
 
+### How to get the current language? <a name="current-language"></a>
+
+Since i18next v21 there is [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage)
+It is set to the current resolved language and it can be used as primary used language, for example in a language switcher.
+
+If your detected language for example is `en-US` and you provided translations only for `en` *(fallbackLng)* instead `i18next.resolvedLanguage` will return `en`.
+
+#### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
+
+```javascript
+/* language */
+i18next.language;
+// Is set to the current detected or set language.
+
+/* language */
+i18next.languages;
+// Is set to an array of language codes that will be used to look up the translation value.
+// When the language is set, this array is populated with the new language codes.
+// Unless overridden, this array is populated with less-specific versions of that code for fallback purposes, followed by the list of fallback languages
+
+// initialize with fallback languages
+i18next.init({
+  fallbackLng: ["es", "fr", "en-US", "dev"]
+});
+// change the language
+i18next.changeLanguage("en-US-xx");
+// new language and its more generic forms, followed by fallbacks
+i18next.languages; // ["en-US-xx", "en-US", "en", "es", "fr", "dev"]
+// change the language again
+i18next.changeLanguage("de-DE");
+// previous language is not retained
+i18next.languages;//["de-DE", "de", "es", "fr", "en-US", "dev"]
+
+/* resolvedLanquage */
+i18next.resolvedLanguage;
+// Is set to the current resolved language.
+// It can be used as primary used language,
+// for example in a language switcher.
+```
 
 ## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
 
