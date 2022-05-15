@@ -352,7 +352,7 @@ Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-
 
 ### How to get the current language? <a name="current-language"></a>
 
-Since i18next v21 there is [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage)
+Since i18next v21 there is [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
 It is set to the current resolved language and it can be used as primary used language, for example in a language switcher.
 
 If your detected language for example is `en-US` and you provided translations only for `en` *(fallbackLng)* instead `i18next.resolvedLanguage` will return `en`.
@@ -383,7 +383,7 @@ i18next.changeLanguage("de-DE");
 // previous language is not retained
 i18next.languages;//["de-DE", "de", "es", "fr", "en-US", "dev"]
 
-/* resolvedLanquage */
+/* resolvedLanguage */
 i18next.resolvedLanguage;
 // Is set to the current resolved language.
 // It can be used as primary used language,
