@@ -381,7 +381,7 @@ i18next.languages; // ["en-US-xx", "en-US", "en", "es", "fr", "dev"]
 // change the language again
 i18next.changeLanguage("de-DE");
 // previous language is not retained
-i18next.languages;//["de-DE", "de", "es", "fr", "en-US", "dev"]
+i18next.languages; // ["de-DE", "de", "es", "fr", "en-US", "dev"]
 
 /* resolvedLanguage */
 i18next.resolvedLanguage;
