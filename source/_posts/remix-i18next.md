@@ -572,6 +572,9 @@ And in production environment, saveMissing and lastused are disabled. => `npm ru
 
 *Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 
+There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+{% youtube SA_9i4TtxLQ %}
+
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 

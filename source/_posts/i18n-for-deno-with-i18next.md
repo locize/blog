@@ -337,6 +337,9 @@ Just use [this cli](https://github.com/locize/locize-cli) to synchronize the tra
 Alternatively, use [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) instead of the [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend).
 If you're running your code in a serverless environment, make sure you [read this advice first](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc)!
 
+There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+{% youtube SA_9i4TtxLQ %}
+
 
 # 🎉🥳 Conclusion 🎊🎁
 

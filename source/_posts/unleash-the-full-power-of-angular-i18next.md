@@ -536,6 +536,9 @@ export class AppModule { }
 
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-angular-example).*
 
+There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+{% youtube SA_9i4TtxLQ %}
+
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 

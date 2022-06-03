@@ -724,6 +724,9 @@ So if you want to take your i18n topic to the next level, it's worth to try the 
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
+There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+{% youtube SA_9i4TtxLQ %}
+
 # 👍
 
 *If you like to know how to unleash the full power of i18next, [check out **"Part 2"**](../remix-i18next/)!*

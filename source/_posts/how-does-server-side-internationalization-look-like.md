@@ -666,6 +666,9 @@ You can, for example, run an [npm script](https://github.com/locize/next-i18next
 
 i.e. `locize download --project-id=d3b405cf-2532-46ae-adb8-99e88d876733 --ver=latest --clean=true --path=./public/locales`
 
+There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+{% youtube SA_9i4TtxLQ %}
+
 
 # 🎉🥳 Conclusion 🎊🎁
 
