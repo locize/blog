@@ -1311,6 +1311,7 @@ And in production environment, saveMissing and lastused are disabled, and also t
 There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
+There is also a [Spanish translation of this blog post](https://www.ibidem-translations.com/edu/translate-react-i18next-app/).
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
