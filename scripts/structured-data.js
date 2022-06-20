@@ -33,7 +33,8 @@ const articleTemplateContent = `<script type="application/ld+json">
   "image": "<%= imageUrl %>",  
   "author": {
     "@type": "Organization",
-    "name": "locize"
+    "name": "locize",
+    "url": "https://locize.com"
   },  
   "publisher": {
     "@type": "Organization",
