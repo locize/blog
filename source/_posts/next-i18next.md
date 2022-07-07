@@ -51,7 +51,7 @@ Having a backend server does not mean you are forced to run your own server. It 
 
 Ok, let's start with the default:
 <br />
-You followed the normal [next-i18next setup guide](https://github.com/i18next/next-i18next#setup) and now your translations are organised more or less as such:
+You followed the normal [next-i18next setup guide](https://github.com/i18next/next-i18next#setup) and now your translations are organized more or less as such:
 
 ```
 .

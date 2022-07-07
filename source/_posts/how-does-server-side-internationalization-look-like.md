@@ -584,7 +584,7 @@ export const getStaticProps = async ({ locale }) => ({
 export default Homepage
 ```
 
-By default, `next-i18next` expects your translations to be organised as such:
+By default, `next-i18next` expects your translations to be organized as such:
 
 ```
 .
