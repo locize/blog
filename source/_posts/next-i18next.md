@@ -30,10 +30,10 @@ The code is written once and depending on your needs it is then executed as SSG 
 
 # How to optimize Next.js apps to best work with translations on server side and on client side with next-i18next?
 
-Let's take the example of [next-i18next](https://github.com/isaachinman/next-i18next).
+Let's take the example of [next-i18next](https://github.com/i18next/next-i18next).
 While next-i18next uses [i18next](https://www.i18next.com) and [react-i18next](https://react.i18next.com) under the hood, users of next-i18next simply need to include their translation content as JSON files and don't have to worry about much else.
 
-By default, there is one [next-i18next configuration](https://github.com/isaachinman/next-i18next#next-i18nextconfigjs) that loads the translations from the local directory structure and renders the pages on server side.
+By default, there is one [next-i18next configuration](https://github.com/i18next/next-i18next#next-i18nextconfigjs) that loads the translations from the local directory structure and renders the pages on server side.
 <br />
 This is ok, it works and is optimized for SEO etc. but there is more we could do.
 
@@ -51,7 +51,7 @@ Having a backend server does not mean you are forced to run your own server. It 
 
 Ok, let's start with the default:
 <br />
-You followed the normal [next-i18next setup guide](https://github.com/isaachinman/next-i18next#setup) and now your translations are organised more or less as such:
+You followed the normal [next-i18next setup guide](https://github.com/i18next/next-i18next#setup) and now your translations are organised more or less as such:
 
 ```
 .
@@ -424,7 +424,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
-Awesome! Thanks to [next-i18next](https://github.com/isaachinman/next-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
+Awesome! Thanks to [next-i18next](https://github.com/i18next/next-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
 
 So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
 

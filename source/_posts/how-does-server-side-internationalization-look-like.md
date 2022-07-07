@@ -539,9 +539,9 @@ export default app
 
 Now it's time for [Next.js](https://nextjs.org)...
 
-When it comes to internationalization of Next.js apps one of the most popular choices is [next-i18next](https://github.com/isaachinman/next-i18next). It is based on [react-i18next](https://react.i18next.com) and users of [next-i18next](https://github.com/isaachinman/next-i18next) by default simply need to include their translation content as JSON files and don't have to worry about much else.
+When it comes to internationalization of Next.js apps one of the most popular choices is [next-i18next](https://github.com/i18next/next-i18next). It is based on [react-i18next](https://react.i18next.com) and users of [next-i18next](https://github.com/i18next/next-i18next) by default simply need to include their translation content as JSON files and don't have to worry about much else.
 
-[Here](https://github.com/isaachinman/next-i18next/tree/master/examples/simple) you'll find a simple example.
+[Here](https://github.com/i18next/next-i18next/tree/master/examples/simple) you'll find a simple example.
 
 You just need a `next-i18next.config.js` file that provides the configuration for `next-i18next` and wrapping your app with the `appWithTranslation` function, which allows to use the `t` (translate) function in your components via hooks.
 

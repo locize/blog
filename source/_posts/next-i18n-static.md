@@ -45,7 +45,7 @@ Next.js is awesome! It gives you the best developer experience with all the feat
 This happens if you're using the [internationalized routing](https://nextjs.org/docs/advanced-features/i18n-routing) feature and are trying to generate a [static HTML export](https://nextjs.org/docs/advanced-features/static-html-export) by executing `next export`.
 Well, this features requires a Node.js server, or dynamic logic that cannot be computed during the build process, that's why it is [unsupported](https://nextjs.org/docs/advanced-features/static-html-export#unsupported-features).
 
-This is the case if you're using [next-i18next](https://github.com/isaachinman/next-i18next) for example.
+This is the case if you're using [next-i18next](https://github.com/i18next/next-i18next) for example.
 
 # So what can we do now? <a name="what-do"></a>
 
@@ -406,7 +406,7 @@ Alternatively, you can also use the `locize download` command to always download
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
-I hope you’ve learned a few new things about static site generation (SSG), [Next.js](https://nextjs.org), [next-i18next](https://github.com/isaachinman/next-i18next), [i18next](https://www.i18next.com) and [modern localization workflows](https://locize.com).
+I hope you’ve learned a few new things about static site generation (SSG), [Next.js](https://nextjs.org), [next-i18next](https://github.com/i18next/next-i18next), [i18next](https://www.i18next.com) and [modern localization workflows](https://locize.com).
 
 So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
 
