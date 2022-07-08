@@ -160,7 +160,7 @@ Sounds feasible. Let's start!
   export default Homepage
   ```
 
-**5. Install [next-language-detector](https://github.com/adrai/next-language-detector).**
+**5. Install [next-language-detector](https://github.com/i18next/next-language-detector).**
 
   `npm i next-language-detector`
 
@@ -380,7 +380,7 @@ Export successful. Files written to /Users/usr/projects/my-awesome-project/out
 
 **Congratulations! Now you can "deploy" the content of your `out` directory to any static web server.**
 
-*🧑‍💻 The complete code can be found [here](https://github.com/adrai/next-language-detector/tree/main/examples/basic).*
+*🧑‍💻 The complete code can be found [here](https://github.com/i18next/next-language-detector/tree/main/examples/basic).*
 
 
 # The voluntary part <a name="voluntary"></a>

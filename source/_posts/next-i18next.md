@@ -263,7 +263,7 @@ And on client side, the up-to-date translations are directly fetched from the [l
 
 🙀 This means you can fix translations without having to change your code or redeploy your app. And without owning an active server. 🤩
 
-*🧑‍💻 The code can be found [here](https://github.com/adrai/next-language-detector/tree/main/examples/client-loading).*
+*🧑‍💻 The code can be found [here](https://github.com/i18next/next-language-detector/tree/main/examples/client-loading).*
 
 
 # Continuous Localization
