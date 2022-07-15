@@ -18,6 +18,9 @@ tags:
 categories:
   - Post
 thumbnail: next-i18next/next-i18next.jpg
+
+label: next-i18next
+lang: en
 ---
 
 ![](next-i18next.jpg "locize © inweso GmbH")

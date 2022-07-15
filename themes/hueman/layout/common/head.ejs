@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= page.lang || 'en' %>">
 <head>
     <meta charset="utf-8">
     <%
@@ -44,6 +44,20 @@
     <% if (theme.rss) { %>
         <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="<%= theme.rssType || "application/atom+xml" %>" />
     <% } %>
+
+    <% 
+        if (page.alternates && page.alternates.length) {
+            for (var ai = 0, al = page.alternates.length; ai < al; ai++) {
+                var alternate = page.alternates[ai]
+                if (alternate && page.lang !== alternate.lang) {
+                    var alternativePath = url_for(alternate.path);
+                    %>
+                        <link rel="alternative" hreflang="<%= alternate.lang %>" href="<%= alternativePath %>">
+                    <%
+                }
+            }
+        }
+    %>
 
     <% if (theme.customize.favicon) { %>
         <link rel="icon" href="<%- url_for(theme.customize.favicon) %>" />

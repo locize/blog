@@ -16,8 +16,6 @@ tags:
 categories:
   - Post
 thumbnail: i18next-vue/vue-localization.jpg
-redirect_from:
-- /2022-05-16-i18next-vue
 ---
 
 ![Vue Localization made easy with this step-by-step guide using i18next ✅](vue-localization.jpg "Vue Localization example")

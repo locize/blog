@@ -20,6 +20,9 @@ categories:
 thumbnail: next-i18n-static/title.jpg
 redirect_from:
 - /2021-12-07-next-i18n-static
+
+label: next-i18n-static
+lang: en
 ---
 
 ![](title.jpg "Next.js SSG example")
@@ -30,7 +33,7 @@ Next.js is awesome! It gives you the best developer experience with all the feat
 
 
 ## TOC
-  * [BUT, you may have heared about this](#but)
+  * [BUT, you may have heard about this](#but)
   * [So what can we do now?](#what-do)
   * [The recipe](#recipe)
   * [The outcome](#outcome)
@@ -356,7 +359,7 @@ Sounds feasible. Let's start!
 
 ![](result.jpg)
 
-If you know start your project (`next dev`) you should see, more or less, the same behaviour as before.
+If you now start your project (`next dev`) you should see, more or less, the same behaviour as before.
 
 So what's the benefit?
 

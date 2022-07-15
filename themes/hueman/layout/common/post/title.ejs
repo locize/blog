@@ -5,11 +5,21 @@
 <% } else if (post.title) { %>
     <% if (typeof(linkable) !== 'undefined' && linkable) { %>
         <h1 class="<%= class_name %>" itemprop="name">
-        <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+            <a href="<%- url_for(post.path) %>"><%= post.title %></a>
         </h1>
     <% } else { %>
         <h1 class="<%= class_name %>" itemprop="name">
-        <%= post.title %>
+            <%= post.title %>
+            <% if (post && post.alternates && post.alternates.length) { %>
+                <% for (var ai = 0, aLen = post.alternates.length; ai < aLen; ai++) { %>
+                    <% var alternate = post.alternates[ai]; %>
+                    <% if (post.lang !== alternate.lang) { %>
+                    <div class="article-entry-lng" style="float: right; font-size: small;">
+                        <a href="<%- url_for(alternate.path) %>"><i class="fa fa-language" aria-hidden="true"></i> <%= alternate.lang %></a>
+                    </div>
+                    <% } %>
+                <% } %>
+            <% } %>
         </h1>
     <% } %>
 <% } %>
