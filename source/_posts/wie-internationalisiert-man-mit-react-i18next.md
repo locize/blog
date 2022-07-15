@@ -77,7 +77,7 @@ Wenn es um React-Lokalisierung geht. Eines der beliebtesten ist [i18next](https:
 **➡️ reich**
 
 
-[Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html #wie-funktioniert-i18als-nächstes).
+[Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
 # Fangen wir an... <a name="start"></a>
 
