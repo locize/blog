@@ -179,6 +179,52 @@ module.exports = {
 }
 ```
 
+## Alternative Verwendung:
+
+Falls Sie das [Ready-Flag](https://react.i18next.com/latest/usetranslation-hook#not-using-suspense) verwenden und eine Warnung wie diese sehen: `Expected server HTML to contains a matching text node for...`, hat dies folgenden Grund:
+
+Der Server hat den korrekten Übersetzungstext gerendert, aber der Client muss die Übersetzungen immer noch verzögert laden und zeigt eine andere Benutzeroberfläche an. Dies bedeutet, dass es eine Hydratationsfehlanpassung gibt.
+
+Dies kann verhindert werden, indem die `getServerSideProps`- oder `getStaticProps`-Funktion beibehalten wird, aber die [`reloadResources`](https://www.i18next.com/overview/api#reloadresources)-Funktionalität von i18next genutzt wird.
+
+```javascript
+const LazyReloadPage = () => {
+
+  const { t, i18n } = useTranslation(['lazy-reload-page', 'footer'], { bindI18n: 'languageChanged loaded' })
+  // bindI18n: loaded is needed because of the reloadResources call
+  // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
+  useEffect(() => {
+    i18n.reloadResources(i18n.resolvedLanguage, ['lazy-reload-page', 'footer'])
+  }, [])
+
+  return (
+    <>
+      <main>
+        <Header heading={t('h1')} title={t('title')} />
+        <Link href='/'>
+          <button
+            type='button'
+          >
+            {t('back-to-home')}
+          </button>
+        </Link>
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['lazy-reload-page', 'footer']),
+  },
+})
+
+export default LazyReloadPage
+```
+
+Auf diese Weise entfällt auch die Ready-Prüfung, da die direkt vom Server bereitgestellten Übersetzungen verwendet werden. Und sobald die Übersetzungen neu geladen werden, werden neue Übersetzungen angezeigt.
+
 
 # Beispiel für eine statische Website <a name="ssg"></a>
 
