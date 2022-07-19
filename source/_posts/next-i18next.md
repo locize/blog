@@ -178,7 +178,7 @@ module.exports = {
 }
 ```
 
-## Alternative usage:
+## Alternative usage: <a name="alternative-usage"></a>
 
 In case you're using the [ready flag](https://react.i18next.com/latest/usetranslation-hook#not-using-suspense) and are seeing a warning like this: `Expected server HTML to contain a matching text node for...` this is because of the following reason:
 
