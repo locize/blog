@@ -21,6 +21,7 @@ thumbnail: how-does-server-side-internationalization-look-like/server_side_backe
 
 label: how-does-server-side-internationalization-look-like
 lang: de
+hidden: true
 ---
 
 ![serverseitige Internationalisierung next.js](../how-does-server-side-internationalization-look-like/server_side_backend.jpg "Serverseitige Internationalisierung")
