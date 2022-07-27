@@ -481,7 +481,7 @@ Möchten Sie Ihre Übersetzungen in einem Übersetzungsmanagementsystem (TMS) wi
 
 Verwenden Sie einfach [dieses CLI](https://github.com/locize/locize-cli), um die Übersetzungen mit Ihrem Code zu synchronisieren. Um zu sehen, wie das aussehen könnte, sehen Sie sich [**Schritt 1** in diesem Tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize) an.
 
-Verwenden Sie alternativ [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) anstelle von [i18next-fs-backend](https://github.com/i18next/i18next- fs-Backend).
+Verwenden Sie alternativ [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) anstelle von [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend).
 Wenn Sie Ihren Code in einer serverlosen Umgebung ausführen, stellen Sie sicher, dass Sie [diesen Rat zuerst lesen](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc)!
 
 **Übrigens: Wussten Sie, dass Sie Ihre Fastify-App ganz einfach für die Verwendung in [AWS Lambda](https://aws.amazon.com/lambda/) UND lokal anpassen können?**
