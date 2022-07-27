@@ -1,6 +1,6 @@
 ---
-title: How does server side internationalization (i18n) look like?
-description: How does server side internationalization (i18n) look like? CLI, webserver, mail generation, server side rendered sites, Next.js, etc...
+title: Wie sieht die serverseitige Internationalisierung (i18n) aus?
+description: Wie sieht die serverseitige Internationalisierung (i18n) aus? CLI, Webserver, E-Mail-Generierung, serverseitig gerenderte Sites, Next.js usw.
 
 date: 2021-06-28 08:23:00
 tags:
@@ -20,33 +20,33 @@ categories:
 thumbnail: how-does-server-side-internationalization-look-like/server_side_backend.jpg
 
 label: how-does-server-side-internationalization-look-like
-lang: en
+lang: de
 ---
 
-![server side internationalization next](server_side_backend.jpg "Server Side Internationalization")
+![serverseitige Internationalisierung next.js](../how-does-server-side-internationalization-look-like/server_side_backend.jpg "Serverseitige Internationalisierung")
 
-You may already know how to properly internationalize a client side application, like described in this [React based tutorial](../how-to-internationalize-react-i18next/), this [Angular based tutorial](../unleash-the-full-power-of-angular-i18next/) or this [Vue based tutorial](../give-vue-i18n-more-superpowers/).
+Möglicherweise wissen Sie bereits, wie Sie eine clientseitige Anwendung ordnungsgemäss internationalisieren, wie in diesem [React-basierten Tutorial](../wie-internationalisiert-man-mit-react-i18next/), diesem [Angular-basierten Tutorial](../unleash-the-full-power-of-angular-i18next/) oder dieses [Vue-basierte Tutorial](../give-vue-i18n-more-superpowers/).
 
-In this blog post we will shed light on the server side.
+In diesem Blogbeitrag beleuchten wir die Serverseite.
 
-> Why do I need to handle i18n in my application's backend?
+> Warum muss ich i18n im Backend meiner Anwendung behandeln?
 
-Think of all user faced content not directly rendered in your browser...
+Denken Sie an alle benutzerseitigen Inhalte, die nicht direkt in Ihrem Browser gerendert werden ...
 
-- For example you're building a [command line interface (CLI)](#cli)?
-- You're [sending some emails](#email)?
-- Or you're using [server side rendering (SSR)](#ssr)?
+- Zum Beispiel bauen Sie eine [Befehlszeilenschnittstelle (CLI)](#cli)?
+- Sie [senden E-Mails](#email)?
+- Oder verwenden Sie [serverseitiges Rendering (SSR)](#ssr)?
 - etc.
 
-# Let's check that out...
+# Lassen Sie uns das überprüfen ...
 
-We will show some examples that uses [i18next](https://www.i18next.com) as i18n framework. If you're curious to know why we suggest i18next, have a look at [this page](https://locize.com/i18next.html).
+Wir zeigen einige Beispiele, die [i18next](https://www.i18next.com) als i18n-Framework verwenden. Wenn Sie wissen möchten, warum wir i18next vorschlagen, werfen Sie einen Blick auf [diese Seite](https://locize.com/i18next.html).
 
 
-# Command line interface (CLI) <a name="cli"></a>
+# Befehlszeilenschnittstelle (CLI) <a name="cli"></a>
 
-Let's start with something simple: a verry small CLI app. For this example let's use [commander](https://github.com/tj/commander.js), originally created by [TJ Holowaychuk](https://twitter.com/tjholowaychuk).
-We are defining a `sayhi` command with optional language and name parameters that should respond with a salutation in the appropriate language.
+Beginnen wir mit etwas Einfachem: einer sehr kleinen CLI-App. Für dieses Beispiel verwenden wir [commander](https://github.com/tj/commander.js), ursprünglich erstellt von [TJ Holowaychuk](https://twitter.com/tjholowaychuk).
+Wir definieren einen `sayhi`-Befehl mit optionalen Sprach- und Namensparametern, der mit einer Anrede in der entsprechenden Sprache antworten sollte.
 
 ```javascript
 #!/usr/bin/env node
@@ -79,7 +79,7 @@ if (!process.argv.slice(2).length) {
 }
 ```
 
-Ok, now let's create a new `i18n.js` file and setup i18next accordingly:
+Ok, jetzt erstellen wir eine neue `i18n.js`-Datei und richten i18next entsprechend ein:
 
 ```javascript
 const i18next = require('i18next')
@@ -103,7 +103,7 @@ i18next
 module.exports = (lng) => i18next.getFixedT(lng || systemLocale)
 ```
 
-And also our translation resources:
+Und auch unsere Übersetzungsressourcen:
 
 ```javascript
 // locales/en/translations.json
@@ -119,7 +119,7 @@ And also our translation resources:
 }
 ```
 
-Now we can use the `i18n.js` export like that:
+Jetzt können wir den `i18n.js`-Export so verwenden:
 
 ```javascript
 #!/usr/bin/env node
@@ -156,7 +156,7 @@ if (!process.argv.slice(2).length) {
 }
 ```
 
-Ok, what's the result?
+Ok, was ist das Ergebnis?
 
 ```sh
 # if we execute the cli command without any parameters...
@@ -172,9 +172,9 @@ mycli sayhi --language de --name John
 # result: Hallo John!
 ```
 
-**Easy, isn't it?**
+**Einfach, nicht wahr?**
 
-If you don't bundle your CLI app in a single executable, for example by using [pkg](https://github.com/vercel/pkg), you can also i.e. use the [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend) to dynamically load your translations, for example like this:
+Wenn Sie Ihre CLI-App nicht in einer einzigen ausführbaren Datei bündeln, beispielsweise durch Verwendung von [pkg](https://github.com/vercel/pkg), können Sie auch z. B. das [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend), um Ihre Übersetzungen dynamisch zu laden, zum Beispiel so:
 
 ```javascript
 const i18next = require('i18next')
@@ -204,23 +204,23 @@ i18next
 module.exports = (lng) => i18next.getFixedT(lng || systemLocale)
 ```
 
-*🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-cli-app-example).*
+*🧑‍💻 Ein Codebeispiel finden Sie [hier](https://github.com/i18next/i18next-cli-app-example).*
 
-## A possible next step...
+## Ein möglicher nächster Schritt...
 
-A possible next step could be to professionalize the translation management.
-This means the translations would be "managed" (add new languages, new translations etc...) in a translation management system (TMS), like [locize](https://www.locize.com) and synchronized with your code. To see how this could look like, check out [**Step 1** in this tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize).
+Ein möglicher nächster Schritt könnte die Professionalisierung des Übersetzungsmanagements sein.
+Das bedeutet, dass die Übersetzungen in einem Übersetzungsmanagementsystem (TMS) wie [locize](https://www.locize.com) „verwaltet“ (neue Sprachen hinzufügen, neue Übersetzungen usw.) und mit Ihrem Code synchronisiert werden. Sehen Sie sich [**Schritt 1** in diesem Tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize) an, um zu sehen, wie das aussehen könnte.
 
 
-# Generate Emails <a name="email"></a>
+# E-Mails generieren <a name="email"></a>
 
-Another typical server side use case that requires internationalization is the generation of emails.
+Ein weiterer typischer serverseitiger Anwendungsfall, der eine Internationalisierung erfordert, ist die Generierung von E-Mails.
 
-To achieve this goal, you usually need to transform some raw data to html content (or text) to be shown in the user's preferred language.
+Um dieses Ziel zu erreichen, müssen Sie normalerweise einige Rohdaten in HTML-Inhalte (oder Text) umwandeln, die in der bevorzugten Sprache des Benutzers angezeigt werden.
 
-In this example we will use [pug](https://pugjs.org) (formerly known as "Jade", and also originally created by [TJ Holowaychuk](https://twitter.com/tjholowaychuk)) to define some templates that should be filled with the data needed in the email, and [mjml](https://mjml.io) to actually design the email content.
+In diesem Beispiel verwenden wir [pug](https://pugjs.org) (früher bekannt als „Jade“ und ebenfalls ursprünglich erstellt von [TJ Holowaychuk](https://twitter.com/tjholowaychuk)), um einige zu definieren Vorlagen, die mit den in der E-Mail benötigten Daten gefüllt werden sollen, und [mjml](https://mjml.io), um den E-Mail-Inhalt tatsächlich zu gestalten.
 
-Let's create a new `mail.js` file, which we can use, to accomplish this.
+Lassen Sie uns eine neue `mail.js`-Datei erstellen, die wir verwenden können, um dies zu erreichen.
 
 ```javascript
 import pug from 'pug'
@@ -239,7 +239,7 @@ export default (data) => {
 }
 ```
 
-The `mailTemplate.pug` could look like this:
+Die `mailTemplate.pug` könnte so aussehen:
 
 ```jade
 mjml
@@ -265,7 +265,7 @@ mjml
             b www.i18next.com
 ```
 
-Now let's define some translations...
+Lassen Sie uns nun einige Übersetzungen definieren...
 
 ```javascript
 // locales/en/translations.json
@@ -283,7 +283,7 @@ Now let's define some translations...
 }
 ```
 
-...and use them in an `i18n.js` file:
+...und verwenden Sie sie in einer `i18n.js`-Datei:
 
 ```javascript
 import { dirname, join } from 'path'
@@ -313,7 +313,7 @@ i18next
 export default i18next
 ```
 
-So finally, all the above can be used like that:
+Schliesslich können alle oben genannten Elemente wie folgt verwendet werden:
 
 ```javascript
 import mail from './mail.js'
@@ -327,27 +327,27 @@ const html = mail({
 // that html now can be sent via some mail provider...
 ```
 
-This is how the resulting html could look like:
+So könnte das resultierende HTML aussehen:
 
-![mail preview](mail_preview.jpg)
+![mail Vorschau](../how-does-server-side-internationalization-look-like/mail_preview.jpg)
 
-*🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-fs-backend/blob/master/example/fastify/app.js#L14-L19).*
+*🧑‍💻 Ein Codebeispiel finden Sie [hier](https://github.com/i18next/i18next-fs-backend/blob/master/example/fastify/app.js#L14-L19).*
 
 
-# Server Side Rendering (SSR) <a name="ssr"></a>
+# Serverseitiges Rendern (SSR) <a name="ssr"></a>
 
-We will try 2 different SSR examples, a classic one using [Fastify with pug](#pug) and a more trendy one using [Next.js](#nextjs).
+Wir werden 2 verschiedene SSR-Beispiele ausprobieren, ein klassisches mit [Fastify with pug](#pug) und ein trendigeres mit [Next.js](#nextjs).
 
-## Fastify with Pug example <a name="pug"></a>
+## Fastify mit Pug-Beispiel <a name="pug"></a>
 
-For this example we will use my favorite http framework [Fastify](https://www.fastify.io) (created by [Matteo Collina](https://twitter.com/matteocollina) and [Tomas Della Vedova](https://twitter.com/delvedor)), but any other framework will also work.
+Für dieses Beispiel verwenden wir mein bevorzugtes http-Framework [Fastify](https://www.fastify.io) (erstellt von [Matteo Collina](https://twitter.com/matteocollina) und [Tomas Della Vedova](https://twitter.com/delvedor)), aber jedes andere Framework funktioniert auch.
 
-This time we will use a different i18next module, [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware).
-It can be used for all Node.js web frameworks, like [express](https://expressjs.com) or [Fastify](https://www.fastify.io), but also for [Deno](../i18n-for-deno-with-i18next) web frameworks, like [abc](https://github.com/zhmushan/abc) or [ServestJS](https://github.com/keroxp/servest).
+Dieses Mal verwenden wir ein anderes i18next-Modul, [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware).
+Es kann für alle Node.js-Webframeworks verwendet werden, wie [express](https://expressjs.com) oder [Fastify](https://www.fastify.io), aber auch für [Deno](../i18n-for-deno-with-i18next) Web-Frameworks wie [abc](https://github.com/zhmushan/abc) oder [ServestJS](https://github.com/keroxp/servest).
 
-As already said, here we will use [Fastify](https://www.fastify.io), my favorite 😉.
+Wie bereits gesagt, verwenden wir hier [Fastify](https://www.fastify.io), mein Favorit 😉.
 
-Let's again start with the `i18n.js` file:
+Beginnen wir wieder mit der Datei `i18n.js`:
 
 ```javascript
 import { dirname, join } from 'path'
@@ -378,7 +378,7 @@ i18next
 export { i18next, i18nextPlugin: i18nextMiddleware.plugin }
 ```
 
-And our translation resources...
+Und unsere Übersetzungsressourcen...
 
 ```javascript
 // locales/en/translations.json
@@ -412,7 +412,7 @@ And our translation resources...
 }
 ```
 
-A simple pug template:
+Eine einfache pug-Vorlage:
 
 ```jade
 html
@@ -428,7 +428,7 @@ html
       a(href="/?lng=de") deutsch
 ```
 
-Our "main" file `app.js`:
+Unsere "Haupt"-Datei `app.js`:
 
 ```javascript
 import fastify from 'fastify'
@@ -459,10 +459,10 @@ app.listen(port, (err) => {
 })
 ```
 
-Now start the app and check what language you're seeing...
-![pug fastify](pug_fastify.jpg)
+Starten Sie nun die App und prüfen Sie, welche Sprache Sie sehen...
+![pug fastify](../how-does-server-side-internationalization-look-like/pug_fastify.jpg)
 
-If you check the console output you'll also see something like this:
+Wenn Sie die Konsolenausgabe überprüfen, sehen Sie auch Folgendes:
 
 ```sh
 node app.js
@@ -471,23 +471,23 @@ node app.js
 # Il server sta aspettando sul port 8080.
 ```
 
-*Yes, if you like, you can also internationalize your log statements 😁*
+*Ja, wenn Sie möchten, können Sie Ihre Protokollauszüge auch internationalisieren 😁*
 
-*🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-fs-backend/tree/master/example/fastify).*
+*🧑‍💻 Ein Codebeispiel finden Sie [hier](https://github.com/i18next/i18next-fs-backend/tree/master/example/fastify).*
 
-### A possible next step...
+### Ein möglicher nächster Schritt...
 
-Do you wish to manage your translations in a translation management system (TMS), like [locize](https://www.locize.com)?
+Möchten Sie Ihre Übersetzungen in einem Übersetzungsmanagementsystem (TMS) wie [locize](https://www.locize.com) verwalten?
 
-Just use [this cli](https://github.com/locize/locize-cli) to synchronize the translations with your code. To see how this could look like check out [**Step 1** in this tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize).
+Verwenden Sie einfach [dieses CLI](https://github.com/locize/locize-cli), um die Übersetzungen mit Ihrem Code zu synchronisieren. Um zu sehen, wie das aussehen könnte, sehen Sie sich [**Schritt 1** in diesem Tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize) an.
 
-Alternatively, use [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) instead of the [i18next-fs-backend](https://github.com/i18next/i18next-fs-backend).
-If you're running your code in a serverless environment, make sure you [read this advice first](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc)!
+Verwenden Sie alternativ [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) anstelle von [i18next-fs-backend](https://github.com/i18next/i18next- fs-Backend).
+Wenn Sie Ihren Code in einer serverlosen Umgebung ausführen, stellen Sie sicher, dass Sie [diesen Rat zuerst lesen](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc)!
 
-**btw: Did you know, you can easily adapt your Fastify app to be used in [AWS Lambda](https://aws.amazon.com/lambda/) AND locally.**
+**Übrigens: Wussten Sie, dass Sie Ihre Fastify-App ganz einfach für die Verwendung in [AWS Lambda](https://aws.amazon.com/lambda/) UND lokal anpassen können?**
 
-This can be achieved with the help of [aws-lambda-fastify](https://github.com/fastify/aws-lambda-fastify).
-Just create a new `lambda.js` that imports your modified `app.js` file:
+Dies kann mit Hilfe von [aws-lambda-fastify](https://github.com/fastify/aws-lambda-fastify) erreicht werden.
+Erstellen Sie einfach eine neue `lambda.js`, die Ihre modifizierte `app.js`-Datei importiert:
 
 ```javascript
 // lambda.js
@@ -496,8 +496,8 @@ import app from './app.js'
 export const handler = awsLambdaFastify(app)
 ```
 
-make sure your Fastify app is exported... (`export default app`)
-And only start to listen on a port, if not executed in AWS Lambda (`import.meta.url === 'file://${process.argv[1]}'` or `require.main === module` for CommonJS)
+Stellen Sie sicher, dass Ihre Fastify-App exportiert wird ... (`export default app`)
+Und beginnen Sie nur, auf einem Port zu lauschen, wenn er nicht in AWS Lambda ausgeführt wird (`import.meta.url === 'file://${process.argv[1]}'` oder `require.main === module ` für CommonJS)
 
 ```javascript
 // app.js
@@ -535,18 +535,18 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 export default app
 ```
 
-**😎 Cool, right?**
+**😎 Cool, oder?**
 
 
-## Next.js example <a name="nextjs"></a>
+## Next.js-Beispiel <a name="nextjs"></a>
 
-Now it's time for [Next.js](https://nextjs.org)...
+Jetzt ist es Zeit für [Next.js](https://nextjs.org)...
 
-When it comes to internationalization of Next.js apps one of the most popular choices is [next-i18next](https://github.com/i18next/next-i18next). It is based on [react-i18next](https://react.i18next.com) and users of [next-i18next](https://github.com/i18next/next-i18next) by default simply need to include their translation content as JSON files and don't have to worry about much else.
+Wenn es um die Internationalisierung von Next.js-Apps geht, ist [next-i18next](https://github.com/i18next/next-i18next) eine der beliebtesten Optionen. Es basiert auf [react-i18next](https://react.i18next.com) und Benutzer von [next-i18next](https://github.com/i18next/next-i18next) müssen standardmässig einfach ihre Übersetzungsinhalte als JSON-Dateien und müssen sich um nichts weiter kümmern.
 
-[Here](https://github.com/i18next/next-i18next/tree/master/examples/simple) you'll find a simple example.
+[Hier](https://github.com/i18next/next-i18next/tree/master/examples/simple) finden Sie ein einfaches Beispiel.
 
-You just need a `next-i18next.config.js` file that provides the configuration for `next-i18next` and wrapping your app with the `appWithTranslation` function, which allows to use the `t` (translate) function in your components via hooks.
+Sie benötigen lediglich eine `next-i18next.config.js`-Datei, die die Konfiguration für `next-i18next` bereitstellt und Ihre App mit der `appWithTranslation`-Funktion umschliesst, die es ermöglicht, die `t` (translate)-Funktion in Ihren Komponenten zu verwenden über Haken.
 
 ```javascript
 // _app.js
@@ -587,7 +587,7 @@ export const getStaticProps = async ({ locale }) => ({
 export default Homepage
 ```
 
-By default, `next-i18next` expects your translations to be organized as such:
+Standardmässig erwartet `next-i18next`, dass Ihre Übersetzungen wie folgt organisiert sind:
 
 ```
 .
@@ -601,19 +601,19 @@ By default, `next-i18next` expects your translations to be organized as such:
 
 A demo of how such an app looks like when it is deployed, can be found [here](https://next.i18next.com).
 
-[![next i18next demo](next-i18next_demo.jpg)](https://next.i18next.com)
+[![next i18next demo](../how-does-server-side-internationalization-look-like/next-i18next_demo.jpg)](https://next.i18next.com)
 
-**This looks really simple, right?**
+**Das sieht wirklich einfach aus, oder?**
 
-## Manage the translations outside of the code
+## Verwalten Sie die Übersetzungen ausserhalb des Codes
 
-To best manage the translations there are 3 different approaches:
+Um die Übersetzungen optimal zu verwalten, gibt es drei verschiedene Ansätze:
 
-### POSSIBILITY 1: live translation download
+### MÖGLICHKEIT 1: Live-Übersetzung herunterladen
 
-When using [locize](https://www.locize.com), you can configure your next-i18next project to load the translations from the [CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) (on server and client side).
+Wenn Sie [locize](https://www.locize.com) verwenden, können Sie Ihr next-i18next-Projekt so konfigurieren, dass die Übersetzungen aus dem [CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) (auf Server- und Clientseite).
 
-Such a configuration could look like this:
+Eine solche Konfiguration könnte wie folgt aussehen:
 
 ```javascript
 // next-i18next.config.js
@@ -637,19 +637,19 @@ module.exports = {
 }
 ```
 
-[Here](https://github.com/locize/next-i18next-locize#possibility-2-config-for-locize-live-download-usage) you'll find more information and an example on how this looks like.
+[Hier](https://github.com/locize/next-i18next-locize#possibility-2-config-for-locize-live-download-usage) finden Sie weitere Informationen und ein Beispiel, wie dies aussieht.
 
-There is also the possibility to cache the translations locally thanks to [i18next-chained-backend](https://github.com/i18next/i18next-chained-backend). [Here](https://github.com/locize/next-i18next-locize#optional-server-side-caching-to-filesystem) you can find more information about this option.
+Dank [i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) besteht auch die Möglichkeit, die Übersetzungen lokal zwischenzuspeichern. [Hier](https://github.com/locize/next-i18next-locize#optional-server-side-caching-to-filesystem) finden Sie weitere Informationen zu dieser Option.
 
-*If you're deploying your Next.js app in a serverless environment, consider to use the second possibility...*
-*More information about the reason for this can be found [here](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc).*
+*Wenn Sie Ihre Next.js-App in einer serverlosen Umgebung bereitstellen, sollten Sie die zweite Möglichkeit in Betracht ziehen ...*
+*Weitere Informationen zu den Gründen dafür finden Sie [hier](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc).*
 
 
-### POSSIBILITY 2: bundle translations and keep in sync
+### MÖGLICHKEIT 2: Übersetzungen bündeln und synchron halten
 
-**If you're not sure, choose this way.**
+**Wenn Sie sich nicht sicher sind, wählen Sie diesen Weg.**
 
-This option will not change the configuration of your "normal" next-i18next project:
+Diese Option ändert nicht die Konfiguration Ihres "normalen" next-i18next-Projekts:
 
 ```javascript
 // next-i18next.config.js
@@ -661,31 +661,31 @@ module.exports = {
 }
 ```
 
-Just download or sync your local translations before "deploying" your app.
+Laden Sie einfach Ihre lokalen Übersetzungen herunter oder synchronisieren Sie sie, bevor Sie Ihre App „bereitstellen“.
 
-[Here](https://github.com/locize/next-i18next-locize#possibility-2-bundle-translations-with-app) you'll find more information and an example on how this looks like.
+[Hier](https://github.com/locize/next-i18next-locize#possibility-2-bundle-translations-with-app) finden Sie weitere Informationen und ein Beispiel dafür, wie dies aussieht.
 
-You can, for example, run an [npm script](https://github.com/locize/next-i18next-locize/blob/main/package.json#L6) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. `./public/locales`). This way the translations are bundled in your app and you will not generate any CDN downloads during runtime.
+Sie können beispielsweise ein [npm-Skript](https://github.com/locize/next-i18next-locize/blob/main/package.json#L6) (oder ähnliches) ausführen, das die [cli ](https://github.com/locize/locize-cli), um die Übersetzungen von locize in den entsprechenden Ordner herunterzuladen, in dem next-i18next nachschaut (z. B. `./public/locales`). Auf diese Weise werden die Übersetzungen in Ihrer App gebündelt und Sie generieren während der Laufzeit keine CDN-Downloads.
 
 i.e. `locize download --project-id=d3b405cf-2532-46ae-adb8-99e88d876733 --ver=latest --clean=true --path=./public/locales`
 
-### Best approach: optimized for server and client side
+### Bester Ansatz: optimiert für Server- und Clientseite
 
 [![next-i18next](../next-i18next/next-i18next.jpg)](../next-i18next/)
-[Here](../next-i18next/) you'll find a blog post on how to best use next-i18next with client side translation download and SEO optimization.
+[Hier](../next-i18next/) finden Sie einen Blogbeitrag zur optimalen Verwendung von next-i18next mit clientseitigem Übersetzungsdownload und SEO-Optimierung.
 
 ---
 
-There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+Es gibt auch ein [i18next Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Conclusion 🎊🎁
+# 🎉🥳 Fazit 🎊🎁
 
-As you see i18n is also important on server side.
+Wie Sie sehen, ist i18n auch serverseitig wichtig.
 
-I hope you’ve learned a few new things about server side internationalization and modern localization workflows.
+Ich hoffe, Sie haben ein paar neue Dinge über serverseitige Internationalisierung und moderne Lokalisierungsworkflows gelernt.
 
-So if you want to take your i18n topic to the next level, it's worth to try [i18next](https://www.i18next.com) and also [locize](https://www.locize.com).
+Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es sich, [i18next](https://www.i18next.com) und auch [locize](https://www.locize.com) auszuprobieren.
 
 👍
