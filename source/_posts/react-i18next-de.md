@@ -1,6 +1,6 @@
 ---
-title: React Localization - Internationalize with i18next
-description: React Localization made easy with this ✅ step-by-step guide using i18next.
+title: React Lokalisierung – Internationalisieren Sie mit i18next
+description: React Lokalisierung leicht gemacht mit dieser ✅ Schritt-für-Schritt-Anleitung mit i18next.
 
 date: 2021-04-14
 tags:
@@ -15,91 +15,91 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: how-to-internationalize-react-i18next/react-localization.jpg
-redirect_from:
-- /2021-04-14-how-to-internationalize-react-i18next
+thumbnail: react-i18next/react-localization.jpg
 
-label: how-to-internationalize-react-i18next
-lang: en
+redirect_from:
+- /wie-internationalisiert-man-mit-react-i18next
+
+label: react-i18next
+lang: de
+hidden: true
 ---
 
-![React Localization made easy with this step-by-step guide using i18next ✅](react-localization.jpg "React Localization example")
+![React Lokalisierung leicht gemacht mit dieser Schritt-für-Schritt-Anleitung mit i18next ✅](../react-i18next/react-localization.jpg "React-Lokalisierungsbeispiel")
 
-Overcoming the language barrier for users who use your software is an important topic.
-English is no longer the universal language of the internet.
-As of [March 2020](https://www.internetworldstats.com/stats7.htm), only 25.9% of internet users were English speakers.
-The chances are high that your users will skip past your website if non-localized.
-Therefore, without a multilingual website you might missing out on a large share of potential users.
+Die Überwindung der Sprachbarriere für Anwender Ihrer Software ist ein wichtiges Thema.
+Englisch ist nicht mehr die universelle Sprache des Internets.
+Ab [März 2020](https://www.internetworldstats.com/stats7.htm) waren nur 25,9 % der Internetnutzer englischsprachig.
+Die Wahrscheinlichkeit ist hoch, dass Ihre Benutzer an Ihrer Website vorbeispringen, wenn sie nicht lokalisiert ist.
+Ohne eine mehrsprachige Website könnten Sie daher einen grossen Teil potenzieller Benutzer verpassen.
 
-In the JavaScript ecosystem, there are a lot of internationalization frameworks. [Here](https://medium.com/@jamuhl/i18n-frameworks-the-unfair-showdown-8d436cd6f470) you can find some details about some JavaScript internationalization frameworks.
-In this article, we will be using the [i18next](https://www.i18next.com) framework to internationalize a [React.js](https://reactjs.org) app. This step-by-step guide is for you if you're looking for a way to create an internationalized React.js app (with or without Create React App). 
+Im JavaScript-Ökosystem gibt es viele Internationalisierungs-Frameworks. [Hier](https://medium.com/@jamuhl/i18n-frameworks-the-unfair-showdown-8d436cd6f470) finden Sie einige Details zu einigen JavaScript-Internationalisierungs-Frameworks.
+In diesem Artikel verwenden wir das [i18next](https://www.i18next.com)-Framework, um eine [React.js](https://reactjs.org)-App zu internationalisieren. Diese Schritt-für-Schritt-Anleitung ist für Sie, wenn Sie nach einer Möglichkeit suchen, eine internationalisierte React.js-App zu erstellen (mit oder ohne Create React App).
 
-## TOC
-  * [So first of all: "Why i18next?"](#why-i18next)
-  * [Let's get into it...](#start)
-    - [Prerequisites](#prerequisites)
-    - [Getting started](#getting-started)
-    - [Language Switcher](#language-switcher)
-      - [How to get the current language?](#current-language)
-    - [Interpolation and Pluralization](#interpolation-pluralization)
-    - [Formatting](#formatting)
-    - [Context](#context)
-    - [Separate translations from code](#separate)
-      - [Multiple namespaces](#multiple-namespaces)
-    - [Better translation management](#better-translation-management)
-      - [For sure!](#for-sure)
-      - [How does this look like?](#how-look)
-      - [save missing translations](#save-missing)
-      - [👀 but there's more...](#more)
-      - [📦 Let's prepare for production 🚀](#production)
-      - [🎉🥳 Congratulations 🎊🎁](#congratulations)
+## Inhaltsverzeichnis
+  * [Also erstmal: "Warum i18next?"](#why-i18next)
+  * [Fangen wir an...](#start)
+    - [Voraussetzungen](#prerequisites)
+    - [Einstieg](#getting-started)
+    - [Sprachumschalter](#language-switcher)
+      - [Wie bekomme ich die aktuelle Sprache?](#current-language)
+    - [Interpolation und Pluralisierung](#interpolation-pluralization)
+    - [Formatierung](#formatting)
+    - [Kontext](#context)
+    - [Übersetzungen vom Code trennen](#separate)
+      - [Mehrere Namespaces](#multiple-namespaces)
+    - [Besseres Übersetzungsmanagement](#better-translation-management)
+      - [Auf jeden Fall!](#for-sure)
+      - [Wie sieht das aus?](#how-look)
+      - [fehlende Übersetzungen speichern](#save-missing)
+      - [👀 aber es gibt noch mehr...](#more)
+      - [📦 Bereiten wir uns auf die Produktion vor 🚀](#production)
+      - [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+# Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
-When it comes to React localization. One of the most popular is [i18next](https://www.i18next.com) with it's react extension [react-i18next](https://react.i18next.com), and for good reasons:
+Wenn es um React-Lokalisierung geht. Eines der beliebtesten ist [i18next](https://www.i18next.com) mit seiner React-Erweiterung [react-i18next](https://react.i18next.com), und das aus guten Gründen:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (react, vue, ...).*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (react, vue, ...).*
 
-**➡️ sustainable**
-
-
-*Based on how long i18next already is available open source, there is no real i18n case that could not be solved with i18next.*
-
-**➡️ mature**
+**➡️ nachhaltig**
 
 
-*i18next can be used in any javascript (and a few non-javascript - .net, elm, iOS, android, ruby, ...) environment, with any UI framework, with any i18n format, ... [the possibilities are endless](https://www.i18next.com/overview/supported-frameworks).*
+*Basierend darauf, wie lange i18next bereits Open Source verfügbar ist, gibt es keinen echten i18n-Fall, der nicht mit i18next gelöst werden könnte.*
 
-**➡️ extensible**
-
-
-*There is a plenty of features and possibilities you'll get with i18next compared to other regular 18n frameworks.*
-
-**➡️ rich**
+**➡️ reif**
 
 
-[Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
+*i18next kann in jeder Umgebung mit Javascript (und einigen Nicht-Javascript - .net, elm, iOS, Android, Ruby, ...) verwendet werden, mit jedem UI-Framework, mit jedem i18n-Format, ... [die Möglichkeiten sind endlos](https://www.i18next.com/overview/supported-frameworks).*
+
+**➡️ erweiterbar**
 
 
-# Let's get into it... <a name="start"></a>
+*Es gibt viele Funktionen und Möglichkeiten, die Sie mit i18next im Vergleich zu anderen regulären 18n-Frameworks erhalten.*
 
-## Prerequisites <a name="prerequisites"></a>
-
-Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React.js, before jumping to [react-i18next](https://react.i18next.com). This react localization example is not intended to be a React beginner tutorial.
+**➡️ reich**
 
 
-## Getting started <a name="getting-started"></a>
+[Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
-Take your own React project or create a new one, i.e. with [create-react-app](https://create-react-app.dev).
+# Fangen wir an... <a name="start"></a>
+
+## Voraussetzungen <a name="prerequisites"></a>
+
+Stellen Sie sicher, dass Sie Node.js und npm installiert haben. Es ist am besten, wenn Sie etwas Erfahrung mit einfachem HTML, JavaScript und einfachem React.js haben, bevor Sie zu [react-i18next](https://react.i18next.com) springen. Dieses React-Lokalisierungsbeispiel ist nicht als React-Anfänger-Tutorial gedacht.
+
+## Einstieg <a name="getting-started"></a>
+
+Nehmen Sie Ihr eigenes React-Projekt oder erstellen Sie ein neues, z.B. mit [create-react-app](https://create-react-app.dev).
 
 `npx create-react-app my-app`
 
-![learn react logo](app_0.jpg "locize © inweso GmbH")
+![react logo lernen](../react-i18next/app_0.jpg "locize © inweso GmbH")
 
-We are going to adapt the app to detect the language according to the user’s preference.
-And we will create a language switcher to make the content change between different languages.
+Wir werden die App anpassen, um die Sprache gemäss den Vorlieben des Benutzers zu erkennen.
+Und wir werden einen Sprachumschalter erstellen, um den Inhalt zwischen verschiedenen Sprachen zu ändern.
 
-Let's install some i18next dependencies:
+Lassen Sie uns einige i18next-Abhängigkeiten installieren:
 
 - [i18next](https://www.i18next.com)
 - [react-i18next](https://react.i18next.com)
@@ -107,7 +107,7 @@ Let's install some i18next dependencies:
 
 `npm install i18next react-i18next i18next-browser-languagedetector`
 
-Let's prepare an `i18n.js` file:
+Lassen Sie uns eine `i18n.js`-Datei vorbereiten:
 ```javascript
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
@@ -139,9 +139,9 @@ i18n
 export default i18n;
 ```
 
-Let's import that file somewhere in our `index.js` file:
+Lassen Sie uns diese Datei irgendwo in unsere `index.js`-Datei importieren:
 
-For React >= 18.0.0 use:
+Verwenden Sie für React >= 18.0.0:
 
 ```javascript
 import React from 'react';
@@ -160,7 +160,7 @@ root.render(
 );
 ```
 
-For older React versions use:
+Verwenden Sie für ältere React-Versionen:
 
 ```javascript
 import React from 'react';
@@ -179,9 +179,9 @@ ReactDOM.render(
 );
 ```
 
-Now let's try to move some hard coded text out to the translations.
+Lassen Sie uns nun versuchen, den hartcodierten Text in die Übersetzungen zu verschieben.
 
-We have used the [Trans component](https://react.i18next.com/latest/trans-component) for the first text and the [useTranslation hook](https://react.i18next.com/latest/usetranslation-hook) for the second text:
+Wir haben die [Trans-Komponente](https://react.i18next.com/latest/trans-component) für den ersten Text und den [useTranslation Hook](https://react.i18next.com/latest/usetranslation-Hook) für den zweiten Text:
 
 ```javascript
 import logo from './logo.svg';
@@ -215,9 +215,9 @@ function App() {
 
 export default App;
 ```
-There is some more effort necessary if you wish to use High-Order-Components (HOC). Another option in this situation is to use [withTranslation HOC](https://react.i18next.com/latest/withtranslation-hoc).
+Etwas mehr Aufwand ist nötig, wenn man High-Order-Components (HOC) verwenden möchte. Eine weitere Option in dieser Situation ist die Verwendung von [withTranslation HOC](https://react.i18next.com/latest/withtranslation-hoc).
 
-The texts are now part of the translation resources:
+Die Texte sind jetzt Teil der Übersetzungsressourcen:
 
 ```javascript
 import i18n from 'i18next';
@@ -254,9 +254,9 @@ export default i18n;
 ```
 
 
-## Language Switcher <a name="language-switcher"></a>
+## Sprachumschalter <a name="language-switcher"></a>
 
-Now let's define a language switcher:
+Lassen Sie uns nun einen Sprachumschalter definieren:
 
 ```javascript
 import logo from './logo.svg';
@@ -303,7 +303,7 @@ function App() {
 export default App;
 ```
 
-And also add some translations for the new language:
+Und fügen Sie auch einige Übersetzungen für die neue Sprache hinzu:
 
 ```javascript
 import i18n from 'i18next';
@@ -347,58 +347,58 @@ i18n
 export default i18n;
 ```
 
-![react language switcher](app_1.jpg "locize © inweso GmbH")
+![react Sprachumschalter](../react-i18next/app_1.jpg "locize © inweso GmbH")
 
-**🥳 Awesome, you've just created your first language switcher!**
+**🥳 Toll, Sie haben gerade Ihren ersten Sprachumschalter erstellt!**
 
-Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
+Dank [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector) versucht es jetzt, die Browsersprache zu erkennen und diese Sprache automatisch zu verwenden, wenn Sie die Übersetzungen dafür bereitgestellt haben. Die manuell ausgewählte Sprache im Sprachumschalter wird im localStorage beibehalten, beim nächsten Besuch der Seite wird diese Sprache als bevorzugte Sprache verwendet.
 
-### How to get the current language? <a name="current-language"></a>
+### Wie erhalte ich die aktuelle Sprache? <a name="aktuelle-sprache"></a>
 
-Since i18next v21 there is [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
-It is set to the current resolved language and it can be used as primary used language, for example in a language switcher.
+Seit i18next v21 gibt es [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
+Es ist auf die aktuell aufgelöste Sprache eingestellt und kann als primär verwendete Sprache verwendet werden, beispielsweise in einem Sprachumschalter.
 
-If your detected language for example is `en-US` and you provided translations only for `en` *(fallbackLng)* instead `i18next.resolvedLanguage` will return `en`.
+Wenn Ihre erkannte Sprache zum Beispiel „en-US“ ist und Sie Übersetzungen nur für „en“ bereitgestellt haben, wird stattdessen „i18next.resolvedLanguage“ „en“ zurückgeben.
 
 #### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
 
 ```javascript
 /* language */
 i18next.language;
-// Is set to the current detected or set language.
+// Wird auf die aktuell erkannte oder eingestellte Sprache gesetzt.
 
 /* languages */
 i18next.languages;
-// Is set to an array of language codes that will be used to look up the translation value.
-// When the language is set, this array is populated with the new language codes.
-// Unless overridden, this array is populated with less-specific versions of that code for fallback purposes, followed by the list of fallback languages
+// Ist auf ein Array von Sprachcodes gesetzt, die verwendet werden, um den Übersetzungswert zu suchen.
+// Wenn die Sprache eingestellt ist, wird dieses Array mit den neuen Sprachcodes gefüllt.
+// Sofern nicht überschrieben, wird dieses Array mit weniger spezifischen Versionen dieses Codes für Fallback-Zwecke gefüllt, gefolgt von der Liste der Fallback-Sprachen
 
-// initialize with fallback languages
+// mit Fallback-Sprachen initialisieren
 i18next.init({
   fallbackLng: ["es", "fr", "en-US", "dev"]
 });
-// change the language
+// ändere die Sprache
 i18next.changeLanguage("en-US-xx");
-// new language and its more generic forms, followed by fallbacks
+// neue Sprache und ihre allgemeineren Formen, gefolgt von Fallbacks
 i18next.languages; // ["en-US-xx", "en-US", "en", "es", "fr", "dev"]
-// change the language again
+// Sprache erneut ändern
 i18next.changeLanguage("de-DE");
-// previous language is not retained
+// vorherige Sprache wird nicht beibehalten
 i18next.languages; // ["de-DE", "de", "es", "fr", "en-US", "dev"]
 
 /* resolvedLanguage */
 i18next.resolvedLanguage;
-// Is set to the current resolved language.
-// It can be used as primary used language,
-// for example in a language switcher.
+// Wird auf die aktuell aufgelöste Sprache gesetzt.
+// Es kann als primär verwendete Sprache verwendet werden,
+// zum Beispiel in einem Sprachumschalter.
 ```
 
-## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
+## Interpolation und Pluralisierung <a name="interpolation-pluralization"></a>
 
-i18next goes beyond just providing the standard i18n features.
-But for sure it's able to handle [plurals](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation).
+i18next geht über die Bereitstellung der standardmässigen i18n-Funktionen hinaus.
+Aber sicher ist es in der Lage, [Plurale](https://www.i18next.com/translation-function/plurals) und [Interpolation](https://www.i18next.com/translation-function/interpolation) zu verarbeiten.
 
-Let's count each time the language gets changed:
+Zählen wir jedes Mal, wenn die Sprache geändert wird:
 
 ```javascript
 import logo from './logo.svg';
@@ -453,7 +453,7 @@ function App() {
 export default App;
 ```
 
-...and extending the translation resources:
+...und Erweiterung der Übersetzungsressourcen:
 
 ```javascript
 import i18n from 'i18next';
@@ -501,12 +501,12 @@ i18n
 export default i18n;
 ```
 
-Based on the count value i18next will choose the correct plural form.
-Read more about [pluralization](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation) in the [official i18next documentation](https://www.i18next.com/).
+Basierend auf dem Zählwert wählt i18next die korrekte Pluralform aus.
+Lesen Sie mehr über [Pluralisierung](https://www.i18next.com/translation-function/plurals) und [Interpolation](https://www.i18next.com/translation-function/interpolation) in der [offiziellen i18next-Dokumentation ](https://www.i18next.com/).
 
-![react pluralization](app_2.jpg "locize © inweso GmbH")
+![react Pluralisierung](../react-i18next/app_2.jpg "locize © inweso GmbH")
 
-*💡 i18next is also able to handle languages with multiple plural forms, like arabic:*
+*💡 i18next ist auch in der Lage, Sprachen mit mehreren Pluralformen zu verarbeiten, wie Arabisch:*
 
 ```javascript
 // translation resources:
@@ -531,15 +531,15 @@ t('key', {count: 99}); // -> "many"
 t('key', {count: 100}); // -> "other"
 ```
 
-### Why are my plural keys not working? <a name="pluralsv4"></a>
+### Warum funktionieren meine Pluraltasten nicht? <a name="pluralsv4"></a>
 
-Are you seeing this warning in the development console (`debug: true`)?
+Sehen Sie diese Warnung in der Entwicklungskonsole (`debug: true`)?
 
 > i18next::pluralResolver: Your environment seems not to be Intl API compatible, use an Intl.PluralRules polyfill. Will fallback to the compatibilityJSON v3 format handling.
 
-With [v21](https://www.i18next.com/misc/migration-guide#v20.x.x-to-v21.0.0) i18next streamlined the suffix with the one used in the [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules).
-In environments where the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API  is not available (like older Android devices), you may need to [polyfill](https://github.com/eemeli/intl-pluralrules) the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API.
-In case it is not available it will fallback to the [i18next JSON format v3](https://www.i18next.com/misc/json-format#i-18-next-json-v3) plural handling. And if your json is already using the new suffixes, your plural keys will probably not be shown.
+Mit [v21](https://www.i18next.com/misc/migration-guide#v20.x.x-to-v21.0.0) hat i18next das Suffix mit dem in der [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules).
+In Umgebungen, in denen die API [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) nicht verfügbar ist (wie bei älteren Android-Geräten), müssen Sie möglicherweise zu [polyfill](https://github.com/eemeli/intl-pluralrules) die [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules)-API.
+Falls es nicht verfügbar ist, wird auf die Pluralbehandlung von [i18next JSON format v3](https://www.i18next.com/misc/json-format#i-18-next-json-v3) zurückgegriffen. Und wenn Ihr json bereits die neuen Suffixe verwendet, werden Ihre Pluralschlüssel wahrscheinlich nicht angezeigt.
 
 *tldr;*
 
@@ -550,13 +550,13 @@ import 'intl-pluralrules'
 ```
 
 
-## Formatting <a name="formatting"></a>
+## Formatierung <a name="formatting"></a>
 
-Now, let’s check out how we can use different date formats with the help of [i18next](https://www.i18next.com) and [Luxon](https://moment.github.io/luxon) to handle date and time.
+Sehen wir uns nun an, wie wir verschiedene Datumsformate mit Hilfe von [i18next](https://www.i18next.com) und [Luxon](https://moment.github.io/luxon) verwenden können, um das Datum zu verarbeiten und Zeit.
 
 `npm install luxon`
 
-We like to have a footer displaying the current date:
+Wir möchten eine Fusszeile haben, die das aktuelle Datum anzeigt:
 
 ```javascript
 import './Footer.css';
@@ -573,7 +573,7 @@ export default Footer;
 // <Footer t={t} />
 ```
 
-import luxon and define a format function, like documented in the [documentation](https://www.i18next.com/translation-function/formatting) and add the new translation key:
+Importieren Sie Luxon und definieren Sie eine Formatfunktion, wie in der [Dokumentation](https://www.i18next.com/translation-function/formatting) dokumentiert, und fügen Sie den neuen Übersetzungsschlüssel hinzu:
 
 ```javascript
 import i18n from 'i18next';
@@ -639,21 +639,21 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-**😎 Cool, now we have a language specific date formatting!**
+**😎 Cool, jetzt haben wir eine sprachspezifische Datumsformatierung!**
 
-English:
-![react english](app_3.jpg "locize © inweso GmbH")
+Englisch:
+![react englisch](../react-i18next/app_3.jpg "locize © inweso GmbH")
 
-German:
-![react german](app_4.jpg "locize © inweso GmbH")
+Deutsch:
+![react detsch](../react-i18next/app_4.jpg "locize © inweso GmbH")
 
 
-## Context <a name="context"></a>
+## Kontext <a name="context"></a>
 
-What about a specific greeting message based on the current day time? i.e. morning, evening, etc.
-This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
+Was ist mit einer bestimmten Begrüssungsnachricht basierend auf der aktuellen Tageszeit? also morgens, abends usw.
+Dies ist dank der Funktion [context](https://www.i18next.com/translation-function/context) von i18next möglich.
 
-Let's create a getGreetingTime function and use the result as context information for our footer translation:
+Lassen Sie uns eine getGreetingTime-Funktion erstellen und das Ergebnis als Kontextinformationen für unsere Fusszeilenübersetzung verwenden:
 
 ```javascript
 import { DateTime } from 'luxon';
@@ -681,7 +681,7 @@ const Footer = ({ t }) => (
 export default Footer;
 ```
 
-And add some context specific translations keys:
+Und fügen Sie einige kontextspezifische Übersetzungsschlüssel hinzu:
 
 ```javascript
 import i18n from 'i18next';
@@ -758,25 +758,25 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-**😁 Yeah, It works!**
+**😁 Ja, es funktioniert!**
 
-![react translations](app_5.jpg "locize © inweso GmbH")
+![react Übersetzungen](../react-i18next/app_5.jpg "locize © inweso GmbH")
 
 
-## Separate translations from code <a name="separate"></a>
+## Übersetzungen vom Code trennen <a name="separate"></a>
 
-Having the translations in our `i18n.js` file works, but is not that suitable to work with, for translators.
-Let's separate the translations from the code and pleace them in dedicated json files.
+Die Übersetzungen in unserer Datei `i18n.js` zu haben, funktioniert, ist aber für Übersetzer nicht so geeignet, damit zu arbeiten.
+Lassen Sie uns die Übersetzungen vom Code trennen und sie in dedizierte JSON-Dateien einfügen.
 
-Because this is a web application, [i18next-http-backend](https://github.com/i18next/i18next-http-backend) will help us to do so.
+Da es sich um eine Webanwendung handelt, hilft uns [i18next-http-backend](https://github.com/i18next/i18next-http-backend) dabei.
 
 `npm install i18next-http-backend`
 
-Move the translations to the public folder:
+Verschieben Sie die Übersetzungen in den öffentlichen Ordner:
 
-![public locales](public_locales.jpg "locize © inweso GmbH")
+![öffentliche Übersetzungen](../react-i18next/public_locales.jpg "locize © inweso GmbH")
 
-Adapt the `i18n.js` file to use the `i18next-http-backend`:
+Passen Sie die Datei `i18n.js` an, um das `i18next-http-backend` zu verwenden:
 
 ```javascript
 import i18n from 'i18next';
@@ -819,7 +819,7 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-Now the translations are loaded asynchronously, so make sure you wrap your app with a [Suspense](https://reactjs.org/docs/react-api.html#reactsuspense) component to prevent this error: `Uncaught Error: App suspended while rendering, but no fallback UI was specified.`
+Jetzt werden die Übersetzungen asynchron geladen, stellen Sie also sicher, dass Sie Ihre App mit einer [Suspense](https://reactjs.org/docs/react-api.html#reactsuspense)-Komponente umschliessen, um diesen Fehler zu verhindern: `Uncaught Error: App suspended while rendering, but no fallback UI was specified.`
 
 ```javascript
 import { Suspense } from 'react';
@@ -838,21 +838,21 @@ export default function WrappedApp() {
 }
 ```
 
-Now your app looks still the same, but your translations are separated.
-If you want to support a new language, you just create a new folder and a new translation json file.
-This gives you the possibility to send the translations to some translators.
-Or if you're working with a translation management system you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
+Jetzt sieht Ihre App immer noch gleich aus, aber Ihre Übersetzungen sind getrennt.
+Wenn Sie eine neue Sprache unterstützen möchten, erstellen Sie einfach einen neuen Ordner und eine neue JSON-Übersetzungsdatei.
+Dies gibt Ihnen die Möglichkeit, die Übersetzungen an einige Übersetzer zu senden.
+Oder wenn Sie mit einem Übersetzungsmanagementsystem arbeiten, können Sie einfach [die Dateien mit einem CLI synchronisieren](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
-*🧑‍💻 The code of this first part can be found [here](https://github.com/locize/react-i18next-example-app/tree/i18next).*
+*🧑‍💻 Den Code dieses ersten Teils finden Sie [hier](https://github.com/locize/react-i18next-example-app/tree/i18next).*
 
-### Multiple namespaces <a name="multiple-namespaces"></a>
+### Mehrere Namespaces <a name="multiple-namespaces"></a>
 
-*💡 btw: you can also have [multiple translation files](https://react.i18next.com/guides/multiple-translation-files) thanks to the [namespaces](https://www.i18next.com/principles/namespaces) feature of i18next*
+*💡 Übrigens: Dank der [Namespaces](https://www.i18next.com/principles/namespaces) Funktionalität von i18next, können Sie auch [mehrere Dateien](https://react.i18next.com/guides/multiple-translation-files) haben.*
 
-One of the advantages of react-i18next is based on i18next, it supports the separation of translations into multiple files - which are called namespaces in i18next.
+Einer der Vorteile von react-i18next basiert auf i18next, es unterstützt die Trennung von Übersetzungen in mehrere Dateien - die in i18next "Namespaces" genannt werden.
 
-In order to use multiple namespaces/translation files, you need to specify it when calling [`useTranslation`](https://react.i18next.com/latest/usetranslation-hook):
+Um mehrere Namespaces/Übersetzungsdateien zu verwenden, müssen Sie dies beim Aufruf von [`useTranslation`](https://react.i18next.com/latest/usetranslation-hook) angeben:
 ```javascript
 const { t } = useTranslation(['translation', 'common']);
 // ...
@@ -866,7 +866,7 @@ withTranslation(['translation', 'common'])(MyComponent);
 // t('look.deep', { ns: 'common' })
 ```
 
-or [`Translation`](https://react.i18next.com/latest/translation-render-prop):
+oder [`Translation`](https://react.i18next.com/latest/translation-render-prop):
 ```javascript
 <Translation ns={['translation', 'common']}>
 {
@@ -875,52 +875,52 @@ or [`Translation`](https://react.i18next.com/latest/translation-render-prop):
 </Translation>
 ```
 
-## Better translation management <a name="better-translation-management"></a>
+## Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
 
-By sending the translations to some translators or translator agency you have more control and a direct contact with them. But this also means more work for you.
-This is a traditional way. But be aware sending files around creates always an overhead.
+Indem Sie die Übersetzungen an einige Übersetzer oder Übersetzungsagenturen senden, haben Sie mehr Kontrolle und einen direkten Kontakt mit ihnen. Das bedeutet aber auch mehr Arbeit für Sie.
+Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dateien immer einen Overhead verursacht.
 
-> Does a better option exist?
+> Gibt es eine bessere Option?
 
-### For sure! <a name="for-sure"></a>
+### Auf jeden Fall! <a name="sicher"></a>
 
-i18next helps to get the application translated, and this is great - but there is more to it.
-- How do you integrate any translation services / agency?
-- How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
-- and a lot more...
+i18next hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
+- Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
+- Wie behalten Sie den Überblick über neue oder entfernte Inhalte?
+- Wie gehen Sie mit der richtigen Versionierung um?
+- Wie stellen Sie Übersetzungsänderungen bereit, ohne Ihre vollständige Anwendung bereitzustellen?
+- und vieles mehr...
 
-**Looking for something like this❓**
+**Suche Sie nach sowas❓**
 
-- [Easy to integrate](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
-- Continuous deployment? [Continuous localization](https://locize.com/how-it-works.html#continouslocalization)!
-- Manage the translation files with ease
-- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
-- Analytics & Statistics
-- [Profit from our content delivery network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
-- [Versioning of your translations](https://docs.locize.com/more/versioning)
-- [Automatic and On-Demand Machine Translation](https://docs.locize.com/whats-inside/auto-machine-translation)
-- [Riskfree: Take your data with you](https://docs.locize.com/more/general-questions/how-is-locize-different-from-the-alternatives#service-lock-in)
-- [Transparent and fair pricing](https://locize.com/pricing.html)
-- and a lot more...
+- [Einfach zu integrieren](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
+- Kontinuierlicher Einsatz? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
+- Einfache Verwaltung der Übersetzungsdateien
+- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- Analytik & Statistik
+- [Profitieren Sie von unserem Content Delivery Network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
+- [Versionierung Ihrer Übersetzungen](https://docs.locize.com/more/versioning)
+- [Automatische und maschinelle Übersetzung auf Abruf](https://docs.locize.com/whats-inside/auto-machine-translation)
+- [Risikofrei: Nehmen Sie Ihre Daten mit](https://docs.locize.com/more/general-questions/how-is-locize-different-from-the-alternatives#service-lock-in)
+- [Transparente und faire Preisgestaltung](https://locize.com/pricing.html)
+- und vieles mehr...
 
-![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
+![transformiere den Lokalisierungsprozess](../react-i18next/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### How does this look like? <a name="how-look"></a>
+### Wie sieht das aus? <a name="how-look"></a>
 
-First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
-Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
+Zuerst müssen Sie sich bei locize [registrieren](https://locize.app/register) und [anmelden](https://docs.locize.com/integration/getting-started/create-a-user-account).
+Dann [erstellen Sie ein neues Projekt](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize und fügen Ihre Übersetzungen hinzu. Sie können Ihre Übersetzungen entweder über die [CLI](https://github.com/locize/react-tutorial#use-the-locize-cli) oder durch [Importieren der einzelnen json-Dateien](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) oder über die [API](https://docs.locize.com/integration/api#update-remove-translations) bewerkstelligen.
 
-Done so, we're going to replace [i18next-http-backend](https://github.com/i18next/i18next-http-backend) with [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
+Danach ersetzen wir [i18next-http-backend](https://github.com/i18next/i18next-http-backend) durch [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
 
 `npm install i18next-locize-backend`
 
-After having imported the translations to locize, delete the locales folder:
+Nachdem Sie die zu lokalisierenden Übersetzungen importiert haben, löschen Sie den Ordner locales:
 
-![public locales removed](public_locales_removed.jpg "locize © inweso GmbH")
+![öffentliche Übersetzungen löschen](../react-i18next/public_locales_removed.jpg "locize © inweso GmbH")
 
-Adapt the `i18n.js` file to use the `i18next-locize-backend` and make sure you copy the project-id and api-key from within your locize project:
+Passen Sie die Datei `i18n.js` an, um das `i18next-locize-backend` zu verwenden, und stellen Sie sicher, dass Sie die Projekt-ID und den API-Schlüssel aus Ihrem Locize-Projekt kopieren:
 
 ```javascript
 import i18n from 'i18next';
@@ -970,7 +970,7 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-[i18next-locize-backend](https://github.com/locize/i18next-locize-backend) offers a functionality to retrieve the available languages directly from locize, let's use it:
+[i18next-locize-backend](https://github.com/locize/i18next-locize-backend) bietet eine Funktion zum Abrufen der verfügbaren Sprachen direkt von locize, verwenden wir sie:
 
 ```javascript
 import logo from './logo.svg';
@@ -1038,11 +1038,11 @@ export default function WrappedApp() {
 }
 ```
 
-### save missing translations <a name="save-missing"></a>
+### fehlende Übersetzungen speichern <a name="save-missing"></a>
 
-Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys gets added to locize automatically, while developing the app.
+Dank der Verwendung der [saveMissing-Funktion](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App neue Schlüssel automatisch zu locize hinzugefügt.
 
-Just pass `saveMissing: true` in the i18next options:
+Übergeben Sie einfach `saveMissing: true` in den i18next-Optionen:
 
 ```javascript
 import i18n from 'i18next';
@@ -1093,32 +1093,31 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-Each time you'll use a new key, it will be sent to locize, i.e.:
+Jedes Mal, wenn Sie einen neuen Schlüssel verwenden, wird dieser zu locize gesendet, d.h.:
 
 ```javascript
 <div>{t('new.key', 'this will be added automatically')}</div>
 ```
 
-will result in locize like this:
+resultiert in locize wie folgt:
 
-![missing key](missing_key.jpg "locize © inweso GmbH")
+![missing key](../react-i18next/missing_key.jpg "locize © inweso GmbH")
 
+### 👀 aber es gibt noch mehr... <a name="more"></a>
 
-### 👀 but there's more... <a name="more"></a>
+Dank des Plugins [locize-lastused](https://github.com/locize/locize-lastused) können Sie [in locize, Schlüssel welche verwendet oder nicht mehr verwendet werden, finden und filtern](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
-Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
+Mit Hilfe des Plugins [locize](https://github.com/locize/locize) können Sie Ihre App im locize [InContext Editor](https://docs.locize.com/more/incontext-editor) verwenden.
 
-With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
+Zusätzlich mit Hilfe des [Auto-MachineTranslation-Workflows](https://docs.locize.com/whats-inside/auto-machine-translation) und der Verwendung der [saveMissing-Funktionalität](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App nicht nur neue Schlüssel zur automatischen Lokalisierung hinzugefügt, sondern auch automatisch per maschineller Übersetzung in die Zielsprachen übersetzt.
 
-Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation) and the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
-
-*Check out this [video](https://youtu.be/VfxBpSXarlU) to see how the automatic machine translation workflow looks like!*
+*Sehen Sie sich dieses [Video](https://youtu.be/VfxBpSXarlU) an, um zu sehen, wie der Arbeitsablauf der automatischen maschinellen Übersetzung aussieht!*
 
 {% youtube VfxBpSXarlU %}
 
 `npm install locize-lastused locize`
 
-use them in `i18n.js`:
+verwenden Sie sie in `i18n.js`:
 
 ```javascript
 import i18n from 'i18next';
@@ -1180,29 +1179,29 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-[Automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation):
+[Automatische maschinelle Übersetzung](https://docs.locize.com/whats-inside/auto-machine-translation):
 
-![missing key auto](missing_key_auto_mt.jpg "locize © inweso GmbH")
+![missing key automatisch](../react-i18next/missing_key_auto_mt.jpg "locize © inweso GmbH")
 
-[Last used translations filter]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
+[Filter für zuletzt verwendete Übersetzungen]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
 
-![i18next last used](last_used.jpg "locize © inweso GmbH")
+![i18next last used](../react-i18next/last_used.jpg "locize © inweso GmbH")
 
-[InContext Editor](https://docs.locize.com/more/incontext-editor):
+[InContext-Editor](https://docs.locize.com/more/incontext-editor):
 
-![i18next incontext](in_context.jpg "locize © inweso GmbH")
+![i18next inkontext](../react-i18next/in_context.jpg "locize © inweso GmbH")
 
 
-### 📦 Let's prepare for production 🚀 <a name="production"></a>
+### 📦 Bereiten wir uns auf die Produktion vor 🚀 <a name="production"></a>
 
-Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
+Jetzt bereiten wir die App für den Produktionsstart vor (https://docs.locize.com/guides-tips-and-tricks/going-production).
 
-First in locize, create a dedicated version for production. Do not enable auto publish for that version but publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version).
-Lastly, [enable Cache-Control max-age​](https://docs.locize.com/more/caching) for that production version.
+Erstellen Sie zuerst in locize eine dedizierte Version für die Produktion. Aktivieren Sie die automatische Veröffentlichung für diese Version nicht, sondern veröffentlichen Sie sie manuell oder über die [API](https://docs.locize.com/integration/api#publish-version) oder über die [CLI](https://github.com/locize/locize-cli#publish-version).
+Schliesslich [aktivieren Sie auch Cache-Control max-age​](https://docs.locize.com/more/caching) für diese Produktionsversion.
 
-Let's making use of the [environment feature of react-scripts](https://create-react-app.dev/docs/adding-custom-environment-variables/).
+Nutzen wir die [Umgebungsfunktion von react-scripts](https://create-react-app.dev/docs/adding-custom-environment-variables/).
 
-Lets' create a default environment file and one for development and one for production:
+Lassen Sie uns eine Standardumgebungsdatei und eine für die Entwicklung und eine für die Produktion erstellen:
 
 `.env`:
 ```
@@ -1226,7 +1225,7 @@ REACT_APP_LOCIZE_APIKEY=aaad4141-54ba-4625-ae37-657538fe29e7
 REACT_APP_LOCIZE_VERSION=production
 ```
 
-Now let's adapt the `i18n.js` file:
+Passen wir nun die Datei `i18n.js` an:
 
 ```javascript
 import i18n from 'i18next';
@@ -1294,34 +1293,34 @@ i18n.services.formatter.add('DATE_HUGE', (value, lng, options) => {
 export default i18n;
 ```
 
-Now, during development, you'll continue to save missing keys and to make use of lastused feature. => `npm run start`
+Während der Entwicklung werden Sie nun weiterhin fehlende Schlüssel speichern und die `lastused` Funktionalität nutzen. => `npm run start`
 
-And in production environment, saveMissing and lastused are disabled, and also the api-key is not exposed. => `npm run build && npm run serve`
+Und in der Produktionsumgebung sind `saveMissing` und `lastused` deaktiviert, und auch der API-Schlüssel wird nicht verfügbar gemacht. => `npm run build && npm run serve`
 
 
 [Caching](https://docs.locize.com/more/caching):
 
-![i18next caching](caching.jpg "locize © inweso GmbH")
+![i18next Caching](../react-i18next/caching.jpg "locize © inweso GmbH")
 
-[Merging versions](https://docs.locize.com/more/versioning#merging-versions):
+[Versionen zusammenführen](https://docs.locize.com/more/versioning#merging-versions):
 
-![overwrite version](overwrite_version.jpg "locize © inweso GmbH")
+![Version überschreiben](../react-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
-*🧑‍💻 The complete code can be found [here](https://github.com/locize/react-i18next-example-app).*
+*🧑‍💻 Den vollständigen Code finden Sie [hier](https://github.com/locize/react-i18next-example-app).*
 
-*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
+*Sehen Sie sich auch den [Teil zur Code-Integration](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in diesem [YouTube-Video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 
-There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+Es gibt auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
-There is also a [Spanish translation of this blog post](https://www.ibidem-translations.com/edu/translate-react-i18next-app/).
+Es gibt auch eine [spanische Übersetzung dieses Blogbeitrags](https://www.ibidem-translations.com/edu/translate-react-i18next-app/).
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+# 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
 
-I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [React.js localization](https://react.i18next.com) and [modern localization workflows](https://locize.com).
+Ich hoffe, Sie haben ein paar neue Dinge über [i18next](https://www.i18next.com), [React.js-Lokalisierung](https://react.i18next.com) und [moderne Lokalisierungs-Workflows](https://locize.com) gelernt.
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es sich, die [Übersetzungs-Management Platform - locize](https://locize.com) auszuprobieren.
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
 # 👍
