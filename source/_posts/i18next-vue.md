@@ -64,7 +64,7 @@ When it comes to React localization. One of the most popular is [i18next](https:
 **➡️ extensible**
 
 
-*There is a plenty of features and possibilities you'll get with i18next compared to other regular 18n frameworks.*
+*There is a plenty of features and possibilities you'll get with i18next compared to other regular i18n frameworks.*
 
 **➡️ rich**
 
