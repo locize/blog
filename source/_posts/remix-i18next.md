@@ -20,7 +20,7 @@ categories:
 thumbnail: remix-i18next/remix-localization.jpg
 ---
 
-<img src="remix-localization.jpg" alt="remix localization" title="Remix Localization example" height="559" width="1200">
+![remix localization](remix-localization.jpg "Remix Localization example")
 
 In the [previous blog post](../remix-i18n/) we learned on a simple way how we can instrumented our [Remix](https://remix.run) app to be ready for localization by using [remix-i18next](https://github.com/sergiodxa/remix-i18next).
 <br />
