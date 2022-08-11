@@ -13,9 +13,8 @@ categories:
 thumbnail: website-localization/website-localization.webp
 ---
 
-
 ![website localization](website-localization.webp)
-
+<img src="website-localization.webp" title="website localization" height="604" width="1280">
 
 This is the most comprehensive guide about <b>website localization</b>,  the process of <b>adapting an existing website to the language and culture of a target market</b>. 
 

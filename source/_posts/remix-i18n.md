@@ -20,7 +20,7 @@ categories:
 thumbnail: remix-i18n/remix-localization.jpg
 ---
 
-![remix localization](remix-localization.jpg "Remix Localization example")
+<img src="remix-localization.jpg" alt="remix localization" title="Remix Localization example" height="559" width="1200">
 
 Let's talk about internationalization (i18n) for [Remix](https://remix.run)...
 
