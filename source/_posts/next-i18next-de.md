@@ -24,7 +24,7 @@ lang: de
 hidden: true
 ---
 
-<img src="../next-i18next/next-i18next.jpg" title="locize © inweso GmbH" height="489" width="1040">
+![](../next-i18next/next-i18next.jpg "locize © inweso GmbH")
 
 Das Schreiben von [Next.js](https://nextjs.org)-Code verwischt die Grenzen zwischen Client- und Serverseite.
 <br />
