@@ -23,7 +23,7 @@ label: next-i18next
 lang: en
 ---
 
-![](next-i18next.jpg "locize © inweso GmbH")
+<img src="next-i18next.jpg" title="locize © inweso GmbH" height="489" width="1040">
 
 Writing [Next.js](https://nextjs.org) code blurs the lines between client side and server side.
 <br />
