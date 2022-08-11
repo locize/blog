@@ -61,22 +61,22 @@ In diesem Artikel verwenden wir das [i18next](https://www.i18next.com)-Framework
 Wenn es um React-Lokalisierung geht. Eines der beliebtesten ist [i18next](https://www.i18next.com) mit seiner React-Erweiterung [react-i18next](https://react.i18next.com), und das aus guten Gründen:
 
 *i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (react, vue, ...).*
-
+<br />
 **➡️ nachhaltig**
 
 
 *Basierend darauf, wie lange i18next bereits Open Source verfügbar ist, gibt es keinen echten i18n-Fall, der nicht mit i18next gelöst werden könnte.*
-
+<br />
 **➡️ reif**
 
 
 *i18next kann in jeder Umgebung mit Javascript (und einigen Nicht-Javascript - .net, elm, iOS, Android, Ruby, ...) verwendet werden, mit jedem UI-Framework, mit jedem i18n-Format, ... [die Möglichkeiten sind endlos](https://www.i18next.com/overview/supported-frameworks).*
-
+<br />
 **➡️ erweiterbar**
 
 
 *Es gibt viele Funktionen und Möglichkeiten, die Sie mit i18next im Vergleich zu anderen regulären 18n-Frameworks erhalten.*
-
+<br />
 **➡️ reich**
 
 
