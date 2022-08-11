@@ -25,7 +25,7 @@ lang: de
 hidden: true
 ---
 
-<img src="../react-i18next/react-localization.jpg" alt="React Lokalisierung leicht gemacht mit dieser Schritt-für-Schritt-Anleitung mit i18next ✅" title="React-Lokalisierungsbeispiel" height="578" width="1024">
+![React Lokalisierung leicht gemacht mit dieser Schritt-für-Schritt-Anleitung mit i18next ✅](../react-i18next/react-localization.jpg "React-Lokalisierungsbeispiel")
 
 Die Überwindung der Sprachbarriere für Anwender Ihrer Software ist ein wichtiges Thema.
 Englisch ist nicht mehr die universelle Sprache des Internets.

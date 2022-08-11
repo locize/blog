@@ -24,7 +24,7 @@ label: react-i18next
 lang: en
 ---
 
-<img src="react-localization.jpg" alt="React Localization made easy with this step-by-step guide using i18next ✅" title="React Localization example" height="578" width="1024">
+![React Localization made easy with this step-by-step guide using i18next ✅](react-localization.jpg "React Localization example")
 
 Overcoming the language barrier for users who use your software is an important topic.
 English is no longer the universal language of the internet.
