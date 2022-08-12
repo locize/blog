@@ -2,9 +2,9 @@
 title: Globalization vs. Localization - What is the difference
 description: What is the difference between globalization and localization, what does each include and what are pros and cons.
 
-date: 2021-09-15 08:02:53
+date: 2021-09-15
 tags:
-  - what is localization
+  - localization
   - globalization
   - l10n
   - g11n
@@ -12,6 +12,9 @@ tags:
 categories:
   - Post
 thumbnail: globalization-vs-localization/globalization-vs-localization.webp
+
+label: globalization-vs-localization
+lang: en
 ---
 
 ![globalization vs localization](globalization-vs-localization.webp "globalization vs localization")
@@ -62,7 +65,7 @@ Another important aspect of localization is ensuring that you are using the righ
 -	Currency
 -	Telephone number formats
 -	Keyboard formats
--	Punctuations and symbols. 
+-	Punctuations and symbols
 
 
 ### Consider the design 
