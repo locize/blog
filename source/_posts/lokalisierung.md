@@ -21,7 +21,7 @@ hidden: true
 
 # Was bedeutet Lokalisierung?
 
-Wenn Sie sich fragen, <strong>was ist Lokalisierung</strong>, dann ist dieser Blogbeitrag hier, um Ihnen zu helfen. Was das bedeutet es und wie es Ihnen helfen kann, sehen wir uns genauer an. Da die Technologie die Kommunikation mit anderen auf der ganzen Welt einfacher denn je macht, werden Lokalisierung und Internationalisierung immer wichtiger.
+Wenn Sie sich fragen, <strong>was ist Lokalisierung</strong>, dann ist dieser Blogbeitrag hier, um Ihnen zu helfen. Was es bedeutet und wie es Ihnen helfen kann, sehen wir uns genauer an. Da die Technologie die Kommunikation mit anderen auf der ganzen Welt einfacher denn je macht, werden Lokalisierung und Internationalisierung immer wichtiger.
 
 Für internationale Marken und Organisationen ist es unerlässlich, ihren Kunden das bestmögliche Erlebnis zu bieten. Ein effektiver Prozess kann ein Unternehmen transformieren und dabei helfen, die Reichweite zu erhöhen und das Engagement zu maximieren, aber was genau ist das genau?
 
