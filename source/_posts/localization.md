@@ -1,14 +1,21 @@
 ---
-layout: blog
 title: What is localization - definition & examples | locize	
-description: In this guide, we define localization and it's goals in detail. Find out more about localization with a few examples.	
-date: 2022-02-11 10:30:12
+description: In this guide, we define localization and its goals in detail. Find out more about localization with a few examples.
+
+date: 2022-02-11
 tags:
+  - localization
+  - l10n
+categories:
+  - Post
 thumbnail: localization/localization.webp
+
+label: localization
+lang: en
 ---
 
 
-![what is localization](localization.webp )
+![what is localization](localization.webp)
 
 
 # What is the meaning of localization?
@@ -21,7 +28,7 @@ Let's get started.
 
 
 ## Table of contents
-  * [What is it](#intro)
+  * [What is localization?](#intro)
   * [Examples by type](#examples)
   * [What is the goal of it](#goal)
   * [How it can be done](#process)
@@ -47,55 +54,55 @@ According to [this article](https://insights.csa-research.com/reportaction/30501
 No matter what industry you work in, with this article get an idea on how it can help your business. And we will give you some tools to the hand which can transform your business.
 
 
-  ## Examples by type <a name="examples"></a>
+## Examples by type <a name="examples"></a>
 
-  ### Example in business
+### Example in business
 
-  Internationalization is becoming increasingly more common, and businesses are now interacting with clients and customers from across the globe. Localization should now be an essential part of their growth strategy, covering everything from company websites and marketing materials to legal documents and product manuals.  
+Internationalization is becoming increasingly more common, and businesses are now interacting with clients and customers from across the globe. Localization should now be an essential part of their growth strategy, covering everything from company websites and marketing materials to legal documents and product manuals.  
 
-   ![airbnb](airbnb.png)
-   <span style="font-size:0.7rem">Source: <a href="https://www.airbnb.com/" title="airbnb">airbnb</a></span>
+![airbnb](airbnb.png)
+<span style="font-size:0.7rem">Source: <a href="https://www.airbnb.com/" title="airbnb">airbnb</a></span>
 
-  One great example of this is Airbnb, which has successfully been able to expand its business into over 220 countries, each one offering a personal and localized touch to the consumer. 
+One great example of this is Airbnb, which has successfully been able to expand its business into over 220 countries, each one offering a personal and localized touch to the consumer. 
 
 
-  ### Example in software 
+### Example in software 
 
-  Localization is also a vital strategy in the world of software development. Everything from user experience to overall design will need to be considered to ensure that customers are getting the very best experience. 
+Localization is also a vital strategy in the world of software development. Everything from user experience to overall design will need to be considered to ensure that customers are getting the very best experience. 
 
- ![netflix](netflix.png)
-  <span style="font-size:0.7rem">Source: <a href="https://www.netflix.com/" title="netflix">netflix</a></span>
+![netflix](netflix.png)
+<span style="font-size:0.7rem">Source: <a href="https://www.netflix.com/" title="netflix">netflix</a></span>
 
 
 A good example of <a href="/blog/what-is-software-localization/" title="software-localization">software-localization</a> is Netflix. The global streaming giant has become synonymous with efforts on both the translation side of things and on the developer side. The technology and processes that they utilize are translated and localized in every region, meaning the interface and apps change, as do the subtitles and voice dubbing of content. Even the films and TV shows they develop are localized for specific countries. 
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
-  <h3 style="color:orange;">Bonus Tip</h3>
-  <p style="color:grey;">Check out our <a href="https://locize.com/customers.html" title="Customer Success Stories">Customer Success Stories</a> for more examples of our clients.</p>
+<h3 style="color:orange;">Bonus Tip</h3>
+<p style="color:grey;">Check out our <a href="https://locize.com/customers.html" title="Customer Success Stories">Customer Success Stories</a> for more examples of our clients.</p>
 </div>
 
 
-  ## What is the goal of localization  <a name="goal"></a>
-  The ultimate goal is to develop a clear user experience that helps to drive your marketing and support you in achieving your goals. However, there are many benefits that can come from implementing it, including:
+## What is the goal of localization  <a name="goal"></a>
+The ultimate goal is to develop a clear user experience that helps to drive your marketing and support you in achieving your goals. However, there are many benefits that can come from implementing it, including:
 
-  ### Enter new markets 
-  One of the main goals of a <a href="/blog/localization-strategy" title="localization-strategy">localization-strategy</a> is to help brands to easily enter new markets. It will help overcome any logistical or legal hurdles, ensuring smooth communication across every partner. 
-
-
-  ### Secure a competitive edge 
-  Implementing localization can also help companies to develop a competitive edge. Going against competitors in a local market can be incredibly challenging as they often have the trust of local audiences. It will help you to build that trust, giving you the edge. 
-
-  ### Improve customer satisfaction 
-  Another important goal is that it helps to improve customer satisfaction. When they are seeing content in their own language and in a style they are more comfortable with; they are more likely to buy or use your products and services. 
-
-  ### Increase brand loyalty 
-  When you are able to improve customer satisfaction, you will also increase brand loyalty. Communicating with customers in their own language and style will help you to secure their trust, increasing the likelihood of them returning. 
-
-  ### Maximize your profit
-  Above all, though, the main goal of a strategy is to help companies maximize their profit. When reach a much bigger and truly global audience you need to engage with them in a personal way, that you maximize the number of customers and in the end also the revenue. 
+### Enter new markets 
+One of the main goals of a <a href="/blog/localization-strategy" title="localization-strategy">localization-strategy</a> is to help brands to easily enter new markets. It will help overcome any logistical or legal hurdles, ensuring smooth communication across every partner. 
 
 
-  ## How can it be done? <a name="process"></a>
+### Secure a competitive edge 
+Implementing localization can also help companies to develop a competitive edge. Going against competitors in a local market can be incredibly challenging as they often have the trust of local audiences. It will help you to build that trust, giving you the edge. 
+
+### Improve customer satisfaction 
+Another important goal is that it helps to improve customer satisfaction. When they are seeing content in their own language and in a style they are more comfortable with; they are more likely to buy or use your products and services. 
+
+### Increase brand loyalty 
+When you are able to improve customer satisfaction, you will also increase brand loyalty. Communicating with customers in their own language and style will help you to secure their trust, increasing the likelihood of them returning. 
+
+### Maximize your profit
+Above all, though, the main goal of a strategy is to help companies maximize their profit. When reach a much bigger and truly global audience you need to engage with them in a personal way, that you maximize the number of customers and in the end also the revenue. 
+
+
+## How can it be done? <a name="process"></a>
 While there can be no denying the many benefits that come from incorporating localization, it can be a complex procedure. The first thing that you need to do is to determine if the content that you are needing to adapt. Working with a professional will help you to identify those areas which will need to be changed, such as the written content, the images being used, the currency and date formats, etc. 
 
 Identifying these changes often requires comprehensive research into the culture and behaviors of your new target audience. However, it is a worthwhile task and can be incredibly rewarding when completed. 
@@ -113,7 +120,7 @@ No matter whether you are looking to localize your website, marketing material, 
 And watch the demo [video](https://youtu.be/ds-yEEYP1Ks) to learn more:
 {% youtube ds-yEEYP1Ks %}
 
-  ## Final thoughts <a name="thoughts"></a>
+## Final thoughts <a name="thoughts"></a>
 
 Hopefully, this blog has helped to answer the initial question and given you more of an idea on how it can benefit your business. Implementing localisation can be applied to any aspect of your business, and our highly experienced team has years of experience in helping clients. These are companies, software developers, and project-managers with all of their translation- and localization-management needs.
 

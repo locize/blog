@@ -72,7 +72,7 @@ Ein weiterer wichtiger Aspekt der Lokalisierung ist sicherzustellen, dass Sie da
 ### Denken Sie an das Design
 Design und Stil sind ebenfalls ein sehr wichtiger Teil des Lokalisierungsprozesses. Dazu muss sichergestellt werden, dass die Optik zu den Anforderungen Ihrer Zielgruppe passt. Dies umfasst alles von den Bildern und dem Layout der Website bis hin zu den Farben und die Art der Schrift.
 
-Für genauere Informationen, lesen Sie diesen Artikel über "<a href="/blog/localization/" title="was ist Lokalisierung">Was ist Lokalisierung</a>".
+Für genauere Informationen, lesen Sie diesen Artikel über "<a href="/blog/lokalisierung/" title="was ist Lokalisierung">Was ist Lokalisierung</a>".
 
 
 ## Globalisierung versus Lokalisierung, was kommt zuerst?
