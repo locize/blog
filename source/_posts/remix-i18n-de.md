@@ -1,6 +1,6 @@
 ---
-title: How to internationalize a Remix application (Part 1)
-description: Simple Remix localization made easy with this ✅step-by-step guide using i18next.
+title: So internationalisieren Sie eine Remix-Anwendung (Teil 1)
+description: Einfache Remix-Lokalisierung leicht gemacht mit dieser ✅Schritt-für-Schritt-Anleitung mit i18next.
 
 date: 2022-03-02
 tags:
@@ -20,64 +20,64 @@ categories:
 thumbnail: remix-i18n/remix-localization.jpg
 
 label: remix-i18n
-lang: en
+lang: de
+hidden: true
 ---
 
-![remix localization](remix-localization.jpg "Remix Localization example")
+![remix Lokalisierung](../remix-i18n/remix-localization.jpg "Remix Lokalisierungs-Beispiel")
 
-Let's talk about internationalization (i18n) for [Remix](https://remix.run)...
+Reden wir über Internationalisierung (i18n) für [Remix](https://remix.run)...
 
-When it comes to JavaScript localization, one of the most popular frameworks is [i18next](https://www.i18next.com) and one of the most famous Remix module for i18next is [remix-i18next](https://github.com/sergiodxa/remix-i18next).
-It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodxa).
+Wenn es um JavaScript-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) und eines der bekanntesten Remix-Module für i18next ist [remix-i18next](https://github.com/sergiodxa/remix-i18next).
+Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) erstellt.
 
-***There is also a [second part of this blog post](../remix-i18next/), that focuses more on a continuous localization workflow.***
+***Es gibt auch einen [zweiten Teil dieses Blogposts](../remix-i18next/), der sich mehr auf einen kontinuierlichen Lokalisierungsworkflow konzentriert.***
 
 ## TOC
-  * [So first of all: "Why i18next?"](#why-i18next)
-  * [Let's get into it...](#start)
-    - [Prerequisites](#prerequisites)
-    - [Getting started](#getting-started)
-    - [Language Switcher](#language-switcher)
-    - [The voluntary part](#voluntary)
-  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
-  * [Part 2](../remix-i18next/)
+  * [Also erstmal: "Warum i18next?"](#why-i18next)
+  * [Fangen wir an...](#start)
+    - [Voraussetzungen](#prerequisites)
+    - [Einstieg](#getting-started)
+    - [Sprach Wechsler](#language-switcher)
+    - [Der freiwillige Teil](#voluntary)
+  * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
+  * [Teil 2](../remix-i18next/)
 
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+# Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (angular, react, vue, ...).*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich der wichtigsten Frontend-Technologien (Angular, React, Vue, ...).*
 <br />
-**➡️ sustainable**
+**➡️ nachhaltig**
 
 
-*Based on how long i18next already is available open source, there is no real i18n case that could not be solved with i18next.*
+*Basierend darauf, wie lange i18next bereits Open Source verfügbar ist, gibt es keinen echten i18n-Fall, welcher nicht mit i18next gelöst werden könnte.*
 <br />
-**➡️ mature**
+**➡️ reif**
 
 
-*i18next can be used in any javascript (and a few non-javascript - .net, elm, iOS, android, ruby, ...) environment, with any UI framework, with any i18n format, ... [the possibilities are endless](https://www.i18next.com/overview/supported-frameworks).*
+*i18next kann in jeder Umgebung mit Javascript (und einigen Nicht-Javascript - .net, elm, iOS, Android, Ruby, ...) verwendet werden, mit jedem UI-Framework, mit jedem i18n-Format, ... [die Möglichkeiten sind endlos](https://www.i18next.com/overview/supported-frameworks).*
 <br />
-**➡️ extensible**
+**➡️ erweiterbar**
 
 
-*There is a plenty of features and possibilities you'll get with i18next compared to other regular i18n frameworks.*
+*Es gibt viele Funktionen und Möglichkeiten, die Sie mit i18next im Vergleich zu anderen regulären i18n-Frameworks erhalten.*
 <br />
-**➡️ rich**
+**➡️ reich**
+
+[Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-[Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
+# Fangen wir an... <a name="start"></a>
+
+## Voraussetzungen <a name="prerequisites"></a>
+
+Stellen Sie sicher, dass Sie Node.js und npm installiert haben. Es ist am besten, wenn Sie etwas Erfahrung mit einfachem HTML, JavaScript und grundlegendem [React](https://reactjs.org) und [Remix](https://remix.run) haben, bevor Sie mit [remix-i18next]( https://github.com/sergiodxa/remix-i18next) loslegen.
 
 
-# Let's get into it... <a name="start"></a>
+## Einstieg <a name="getting-started"></a>
 
-## Prerequisites <a name="prerequisites"></a>
-
-Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic [React](https://reactjs.org) and [Remix](https://remix.run), before jumping to [remix-i18next](https://github.com/sergiodxa/remix-i18next).
-
-
-## Getting started <a name="getting-started"></a>
-
-Take your own Remix project or use this example app [here](https://github.com/locize/locize-remix-i18next-example/tree/start).
+Nehmen Sie Ihr eigenes Remix-Projekt oder verwenden Sie diese Beispiel-App [hier](https://github.com/locize/locize-remix-i18next-example/tree/start).
 
 ```sh
 git clone -b start git@github.com:locize/locize-remix-i18next-example.git
@@ -86,10 +86,10 @@ npm i
 npm run dev
 ```
 
-We are going to adapt the app to detect the language according to the user’s preference.
-And we will create a language switcher to make the content change between different languages.
+Wir werden die App anpassen, um die Sprache gemäss den Vorlieben des Benutzers zu erkennen.
+Und wir werden einen Sprachumschalter erstellen, um den Inhalt zwischen verschiedenen Sprachen zu ändern.
 
-Let's install some i18next dependencies:
+Lassen Sie uns einige i18next-Abhängigkeiten installieren:
 
 - [remix-i18next](https://github.com/sergiodxa/remix-i18next)
 - [i18next](https://www.i18next.com)
@@ -100,7 +100,7 @@ Let's install some i18next dependencies:
 
 `npm install remix-i18next i18next react-i18next i18next-browser-languagedetector i18next-fs-backend i18next-http-backend`
 
-Create a `i18nextOptions.js` file and add the following code:
+Erstellen Sie eine Datei `i18nextOptions.js` und fügen Sie den folgenden Code hinzu:
 ```javascript
 export default {
   debug: process.env.NODE_ENV !== 'production',
@@ -111,7 +111,7 @@ export default {
 }
 ```
 
-And a `i18n.server.js` file and add the following code:
+Und eine `i18n.server.js`-Datei und fügen Sie den folgenden Code hinzu:
 ```javascript
 import { RemixI18Next } from 'remix-i18next'
 import i18nextOptions from './i18nextOptions'
@@ -138,10 +138,10 @@ export default new RemixI18Next({
 })
 ```
 
-Prepare some folders like this:
-![](folder.jpg)
+Bereiten Sie einige Ordner wie folgt vor:
+![](../remix-i18n/folder.jpg)
 
-Now in your `entry.client.jsx` adapt the code like this:
+Passen Sie nun in Ihrer `entry.client.jsx` den Code wie folgt an:
 ```javascript
 import { hydrate } from 'react-dom'
 import { RemixBrowser } from '@remix-run/react'
@@ -185,7 +185,7 @@ if (!i18next.isInitialized) // prevent i18next to be initialized multiple times
     })
 ```
 
-And in your `entry.server.jsx` adapt the code like this:
+Und passen Sie in Ihrer `entry.server.jsx` den Code so an:
 ```javascript
 import { renderToString } from 'react-dom/server'
 import { RemixServer } from 'remix'
@@ -242,7 +242,7 @@ export default async function handleRequest(
 }
 ```
 
-The last important piece is the `root.jsx` file:
+Das letzte wichtige Stück ist die `root.jsx`-Datei:
 ```javascript
 import {
   Links,
@@ -309,9 +309,9 @@ export default function App() {
 }
 ```
 
-We're ready to start to use the `t` function.
+Wir sind bereit, mit der Verwendung der `t`-Funktion zu beginnen.
 <br />
-In your pages files, you can now use react-i18next to access the `t` function:
+In Ihren Pages-Dateien können Sie jetzt mit respond-i18next auf die `t`-Funktion zugreifen:
 
 ```javascript
 import { useTranslation } from 'react-i18next'
@@ -334,14 +334,14 @@ export default function Index() {
 }
 ```
 
-Add the keys to your translations, i.e. `public/locales/en/index.json`:
+Fügen Sie die Schlüssel zu Ihren Übersetzungen hinzu, z. B. `public/locales/en/index.json`:
 ```json
 {
   "title": "Welcome to Remix"
 }
 ```
 
-You can do this for all your pages and components:
+Sie können dies für alle Ihre Seiten und Komponenten tun:
 
 ```javascript
 import { Link, useLoaderData } from '@remix-run/react'
@@ -402,13 +402,13 @@ export default function Index() {
 }
 ```
 
-This looks like the normal [react-i18next](https://react.i18next.com) usage.
+Dies sieht aus wie die normale Verwendung von [react-i18next](https://react.i18next.com).
 <br />
-Due to we're not using `Suspense` here, just make sure you check the `ready` flag before calling the `t` function. The translations will get lazy loaded as soon as you navigate on client side to another page.
+Da wir hier kein `Suspense` verwenden, stellen Sie einfach sicher, dass Sie das `ready`-Flag überprüfen, bevor Sie die `t`-Funktion aufrufen. Die Übersetzungen werden verzögert geladen, sobald Sie auf der Clientseite zu einer anderen Seite navigieren.
 
-We can also translate stuff like the page title.
+Wir können auch Dinge wie den Seitentitel übersetzen.
 <br />
-Since remix-i18next can translate text inside loaders or actions, we can do this for example in our `root.jsx`:
+Da remix-i18next Text innerhalb von Loadern oder Aktionen übersetzen kann, können wir dies beispielsweise in unserer `root.jsx` tun:
 
 ```javascript
 import {
@@ -476,25 +476,25 @@ export default function App() {
 }
 ```
 
-Add the keys to your translations, i.e. `public/locales/en/common.json`:
+Fügen Sie die Schlüssel zu Ihren Übersetzungen hinzu, z. B. `public/locales/en/common.json`:
 ```json
 {
   "headTitle": "New Remix App"
 }
 ```
 
-## Language Switcher <a name="language-switcher"></a>
+## Sprach Wechsler <a name="language-switcher"></a>
 
-remix-i18next by default will detect the current language in this order:
-- the lng search parameter
-- a cookie (if you pass one)
-- the session (if you pass the sessionStorage)
-- the Accept-Language header
-- the fallback language you configured
+remix-i18next erkennt standardmässig die aktuelle Sprache in dieser Reihenfolge:
+- der lng-Suchparameter
+- ein Cookie (wenn einer weitergegeben wird)
+- die Session (wenn Sie den SessionStorage benutzen)
+- der Accept-Language-Header
+- die von Ihnen konfigurierte Fallback-Sprache
 
-We additionally like to offer the possibility to change the language via some sort of language switcher.
+Wir möchten zusätzlich die Möglichkeit anbieten, die Sprache über eine Art Sprachumschalter zu ändern.
 
-So let's add a section in our `index.js` file:
+Fügen wir also einen Abschnitt in unserer Datei `index.js` hinzu:
 ```javascript
 import { Link, useLoaderData } from '@remix-run/react'
 import { json } from '@remix-run/node'
@@ -575,8 +575,8 @@ export default function Index() {
 }
 ```
 
-To persist the current locale, we will save it in a cookie.
-Just create a new `cookie.js` file:
+Um das aktuelle Gebietsschema beizubehalten, speichern wir es in einem Cookie.
+Erstellen Sie einfach eine neue `cookie.js`-Datei:
 
 ```javascript
 import { createCookie } from 'remix'
@@ -587,7 +587,7 @@ export let i18nCookie = createCookie('i18n', {
 })
 ```
 
-And use it like this in `i18n.server.js`:
+Und verwenden Sie es so in `i18n.server.js`:
 ```javascript
 import { RemixI18Next } from 'remix-i18next'
 import i18nextOptions from './i18nextOptions'
@@ -617,7 +617,7 @@ export default new RemixI18Next({
 })
 ```
 
-and also in `root.jsx`:
+und auch in `root.jsx`:
 
 ```javascript
 import {
@@ -688,48 +688,48 @@ export default function App() {
 }
 ```
 
-So this means we're using the lng search parameter to change the language. And persist the current detected language in the cookie.
+Das bedeutet also, dass wir den Suchparameter lng verwenden, um die Sprache zu ändern. Und behalten die aktuell erkannte Sprache im Cookie.
 
-![app](app.jpg "locize © inweso GmbH")
-![app de](app_de.jpg "locize © inweso GmbH")
+![app](../remix-i18n/app.jpg "locize © inweso GmbH")
+![app de](../remix-i18n/app_de.jpg "locize © inweso GmbH")
 
-**🥳 Awesome, the app is internationalized and we've just created our first language switcher!**
+**🥳 Grossartig, die App ist internationalisiert und wir haben gerade unseren ersten Sprachumschalter erstellt!**
 
-*🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-remix-i18next-example/tree/local).*
-
-
-## The voluntary part <a name="voluntary"></a>
-
-![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
-
-Connect to an awesome translation management system and manage your translations outside of your code.
-
-Let's synchronize the translation files with [locize](https://locize.com).
-This can be done on-demand or on the CI-Server or before deploying the app.
-
-## What to do to reach this step:
-1. in locize: signup at https://locize.app/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
-2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
-3. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language))
-4. install the [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
-
-## Use the [locize-cli](https://github.com/locize/locize-cli)
-Use the `locize sync` command to synchronize your local repository (`public/locales`) with what is published on locize.
-
-Alternatively, you can also use the `locize download` command to always download the published locize translations to your local repository (`public/locales`) before bundling your app.
+*🧑‍💻 Den vollständigen Code finden Sie [hier](https://github.com/locize/locize-remix-i18next-example/tree/local).*
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## Der freiwillige Teil <a name="voluntary"></a>
 
-I hope you’ve learned a few new things about i18n in [Remix](https://remix.run), [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com) and [modern localization workflows](https://locize.com).
+![transformieren Sie den Lokalisierungsprozess](../remix-i18n/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+Verbinden Sie sich mit einem grossartigen Übersetzungsmanagementsystem und verwalten Sie Ihre Übersetzungen ausserhalb Ihres Codes.
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+Lassen Sie uns die Übersetzungsdateien mit [locize](https://locize.com) synchronisieren.
+Dies kann bei Bedarf oder auf dem CI-Server oder vor der Bereitstellung der App erfolgen.
 
-There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+## Was zu tun ist, um diesen Schritt zu erreichen:
+1. in locize: Anmeldung unter https://locize.app/register und [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
+2. in locize: [ein neues Projekt erstellen](https://docs.locize.com/integration/getting-started/add-a-new-project)
+3. in locize: Fügen Sie alle Ihre zusätzlichen Sprachen hinzu (dies kann auch über [API](https://docs.locize.com/integration/api#add-new-language) erfolgen)
+4. installieren der [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
+
+## Verwenden Sie die [locize-cli](https://github.com/locize/locize-cli)
+Verwenden Sie den Befehl `locize sync`, um Ihr lokales Repository (`public/locales`) mit dem zu synchronisieren, was auf locize veröffentlicht wird.
+
+Alternativ können Sie auch den Befehl `locize download` verwenden, um die veröffentlichten locize-Übersetzungen immer in Ihr lokales Repository (`public/locales`) herunterzuladen, bevor Sie Ihre App bündeln.
+
+
+# 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
+
+Ich hoffe, Sie haben ein paar neue Dinge über i18n gelernt in [Remix](https://remix.run), [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next] (https://www.i18next.com) und auch etwas über [moderne Lokalisierungsworkflows](https://locize.com).
+
+Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es sich, die [Localization Management Platform - locize](https://locize.com) auszuprobieren.
+
+Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
+
+Es gibt auch ein [i18next Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 # 👍
 
-*If you like to know how to unleash the full power of i18next, [check out **"Part 2"**](../remix-i18next/)!*
+*Wenn Sie wissen möchten, wie Sie die volle Leistung von i18next entfesseln können, [schauen Sie sich **"Teil 2"** an](../remix-i18next/)!*
