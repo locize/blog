@@ -307,7 +307,7 @@ Let's separate the translations from the code and pleace them in dedicated json 
 
 [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) will help us to do so.
 
-> [What is locize?](../how-to-internationalize-react-i18next/#for-sure)
+> [What is locize?](../react-i18next/#for-sure)
 
 ### How does this look like? <a name="how-look"></a>
 
@@ -520,7 +520,7 @@ export class AppModule { }
 
 [Last used translations filter]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
 
-![react localization](../how-to-internationalize-react-i18next/last_used.jpg "locize © inweso GmbH")
+![react localization](../react-i18next/last_used.jpg "locize © inweso GmbH")
 
 [InContext Editor](https://docs.locize.com/more/incontext-editor):
 
@@ -528,11 +528,11 @@ export class AppModule { }
 
 [Caching](https://docs.locize.com/more/caching):
 
-![react localization caching](../how-to-internationalize-react-i18next/caching.jpg "locize © inweso GmbH")
+![react localization caching](../react-i18next/caching.jpg "locize © inweso GmbH")
 
 [Merging versions](https://docs.locize.com/more/versioning#merging-versions):
 
-![overwrite version](../how-to-internationalize-react-i18next/overwrite_version.jpg "locize © inweso GmbH")
+![overwrite version](../react-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-angular-example).*
 

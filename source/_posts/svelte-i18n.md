@@ -219,7 +219,7 @@ Let's meet [locizer](https://github.com/locize/locizer)...
 
 [locizer](https://github.com/locize/locizer) is a lightweight module to access data from your [locize](https://www.locize.com) project and use that inside your application.
 
-> [What is locize?](../how-to-internationalize-react-i18next/#for-sure)
+> [What is locize?](../react-i18next/#for-sure)
 
 ### How does this look like? <a name="how-look"></a>
 
@@ -465,11 +465,11 @@ Now open the locize [InContext Editor](https://docs.locize.com/more/incontext-ed
 
 [Caching](https://docs.locize.com/more/caching):
 
-![](../how-to-internationalize-react-i18next/caching.jpg "locize © inweso GmbH")
+![](../react-i18next/caching.jpg "locize © inweso GmbH")
 
 [Merging versions](https://docs.locize.com/more/versioning#merging-versions):
 
-![](../how-to-internationalize-react-i18next/overwrite_version.jpg "locize © inweso GmbH")
+![](../react-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
 *🧑‍💻 The code can be found [here](https://github.com/locize/locizer/tree/master/example/svelte).*
 

@@ -73,4 +73,4 @@ If you follow the best practices, you may create a seamless procedure and save m
 We're offering a free 14-day trial, so you may have a nice opportunity to try all features anyhow. <a href="https://www.locize.app/register" title="Register today">Register today</a> for a free trial period and begin your finest experience. 
 
 ### You are a developer
-So [here](https://docs.locize.com/integration/instrumenting-your-code) you can find more information about how to integrate locize, like for <a href="https://locize.com/javascript-localization.html" title="javascript localization">javascript localization</a>. There are also some dedicated articles about <a href="../how-to-internationalize-react-i18next/" title="react localization">react localization</a>.
+So [here](https://docs.locize.com/integration/instrumenting-your-code) you can find more information about how to integrate locize, like for <a href="https://locize.com/javascript-localization.html" title="javascript localization">javascript localization</a>. There are also some dedicated articles about <a href="../react-i18next/" title="react localization">react localization</a>.

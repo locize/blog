@@ -24,7 +24,7 @@ thumbnail: i18n-for-deno-with-i18next/deno_i18next.jpg
 
 ![Deno i18n](deno_i18next.jpg "Deno Internationalization")
 
-You may already know how to properly internationalize a client side application, like described in this [React based tutorial](../how-to-internationalize-react-i18next/), this [Angular based tutorial](../unleash-the-full-power-of-angular-i18next/) or this [Vue based tutorial](../give-vue-i18n-more-superpowers/).
+You may already know how to properly internationalize a client side application, like described in this [React based tutorial](../react-i18next/), this [Angular based tutorial](../unleash-the-full-power-of-angular-i18next/) or this [Vue based tutorial](../give-vue-i18n-more-superpowers/).
 
 In this blog post we will shed light on [Deno](https://deno.land).
 

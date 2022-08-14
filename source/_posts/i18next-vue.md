@@ -49,7 +49,7 @@ In this tutorial we'll make use of the [i18next-vue](https://github.com/i18next/
 
 When it comes to React localization. One of the most popular is [i18next](https://www.i18next.com) with it's Vue extension [i18next-vue](https://i18next.github.io/i18next-vue/), and for good reasons:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../how-to-internationalize-react-i18next/), Angular, Vue, ...).*
+*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), Angular, Vue, ...).*
 <br />
 **➡️ sustainable**
 
@@ -334,14 +334,14 @@ i18next.resolvedLanguage;
 i18next goes beyond just providing the standard i18n features.
 But for sure it's able to handle [plurals](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation).
 
-If you like to see how this works, have a look at [this section in that other blog post](../how-to-internationalize-react-i18next/#interpolation-pluralization).
+If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#interpolation-pluralization).
 
 
 ## Formatting <a name="formatting"></a>
 
 Also [formatting](https://www.i18next.com/translation-function/formatting) can be done.
 
-If you like to see how this works, have a look at [this section in that other blog post](../how-to-internationalize-react-i18next/#formatting).
+If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#formatting).
 
 
 ## Context <a name="context"></a>
@@ -349,7 +349,7 @@ If you like to see how this works, have a look at [this section in that other bl
 What about a specific greeting message based on the current day time? i.e. morning, evening, etc.
 This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
 
-If you like to see how this works, have a look at [this section in that other blog post](../how-to-internationalize-react-i18next/#context).
+If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#context).
 
 
 ## Separate translations from code <a name="separate"></a>

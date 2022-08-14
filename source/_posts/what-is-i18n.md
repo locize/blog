@@ -164,6 +164,6 @@ Let's get started.
 
 ➡️ Create a free new [user account](https://www.locize.app/register) for advanced i18n-experience with locize
 
-➡️ Find out more about [react-i18n](/blog/how-to-internationalize-react-i18next/)
+➡️ Find out more about [react-i18n](/blog/react-i18next/)
 
 ➡️ Check out real examples at [website-localization](/blog/website-localization/)
