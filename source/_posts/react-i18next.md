@@ -53,11 +53,11 @@ In this article, we will be using the [i18next](https://www.i18next.com) framewo
       - [save missing translations](#save-missing)
       - [👀 but there's more...](#more)
       - [📦 Let's prepare for production 🚀](#production)
-      - [🎉🥳 Congratulations 🎊🎁](#congratulations)
+  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
 
-When it comes to React localization. One of the most popular is [i18next](https://www.i18next.com) with it's react extension [react-i18next](https://react.i18next.com), and for good reasons:
+When it comes to React localization, one of the most popular is [i18next](https://www.i18next.com) with it's react extension [react-i18next](https://react.i18next.com), and for good reasons:
 
 *i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (react, vue, ...).*
 <br />

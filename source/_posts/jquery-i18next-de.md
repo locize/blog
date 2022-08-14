@@ -1,6 +1,6 @@
 ---
-title: The progressive guide to jQuery internationalization (i18n) using i18next
-description: How to properly internationalize a jQuery website using i18next.
+title: Der progressive Leitfaden zur jQuery-Internationalisierung (i18n) mit i18next
+description: So internationalisieren Sie eine jQuery-Website richtig mit i18next.
 
 date: 2022-02-02
 tags:
@@ -16,101 +16,100 @@ tags:
 categories:
   - Post
 thumbnail: jquery-i18next/jquery-localization.jpg
-redirect_from:
-- /how-to-jquery-i18next
 
 label: jquery-i18next
-lang: en
+lang: de
+hidden: true
 ---
 
-![jQuery localization](jquery-localization.jpg "jQuery Localization example")
+![jQuery Lokalisierung](../jquery-i18next/jquery-localization.jpg "jQuery Lokalisierungs-Beispiel")
 
-Every web developer may have met the perennial [Methuselah](https://en.wikipedia.org/wiki/Methuselah) jQuery.
-Created back in January 2006 at [BarCamp NYC](https://en.wikipedia.org/wiki/BarCamp) by [John Resig](https://en.wikipedia.org/wiki/John_Resig) and currently maintained by a [team of developers](https://jquery.org/team/) led by [Timmy Willison](https://timmywil.com).
+Jeder Web-Entwickler ist vielleicht schon einmal auf das mehrjährige [Methuselah](https://en.wikipedia.org/wiki/Methuselah) jQuery gestossen.
+Erstellt im Januar 2006 bei [BarCamp NYC](https://en.wikipedia.org/wiki/BarCamp) von [John Resig](https://en.wikipedia.org/wiki/John_Resig) und wird derzeit von einem [Team von Entwicklern](https://jquery.org/team/) unter der Leitung von [Timmy Willison](https://timmywil.com) geleitet.
 
-*You may think:*
->Why a blog post about the venerable but aged JavaScript library, that made things like HTML document traversal and manipulation, etc. easier?
+*Man könnte denken:*
+>Warum ein Blogbeitrag über die ehrwürdige, aber veraltete JavaScript-Bibliothek, welche Dinge wie das Durchlaufen und Manipulieren von HTML-Dokumenten usw. einfacher gemacht hat?
 
-**Because with a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript!**
+**Wei mit einer Kombination aus Vielseitigkeit und Erweiterbarkeit jQuery die Art und Weise verändert hat, wie Millionen von Menschen JavaScript schreiben!**
 
-And you can see this by the huge usage of jQuery:
+Und Sie können dies an der enormen Verwendung von jQuery sehen:
 
-Based on [w3Techs web technology surveys](https://w3techs.com/technologies/overview/javascript_library), [jQuery](https://w3techs.com/technologies/details/js-jquery) is used by **95.4%** of all the websites whose JavaScript library they know. And **78.3%** of all websites.
+Basierend auf [Umfragen zur Webtechnologie von w3Techs](https://w3techs.com/technologies/overview/javascript_library) wird [jQuery](https://w3techs.com/technologies/details/js-jquery) von **95.4 %** aller Webseiten benutzt, deren JavaScript-Bibliothek sie kennen. Und von **78,3 %** aller Webseiten genutzt.
 
-![](w3techs.jpg)
+![](../jquery-i18next/w3techs.jpg)
 
-Checking the [npm download trends of the jquery](https://www.npmtrends.com/jquery) module it is approaching the 5 million downloads per week.
+Wenn man die [npm-Download-Trends des jquery-Moduls]((https://www.npmtrends.com/jquery)) überprüft, nähert es sich den 5 Millionen Downloads pro Woche.
 
-![](npmtrends.jpg)
+![](../jquery-i18next/npmtrends.jpg)
 
-So you see, jQuery is not only still relevant, it takes up the majority of all websites.
+Sie sehen also, jQuery ist nicht nur immer noch relevant, sondern nimmt den Grossteil aller Webseiten ein.
 
-Therefore, in this article, we will be using the i18next framework to internationalize a jQuery website.
+Daher verwenden wir in diesem Artikel das i18next-Framework, um eine jQuery-Website zu internationalisieren.
 
-## TOC
-  * [So first of all: "Why i18next?"](#why-i18next)
-  * [Let's get into it...](#start)
-    - [Prerequisites](#prerequisites)
-    - [Getting started](#getting-started)
-    - [Language Switcher](#language-switcher)
-    - [Translate head information](#head-translate)
-    - [Interpolation and Pluralization](#interpolation-pluralization)
-    - [Formatting](#formatting)
-    - [Context](#context)
-    - [Separate translations from code](#separate)
-    - [Better translation management](#better-translation-management)
-      - [For sure!](#for-sure)
-      - [How does this look like?](#how-look)
-      - [save missing translations](#save-missing)
-      - [👀 but there's more...](#more)
-  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
+## Inhaltsverzeichnis
+  * [Also erstmal: "Warum i18next?"](#why-i18next)
+  * [Fangen wir an...](#start)
+    - [Voraussetzungen](#prerequisites)
+    - [Einstieg](#getting-started)
+    - [Sprachumschalter](#language-switcher)
+    - [Head informationen übersetzen](#head-translate)
+    - [Interpolation und Pluralisierung](#interpolation-pluralization)
+    - [Formatierung](#formatting)
+    - [Kontext](#context)
+    - [Übersetzungen vom Code trennen](#separate)
+    - [Besseres Übersetzungsmanagement](#better-translation-management)
+      - [Auf jeden Fall!](#for-sure)
+      - [Wie sieht das aus?](#how-look)
+      - [fehlende Übersetzungen speichern](#save-missing)
+      - [👀 aber es gibt noch mehr...](#more)
+  * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+# Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
-When it comes to jQuery localization, one of the most popular is [i18next](https://www.i18next.com) with it's jQuery extension [jquery-i18next](https://github.com/i18next/jquery-i18next), and for good reasons:
+Wenn es um die jQuery-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner jQuery-Erweiterung [jquery-i18next](https://github.com/i18next/jquery-i18next), und das aus guten Gründen:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (react, vue, ...). Only [jQuery](https://jquery.com/) is older 😉*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (react, vue, ...). Nur [jQuery](https://jquery.com/) ist älter 😉*
 <br />
-**➡️ sustainable**
+**➡️ nachhaltig**
 
 
-*Based on how long i18next already is available open source, there is no real i18n case that could not be solved with i18next.*
+*Basierend darauf, wie lange i18next bereits Open Source verfügbar ist, gibt es keinen echten i18n-Fall, der nicht mit i18next gelöst werden könnte.*
 <br />
-**➡️ mature**
+**➡️ reif**
 
 
-*i18next can be used in any javascript (and a few non-javascript - .net, elm, iOS, android, ruby, ...) environment, with any UI framework, with any i18n format, ... [the possibilities are endless](https://www.i18next.com/overview/supported-frameworks).*
+*i18next kann in jeder Umgebung mit Javascript (und einigen Nicht-Javascript - .net, elm, iOS, Android, Ruby, ...) verwendet werden, mit jedem UI-Framework, mit jedem i18n-Format, ... [die Möglichkeiten sind endlos](https://www.i18next.com/overview/supported-frameworks).*
 <br />
-**➡️ extensible**
+**➡️ erweiterbar**
 
 
-*There is a plenty of features and possibilities you'll get with i18next compared to other regular i18n frameworks.*
+*Es gibt viele Funktionen und Möglichkeiten, die Sie mit i18next im Vergleich zu anderen regulären 18n-Frameworks erhalten.*
 <br />
-**➡️ rich**
+**➡️ reich**
 
 
-[Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
+[Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Let's get into it... <a name="start"></a>
+# Fangen wir an... <a name="start"></a>
 
-## Prerequisites <a name="prerequisites"></a>
+## Voraussetzungen <a name="prerequisites"></a>
 
-Make sure you have a jQuery based website or web app. It's best, if you have some experience with simple HTML, JavaScript and basic jQuery, before jumping to [jquery-i18next](https://github.com/i18next/jquery-i18next). This jQuery i18n example is not intended to be a jQuery beginner tutorial.
+Stellen Sie sicher, dass Sie eine jQuery-basierte Website oder Webanwendung haben. Wenn Sie etwas Erfahrung mit einfachem HTML, JavaScript und grundlegendem jQuery haben, ist es am besten, bevor Sie zu [jquery-i18next](https://github.com/i18next/jquery-i18next) springen. Dieses jQuery i18n-Beispiel ist nicht als jQuery-Anfänger-Tutorial gedacht.
 
 
-## Getting started <a name="getting-started"></a>
+## Einstieg <a name="getting-started"></a>
 
-Take your own jQuery project or create a new one.
+Nehmen Sie Ihr eigenes jQuery-Projekt oder erstellen Sie ein neues.
 
-I have here an awesome landing page 😉
+Ich habe hier eine tolle Landingpage 😉
 
-![](app_0.png "locize © inweso GmbH")
+![](../jquery-i18next/app_0.png "locize © inweso GmbH")
 
-We are going to adapt the website to detect the language according to the user’s preference.
-And we will create a language switcher to make the content change between different languages.
+Wir werden die Website anpassen, um die Sprache gemäss den Vorlieben des Benutzers zu erkennen.
+Und wir werden einen Sprachumschalter erstellen, um den Inhalt zwischen verschiedenen Sprachen zu ändern.
 
-Let's install some i18next dependencies:
+Lassen Sie uns einige i18next-Abhängigkeiten installieren:
 
 - [i18next](https://www.i18next.com)
 - [jquery-i18next](https://github.com/i18next/jquery-i18next)
@@ -122,7 +121,7 @@ Let's install some i18next dependencies:
 <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
 ```
 
-Let's prepare an `i18n.js` file:
+Lassen Sie uns eine `i18n.js`-Datei vorbereiten:
 
 ```javascript
 $(function () {
@@ -158,7 +157,7 @@ $(function () {
 });
 ```
 
-Let's load that file:
+Lassen Sie uns diese Datei laden:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
@@ -168,7 +167,7 @@ Let's load that file:
 <script src="js/i18n.js"></script>
 ```
 
-Now let's try to move some hard coded text out to the translations.
+Lassen Sie uns nun versuchen, hartcodierten Text in die Übersetzungen zu verschieben.
 
 ```html
 <!-- ... -->
@@ -177,7 +176,7 @@ Now let's try to move some hard coded text out to the translations.
 <!-- ... -->
 ```
 
-Since the texts will be part of our translation resources, they could also be removed:
+Da die Texte Teil unserer Übersetzungsressourcen sein werden, könnten sie auch entfernt werden:
 
 ```html
 <!-- ... -->
@@ -186,7 +185,7 @@ Since the texts will be part of our translation resources, they could also be re
 <!-- ... -->
 ```
 
-The texts are now part of the translation resources:
+Die Texte sind jetzt Teil der Übersetzungsressourcen:
 
 ```javascript
 $(function () {
@@ -226,9 +225,9 @@ $(function () {
 ```
 
 
-## Language Switcher <a name="language-switcher"></a>
+## Sprachumschalter <a name="language-switcher"></a>
 
-Now let's define a language switcher:
+Lassen Sie uns nun einen Sprachumschalter definieren:
 
 ```html
 <!-- ... -->
@@ -236,7 +235,7 @@ Now let's define a language switcher:
 <!-- ... -->
 ```
 
-And also add some translations for the new language:
+Und fügen Sie auch einige Übersetzungen für die neue Sprache hinzu:
 
 ```javascript
 const lngs = {
@@ -307,20 +306,20 @@ $(function () {
 });
 ```
 
-![jquery language switcher](app_1_switcher.jpg "locize © inweso GmbH")
+![jquery Sprachumschalter](../jquery-i18next/app_1_switcher.jpg "locize © inweso GmbH")
 
-![](app_1.jpg "locize © inweso GmbH")
-
-
-**🥳 Awesome, you've just created your first language switcher!**
-
-Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
+![](../jquery-i18next/app_1.jpg "locize © inweso GmbH")
 
 
-## Translate head information <a name="head-translate"></a>
+**🥳 Grossartig, Sie haben gerade Ihren ersten Sprachumschalter erstellt!**
 
-Let's translate also the title and description of the website.
-We do this by extending our `rerender` function, and adding the additional translation resources:
+Dank [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector) versucht es jetzt, die Browsersprache zu erkennen und diese Sprache automatisch zu verwenden, wenn Sie die Übersetzungen dafür bereitgestellt haben. Die manuell ausgewählte Sprache im Sprachumschalter wird im localStorage beibehalten, beim nächsten Besuch der Seite wird diese Sprache als bevorzugte Sprache verwendet.
+
+
+## Head informationen übersetzen <a name="head-translate"></a>
+
+Lassen Sie uns auch den Titel und die Beschreibung der Website übersetzen.
+Wir tun dies, indem wir unsere `render`-Funktion erweitern und die zusätzlichen Übersetzungsressourcen hinzufügen:
 
 ```javascript
 const rerender = () => {
@@ -362,21 +361,21 @@ resources: {
 }
 ```
 
-So you see, this can be also done with the `$.t()` helper function.
+Sie sehen also, das geht auch mit der Hilfsfunktion `$.t()`.
 
-Let's check the DOM:
+Lassen Sie uns das DOM überprüfen:
 
-![](dom.jpg "locize © inweso GmbH")
+![](../jquery-i18next/dom.jpg "locize © inweso GmbH")
 
-Nice 👍
+Sehr gut 👍
 
 
-## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
+## Interpolation und Pluralisierung <a name="interpolation-pluralization"></a>
 
-i18next goes beyond just providing the standard i18n features.
-But for sure it's able to handle [plurals](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation).
+i18next geht über die Bereitstellung der standardmässigen i18n-Funktionen hinaus.
+Aber sicher ist es in der Lage, [Plurale](https://www.i18next.com/translation-function/plurals) und [Interpolation](https://www.i18next.com/translation-function/interpolation) zu verarbeiten.
 
-Let's count each time the language gets changed:
+Zählen wir jedes Mal, wenn die Sprache geändert wird:
 
 ```html
 <!-- ... -->
@@ -389,9 +388,9 @@ Let's count each time the language gets changed:
 <!-- ... -->
 ```
 
-Let's remember the count in the `languageChangedCounter` variable and increment it on each language change.
+Erinnern wir uns an den Zähler in der Variable `languageChangedCounter` und erhöhen ihn bei jedem Sprachwechsel.
 <br />
-...and extending the translation resources:
+...und erweitern die Übersetzungsressourcen:
 
 ```javascript
 const lngs = {
@@ -489,12 +488,12 @@ $(function () {
 });
 ```
 
-Based on the count value i18next will choose the correct plural form.
-Read more about [pluralization](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation) in the [official i18next documentation](https://www.i18next.com/).
+Basierend auf dem Zählwert wählt i18next die korrekte Pluralform aus.
+Lesen Sie mehr über [Pluralisierung](https://www.i18next.com/translation-function/plurals) und [Interpolation](https://www.i18next.com/translation-function/interpolation) in der [offiziellen i18next-Dokumentation](https://www.i18next.com/).
 
-![jQuery pluralization](app_2.jpg "locize © inweso GmbH")
+![jQuery Pluralisierung](../jquery-i18next/app_2.jpg "locize © inweso GmbH")
 
-*💡 i18next is also able to handle languages with multiple plural forms, like arabic:*
+*💡 i18next ist auch in der Lage, Sprachen mit mehreren Pluralformen zu verarbeiten, wie Arabisch:*
 
 ```javascript
 // translation resources:
@@ -520,9 +519,9 @@ t('key', {count: 100}); // -> "other"
 ```
 
 
-## Formatting <a name="formatting"></a>
+## Formatierung <a name="formatting"></a>
 
-Now, let’s check out how we can use different date formats with the help of [i18next](https://www.i18next.com) and [moment.js](https://momentjs.com/) to handle date and time.
+Schauen wir uns nun an, wie wir mit Hilfe von [i18next](https://www.i18next.com) und [moment.js](https://momentjs.com/) verschiedene Datumsformate verwenden können, um Datum und Uhrzeit zu handhaben.
 
 ```html
 <!-- ... -->
@@ -530,7 +529,7 @@ Now, let’s check out how we can use different date formats with the help of [i
 <!-- ... -->
 ```
 
-We like to have the footer displaying the current date:
+Wir möchten, dass die Fusszeile das aktuelle Datum anzeigt:
 
 ```html
 <!-- ... -->
@@ -538,7 +537,7 @@ We like to have the footer displaying the current date:
 <!-- ... -->
 ```
 
-Define a format function, like documented in the [documentation](https://www.i18next.com/translation-function/formatting) and add the new translation key:
+Definieren Sie eine Formatfunktion, wie in der [Dokumentation](https://www.i18next.com/translation-function/formatting) dokumentiert, und fügen Sie den neuen Übersetzungsschlüssel hinzu:
 
 ```javascript
 const lngs = {
@@ -643,23 +642,23 @@ $(function () {
 });
 ```
 
-**😎 Cool, now we have a language specific date formatting!**
+**😎 Cool, jetzt haben wir eine sprachspezifische Datumsformatierung!**
 
-English:
-![jQuery english](app_3.jpg "locize © inweso GmbH")
+Englisch:
+![jQuery englisch](../jquery-i18next/app_3.jpg "locize © inweso GmbH")
 
-German:
-![jQuery german](app_4.jpg "locize © inweso GmbH")
+Deutsch:
+![jQuery deutsch](../jquery-i18next/app_4.jpg "locize © inweso GmbH")
 
 
-## Context <a name="context"></a>
+## Kontext <a name="context"></a>
 
-What about a specific greeting message based on the current day time? i.e. morning, evening, etc.
-This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
+Was ist mit einer bestimmten Begrüssungsnachricht basierend auf der aktuellen Tageszeit? also morgens, abends usw.
+Dies ist dank der [context](https://www.i18next.com/translation-function/context)-Funktion von i18next möglich.
 
-Let's create a `getGreetingTime` function and use the result as context information for our footer translation.
+Lassen Sie uns eine `getGreetingTime`-Funktion erstellen und das Ergebnis als Kontextinformationen für unsere Fusszeilenübersetzung verwenden.
 <br />
-And add some context specific translations keys:
+Und fügen Sie einige kontextspezifische Übersetzungsschlüssel hinzu:
 
 ```javascript
 // ...
@@ -718,27 +717,27 @@ resources: {
 }
 ```
 
-**😁 Yeah, It works!**
+**😁 Ja, es funktioniert!**
 
-![jQuery translations](app_5.jpg "locize © inweso GmbH")
+![jQuery Übersetzungen](../jquery-i18next/app_5.jpg "locize © inweso GmbH")
 
 
-## Separate translations from code <a name="separate"></a>
+## Übersetzungen vom Code trennen <a name="separate"></a>
 
-Having the translations in our `i18n.js` file works, but is not that suitable to work with, for translators.
-Let's separate the translations from the code and pleace them in dedicated json files.
+Die Übersetzungen in unserer `i18n.js`-Datei zu haben, funktioniert, ist aber für Übersetzer nicht so angenehm.
+Lassen Sie uns die Übersetzungen vom Code trennen und sie in dedizierte JSON-Dateien verschieben.
 
-Because this is a web application, [i18next-http-backend](https://github.com/i18next/i18next-http-backend) will help us to do so.
+Da es sich um eine Webanwendung handelt, hilft uns [i18next-http-backend](https://github.com/i18next/i18next-http-backend) dabei.
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script>
 ```
 
-Create a `locales` folder and move the translations there:
+Erstellen Sie einen `locales`-Ordner und verschieben Sie die Übersetzungen dorthin:
 
-![public locales](public_folder.jpg "locize © inweso GmbH")
+![öffentliche Übersetzungen](../jquery-i18next/public_folder.jpg "locize © inweso GmbH")
 
-Adapt the `i18n.js` file to use the `i18next-http-backend`:
+Passen Sie die Datei `i18n.js` an, um das `i18next-http-backend` zu verwenden:
 
 ```javascript
 // ...
@@ -767,10 +766,10 @@ $(function () {
 });
 ```
 
-Now the translations are loaded asynchronously, so it may be the UI will refresh a bit later, as soon as the translations are loaded.
-To optimize this behaviour, you can show some sort of loading indicator until the i18next is initialized.
+Jetzt werden die Übersetzungen asynchron geladen, daher kann es sein, dass die Benutzeroberfläche etwas später aktualisiert wird, sobald die Übersetzungen geladen sind.
+Um dieses Verhalten zu optimieren, können Sie eine Art Ladeanzeige anzeigen, bis i18next initialisiert ist.
 
-Something like:
+So etwas wie:
 
 ```html
 <div id="loader">Loading...</div>
@@ -784,53 +783,53 @@ $('#loader').hide();
 $('#content').show();
 ```
 
-Now your app looks still the same, but your translations are separated.
+Jetzt sieht Ihre App immer noch gleich aus, aber Ihre Übersetzungen sind getrennt.
 
-![](spinner.gif)
+![](../jquery-i18next/spinner.gif)
 
-If you want to support a new language, you just create a new folder and a new translation json file.
-This gives you the possibility to send the translations to some translators.
-Or if you're working with a translation management system you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
+Wenn Sie eine neue Sprache unterstützen möchten, erstellen Sie einfach einen neuen Ordner und eine neue JSON-Übersetzungsdatei.
+Dies gibt Ihnen die Möglichkeit, die Übersetzungen an die Übersetzer zu senden.
+Oder wenn Sie mit einem Übersetzungsmanagementsystem arbeiten, können Sie einfach [die Dateien mit einer CLI synchronisieren](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
-## Better translation management <a name="better-translation-management"></a>
+## Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
 
-By sending the translations to some translators or translator agency you have more control and a direct contact with them. But this also means more work for you.
-This is a traditional way. But be aware sending files around creates always an overhead.
+Indem Sie die Übersetzungen an einige Übersetzer oder Übersetzungsagenturen senden, haben Sie mehr Kontrolle und einen direkten Kontakt mit ihnen. Das bedeutet aber auch mehr Arbeit für Sie.
+Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dateien immer einen Overhead verursacht.
 
-> Does a better option exist?
+> Gibt es eine bessere Option?
 
-### For sure! <a name="for-sure"></a>
+### Auf jeden Fall! <a name="sicher"></a>
 
-i18next helps to get the application translated, and this is great - but there is more to it.
-- How do you integrate any translation services / agency?
-- How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
-- and a lot more...
+[i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
+- Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
+- Wie behalten Sie den Überblick über neue oder entfernte Inhalte?
+- Wie gehen Sie mit der richtigen Versionierung um?
+- Wie stellen Sie Übersetzungsänderungen bereit, ohne Ihre vollständige Anwendung bereitzustellen?
+- und vieles mehr...
 
-**Looking for something like this❓**
+**Suche Sie nach sowas❓**
 
-- [Easy to integrate](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
-- Continuous deployment? [Continuous localization](https://locize.com/how-it-works.html#continouslocalization)!
-- Manage the translation files with ease
-- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
-- Analytics & Statistics
-- [Profit from our content delivery network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
-- [Versioning of your translations](https://docs.locize.com/more/versioning)
-- [Automatic and On-Demand Machine Translation](https://docs.locize.com/whats-inside/auto-machine-translation)
-- [Riskfree: Take your data with you](https://docs.locize.com/more/general-questions/how-is-locize-different-from-the-alternatives#service-lock-in)
-- [Transparent and fair pricing](https://locize.com/pricing.html)
-- and a lot more...
+- [Einfach zu integrieren](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
+- Kontinuierlicher Einsatz? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
+- Einfache Verwaltung der Übersetzungsdateien
+- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- Analytik & Statistik
+- [Profitieren Sie von unserem Content Delivery Network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
+- [Versionierung Ihrer Übersetzungen](https://docs.locize.com/more/versioning)
+- [Automatische und maschinelle Übersetzung auf Abruf](https://docs.locize.com/whats-inside/auto-machine-translation)
+- [Risikofrei: Nehmen Sie Ihre Daten mit](https://docs.locize.com/more/general-questions/how-is-locize-different-from-the-alternatives#service-lock-in)
+- [Transparente und faire Preisgestaltung](https://locize.com/pricing.html)
+- und vieles mehr...
 
-![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
+![transformiere den Lokalisierungsprozess](../jquery-i18next/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### How does this look like? <a name="how-look"></a>
+### Wie sieht das aus? <a name="how-look"></a>
 
-First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
-Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
+Zuerst müssen Sie sich bei locize [registrieren](https://locize.app/register) und [anmelden](https://docs.locize.com/integration/getting-started/create-a-user-account).
+Dann [erstellen Sie ein neues Projekt](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize und fügen Ihre Übersetzungen hinzu. Sie können Ihre Übersetzungen entweder über die [CLI](https://github.com/locize/react-tutorial#use-the-locize-cli) oder durch [Importieren der einzelnen json-Dateien](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) oder über die [API](https://docs.locize.com/integration/api#update-remove-translations) bewerkstelligen.
 
-Done so, we're going to replace [i18next-http-backend](https://github.com/i18next/i18next-http-backend) with [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
+Danach ersetzen wir [i18next-http-backend](https://github.com/i18next/i18next-http-backend) durch [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
 
 ```html
 <!-- ... -->
@@ -838,7 +837,7 @@ Done so, we're going to replace [i18next-http-backend](https://github.com/i18nex
 <!-- ... -->
 ```
 
-After having imported the translations to locize, delete the `locales` folder and adapt the `i18n.js` file to use the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project:
+Nachdem Sie die zu lokalisierenden Übersetzungen importiert haben, löschen Sie den Ordner `locales` und passen Sie die Datei `i18n.js` an, um das i18next-locize-Backend zu verwenden, und stellen Sie sicher, dass Sie die Projekt-ID und den API-Schlüssel aus Ihrem locize-Projekt kopieren:
 
 ```javascript
 // ...
@@ -873,7 +872,7 @@ $(function () {
 });
 ```
 
-[i18next-locize-backend](https://github.com/locize/i18next-locize-backend) offers a functionality to retrieve the available languages directly from locize, let's use it:
+[i18next-locize-backend](https://github.com/locize/i18next-locize-backend) bietet eine Funktion zum Abrufen der verfügbaren Sprachen direkt von locize an, verwenden wir sie:
 
 ```javascript
 // ...
@@ -948,13 +947,13 @@ $(function () {
 });
 ```
 
-Now the translations are served directly from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network). The jQuery i18n has now CDN superpower 😁.
+Jetzt werden die Übersetzungen direkt vom [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) geliefert. Unsere jQuery i18n hat jetzt CDN-Superpower 😁.
 
-### save missing translations <a name="save-missing"></a>
+### fehlende Übersetzungen speichern <a name="save-missing"></a>
 
-Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys gets added to locize automatically, while developing the app.
+Dank der Verwendung der [saveMissing-Funktion](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App neue Schlüssel automatisch zu locize hinzugefügt.
 
-Just pass `saveMissing: true` in the i18next options:
+Übergeben Sie einfach `saveMissing: true` in den i18next-Optionen:
 
 ```javascript
 // ...
@@ -967,26 +966,26 @@ Just pass `saveMissing: true` in the i18next options:
 // ...
 ```
 
-Each time you'll use a new key, it will be sent to locize, i.e.:
+Jedes Mal, wenn Sie einen neuen Schlüssel verwenden, wird dieser zu locize gesendet, d.h.:
 
 ```javascript
 <div data-i18n="new.key">this will be added automatically</div>
 ```
 
-will result in locize like this:
+resultiert in locize wie folgt:
 
-![missing key](missing_key.jpg "locize © inweso GmbH")
+![missing key](../jquery-i18next/missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... <a name="more"></a>
+### 👀 aber es gibt noch mehr... <a name="more"></a>
 
-Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
+Dank des Plugins [locize-lastused](https://github.com/locize/locize-lastused) können Sie [in locize, Schlüssel welche verwendet oder nicht mehr verwendet werden, finden und filtern](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
-With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
+Mit Hilfe des Plugins [locize](https://github.com/locize/locize) können Sie Ihre App im locize [InContext Editor](https://docs.locize.com/more/incontext-editor) verwenden.
 
-Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation) and the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
+Zusätzlich mit Hilfe des [Auto-MachineTranslation-Workflows](https://docs.locize.com/whats-inside/auto-machine-translation) und der Verwendung der [saveMissing-Funktionalität](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App nicht nur neue Schlüssel zur automatischen Lokalisierung hinzugefügt, sondern auch automatisch per maschineller Übersetzung in die Zielsprachen übersetzt.
 
-*Check out this [video](https://youtu.be/VfxBpSXarlU) to see how the automatic machine translation workflow looks like!*
+*Sehen Sie sich dieses [Video](https://youtu.be/VfxBpSXarlU) an, um zu sehen, wie der Arbeitsablauf der automatischen maschinellen Übersetzung aussieht!*
 
 {% youtube VfxBpSXarlU %}
 
@@ -997,7 +996,7 @@ Lastly, with the help of the [auto-machinetranslation workflow](https://docs.loc
 <!-- ... -->
 ```
 
-use them in `i18n.js`:
+Verwenden Sie sie in `i18n.js`:
 
 ```javascript
 const getGreetingTime = () => {
@@ -1113,46 +1112,46 @@ $(function () {
 });
 ```
 
-[Automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation):
+[Automatische maschinelle Übersetzung](https://docs.locize.com/whats-inside/auto-machine-translation):
 
-![missing key auto](missing_key_auto_mt.jpg "locize © inweso GmbH")
+![missing key automatisch](../jquery-i18next/missing_key_auto_mt.jpg "locize © inweso GmbH")
 
-[Last used translations filter]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
+[Filter für zuletzt verwendete Übersetzungen]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
 
-![i18next last used](last_used.jpg "locize © inweso GmbH")
+![i18next last used](../jquery-i18next/last_used.jpg "locize © inweso GmbH")
 
-[InContext Editor](https://docs.locize.com/more/incontext-editor):
+[InContext-Editor](https://docs.locize.com/more/incontext-editor):
 
-![i18next incontext](in_context.jpg "locize © inweso GmbH")
+![i18next inkontext](../jquery-i18next/in_context.jpg "locize © inweso GmbH")
 
 
-Now, during development, you'll continue to save missing keys and to make use of `lastused` feature.
+Während der Entwicklung werden Sie nun weiterhin fehlende Schlüssel speichern und die `lastUsed` Funktion nutzen.
 
-And in production environment, you should disable or remove the `saveMissing` and `lastused` functionality, and also the api-key should not exposed.
+Und in der Produktionsumgebung sollten Sie die Funktionen `saveMissing` und `lastused` deaktivieren oder entfernen, und auch der API-Schlüssel sollte nicht angezeigt werden.
 
 
 [Caching](https://docs.locize.com/more/caching):
 
-![i18next caching](caching.jpg "locize © inweso GmbH")
+![i18next caching](../jquery-i18next/caching.jpg "locize © inweso GmbH")
 
-[Merging versions](https://docs.locize.com/more/versioning#merging-versions):
+[Versionen zusammenführen](https://docs.locize.com/more/versioning#merging-versions):
 
-![overwrite version](overwrite_version.jpg "locize © inweso GmbH")
+![Version überschreiben](../jquery-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
-*🧑‍💻 The complete code can be found [here](https://github.com/i18next/jquery-i18next/tree/master/example/landing).*
+*🧑‍💻 Den vollständigen Code finden Sie [hier](https://github.com/i18next/jquery-i18next/tree/master/example/landing).*
 
-*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
+*Sehen Sie sich auch den [Teil zur Code-Integration](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in diesem [YouTube-Video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 
-There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+Es gibt auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+# 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
 
-I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [jQuery localization](https://github.com/i18next/jquery-i18next) and [modern localization workflows](https://locize.com).
+Ich hoffe, Sie haben ein paar neue Dinge über [i18next](https://www.i18next.com), [jQuery Lokalisierung](https://github.com/i18next/jquery-i18next) und [moderne Lokalisierungs-Workflows](https://locize.com) gelernt.
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es sich, die [Übersetzungs-Management Platform - locize](https://locize.com) auszuprobieren.
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
 # 👍
