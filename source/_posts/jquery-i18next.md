@@ -15,7 +15,12 @@ tags:
   - translation
 categories:
   - Post
-thumbnail: how-to-jquery-i18next/jquery-localization.jpg
+thumbnail: jquery-i18next/jquery-localization.jpg
+redirect_from:
+- /how-to-jquery-i18next
+
+label: jquery-i18next
+lang: en
 ---
 
 ![jQuery localization](jquery-localization.jpg "jQuery Localization example")
