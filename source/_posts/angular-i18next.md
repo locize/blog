@@ -14,7 +14,7 @@ tags:
   - angular
 categories:
   - Post
-thumbnail: unleash-the-full-power-of-angular-i18next/title.jpg
+thumbnail: angular-i18next/title.jpg
 ---
 
 ![angular localization](title.jpg "locize © inweso GmbH")
