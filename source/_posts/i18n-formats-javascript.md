@@ -1,5 +1,8 @@
+---
 title: I18N in the Multiverse of Formats
+description: A nice overview of the existing i18n formats for JavaScript.
 date: 2022-02-18
+
 tags:
   - internationalization
   - i18n
@@ -11,6 +14,9 @@ categories:
 thumbnail: i18n-formats-javascript/i18n_in_the_multiverse_of_madness.jpg
 redirect_from:
 - /i18n-multiverse
+
+label: i18n-formats-javascript
+lang: en
 ---
 
 ![](i18n_in_the_multiverse_of_madness.jpg "I18N in the Multiverse of Madness")
@@ -243,7 +249,7 @@ The used JSON based format will look like this:
 }
 ```
 
-The pluralization keys are organiized nested under the normal translation key.
+The pluralization keys are organized nested under the normal translation key.
 
 And the corresponding invocation:
 ```js
@@ -458,7 +464,7 @@ Run some scripts, and then you can use the prepared translation files:
 
 Each instrumented code part is mapped with a hash to the translations.
 <br />
-Like said... it's really different then all other formats.
+Like said... it's really different than all other formats.
 
 
 # Fluent <a name="fluent"></a>
@@ -497,7 +503,7 @@ bundle.formatPattern(bundle.getMessage('dessert').value, { toEat: 'muffin', coun
 bundle.formatPattern(bundle.getMessage('dessert').value, { toEat: '' }) // -> "I would like to eat something."
 ```
 
-Like [ICU Message Format](#icu) it uses only 1 key to generate all variations. So the value may look a bit more complex, like language on its own.
+Like [ICU Message Format](#icu) it uses only 1 key to generate all variations. So the value may look a bit more complex, like a language on its own.
 
 
 # Coming back home
