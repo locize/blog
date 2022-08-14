@@ -2,7 +2,7 @@
 title: Website Localization - How to localize your website
 description: What is the most effective method for localizing your website? Learn from popular examples how to take your brand global.
 
-date: 2022-05-04 09:09:36
+date: 2022-05-04
 tags: 
   - guide
   - localization techniques

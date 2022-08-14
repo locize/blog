@@ -1,9 +1,15 @@
 ---
-layout: blog
 title: What is i18n and what is its purpose (2022) | locize
 description: Everything you need to know about ✪ internationalization. An easy-to-understand guide of what i18n is and what it's used for.	
-date: 2022-01-11 14:25:30
+
+date: 2022-01-11
 tags:
+  - internationalization
+  - i18n
+  - website internationalization
+  - best practices
+  - web app translation
+
 thumbnail: what-is-i18n/what-is-i18n.webp
 ---
 

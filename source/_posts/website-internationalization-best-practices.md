@@ -1,7 +1,8 @@
 ---
-title: These are the website internationalization best practices (2021)
+title: These are the website internationalization best practices
+description: What are the best practices for website internationalization?
 
-date: 2021-08-16 14:45:59
+date: 2021-08-16
 tags:
   - website internationalization
   - best practices
@@ -9,6 +10,9 @@ tags:
 categories:
   - Post
 thumbnail: website-internationalization-best-practices/website-internationalization-best-practices.webp
+
+label: website-internationalization-best-practices
+lang: en
 ---
 
 ![website internationalization best practices](website-internationalization-best-practices.webp "website internationalization best practices")
