@@ -884,7 +884,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 
 ### Auf jeden Fall! <a name="sicher"></a>
 
-i18next hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
+[i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
 - Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
 - Wie behalten Sie den Überblick über neue oder entfernte Inhalte?
 - Wie gehen Sie mit der richtigen Versionierung um?

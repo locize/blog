@@ -885,7 +885,7 @@ This is a traditional way. But be aware sending files around creates always an o
 
 ### For sure! <a name="for-sure"></a>
 
-i18next helps to get the application translated, and this is great - but there is more to it.
+[i18next](https://www.i18next.com) helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
 - How do you keep track of new or removed content?
 - How you handle proper versioning?

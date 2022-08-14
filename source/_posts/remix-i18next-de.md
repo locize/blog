@@ -1,6 +1,6 @@
 ---
-title: How to internationalize a Remix application (Part 2)
-description: Remix localization made easy focusing on continuous localization.
+title: So internationalisieren Sie eine Remix-Anwendung (Teil 2)
+description: Remix-Lokalisierung leicht gemacht mit Fokus auf kontinuierliche Lokalisierung.
 
 date: 2022-03-03
 tags:
@@ -20,77 +20,78 @@ categories:
 thumbnail: remix-i18next/remix-localization.jpg
 
 label: remix-i18next
-lang: en
+lang: de
+hidden: true
 ---
 
-![remix localization](remix-localization.jpg "Remix Localization example")
+![Remix-Lokalisierung](../remix-i18next/remix-localization.jpg "Remix-Lokalisierungsbeispiel")
 
-In the [previous blog post](../remix-i18n/) we learned on a simple way how we can instrumented our [Remix](https://remix.run) app to be ready for localization by using [remix-i18next](https://github.com/sergiodxa/remix-i18next).
+Im [vorherigen Blogbeitrag](../remix-i18n-de/) haben wir auf einfache Weise gelernt, wie wir unsere [Remix](https://remix.run)-App lokalisierungsfertig instrumentieren können, indem wir [remix-i18next](https://github.com/sergiodxa/remix-i18next) verwenden.
 <br />
-In this blog post we will try to unleash the full power of [i18next](https://www.i18next.com) and focus on a continuous localization workflow.
+In diesem Blogbeitrag werden wir versuchen, die volle Leistungsfähigkeit von [i18next](https://www.i18next.com) freizusetzen und uns auf einen kontinuierlichen Lokalisierungsworkflow zu konzentrieren.
 
-## TOC
-  * [Better translation management](#better-translation-management)
-    - [For sure!](#for-sure)
-    - [How does this look like?](#how-look)
-    - [save missing translations](#save-missing)
-    - [👀 but there's more...](#more)
-    - [📦 Let's prepare for production 🚀](#production)
-  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
-
-
-# Better translation management <a name="better-translation-management"></a>
-
-In the previous blog post there was a [voluntary part](../remix-i18n/#voluntary). This already was the first step.
-
-By sending the translations to some translators or translator agency you have more control and a direct contact with them. But this also means more work for you.
-This is a traditional way. But be aware sending files around creates always an overhead.
-
-> Does a better option exist?
-
-### For sure! <a name="for-sure"></a>
-
-[i18next](https://www.i18next.com) helps to get the application translated, and this is great - but there is more to it.
-- How do you integrate any translation services / agency?
-- How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
-- and a lot more...
-
-**Looking for something like this❓**
-
-- [Easy to integrate](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
-- Continuous deployment? [Continuous localization](https://locize.com/how-it-works.html#continouslocalization)!
-- Manage the translation files with ease
-- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
-- Analytics & Statistics
-- [Profit from our content delivery network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
-- [Versioning of your translations](https://docs.locize.com/more/versioning)
-- [Automatic and On-Demand Machine Translation](https://docs.locize.com/whats-inside/auto-machine-translation)
-- [Riskfree: Take your data with you](https://docs.locize.com/more/general-questions/how-is-locize-different-from-the-alternatives#service-lock-in)
-- [Transparent and fair pricing](https://locize.com/pricing.html)
-- and a lot more...
+## Inhaltsverzeichnis
+  * [Besseres Übersetzungsmanagement](#better-translation-management)
+    - [Auf jeden Fall!](#for-sure)
+    - [Wie sieht das aus?](#how-look)
+    - [fehlende Übersetzungen speichern](#save-missing)
+    - [👀 aber es gibt noch mehr...](#more)
+    - [📦 Bereiten wir uns auf die Produktion vor 🚀](#production)
+  * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
 
 
-### How does this look like? <a name="how-look"></a>
+# Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
 
-First, if not already done, you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
-Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
+Im vorherigen Blogbeitrag gab es einen [freiwilligen Teil](../remix-i18n-de/#voluntary). Dies war bereits der erste Schritt.
 
-Done so, we're going change the way the translations are loaded on server side and on client side.
+Indem Sie die Übersetzungen an einige Übersetzer oder Übersetzungsagenturen senden, haben Sie mehr Kontrolle und einen direkten Kontakt mit ihnen. Das bedeutet aber auch mehr Arbeit für Sie.
+Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dateien immer einen Overhead verursacht.
 
-Currently the translations are downloaded from locize via CLI and are then served on server side in the `public/locales` folder. Thanks to remix-i18next then the translations are downloaded by the client.
+> Gibt es eine bessere Option?
 
-We now would like the client side to directly consume the translations provided by the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network).
-Instead on server side we'll continue to "bundle" the translations first.
-See [downloadLocales script in package.json](https://github.com/locize/locize-remix-i18next-example/blob/main/package.json#L34).
-We're doing so to prevent an elevated amount of downloads generated on server side. [Read this](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc) for more information about this topic about serverless environments.
+### Auf jeden Fall! <a name="for-sure"></a>
 
-We have to install [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
+[i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
+- Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
+- Wie behalten Sie den Überblick über neue oder entfernte Inhalte?
+- Wie gehen Sie mit der richtigen Versionierung um?
+- Wie stellen Sie Übersetzungsänderungen bereit, ohne Ihre vollständige Anwendung bereitzustellen?
+- und vieles mehr...
+
+**Suche Sie nach sowas❓**
+
+- [Einfach zu integrieren](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
+- Kontinuierlicher Einsatz? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
+- Einfache Verwaltung der Übersetzungsdateien
+- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- Analytik & Statistik
+- [Profitieren Sie von unserem Content Delivery Network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
+- [Versionierung Ihrer Übersetzungen](https://docs.locize.com/more/versioning)
+- [Automatische und maschinelle Übersetzung auf Abruf](https://docs.locize.com/whats-inside/auto-machine-translation)
+- [Risikofrei: Nehmen Sie Ihre Daten mit](https://docs.locize.com/more/general-questions/how-is-locize-different-from-the-alternatives#service-lock-in)
+- [Transparente und faire Preisgestaltung](https://locize.com/pricing.html)
+- und vieles mehr...
+
+
+### Wie sieht das aus? <a name="how-look"></a>
+
+Zuerst müssen Sie sich bei locize [registrieren](https://locize.app/register) und [anmelden](https://docs.locize.com/integration/getting-started/create-a-user-account).
+Dann [erstellen Sie ein neues Projekt](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize und fügen Ihre Übersetzungen hinzu. Sie können Ihre Übersetzungen entweder über die [CLI](https://github.com/locize/react-tutorial#use-the-locize-cli) oder durch [Importieren der einzelnen json-Dateien](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) oder über die [API](https://docs.locize.com/integration/api#update-remove-translations) bewerkstelligen.
+
+Danach ändern wir die Art und Weise, wie die Übersetzungen auf der Serverseite und auf der Clientseite geladen werden.
+
+Derzeit werden die Übersetzungen von locize über CLI heruntergeladen und dann serverseitig im Ordner `public/locales` bereitgestellt. Dank remix-i18next werden die Übersetzungen dann vom Client heruntergeladen.
+
+Wir möchten nun, dass die Clientseite die vom [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) bereitgestellten Übersetzungen direkt nutzt.
+Stattdessen "bündeln" wir zunächst serverseitig die Übersetzungen.
+Siehe [downloadLocales script in package.json](https://github.com/locize/locize-remix-i18next-example/blob/main/package.json#L34).
+Wir tun dies, um zu verhindern, dass serverseitig eine erhöhte Anzahl von Downloads generiert wird. [Lesen Sie dies](https://github.com/locize/i18next-locize-backend#important-advice-for-serverless-environments---aws-lambda-google-cloud-functions-azure-functions-etc) für Weitere Informationen zu diesem Thema über serverlose Umgebungen.
+
+Wir müssen [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) installieren.
 
 `npm install i18next-locize-backend`
 
-Adapt the `entry.client.jsx` file to use the i18next-locize-backend and make sure you copy the project-id and api-key from within your locize project.
+Passen Sie die Datei `entry.client.jsx` an, um das i18next-locize-backend zu verwenden, und stellen Sie sicher, dass Sie die Projekt-ID und den API-Schlüssel aus Ihrem locize-Projekt kopieren.
 ```javascript
 import { hydrate } from 'react-dom'
 import { RemixBrowser } from '@remix-run/react'
@@ -151,7 +152,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 }
 ```
 
-The `entry.server.jsx` file, the `root.jsx` and the `i18nextOptions.js` file should still look the same:
+Die `entry.server.jsx`-Datei, die `root.jsx`- und die `i18nextOptions.js`-Datei sollten immer noch gleich aussehen:
 
 ```javascript
 import { renderToString } from 'react-dom/server'
@@ -219,7 +220,7 @@ export default {
 }
 ```
 
-In the `root.jsx` file we need to call `useRemixI18Next` only on server side:
+In der `root.jsx`-Datei müssen wir `useRemixI18Next` nur serverseitig aufrufen:
 
 ```javascript
 import {
@@ -290,20 +291,20 @@ export default function App() {
 }
 ```
 
-That's it:
+Das ist es:
 
-![](app.jpg)
+![](../remix-i18next/app.jpg)
 
-The app looks more or less the same, but on client side the translations are fetched directly from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network).
-This means if you change translations in locize they will be available to your Remix app, without having to change or redeploy your app.
-*Only to have the newest translations on server side (i.e. for SEO optimizations) a new `npm run downloadLocales` and rebuild is needed.*
+Die App sieht mehr oder weniger gleich aus, aber auf der Clientseite werden die Übersetzungen direkt vom [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) abgerufen.
+Das bedeutet, wenn Sie Übersetzungen in locize ändern, stehen sie Ihrer Remix-App zur Verfügung, ohne dass Sie Ihre App ändern oder erneut bereitstellen müssen.
+*Nur um die neusten Übersetzungen serverseitig zu haben (z.B. für SEO-Optimierungen) ist ein neues `npm run downloadLocales` und Rebuild nötig.*
 
 
-### save missing translations <a name="save-missing"></a>
+### fehlende Übersetzungen speichern <a name="save-missing"></a>
 
-Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys gets added to locize automatically, while developing the app.
+Dank der Verwendung der [saveMissing-Funktionalität](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App neue Schlüssel zur automatischen Lokalisierung hinzugefügt.
 
-Just pass `saveMissing: true` in the i18next options:
+Übergeben Sie einfach `saveMissing: true` in den i18next-Optionen:
 
 ```javascript
 import { hydrate } from 'react-dom'
@@ -364,32 +365,32 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 }
 ```
 
-Each time you'll use a new key, it will be sent to locize, i.e.:
+Jedes Mal, wenn Sie einen neuen Schlüssel verwenden, wird dieser zu locize gesendet, d. h.:
 
 ```javascript
 <div>{t('new.key', 'this will be added automatically')}</div>
 ```
 
-will result in locize like this:
+ergibt in locize das folgende:
 
-![missing key](missing_key.jpg "locize © inweso GmbH")
+![missing key](../remix-i18next/missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... <a name="more"></a>
+### 👀 aber es gibt noch mehr... <a name="more"></a>
 
-Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
+Dank des Plugins [locize-lastused](https://github.com/locize/locize-lastused) können Sie [in locize Schlüssel finden und filtern, welche verwendet oder nicht mehr verwendet werden](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
-With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
+Mit Hilfe des Plugins [locize](https://github.com/locize/locize) können Sie Ihre App im locize [InContext Editor](https://docs.locize.com/more/incontext-editor) verwenden.
 
-Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation) and the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
+Mit Hilfe des [Auto-MachineTranslation-Workflows](https://docs.locize.com/whats-inside/auto-machine-translation) und der Verwendung der [saveMissing-Funktionalität](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App nicht nur neue Schlüssel zur automatischen Lokalisierung hinzugefügt, sondern auch automatisch mittels maschineller Übersetzung in die Zielsprachen übersetzt.
 
-*Check out this [video](https://youtu.be/VfxBpSXarlU) to see how the automatic machine translation workflow looks like!*
+*Schauen Sie sich dieses [Video](https://youtu.be/VfxBpSXarlU) an, um zu sehen, wie der Arbeitsablauf der automatischen maschinellen Übersetzung aussieht!*
 
 {% youtube VfxBpSXarlU %}
 
 `npm install locize-lastused locize`
 
-use them like this:
+verwenden Sie sie wie folgt:
 
 ```javascript
 import { hydrate } from 'react-dom'
@@ -461,27 +462,27 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 }
 ```
 
-[Automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation):
+[Automatische maschinelle Übersetzung](https://docs.locize.com/whats-inside/auto-machine-translation):
 
-![missing key auto](missing_key_auto_mt.jpg "locize © inweso GmbH")
+![missing key automatisch](../remix-i18next/missing_key_auto_mt.jpg "locize © inweso GmbH")
 
-[Last used translations filter]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
+[Filter für zuletzt verwendete Übersetzungen]((https://docs.locize.com/guides-tips-and-tricks/unused-translations)):
 
-![i18next last used](last_used.jpg "locize © inweso GmbH")
+![i18next last used](../remix-i18next/last_used.jpg "locize © inweso GmbH")
 
 [InContext Editor](https://docs.locize.com/more/incontext-editor):
 
-![i18next incontext](in_context.jpg "locize © inweso GmbH")
+![i18next inkontext](../remix-i18next/in_context.jpg "locize © inweso GmbH")
 
 
-### 📦 Let's prepare for production 🚀 <a name="production"></a>
+### 📦 Bereiten wir uns auf die Produktion vor 🚀 <a name="production"></a>
 
-Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
+Jetzt bereiten wir die App für den Produktionsstart vor (https://docs.locize.com/guides-tips-and-tricks/going-production).
 
-First in locize, create a dedicated version for production. Do not enable auto publish for that version but publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version).
-Lastly, [enable Cache-Control max-age​](https://docs.locize.com/more/caching) for that production version.
+Erstellen Sie zuerst in locize eine dedizierte Version für die Produktion. Aktivieren Sie die automatische Veröffentlichung für diese Version nicht, sondern veröffentlichen Sie sie manuell oder über die [API](https://docs.locize.com/integration/api#publish-version) oder über die [CLI](https://github.com/locize/locize-cli#publish-version).
+Schliesslich [aktivieren Sie auch Cache-Control max-age​](https://docs.locize.com/more/caching) für diese Produktionsversion.
 
-Let's adapt the `entry.client.jsx` file:
+Passen wir die Datei `entry.client.jsx` an:
 
 ```javascript
 import { hydrate } from 'react-dom'
@@ -558,33 +559,33 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 }
 ```
 
-Now, during development, you'll continue to save missing keys and to make use of lastused feature. => `npm run dev`
+Während der Entwicklung werden Sie nun weiterhin fehlende Schlüssel speichern und die `lastused` Funktionalität nutzen. => `npm run dev`
 
-And in production environment, saveMissing and lastused are disabled. => `npm run build && npm start`
+Und in der Produktionsumgebung sind saveMissing und lastused deaktiviert. => `npm run build && npm start`
 
 
 [Caching](https://docs.locize.com/more/caching):
 
-![i18next caching](caching.jpg "locize © inweso GmbH")
+![i18next caching](../remix-i18next/caching.jpg "locize © inweso GmbH")
 
-[Merging versions](https://docs.locize.com/more/versioning#merging-versions):
+[Versionen zusammenführen](https://docs.locize.com/more/versioning#merging-versions):
 
-![overwrite version](overwrite_version.jpg "locize © inweso GmbH")
+![Version überschreiben](../remix-i18next/overwrite_version.jpg "locize © inweso GmbH")
 
-*🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-remix-i18next-example).*
+*🧑‍💻 Den vollständigen Code finden Sie [hier](https://github.com/locize/locize-remix-i18next-example).*
 
-*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
+*Sehen Sie sich auch den [Teil zur Code-Integration](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in diesem [YouTube-Video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 
-There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+Es gibt auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+# 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
 
-Awesome! Thanks to [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
+Genial! Dank [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) und [locize](https://locize.com) ist Ihr kontinuierlicher Lokalisierungs-Workflow einsatzbereit.
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es sich, die [Übersetzungs-Management Platform - locize](https://locize.com) auszuprobieren.
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
 # 👍

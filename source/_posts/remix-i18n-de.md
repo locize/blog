@@ -31,9 +31,9 @@ Reden wir über Internationalisierung (i18n) für [Remix](https://remix.run)...
 Wenn es um JavaScript-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) und eines der bekanntesten Remix-Module für i18next ist [remix-i18next](https://github.com/sergiodxa/remix-i18next).
 Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) erstellt.
 
-***Es gibt auch einen [zweiten Teil dieses Blogposts](../remix-i18next/), der sich mehr auf einen kontinuierlichen Lokalisierungsworkflow konzentriert.***
+***Es gibt auch einen [zweiten Teil dieses Blogposts](../remix-i18next-de/), der sich mehr auf einen kontinuierlichen Lokalisierungsworkflow konzentriert.***
 
-## TOC
+## Inhaltsverzeichnis
   * [Also erstmal: "Warum i18next?"](#why-i18next)
   * [Fangen wir an...](#start)
     - [Voraussetzungen](#prerequisites)
@@ -41,7 +41,7 @@ Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) er
     - [Sprach Wechsler](#language-switcher)
     - [Der freiwillige Teil](#voluntary)
   * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
-  * [Teil 2](../remix-i18next/)
+  * [Teil 2](../remix-i18next-de/)
 
 
 # Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
@@ -732,4 +732,4 @@ Es gibt auch ein [i18next Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 
 # 👍
 
-*Wenn Sie wissen möchten, wie Sie die volle Leistung von i18next entfesseln können, [schauen Sie sich **"Teil 2"** an](../remix-i18next/)!*
+*Wenn Sie wissen möchten, wie Sie die volle Leistung von i18next entfesseln können, [schauen Sie sich **"Teil 2"** an](../remix-i18next-de/)!*
