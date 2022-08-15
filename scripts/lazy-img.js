@@ -16,7 +16,7 @@ hexo.extend.filter.register('after_render:html', function(data, value) {
             $(this).attr('height', dimensions.height);
           }
         } catch (e) {
-          console.error(e.stack);
+          // console.error(e.stack);
         }
       }
     }
