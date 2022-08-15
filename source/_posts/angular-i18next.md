@@ -17,13 +17,16 @@ categories:
 thumbnail: angular-i18next/title.jpg
 redirect_from:
 - /unleash-the-full-power-of-angular-i18next
+
+label: angular-i18next
+lang: en
 ---
 
 ![angular localization](title.jpg "locize © inweso GmbH")
 
 Let's talk about internationalization (i18n) for Angular (not AngularJS, not Angular 2, just Angular 😉).
 
-When it comes to JavaScript localization. One of the most popular frameworks is [i18next](https://www.i18next.com). One of the most famous Angular extension for i18next is [angular-i18next](https://github.com/Romanchuk/angular-i18next/).
+When it comes to JavaScript localization, one of the most popular frameworks is [i18next](https://www.i18next.com). One of the most famous Angular extension for i18next is [angular-i18next](https://github.com/Romanchuk/angular-i18next/).
 It was created back in April 2017 by [Sergey Romanchuk](https://github.com/Romanchuk).
 
 
@@ -37,7 +40,7 @@ It was created back in April 2017 by [Sergey Romanchuk](https://github.com/Roman
       - [How does this look like?](#how-look)
       - [save missing translations](#save-missing)
       - [👀 but there's more...](#more)
-      - [🎉🥳 Congratulations 🎊🎁](#congratulations)
+  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
 

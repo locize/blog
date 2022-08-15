@@ -46,7 +46,7 @@ Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) er
 
 # Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
-*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich der wichtigsten Frontend-Technologien (([React](../react-i18next-de/), [Angular](../angular-i18next/), [Vue](../i18next-vue-de/), ...).*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich der wichtigsten Frontend-Technologien (([React](../react-i18next-de/), [Angular](../angular-i18next-de/), [Vue](../i18next-vue-de/), ...).*
 <br />
 **➡️ nachhaltig**
 

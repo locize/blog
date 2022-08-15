@@ -26,7 +26,7 @@ hidden: true
 
 ![serverseitige Internationalisierung next.js](../how-does-server-side-internationalization-look-like/server_side_backend.jpg "Serverseitige Internationalisierung")
 
-Möglicherweise wissen Sie bereits, wie Sie eine clientseitige Anwendung ordnungsgemäss internationalisieren, wie in diesem [React-basierten Tutorial](../react-i18next-de/), diesem [Angular-basierten Tutorial](../angular-i18next/) oder dieses [Vue-basierte Tutorial](../give-vue-i18n-more-superpowers/).
+Möglicherweise wissen Sie bereits, wie Sie eine clientseitige Anwendung ordnungsgemäss internationalisieren, wie in diesem [React-basierten Tutorial](../react-i18next-de/), diesem [Angular-basierten Tutorial](../angular-i18next-de/) oder dieses [Vue-basierte Tutorial](../give-vue-i18n-more-superpowers/).
 
 In diesem Blogbeitrag beleuchten wir die Serverseite.
 

@@ -68,7 +68,7 @@ Daher verwenden wir in diesem Artikel das i18next-Framework, um eine jQuery-Webs
 
 Wenn es um die jQuery-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner jQuery-Erweiterung [jquery-i18next](https://github.com/i18next/jquery-i18next), und das aus guten Gründen:
 
-*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (([React](../react-i18next-de/), [Angular](../angular-i18next/), [Vue](../i18next-vue-de/), ...). Nur [jQuery](https://jquery.com/) ist älter 😉*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (([React](../react-i18next-de/), [Angular](../angular-i18next-de/), [Vue](../i18next-vue-de/), ...). Nur [jQuery](https://jquery.com/) ist älter 😉*
 <br />
 **➡️ nachhaltig**
 

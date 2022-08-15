@@ -53,7 +53,7 @@ In diesem Tutorial verwenden wir das Modul [i18next-vue](https://github.com/i18n
 
 Wenn es um Vue-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner Vue-Erweiterung [i18next-vue](https://i18next.github.io/i18next-vue), und das aus guten Gründen:
 
-*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie ([React](../react-i18next-de/), [Angular](../angular-i18next/), Vue, ...).*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie ([React](../react-i18next-de/), [Angular](../angular-i18next-de/), Vue, ...).*
 <br />
 **➡️ nachhaltig**
 
