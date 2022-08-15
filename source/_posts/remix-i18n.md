@@ -45,7 +45,7 @@ It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodx
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (angular, react, vue, ...).*
+*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (([React](../react-i18next/), [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...).*
 <br />
 **➡️ sustainable**
 

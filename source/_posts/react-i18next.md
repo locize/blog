@@ -59,7 +59,7 @@ In this article, we will be using the [i18next](https://www.i18next.com) framewo
 
 When it comes to React localization, one of the most popular is [i18next](https://www.i18next.com) with it's react extension [react-i18next](https://react.i18next.com), and for good reasons:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (react, vue, ...).*
+*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ((React, [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...).*
 <br />
 **➡️ sustainable**
 

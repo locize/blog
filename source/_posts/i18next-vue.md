@@ -48,13 +48,13 @@ In this tutorial we'll make use of the [i18next-vue](https://github.com/i18next/
       - [save missing translations](#save-missing)
       - [👀 but there's more...](#more)
       - [📦 Let's prepare for production 🚀](#production)
-      - [🎉🥳 Congratulations 🎊🎁](#congratulations)
+  * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
 
-When it comes to React localization. One of the most popular is [i18next](https://www.i18next.com) with it's Vue extension [i18next-vue](https://i18next.github.io/i18next-vue/), and for good reasons:
+When it comes to Vue localization, one of the most popular is [i18next](https://www.i18next.com) with it's Vue extension [i18next-vue](https://i18next.github.io/i18next-vue/), and for good reasons:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), Angular, Vue, ...).*
+*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), [Angular](../angular-i18next/), Vue, ...).*
 <br />
 **➡️ sustainable**
 
@@ -149,7 +149,7 @@ For the first text we just use a simple `welcome` key to directly invoke the `$t
 
 For the second text we will use the [`v-html` directive](https://vuejs.org/guide/essentials/template-syntax.html#raw-html) to directly output real HTML.
 
->**Security Warning**<br />Dynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use v-html on trusted content and never on user-provided content.
+>**Security Warning**<br />Dynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use `v-html` on trusted content and never on user-provided content.
 
 
 ```javascript
@@ -765,7 +765,7 @@ Now, we prepare the app for [going to production](https://docs.locize.com/guides
 First in locize, create a dedicated version for production. Do not enable auto publish for that version but publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version).
 Lastly, [enable Cache-Control max-age​](https://docs.locize.com/more/caching) for that production version.
 
-Let's making use of the [environment feature of react-scripts](https://create-react-app.dev/docs/adding-custom-environment-variables/).
+Let's making use of the environment feature...
 
 Lets' create a default environment file and one for development and one for production:
 
@@ -785,7 +785,7 @@ VUE_APP_LOCIZE_APIKEY=bc8586d9-fceb-489c-86ac-2985393ed955
 VUE_APP_LOCIZE_VERSION=production
 ```
 
-Now let's adapt the i18n.js file:
+Now let's adapt the `i18n.js` file:
 
 ```javascript
 import I18NextVue from 'i18next-vue'
@@ -839,9 +839,9 @@ export default function (app) {
 }
 ```
 
-Now, during development, you'll continue to save missing keys and to make use of lastused feature. => npm run serve
+Now, during development, you'll continue to save missing keys and to make use of `lastused` feature. => `npm run serve`
 
-And in production environment, saveMissing and lastused are disabled, and also the api-key is not exposed. => npm run build
+And in production environment, `saveMissing` and `lastused` are disabled, and also the api-key is not exposed. => `npm run build`
 
 
 [Caching](https://docs.locize.com/more/caching):
@@ -856,6 +856,9 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 *Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 
+There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
+{% youtube SA_9i4TtxLQ %}
+
 
 # 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
@@ -864,8 +867,5 @@ I hope you’ve learned a few new things about [i18next](https://www.i18next.com
 So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
-
-There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
-{% youtube SA_9i4TtxLQ %}
 
 # 👍

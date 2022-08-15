@@ -60,7 +60,7 @@ In diesem Artikel verwenden wir das [i18next](https://www.i18next.com)-Framework
 
 Wenn es um React-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner React-Erweiterung [react-i18next](https://react.i18next.com), und das aus guten Gründen:
 
-*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (react, vue, ...).*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie ((React, [Angular](../angular-i18next/), [Vue](../i18next-vue-de/), ...).*
 <br />
 **➡️ nachhaltig**
 
@@ -353,12 +353,12 @@ export default i18n;
 
 Dank [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector) versucht es jetzt, die Browsersprache zu erkennen und diese Sprache automatisch zu verwenden, wenn Sie die Übersetzungen dafür bereitgestellt haben. Die manuell ausgewählte Sprache im Sprachumschalter wird im localStorage beibehalten, beim nächsten Besuch der Seite wird diese Sprache als bevorzugte Sprache verwendet.
 
-### Wie erhalte ich die aktuelle Sprache? <a name="aktuelle-sprache"></a>
+### Wie erhalte ich die aktuelle Sprache? <a name="current-language"></a>
 
 Seit i18next v21 gibt es [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
 Es ist auf die aktuell aufgelöste Sprache eingestellt und kann als primär verwendete Sprache verwendet werden, beispielsweise in einem Sprachumschalter.
 
-Wenn Ihre erkannte Sprache zum Beispiel „en-US“ ist und Sie Übersetzungen nur für „en“ bereitgestellt haben, wird stattdessen „i18next.resolvedLanguage“ „en“ zurückgeben.
+Wenn Ihre erkannte Sprache zum Beispiel `en-US` ist und Sie Übersetzungen nur für `en` bereitgestellt haben, wird stattdessen `i18next.resolvedLanguage` `en` zurückgeben.
 
 #### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
 
@@ -772,7 +772,7 @@ Da es sich um eine Webanwendung handelt, hilft uns [i18next-http-backend](https:
 
 `npm install i18next-http-backend`
 
-Verschieben Sie die Übersetzungen in den öffentlichen Ordner:
+Verschieben Sie die Übersetzungen in den `public` Ordner:
 
 ![öffentliche Übersetzungen](../react-i18next/public_locales.jpg "locize © inweso GmbH")
 

@@ -69,7 +69,7 @@ Therefore, in this article, we will be using the i18next framework to internatio
 
 When it comes to jQuery localization, one of the most popular is [i18next](https://www.i18next.com) with it's jQuery extension [jquery-i18next](https://github.com/i18next/jquery-i18next), and for good reasons:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (react, vue, ...). Only [jQuery](https://jquery.com/) is older 😉*
+*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (([React](../react-i18next/), [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...). Only [jQuery](https://jquery.com/) is older 😉*
 <br />
 **➡️ sustainable**
 
