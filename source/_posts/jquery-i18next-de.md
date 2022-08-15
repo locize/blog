@@ -24,7 +24,7 @@ hidden: true
 
 ![jQuery Lokalisierung](../jquery-i18next/jquery-localization.jpg "jQuery Lokalisierungs-Beispiel")
 
-Jeder Web-Entwickler ist vielleicht schon einmal auf das mehrjährige [Methuselah](https://en.wikipedia.org/wiki/Methuselah) jQuery gestossen.
+Jeder Web-Entwickler ist vielleicht schon einmal auf das mehrjährige [Methusalem](https://de.wikipedia.org/wiki/Methusalem) jQuery gestossen.
 Erstellt im Januar 2006 bei [BarCamp NYC](https://en.wikipedia.org/wiki/BarCamp) von [John Resig](https://en.wikipedia.org/wiki/John_Resig) und wird derzeit von einem [Team von Entwicklern](https://jquery.org/team/) unter der Leitung von [Timmy Willison](https://timmywil.com) geleitet.
 
 *Man könnte denken:*
