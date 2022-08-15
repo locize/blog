@@ -30,7 +30,7 @@ Erstellt im Januar 2006 bei [BarCamp NYC](https://en.wikipedia.org/wiki/BarCamp)
 *Man könnte denken:*
 >Warum ein Blogbeitrag über die ehrwürdige, aber veraltete JavaScript-Bibliothek, welche Dinge wie das Durchlaufen und Manipulieren von HTML-Dokumenten usw. einfacher gemacht hat?
 
-**Wei mit einer Kombination aus Vielseitigkeit und Erweiterbarkeit jQuery die Art und Weise verändert hat, wie Millionen von Menschen JavaScript schreiben!**
+**Weil mit einer Kombination aus Vielseitigkeit und Erweiterbarkeit jQuery die Art und Weise verändert hat, wie Millionen von Menschen JavaScript schreiben!**
 
 Und Sie können dies an der enormen Verwendung von jQuery sehen:
 
