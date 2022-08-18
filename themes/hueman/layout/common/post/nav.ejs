@@ -1,3 +1,10 @@
+<% if ((!post.prev || !post.next) && post.label && post.alternates && post.alternates.length > 0) { %>
+    <% const alternatePost = site.all_posts.toArray().find((p) => p.label === post.label && p.lang !== post.lang); %>
+    <% if (alternatePost) { %>
+        <% post.prev = post.prev || alternatePost.prev; %>
+        <% post.next = post.next || alternatePost.next; %>
+    <% } %>
+<% } %>
 <% if (post.prev || post.next) { %>
 <nav id="article-nav">
     <% if (post.prev) { %>
