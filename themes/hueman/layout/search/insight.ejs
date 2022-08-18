@@ -19,7 +19,6 @@
         return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
     }
     var allAlternates = JSON.parse(htmlDecode(`<%= JSON.stringify(site.all_posts.toArray().filter((p) => p.alternates && p.alternates.length > 0).map((p) => ({ title: p.title, label: p.label, lang: p.lang, path: p.path, text: strip_html(p.content).trim().replace(/\s+/g, ' ').slice(0, 150) }))) %>`));
-    var currentLng = '<%= page.lang %>';
     var INSIGHT_CONFIG = {
         TRANSLATION: {
             POSTS: '<%= __("insight.posts") %>',
@@ -34,7 +33,7 @@
             if (item.raw && item.raw.indexOf('\nlabel: ') > 0) {
                 var part = item.raw.substring(item.raw.indexOf('\nlabel: ') + 8);
                 var label = part.substring(0, part.indexOf('\n')).trim();
-                const foundAlternate = allAlternates.find((p) => p.label === label && p.lang === currentLng);
+                const foundAlternate = allAlternates.find((p) => p.label === label && p.lang === window.document.documentElement.lang);
                 if (foundAlternate) return foundAlternate;
             }
         }
