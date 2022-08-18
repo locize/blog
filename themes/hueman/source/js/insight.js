@@ -32,6 +32,12 @@
             case 'POSTS':
             case 'PAGES':
                 $searchItems = array.map(function (item) {
+                    if (typeof CONFIG.transformItem == 'function') {
+                        try {
+                            let found = CONFIG.transformItem(item);
+                            if (found) item = found;
+                        } catch (e) {}
+                    }
                     // Use config.root instead of permalink to fix url issue
                     return searchItem('file', item.title, null, item.text.slice(0, 150), CONFIG.ROOT_URL + item.path);
                 });

@@ -4,6 +4,9 @@
         <div class="widget">
             <ul id="recent-post" class="<%= (theme.customize.thumbnail?'':'no-thumbnail') %>">
                 <% site.posts.sort('date', -1).limit(5).each(function(post) { %>
+                    <% if (post.alternates && post.alternates.length && post.lang !== page.lang && post.alternates.find((p) => p.lang === page.lang) && site.all_posts.toArray().find((p) => p.label === post.label && p.lang === page.lang)) { %>
+                        <% post = site.all_posts.toArray().find((p) => p.label === post.label && p.lang === page.lang) %>
+                    <% } %>
                     <li>
                         <% if (theme.customize.thumbnail === true) { %>
                         <div class="item-thumbnail">
