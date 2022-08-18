@@ -531,7 +531,7 @@ t('key', {count: 99}); // -> "many"
 t('key', {count: 100}); // -> "other"
 ```
 
-### Warum funktionieren meine Pluraltasten nicht? <a name="pluralsv4"></a>
+### Warum funktionieren meine Pluralformen nicht? <a name="pluralsv4"></a>
 
 Sehen Sie diese Warnung in der Entwicklungskonsole (`debug: true`)?
 
@@ -653,7 +653,7 @@ Deutsch:
 Was ist mit einer bestimmten Begrüssungsnachricht basierend auf der aktuellen Tageszeit? also morgens, abends usw.
 Dies ist dank der Funktion [context](https://www.i18next.com/translation-function/context) von i18next möglich.
 
-Lassen Sie uns eine getGreetingTime-Funktion erstellen und das Ergebnis als Kontextinformationen für unsere Fusszeilenübersetzung verwenden:
+Lassen Sie uns eine `getGreetingTime`-Funktion erstellen und das Ergebnis als Kontextinformationen für unsere Fusszeilenübersetzung verwenden:
 
 ```javascript
 import { DateTime } from 'luxon';
@@ -882,7 +882,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 
 > Gibt es eine bessere Option?
 
-### Auf jeden Fall! <a name="sicher"></a>
+### Auf jeden Fall! <a name="for-sure"></a>
 
 [i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
 - Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
@@ -894,7 +894,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 **Suche Sie nach sowas❓**
 
 - [Einfach zu integrieren](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
-- Kontinuierlicher Einsatz? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
+- Kontinuierliche Bereitstellung? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
 - Einfache Verwaltung der Übersetzungsdateien
 - [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
 - Analytik & Statistik

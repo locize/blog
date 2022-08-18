@@ -654,7 +654,7 @@ German:
 What about a specific greeting message based on the current day time? i.e. morning, evening, etc.
 This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
 
-Let's create a getGreetingTime function and use the result as context information for our footer translation:
+Let's create a `getGreetingTime` function and use the result as context information for our footer translation:
 
 ```javascript
 import { DateTime } from 'luxon';

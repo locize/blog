@@ -18,6 +18,9 @@ tags:
 categories:
   - Post
 thumbnail: gatsby-i18n/gatsby-i18next.jpg
+
+label: gatsby-i18n
+lang: en
 ---
 
 ![Gatsby Localization made easy with this step-by-step guide using i18next ✅](gatsby-i18next.jpg "Gatsby Localization example")
