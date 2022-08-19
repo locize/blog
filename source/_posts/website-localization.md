@@ -11,6 +11,9 @@ tags:
 categories:
   - Post
 thumbnail: website-localization/website-localization.webp
+
+label: website-localization
+lang: en
 ---
 
 
@@ -29,7 +32,7 @@ This article is specific for websites, if you need more general information, che
   * [When is it appropriate to localize your website?](#right-time)
   * [Prepare the localization of your website](#half-done)
   * [A step-by-step process for web localization](#step-by-step)
-  * [Examples: Popular and from our clients ](#examples)
+  * [Examples: Popular and from our clients](#examples)
   * [How to measure the quality](#quality)
   * [Choose the right platform](#platform)
   * [Conclusion](#conclusion)
@@ -74,7 +77,7 @@ However, there are a few scenarios to bring you to start thinking about it:
  
 ## Prepare the localization of your website <a name="half-done"></a>
 
-Look for a good preparation of your <a href="/blog/localization-strategy" title="localization strategy">localization strategy</a>, because it will end up in more than just translate some sentence. This process should be part of your overall business strategy, because there are many non-technical-aspects to consider when going into new markets:
+Look for a good preparation of your <a href="../localization-strategy/" title="localization strategy">localization strategy</a>, because it will end up in more than just translate some sentence. This process should be part of your overall business strategy, because there are many non-technical-aspects to consider when going into new markets:
 
 
 ### A step-by-step checklist for the business questions
@@ -99,7 +102,7 @@ If you come up with a strong plan and take into account all of the above checkpo
 
 1. [Define the strategy](#half-done)  of your website localisation 
 2. Design the content of all pages with internationalization in mind
-3. Execute <a href="/blog/what-is-i18n/" title="i18n">i18n</a> on your website
+3. Execute <a href="../what-is-i18n/" title="i18n">i18n</a> on your website
 4. Arrange your team the right way
 5. Translate your webpages
 6. [Measure the quality](#quality) and strategy
@@ -107,7 +110,7 @@ If you come up with a strong plan and take into account all of the above checkpo
 
 
 
-Keep the following techniques in mind for a successfull implementation:
+Keep the following techniques in mind for a successful implementation:
 
 * Place the language selector correctly
 * Change the formatting design - a sentence in some languages can be substantially longer
@@ -144,7 +147,7 @@ All information must be given in a genuine manner to other locals so that they f
 Understanding the language is frequently insufficient, because people will not buy from a webpage in English if it is not their first language. The material must reflect all of their familiar conditions, not just the language. 
 
 ### Best practices
-➡️ More about the topic? Check the [website-internationalization-best practices](/blog/website-internationalization-best-practices/)
+➡️ More about the topic? Check the [website-internationalization-best practices](../website-internationalization-best-practices/)
 
 ![Create considerable brand awareness](establish.webp)
 
@@ -167,23 +170,23 @@ In the author's opinion, although switching languages is possible, the user does
 In the author's opinion, some product description information is tailored to a larger geographic area, such as Europe. It isn't particular to different areas of Europe; they used the same data across many countries. However, this may be wanted from them, because the efforts would be excessive in comparison to the results they would get. "The product speaks for itself".
 
 
-The author is unable to conduct a thorough analysis of the technical localization aspects as part of this article. If they're interested, our team would be delighted to assist them :-)
+The author is unable to conduct a thorough analysis of the technical localization aspects as part of this article.
 
 
 ### Locize examples
 
-We, at locize [localization management platform](https://locize.com), <b>have assisted many customers in achieving their goals with website-localization</b>. The following examples can assist you in escaping your strategy:
+We, at locize [localization management platform](https://locize.com), <b>have assisted many customers in achieving their goals with website-localization</b>. The following examples can assist you:
 
 #### 1) [globalfinreg.com](https://globalfinreg.com/)
 Globalfinreg has been able to efficiently localize their two websites thanks to [locize](https://locize.com). They said locize is for them:
 
-An easy-to-use interface for managing translations. It is possible to regulate exactly what each translator sees, and they enjoy doing so. The UI also allows you to easily check which translations are needed and divide your application into separate namespaces.
+>An easy-to-use interface for managing translations. It is possible to regulate exactly what each translator sees, and they enjoy doing so. The UI also allows you to easily check which translations are needed and divide your application into separate namespaces.
 
 <a href="https://globalfinreg.com/" title="globalfinreg">![globalfinreg](finreg.png "globalfinreg")</a>
 
 #### 2) [www.redcross.ch](https://support.redcross.ch)
 
-The headless websites of the Swiss Red Cross could be translated into multiple languages in a short period thanks to the helpful support and features of locize!
+>Thanks to the generous support and the features of locize, the headless websites of the Swiss Red Cross can be translated into different languages within a short time!
 
 <a href="https://support.redcross.ch" title="swiss red cross">![swiss red cross](redcross.svg "redcross")</a>
 
@@ -233,7 +236,7 @@ A multilingual website is typically a large undertaking, and using a well-establ
 
 With locize, a modern and economical [localization management platform](https://locize.com), you can bridge the gap between translation and development. It makes your site, app, game, or whatever project you're working on more global, dynamic, and engaging, particularly when you use the continuous localization features.
 
-While we hope you enjoy our services, we will not lock you into a contract. We believe in the added value of our services, so you can export your translations and utilize them with [i18next](https://www.i18next.com/). If you are a developer, this could be a possibility for you, or you can look at our step-by-step guide for [JavaScript localization](https://locize.com/javascript-localization.html)
+While we hope you enjoy our services, we will not lock you into a contract. We believe in the added value of our services, so you can export your translations and utilize them with [i18next](https://www.i18next.com/). If you are a developer, this could be a possibility for you, or you can look at our step-by-step guide for [JavaScript localization](/javascript-localization.html)
 
 
 ![locize](locize-project.png "locize")
@@ -253,7 +256,7 @@ Your target audience will thank you by buying your product or service. In this m
 
 ### Use this guide
 
-The "how to locize your website" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. 
+The "How to locize your website?" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. 
 
 
 ### Keep it organized
