@@ -112,6 +112,6 @@ Wenn es um Globalisierung versus Lokalisierung geht, können Ihnen beide Strateg
 Welche Option für Sie die richtige ist, hängt von der Gesamtstrategie und der Zielgruppe ab, die Sie erreichen möchten. Wofür Sie sich auch entscheiden, die Partnerschaft mit einem professionellen Übersetzungs- und Lokalisierungsteam von einer <a href="/" title="translation management platform">Übersetzungsmanagementplattform</a> trägt dazu bei, dass es nach den höchsten Standards fertiggestellt wird und gleichzeitig die Kosten reduziert Zeit- und Ressourceninvestition, die Sie tätigen müssen.
 
 ## Weiterlesen (Beispiele)
-Wenn Sie mehr über reale i18n-Lokalisierungsbeispiele aus unseren Kundenfällen erfahren möchten, sehen Sie sich unseren neuesten Blog-Post zur <a href="../website-localization/" title="website-localization">Website-Lokalisierung</a> an.
+Wenn Sie mehr über reale i18n-Lokalisierungsbeispiele aus unseren Kundenfällen erfahren möchten, sehen Sie sich unseren neuesten Blog-Post zur <a href="../website-lokalisierung/" title="website-localization">Website-Lokalisierung</a> an.
 
 Lesen Sie mehr darüber, wie Software von Globalisierung und Lokalisierung betroffen ist und welches Potenzial die Lokalisierung von Software hat, im <a href="../what-is-software-localization/" title="what is software localization">"Was ist Softwarelokalisierung"</a> Blogbeitrag.
