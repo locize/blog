@@ -44,7 +44,7 @@ Internationalization is the process of adapting your mobile app code so that it 
 
 This means that internationalization needs to happen first, ensuring that mobile app coding is ready to meet the adaptations of localization. 
 
-Find out more about internationalization in our guide on <a href="/blog/what-is-i18n/" title="what is i18n">what is i18n</a>.
+Find out more about internationalization in our guide on <a href="../what-is-i18n/" title="what is i18n">what is i18n</a>.
 
 
 

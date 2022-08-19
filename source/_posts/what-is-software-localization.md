@@ -107,4 +107,4 @@ For a 14-day free trial period, <a href="https://www.locize.app/register" title=
 
 ![](locize.jpg "locize")
 
-If you want to read more about internatationalization, check out our guide <a href="/blog/what-is-i18n/" title="what is i18n">what is i18n</a>.
+If you want to read more about internatationalization, check out our guide <a href="../what-is-i18n/" title="what is i18n">what is i18n</a>.

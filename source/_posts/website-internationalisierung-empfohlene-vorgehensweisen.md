@@ -23,7 +23,7 @@ Wenn es um die Internationalisierung Ihrer Website geht, soll Ihnen dieser Artik
 
 Dies kann das Ergebnis eines strategischen Wechsels sein oder wenn Sie ein internationales Unternehmen oder Projekt gründen möchten, ist dies das Richtige für Sie. Der Prozess, wenn Ihre Web-App international wird, sollte keine schwierige Aufgabe sein.
 
-Ein weiterer Artikel über <a href="/blog/website-lokalisierung/" title="website localization">Website-Lokalisierung</a> zeigt Ihnen den Prozess der Planung, und wenn Sie in diesem Artikel weiterlesen, versuchen wir, Ihnen dabei zu helfen Fehler zu vermeiden. Wenn Sie sich nicht sicher sind, was Internationalisierung ist, sehen Sie sich unseren Leitfaden <a href="/blog/what-is-i18n/" title="what is i18n">Was ist i18n</a> an. Vereinfachen Sie die **Internationalisierung von Websites** mit diesen paar **Best Practices**:
+Ein weiterer Artikel über <a href="../website-lokalisierung/" title="website localization">Website-Lokalisierung</a> zeigt Ihnen den Prozess der Planung, und wenn Sie in diesem Artikel weiterlesen, versuchen wir, Ihnen dabei zu helfen Fehler zu vermeiden. Wenn Sie sich nicht sicher sind, was Internationalisierung ist, sehen Sie sich unseren Leitfaden <a href="../was-ist-i18n/" title="what is i18n">Was ist i18n</a> an. Vereinfachen Sie die **Internationalisierung von Websites** mit diesen paar **Best Practices**:
 
 ## Best-Practice-Zusammenfassung
   1. [Verwenden Sie so wenig Text wie möglich in den Bildern](#little-text)

@@ -103,7 +103,7 @@ Wenn Sie einen guten Plan haben und alle oben genannten Kontrollpunkte berücksi
 
 1. [Definieren Sie die Strategie](#half-done) Ihrer Website-Lokalisierung
 2. Gestalten Sie den Inhalt aller Seiten im Hinblick auf die Internationalisierung
-3. Führen Sie <a href="../what-is-i18n/" title="i18n">i18n</a> auf Ihrer Website aus
+3. Führen Sie <a href="../was-ist-i18n/" title="i18n">i18n</a> auf Ihrer Website aus
 4. Stellen Sie Ihr Team richtig zusammen
 5. Übersetzen Sie Ihre Webseiten
 6. [Qualität messen](#quality) und Strategie
