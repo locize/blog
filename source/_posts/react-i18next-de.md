@@ -60,7 +60,7 @@ In diesem Artikel verwenden wir das [i18next](https://www.i18next.com)-Framework
 
 Wenn es um React-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner React-Erweiterung [react-i18next](https://react.i18next.com), und das aus guten Gründen:
 
-*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie ((React, [Angular](../angular-i18next-de/), [Vue](../i18next-vue-de/), ...).*
+*i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich Ihrer wichtigsten Frontend-Technologie (React, [Angular](../angular-i18next-de/), [Vue](../i18next-vue-de/), ...).*
 <br />
 **➡️ nachhaltig**
 

@@ -56,7 +56,7 @@ The Gatsby plugin we're using is [gatsby-plugin-react-i18next](https://github.co
 
 When it comes to React localization, one of the most popular i18n framework is [i18next](https://www.i18next.com) with it's react extension [react-i18next](https://react.i18next.com), and for good reasons:
 
-*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology (([React](../react-i18next/), [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...).*
+*i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...).*
 <br />
 **➡️ sustainable**
 
