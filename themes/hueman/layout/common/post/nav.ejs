@@ -3,13 +3,13 @@
     <% if (alternatePost) { %>
         <% post.prev = post.prev || alternatePost.prev; %>
         <% post.next = post.next || alternatePost.next; %>
-        <% if (post.prev.lang !== post.lang) { %>
+        <% if (post.prev && post.prev.lang !== post.lang) { %>
             <% const alternatePrevPost = site.all_posts.toArray().find((p) => p.label === post.prev.label && p.lang === post.lang); %>
             <% if (alternatePrevPost) { %>
                 <% post.prev = alternatePrevPost; %>
             <% } %>
         <% } %>
-        <% if (post.next.lang !== post.lang) { %>
+        <% if (post.next && post.next.lang !== post.lang) { %>
             <% const alternateNextPost = site.all_posts.toArray().find((p) => p.label === post.next.label && p.lang === post.lang); %>
             <% if (alternateNextPost) { %>
                 <% post.next = alternateNextPost; %>
