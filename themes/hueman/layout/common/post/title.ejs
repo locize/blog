@@ -10,7 +10,13 @@
 <% } else if (post.title) { %>
     <% if (typeof(linkable) !== 'undefined' && linkable) { %>
         <h1 class="<%= class_name %>" itemprop="name">
-            <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+            <a href="<%- url_for(post.path) %>">
+                <% if (smallerTitlePart && biggerTitlePart) { %>
+                    <%= biggerTitlePart %><span style="font-size: 18px; font-weight: 100;"><%= smallerTitlePart %></span>
+                <% } else { %>
+                    <%= post.title %>
+                <% } %>
+            </a>
         </h1>
     <% } else { %>
         <h1 class="<%= class_name %>" itemprop="name">
