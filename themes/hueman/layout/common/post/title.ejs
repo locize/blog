@@ -1,3 +1,8 @@
+<% var smallerTitlePart, biggerTitlePart; %>
+<% if (post.title && post.title.indexOf('(') > 0 && post.title.indexOf(')') > post.title.indexOf('(')) { %>
+    <% var smallerTitlePart = post.title.substring(post.title.indexOf('(')); %>
+    <% var biggerTitlePart = post.title.substring(0, post.title.indexOf('(')); %>
+<% } %>
 <% if (post.link) { %>
     <h1 itemprop="name">
         <a class="<%= class_name %>" href="<%- url_for(post.link) %>" target="_blank" itemprop="url"><%= post.title %></a>
@@ -9,7 +14,11 @@
         </h1>
     <% } else { %>
         <h1 class="<%= class_name %>" itemprop="name">
-            <%= post.title %>
+            <% if (smallerTitlePart && biggerTitlePart) { %>
+                <%= biggerTitlePart %><span style="font-size: 24px; font-weight: 200;"><%= smallerTitlePart %></span>
+            <% } else { %>
+                <%= post.title %>
+            <% } %>
             <% if (post && post.alternates && post.alternates.length) { %>
                 <% for (var ai = 0, aLen = post.alternates.length; ai < aLen; ai++) { %>
                     <% var alternate = post.alternates[ai]; %>
