@@ -41,18 +41,14 @@ We ended with following snipplet:
 
 After reloading the page we had the source content in english inside our project. We translated that to german and italian in no time using our editor.
 
-<div class="img-80">
 ![](translate.png "translate to german")
-</div>
 
 As the latest version gets auto published reloading the page with the additional querystring parameter `?lng=de` (or switching browser language) was enough to test the translation.
 
 Next we created a production version (going to project settings -> versions) so we can change or prepare new content during development without messing with the currently released page version.
 
 
-<div class="img-60">
 ![](version.png "translate to german")
-</div>
 
 After that we wanted to avoid the flickering on initial load where the page first gets displayed in the source language until locizify loaded and initial translated the page.
 
@@ -145,8 +141,6 @@ function updateQueryStringParameter(uri, key, value) {
 
 That's all. Our project was translated in no time including a custom language selector:
 
-<div class="img-80">
 ![](result.png "translated to german")
-</div>
 
 We are very pleased with the outcome of eating our own dogfood. Next step will be to order professional translations for the languages we can't translate ourself...
