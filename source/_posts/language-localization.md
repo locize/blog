@@ -2,7 +2,7 @@
 title: Language localization - Everything you need to know 
 description: Understand the procedure for translating the product into the language appropriate for the specific geographic market.
 
-date: 2022-08-22
+date: 2022-08-24
 tags: 
   - examples
   - internationalization
@@ -25,7 +25,7 @@ Language localization is an essential requirement for any business operating glo
 
 
 ## What is language localization?
-Many people believe that language localization and translation are interchangeable terms; however, they are two very different things. <a href="https://locize.com/blog/localization/" title="Localization">Localization</a> is the strategy of adapting your brand’s services or products so that they are targeting the audience in a specific geographical region or international market. 
+Many people believe that language localization and translation are interchangeable terms; however, they are two very different things. <a href="../localization/" title="Localization">Localization</a> is the strategy of adapting your brand’s services or products so that they are targeting the audience in a specific geographical region or international market. 
 
 For example, while English might be spoken by one in four people across the globe, there are very distinctive differences between British and American English. Understanding these nuances is essential in building a strong relationship with your customers. Equally, perhaps you are looking to transfer your Spanish-language video game to a wider audience in another language. While translating the voiceovers is essential, there are also various cultural references and idioms that will need to be adapted. 
 
