@@ -256,7 +256,7 @@ Your target audience will thank you by buying your product or service. In this m
 
 ### Use this guide
 
-The "How to locize your website?" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the language localization in advance. 
+The "How to locize your website?" is <b>easy to answer, select the right platform for your needs</b> and plan all steps needed for the <a href="/blog/language-localization/" title="language localization">language localization</a> in advance. 
 
 
 ### Keep it organized
