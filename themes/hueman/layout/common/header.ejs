@@ -3,10 +3,14 @@
         <div class="container">
             <div class="container-inner">
                 <div id="header-title">
-                    <h1 class="logo-wrap">
+                    <h1 class="logo-wrap" style="width: 100%">
                         <!--<a href="<%- url_for() %>" class="logo"></a>-->
                         <!-- <a href="https://www.locize.com" class="logo" target="_new"></a> -->
-                        <% if (config.root && config.root.indexOf('blog') > -1) { %><a href="/" class="logo"></a><% } else { %><a href="https://www.locize.com" class="logo" target="_new"></a><% } %>
+                        <% if (config.root && config.root.indexOf('blog') > -1) { %><a href="/" class="logo" style="float: left; margin: 0 15px 0 0;"></a><% } else { %><a href="https://www.locize.com" class="logo" target="_new" style="float: left; margin: 0 15px 0 0;"></a><% } %>
+                        <span class="headline">
+                            <div style="padding-top: 30px;"></div>
+                            The continuous localization management platform that powers up your development and translation
+                        </span>
                     </h1>
                     <% if (theme.subtitle) { %>
                         <h2 class="subtitle-wrap">
