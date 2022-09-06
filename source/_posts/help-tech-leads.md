@@ -116,7 +116,7 @@ Imagine this:
 3. Since translations are "connected" directly to your software product, they can be released at any time. This way you can also fix translations of your previously released product, without having to redeploy it.
 
 If you do so, you have to make sure you can have more than one version of your translations; at least one for the current released version and one for the current development branch. That way your technical writers and translators can take care of the translations from the first day and keep up with changes with ease. By doing this, it is even possible to change or add translations without shipping a new release of your software!
-You may also want to have some reviewing workflow, auditing, integrated ordering of external translations, context information, etc...
+You may also want to have some reviewing workflow, a history, integrated ordering of external translations, context information, etc...
 
 >Cool this will for sure calm down some tensions, but isn't this a little over the top... an extra tooling and deployment — does not all this just add more complexity and effort?
 

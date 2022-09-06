@@ -117,7 +117,7 @@ Stell dir das vor:
 3. Da Übersetzungen direkt mit Ihrem Softwareprodukt „verbunden“ sind, können sie jederzeit freigegeben werden. Auf diese Weise können Sie auch Übersetzungen Ihres zuvor veröffentlichten Produkts korrigieren, ohne es erneut bereitstellen zu müssen.
 
 Wenn Sie dies tun, müssen Sie sicherstellen, dass Sie mehr als eine Version Ihrer Übersetzungen haben können; mindestens eine für die aktuell freigegebene Version und eine für den aktuellen Entwicklungszweig. So können sich Ihre Technischen Redakteure und Übersetzer vom ersten Tag an um die Übersetzungen kümmern und problemlos mit Änderungen Schritt halten. Auf diese Weise ist es sogar möglich, Übersetzungen zu ändern oder hinzuzufügen, ohne eine neue Version Ihrer Software zu bereitzustellen!
-Vielleicht möchten Sie auch einen Überarbeitungs-Workflow, ein Audit, eine integrierte Bestellung externer Übersetzungen, Kontextinformationen usw.
+Vielleicht möchten Sie auch einen Überarbeitungs-Workflow, eine Historie, eine integrierte Bestellung externer Übersetzungen, Kontextinformationen usw.
 
 >Cool, das wird sicherlich einige Spannungen beruhigen, aber ist das nicht ein wenig übertrieben ... ein zusätzliches Tooling und eine zusätzliche Bereitstellung - fügt das alles nicht nur mehr Komplexität und Aufwand hinzu?
 
