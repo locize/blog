@@ -1,5 +1,5 @@
 <% var smallerTitlePart, biggerTitlePart; %>
-<% if (post.title && post.title.indexOf('(') > 0 && post.title.indexOf(')') > post.title.indexOf('(')) { %>
+<% if (post.title && post.title.indexOf('(') > 0 && post.title.indexOf(')') > post.title.indexOf('(') && post.title.indexOf(')') === post.title.length) { %>
     <% var smallerTitlePart = post.title.substring(post.title.indexOf('(')); %>
     <% var biggerTitlePart = post.title.substring(0, post.title.indexOf('(')); %>
 <% } %>
