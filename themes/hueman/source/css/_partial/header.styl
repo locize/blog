@@ -14,24 +14,24 @@
     clearfix()
     text-align: left
     // padding: 30px 30px
-    .logo-wrap, .subtitle-wrap
+    .logo-wrap
+        text-align: left
         float: left
     .subtitle-wrap
-        padding: 10px 0px 0px
+        text-align: left
+        float: left
+        padding: 5px 0px 0px
         margin-left: 20px
-    .headline
-        font-size: 16px
-        color: color-nav-foreground
-        text-shadow: 0 1px rgba(0, 0, 0, 0.2)
     .subtitle
         font-size: 16px
-        font-style: italic
+        // font-style: italic
         line-height: logo-height + 10
         color: color-nav-foreground
         text-shadow: 0 1px rgba(0, 0, 0, 0.2)
 
-@media only screen and (max-width: 560px)
+// @media only screen and (max-width: 560px)
+@media only screen and (max-width: 920px)
     #header-title
-        .headline
+        .subtitle
             display: none;
 

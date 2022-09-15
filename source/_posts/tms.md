@@ -1,5 +1,5 @@
 ---
-title: What is a Translation Management System [2023]
+title: What is a Translation Management System (2023)
 description: You want to understand and find the best translation management system. Then this article is for you, we will assist you. 
 
 date: 2022-09-15
@@ -94,7 +94,7 @@ Locize, our translation management system, offers an overview of the control cen
 
 ![control center](control-center.webp)
 
-The control center of our <a href="https://locize.com/" title="localization software">localization software</a> displays all pertinent high-level data:
+The control center of our <a href="/" title="localization software">localization software</a> displays all pertinent high-level data:
 
 - user management
 - billing (customer details, billing history, budget limit, ...)
@@ -165,11 +165,13 @@ When you compare different TMS software, then ask the following questions regard
 ## Why choose locize as your TMS <a name="locize"></a>
 
 locize is an excellent product for several reasons: Simple interface for managing translations. It is possible to regulate exactly what each translator sees, and they like doing so. The interface also allows you to check what translations are lacking and divide your application into multiple namespaces.
+<br />
+Additionally, locize is the [key piece](../i18n-l10n-t9n-tms/) to localize your software project, together with [i18next](https://www.i18next.com) and [localistars](https://www.localistars.com).
 
 locize removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
 
 
-➡️ [Watch our introduction video](https://docs.locize.com/)
+➡️ [Watch our introduction video](https://docs.locize.com)
 
 ➡️ [Create a new user account for free](https://www.locize.app/register)
 
