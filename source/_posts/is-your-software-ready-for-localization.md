@@ -1,4 +1,7 @@
+---
 title: Is your software ready for localization?
+description: Verify if your software is ready for localization with the software localization monopoly.
+
 date: 2018-02-23
 tags:
   - locize
@@ -18,6 +21,9 @@ categories:
 thumbnail: is-your-software-ready-for-localization/title.png
 redirect_from:
 - /2018-02-23-is-your-software-ready-for-localization
+
+label: is-your-software-ready-for-localization
+lang: en
 ---
 
 ![software ready for localization](title.png "locize © inweso GmbH")
@@ -48,8 +54,7 @@ Sometimes the used library already pretends a format.
 
 
 ## Do you hardcode text strings in the source code?
-Resource files should store all text used in the software; do not leave text strings hardcoded!
-Just don't!
+Resource files should store all text used in the software; do not leave text strings hardcoded!<br />Just don't!
 
 
 ## Can the order of variables in localized strings be changed?
@@ -80,8 +85,7 @@ Different languages, different needs: for special characters, word order, even n
 
 ## How are date, time, currency, and numbers displayed?
 Allow date, time, currency, and numbers to be displayed with differing figures and number separators by language or even region.
-Make sure the date format is right because Americans do month/day/year Brit day/month/year and by the way in America the week starts on a Sunday and in Britain the week starts on Monday. Europe wants 24 hour clocks and America wants 12 hour clocks.
-Regarding numbers, here a little list:
+Make sure the date format is right because Americans do month/day/year Brit day/month/year and by the way in America the week starts on a Sunday and in Britain the week starts on Monday. Europe wants 24 hour clocks and America wants 12 hour clocks.<br />Regarding numbers, here a little list:
 ![numbers](numbers.png "locize © inweso GmbH")
 [source](https://en.wikipedia.org/wiki/Decimal_separator)
 
@@ -100,35 +104,47 @@ There are some libraries that can help with this issue i.e. [Fragment replacemen
 
 
 ## Did you put the original text through a spelling, grammar, and style check?
-Prevent back-and-forth rechecking that my stall the whole process.
-As an alternative you should be thinking of making some sort of [Continuous Localization](https://www.locize.com/blog/continuous-development-integration-and-localization-cd/).
-With [Continuous Localization](https://www.locize.com/blog/continuous-development-integration-and-localization-cd/) you can take care of the translations from the first day and keep up with changes with ease.
+Prevent back-and-forth rechecking that may stall the whole process.
+As an alternative you should be thinking of making some sort of [Continuous Localization](../continuous-development-integration-and-localization-cd/).
+With [Continuous Localization](../continuous-development-integration-and-localization-cd/) you can take care of the translations from the first day and keep up with changes with ease.
 The process of translation and development are separated.
 
 
 ## Do you use a tracking system?
 Tracking every change on localizable content can be important to ensure that no content will be left behind when distributing your software.
 For certain projects or industries it's important to know which translator has done what change for auditing reasons.
-Some translation management systems offer a dedicated [audit feature](https://locize.com/services.html). This [empowers](https://medium.com/@jamuhl/empower-your-localization-team-33e10ca9e333) you to prove anytime when a content fragment was changed.
+Some translation management systems offer a dedicated [history feature](https://docs.locize.com/whats-inside/history). This [empowers](https://medium.com/@jamuhl/empower-your-localization-team-33e10ca9e333) you to prove anytime when a content fragment was changed.
 
 
 ## What file formats are you sending for translation work?
 JSON, XML (or a derivative format i.e. XLIFF) is preferred over plain text or Excel files.
-Even better are localization management systems that offers a completely integrated approach.
+Even better are localization management systems that offers a completely [integrated approach](https://docs.locize.com/guides-tips-and-tricks/working-with-translators).
 
 
 ## Where are the localization assets?
 Store localization assets in an easy to access location, for swift access, import and export.
-With a proper [Continuous Localization](https://www.locize.com/blog/continuous-development-integration-and-localization-cd/) solution translations can be updated without the need to release an update of your app.
-For example: translations deployed to a CDN and consumed from your application.
+With a proper [Continuous Localization](../continuous-development-integration-and-localization-cd/) solution translations can be updated without the need to release an update of your app.
+For example: translations deployed to a [CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) and consumed from your application.
 
 
 ## Do you intend to have the texts translated into more than one language?
 Process resource files into separate language ones so all translators can work in parallel.
-A good localization management solution can really help here. All team members can collaboratively work in parallel. In this way, you can get to your objective in a faster way.
+A good [localization management solution](https://locize.com) can really help here. All team members can collaboratively work in parallel. In this way, you can get to your objective in a faster way.
 
 
 ## How do you track which language is fully translated?
 To say it in one sentence: "Start thinking about the localization process early!"
 The biggest mistake one can do is looking on localization as it’s only based on instrumenting your code and extract texts into resource files so you can translate them later.
+
 You should keep full overview about what is translated and what not — even more if you order translations from the translation providers you also should keep track of your open orders.
+
+
+
+# What do you say now? Are you ready to "play" software localization monopoly?
+
+> Don't worry, [locize](https://locize.com) can help!
+
+Watch the demo video to learn more:
+{% youtube ds-yEEYP1Ks %}
+
+[locize](https://locize.com) removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
