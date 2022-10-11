@@ -2,7 +2,7 @@
 title: Multi tenant architecture | locize
 description: What is Multi-Tenant Architecture? And how we increase the value of the client by improving our software with it.
 
-date: 2022-10-10
+date: 2022-10-12
 tags:
   - software architecture
   - cloud
@@ -11,16 +11,13 @@ tags:
   - data
 
 thumbnail: multi-tenant/multi-tenant-application.webp
-
-label: what-is-i18n
-lang: en
 ---
 
 ![multi-tenant-application](multi-tenant-application.webp)
 
 You're going to learn about a subject today that is more popular than ever.
 
-<b>We now offer our consumers this unique functionality. Without the client having to pay more, this will contribute to raising the value of our localization software.</b>
+**We now offer our consumers this unique functionality. Without the client having to pay more, this will contribute to raising the value of our localization software.**
 
 Let's start by reviewing basic definitional information concerning multi-tenant as well as the benefits of such an architecture.
 
@@ -67,34 +64,35 @@ Assume that each client has a separate residence that is completely cut off from
 
 The same security system and communal utilities link them all. However, each tenant's privacy is protected within their apartment since they each have a key. But it's more probable that their neighbors' behavior will affect how comfortable they are in the flat.
 
-<br><br>
+<br /><br />
 
-![locize-multi-tenant](locize-multi-tenant.webp)
 ## How locize introduce multi-tenant in translation management
 
-A multi-tenant architecture makes perfect sense for the translation management system since it functions as a fully independent application that is integrated into your own application code.
+For locize the multi-tenant approach is less of the classical infrastrucutre topic, but it still makes perfect sense for the translation management system since it functions as a fully independent application/project that is integrated into your own application or website.
 
-This means that your customers can in turn integrate their own customers or other projects into the account without opening another account.
+This means that our customers (you) can in turn integrate the own customers or other projects into the account without opening another account.
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
 <h3 style="color:orange;">Uniqueness</h3>
 <p style="color:grey;">The concept of multi-tenancy is absolutely new and exclusive to the localization industry. Use the most up to date software for this purpose, <a style="color:orange" href="https://www.locize.app/register" title="locize">locize</a></p>
 </div>
- 
+
 
 With the multi-tentant function to happen:
 
-- With limited access, you can assign your own clients without spending money on new infrastructure.
+- With limited access, you can assign your own clients a dedicated project without spending money on new infrastructure.
 - Advanced user management enhances workflow flexibility in general.
 - The localization software will increase in scale from its current level.
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
 <h3 style="color:orange;">Testimonials</h3>
-<p style="color:grey;">Check out our <a href="https://locize.com/customers.html" title="customer success stories">customer success stories</a> for more examples of who is using our service.</p>
+<p style="color:grey;">Check out our <a href="/customers.html" title="customer success stories">customer success stories</a> for more examples of who is using our service.</p>
 </div>
 
 
-➡️ <b>Read more:</b> <a style="color:orange" href="https://docs.locize.com/more/multi-tenant" title="multi tenant docs">Here you will find the instructions</a> how to add a multi-tenant project for locize. 
+➡️ <b>Read more:</b> <a style="color:orange" href="https://docs.locize.com/more/multi-tenant" title="multi tenant docs">Here you will find the instructions</a> how to add a multi-tenant project for locize.
+
+![locize-multi-tenant](locize-multi-tenant.webp)
 
 Your primary project's material serves as the foundation for the projects developed under "Tenants."
 
@@ -109,6 +107,6 @@ You can choose to pay such expenses by letting the consumer pay with his own cre
 
 ➡️ Create a free new [user account](https://www.locize.app/register) for multi tenant experience
 
-➡️ Find out more about [what a translation management system is](https://www.locize.com/blog/tms/)
+➡️ Find out more about [what a translation management system is](/blog/tms/)
 
 ➡️ Find out more about [localization](../localization/)
