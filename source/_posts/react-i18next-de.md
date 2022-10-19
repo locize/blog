@@ -1,5 +1,5 @@
 ---
-title: React Lokalisierung – Internationalisieren Sie mit i18next (ein react-i18next Leitfaden)
+title: Beste React Lokalisierung – Internationalisieren Sie mit i18next (ein react-i18next Leitfaden)
 description: React Lokalisierung leicht gemacht mit dieser ✅ Schritt-für-Schritt-Anleitung mit i18next.
 
 date: 2021-04-14
