@@ -24,7 +24,7 @@ In fact, this is the same topic that has helped many of our clients in growing e
 
 # i18n
 
-It stands for internationalization because the number 18 represents the number of letters between the first and last word of internationalization. 
+It stands for internationalization because the number 18 represents the number of letters between the first and last character of internationalization.
 
 So, **what exactly is i18n**? Essentially, the meaning of it is a shortcut to internationalization, to make better use of it while write short instead of longer word.
 
