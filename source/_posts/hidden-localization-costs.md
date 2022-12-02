@@ -23,10 +23,10 @@ But companies often forget the actual translation work cost is just a minimal pa
 
 What many may not consider when calculating the budget are the hidden costs of localization, for example:
 
-- Exporting source files from your software project
-- Copy-pasting, exporting, importing, etc... from your resource files to various file formats for translation and back again
-- Order translations, sending emails to translators to check how much they have translated, proofreading...
-- Converting files to different formats, getting charged by translation agencies for converting your files to formats used by the translators
+- exporting source files from your software project
+- copy-pasting, exporting, importing, etc... from your resource files to various file formats for translation and back again
+- order translations, sending emails to translators to check how much they have translated, proofreading...
+- converting files to different formats, getting charged by translation agencies for converting your files to formats used by the translators
 - import/sync translated resources back to your software project, resolve conflicts because in the meantime new features or software changes have been made, etc...
 - release new version of software because of translation issue, new roundtrip
 - for a better alignement, a dedicated resource for technical writer/translator/coordinator
