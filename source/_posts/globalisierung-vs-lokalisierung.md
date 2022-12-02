@@ -9,8 +9,6 @@ tags:
   - l10n
   - g11n
   - i18n
-categories:
-  - Post
 thumbnail: globalization-vs-localization/globalization-vs-localization.webp
 
 label: globalization-vs-localization

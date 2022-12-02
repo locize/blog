@@ -1,3 +1,4 @@
+---
 title: The freedom of choice…i18next, polyglot or formatJS
 date: 2016-08-18
 tags:
@@ -6,8 +7,6 @@ tags:
   - i18next
   - polyglot
   - formatjs
-categories:
-  - Post
 thumbnail: the-freedom-of-choice/idea.jpg
 redirect_from:
 - /2016-08-18-the-freedom-of-choice

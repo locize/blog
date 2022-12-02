@@ -15,8 +15,6 @@ tags:
   - internationalization
   - i18n
   - translation
-categories:
-  - Post
 thumbnail: next-i18n-static/title.jpg
 redirect_from:
 - /2021-12-07-next-i18n-static

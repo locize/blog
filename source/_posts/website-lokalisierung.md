@@ -8,8 +8,6 @@ tags:
   - localization techniques
   - refining website content
   - best practices
-categories:
-  - Post
 thumbnail: website-localization/website-localization.webp
 
 label: website-localization

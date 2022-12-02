@@ -1,4 +1,6 @@
+---
 title: 8 signs you should improve your localization process
+
 date: 2017-08-15
 tags:
   - locize
@@ -6,8 +8,7 @@ tags:
   - l10n
   - internationalization
   - i18n
-categories:
-  - Post
+
 thumbnail: 8-signs-you-should-improve-your-localization-process/title.png
 redirect_from:
 - /2017-08-15-8-signs-you-should-improve-your-localization-process

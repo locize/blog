@@ -7,8 +7,6 @@ tags:
   - website internationalization
   - best practices
   - web app translation
-categories:
-  - Post
 thumbnail: website-internationalization-best-practices/website-internationalization-best-practices.webp
 
 label: website-internationalization-best-practices

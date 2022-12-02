@@ -6,8 +6,6 @@ date: 2022-02-11
 tags:
   - localization
   - l10n
-categories:
-  - Post
 thumbnail: localization/localization.webp
 
 label: localization

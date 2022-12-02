@@ -8,8 +8,6 @@ tags:
   - continuous integration
   - continuous delivery
   - continuous translation
-categories:
-  - Post
 thumbnail: modern-continuous-localization/title.jpg
 redirect_from:
 - /2022-02-14-modern-continuous-localization

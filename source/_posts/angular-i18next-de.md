@@ -12,8 +12,6 @@ tags:
   - i18n
   - translation
   - angular
-categories:
-  - Post
 thumbnail: angular-i18next/title.jpg
 
 label: angular-i18next

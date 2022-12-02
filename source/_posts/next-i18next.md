@@ -15,8 +15,6 @@ tags:
   - internationalization
   - i18n
   - translation
-categories:
-  - Post
 thumbnail: next-i18next/next-i18next.jpg
 
 label: next-i18next

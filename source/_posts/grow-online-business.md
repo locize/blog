@@ -1,6 +1,7 @@
 ---
 title: How to grow your online business by magnitudes
 description: A simple secret that helps you to grow your online business.
+
 date: 2022-05-03
 tags:
   - localization
@@ -8,8 +9,7 @@ tags:
   - international strategy
   - transnational strategy
   - global localization
-categories:
-  - Post
+
 thumbnail: grow-online-business/grow-online-business.jpeg
 ---
 

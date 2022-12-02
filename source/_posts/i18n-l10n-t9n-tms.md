@@ -1,4 +1,6 @@
+---
 title: The key pieces to localize your software project
+
 date: 2022-03-01
 tags:
   - internationalization
@@ -10,8 +12,7 @@ tags:
   - translation management
   - tms
   - locize
-categories:
-  - Post
+
 thumbnail: i18n-l10n-t9n-tms/puzzle.png
 ---
 

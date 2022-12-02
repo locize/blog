@@ -7,8 +7,6 @@ tags:
   - localization
   - internationalization
   - guest post
-categories:
-  - Post
 thumbnail: immersive-locize/title.jpg
 ---
 

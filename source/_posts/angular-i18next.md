@@ -12,8 +12,6 @@ tags:
   - i18n
   - translation
   - angular
-categories:
-  - Post
 thumbnail: angular-i18next/title.jpg
 redirect_from:
 - /unleash-the-full-power-of-angular-i18next

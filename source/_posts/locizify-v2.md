@@ -1,9 +1,8 @@
+---
 title: locizify v2 - improvements
 date: 2017-02-21
 tags:
   - locizify
-categories:
-  - Post
 thumbnail: images/locize_color.svg
 redirect_from:
 - /2017-02-21-locizify-v2

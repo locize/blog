@@ -13,8 +13,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: react-i18next/react-localization.jpg
 redirect_from:
 - /2021-04-14-how-to-internationalize-react-i18next

@@ -13,8 +13,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: jquery-i18next/jquery-localization.jpg
 redirect_from:
 - /how-to-jquery-i18next

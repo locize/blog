@@ -17,8 +17,6 @@ tags:
   - abc
   - ejs
   - dejs
-categories:
-  - Post
 thumbnail: i18n-for-deno-with-i18next/deno_i18next.jpg
 ---
 

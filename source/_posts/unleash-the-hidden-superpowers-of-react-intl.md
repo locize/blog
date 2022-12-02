@@ -1,3 +1,4 @@
+---
 title: Unleash the hidden superpowers of react-intl
 date: 2018-08-21
 tags:
@@ -9,8 +10,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: unleash-the-hidden-superpowers-of-react-intl/title.png
 ---
 

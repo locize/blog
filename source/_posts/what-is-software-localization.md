@@ -8,8 +8,6 @@ tags:
   - process
   - testing
   - software development
-categories:
-  - Post
 thumbnail: what-is-software-localization/software-localization.webp
 ---
 

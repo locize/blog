@@ -1,12 +1,13 @@
+---
 title: How locize leverages serverless
+
 date: 2017-06-22
 tags:
   - serverless
   - backend
   - aws
   - service
-categories:
-  - Post
+
 thumbnail: how-locize-leverages-serverless/title.png
 redirect_from:
 - /2017-06-22--how-locize-leverages-serverless

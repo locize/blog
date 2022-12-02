@@ -1,3 +1,4 @@
+---
 title: technology stack - locize is serverless
 date: 2016-04-07
 tags:
@@ -5,8 +6,6 @@ tags:
   - backend
   - aws
   - service
-categories:
-  - Post
 thumbnail: technology-stack/nodejs-new-pantone-black.png
 redirect_from:
 - /2016-04-07-technology-stack

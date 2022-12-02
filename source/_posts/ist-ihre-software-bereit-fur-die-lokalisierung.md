@@ -16,8 +16,6 @@ tags:
   - continuous translation
   - i18next
   - formatjs
-categories:
-  - Post
 thumbnail: is-your-software-ready-for-localization/title.png
 redirect_from:
 - /2018-02-23-is-your-software-ready-for-localization

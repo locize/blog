@@ -10,8 +10,6 @@ tags:
   - internationalization
   - tech lead
   - engineering manager
-categories:
-  - Post
 thumbnail: help-tech-leads/title.jpg
 
 label: help-tech-leads

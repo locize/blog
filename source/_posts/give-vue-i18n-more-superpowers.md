@@ -1,3 +1,4 @@
+---
 title: Give vue-i18n more superpowers❕
 
 date: 2021-06-08
@@ -10,8 +11,7 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
+
 thumbnail: give-vue-i18n-more-superpowers/title.jpg
 redirect_from:
 - /2021-06-08-give-vue-i18n-more-superpowers

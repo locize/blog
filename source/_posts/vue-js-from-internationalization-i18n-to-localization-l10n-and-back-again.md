@@ -1,3 +1,4 @@
+---
 title: vue.js - from internationalization (i18n) to localization (l10n) and back again
 date: 2018-07-05
 tags:
@@ -10,8 +11,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: vue-js-from-internationalization-i18n-to-localization-l10n-and-back-again/title.jpeg
 ---
 

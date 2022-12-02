@@ -12,8 +12,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: svelte-i18n/svelte-i18n.jpg
 
 label: svelte-i18n

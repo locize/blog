@@ -1,9 +1,8 @@
+---
 title: Localization should be fun
 date: 2016-11-16
 tags:
   - locize
-categories:
-  - Post
 thumbnail: localization-fun/thumb.png
 redirect_from:
 - /2016-11-16-localization-fun

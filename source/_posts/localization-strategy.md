@@ -3,13 +3,11 @@ title: Localization strategy - How to treat customers (2022)
 description: What is a localization strategy, and how can it help you achieve sustainable growth.
 date: 2022-04-20 15:49:50
 tags:
-- localization
-- marketing
-- international strategy
-- transnational strategy
-- global localization 
-categories:
-  - Post
+  - localization
+  - marketing
+  - international strategy
+  - transnational strategy
+  - global localization 
 thumbnail: localization-strategy/localization-strategy.webp
 ---
 

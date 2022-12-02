@@ -1,3 +1,4 @@
+---
 title: locize - Translation Software Distinguished by Platform for SaaS Reviews as a Great User Experience and Rising Star for 2018
 
 date: 2018-04-30
@@ -5,8 +6,6 @@ tags:
   - locize
   - award
   - continuous localization
-categories:
-  - Post
 thumbnail: locize-double-win-2018-for-translation-software/title.png
 redirect_from:
 - /2018-04-30-locize-double-win-2018-for-translation-software

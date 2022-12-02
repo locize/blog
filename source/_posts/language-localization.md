@@ -8,8 +8,6 @@ tags:
   - internationalization
   - globalisation
   - process
-categories:
-  - Post
 thumbnail: language-localization/language-localization.webp
 
 label: language-localization

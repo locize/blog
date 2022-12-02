@@ -13,8 +13,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: i18next-vue/vue-localization.jpg
 redirect_from:
 - /vue-i18next

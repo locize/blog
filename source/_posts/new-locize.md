@@ -1,3 +1,4 @@
+---
 title: What's new in locize
 
 date: 2020-12-02
@@ -8,8 +9,6 @@ tags:
   - internationalization
   - i18n
   - translation
-categories:
-  - Post
 thumbnail: new-locize/title.jpg
 redirect_from:
 - /2020-12-02-new-locize

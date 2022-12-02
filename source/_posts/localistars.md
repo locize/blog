@@ -1,3 +1,4 @@
+---
 title: Stay ahead of the game with localistars
 
 date: 2020-06-13
@@ -9,8 +10,6 @@ tags:
   - service
   - order
   - translation
-categories:
-  - Post
 thumbnail: localistars/title.jpg
 redirect_from:
 - /2020-06-13-localistars

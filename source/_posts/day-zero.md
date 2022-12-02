@@ -1,10 +1,11 @@
+---
 title: day zero - how all began
+
 date: 2016-02-27
 tags:
   - beginning
   - i18next
-categories:
-  - Post
+
 thumbnail: images/locize_color.svg
 redirect_from:
 - /2016-02-27-day-zero

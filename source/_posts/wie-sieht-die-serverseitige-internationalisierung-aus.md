@@ -15,8 +15,6 @@ tags:
   - translation
   - next
   - react
-categories:
-  - Post
 thumbnail: how-does-server-side-internationalization-look-like/server_side_backend.jpg
 
 label: how-does-server-side-internationalization-look-like

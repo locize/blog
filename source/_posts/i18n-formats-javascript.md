@@ -9,8 +9,6 @@ tags:
   - localization
   - l10n
   - i18next
-categories:
-  - Post
 thumbnail: i18n-formats-javascript/i18n_in_the_multiverse_of_madness.jpg
 redirect_from:
 - /i18n-multiverse

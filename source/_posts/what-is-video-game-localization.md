@@ -9,8 +9,6 @@ tags:
   - example
   - problems
   - i18n
-categories:
-  - Post
 thumbnail: what-is-video-game-localization/what-is-video-game-localization.webp
 ---
 

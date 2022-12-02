@@ -10,8 +10,6 @@ tags:
   - localization tools
   - software
   - language
-categories:
-  - Post
 thumbnail: what-is-mobile-app-localization/app-localization.webp
 ---
 

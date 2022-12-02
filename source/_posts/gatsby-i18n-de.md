@@ -15,8 +15,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: gatsby-i18n/gatsby-i18next.jpg
 
 label: gatsby-i18n

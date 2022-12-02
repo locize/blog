@@ -1,10 +1,11 @@
+---
 title: how we eat our own dogfood
+
 date: 2016-06-11
 tags:
   - locize
   - locizify
-categories:
-  - Post
+
 thumbnail: eat-our-own-dogfood/result.png
 redirect_from:
 - /2016-06-11-eat-our-own-dogfood

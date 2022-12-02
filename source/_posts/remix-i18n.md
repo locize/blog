@@ -15,8 +15,6 @@ tags:
   - localization
   - internationalization
   - translation
-categories:
-  - Post
 thumbnail: remix-i18n/remix-localization.jpg
 
 label: remix-i18n
