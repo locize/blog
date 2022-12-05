@@ -10,6 +10,9 @@ tags:
   - internationalization
 
 thumbnail: hidden-localization-costs/title.jpg
+
+label: hidden-localization-costs
+lang: en
 ---
 
 ![](title.jpg)
@@ -23,7 +26,7 @@ But companies often forget the actual translation work cost is just a minimal pa
 
 What many may not consider when calculating the budget are the hidden costs of localization, for example:
 
-- exporting source files from your software project
+- extract source files from your software project
 - copy-pasting, exporting, importing, etc... from your resource files to various file formats for translation and back again
 - order translations, sending emails to translators to check how much they have translated, proofreading...
 - converting files to different formats, getting charged by translation agencies for converting your files to formats used by the translators
@@ -32,7 +35,7 @@ What many may not consider when calculating the budget are the hidden costs of l
 - for a better alignement, a dedicated resource for technical writer/translator/coordinator
 - [development team <-> translation team alignments](../help-tech-leads/)
 - managing the localization process with tools and workflows that haven't changed for a lot of years
-- [delayed rollout]() because of delayed translations, alternatively lock down content changes 2 to 3 months ahead of the launch date to carry out localization
+- [delayed rollout](https://youtu.be/YQryHo1iHb8) because of delayed translations, alternatively lock down content changes 2 to 3 months ahead of the launch date to carry out localization
 - ...
 
 In terms of your investment, the above hidden costs tend to be higher than the actual cost of translation.
