@@ -1,20 +1,22 @@
 ---
-title: Localization strategy - How to treat customers (2022)
-description: What is a localization strategy, and how can it help you achieve sustainable growth.
-date: 2022-04-20 15:49:50
+title: Localization strategy - How to build with examples
+description: How to build a localization strategy, and understand the concept of localization to achieve growth during globalization.
+date: 2022-12-07 15:49:50
 tags:
   - localization
   - marketing
   - international strategy
   - transnational strategy
-  - global localization 
-thumbnail: localization-strategy/localization-strategy.webp
+  - successful global localization 
+thumbnail: localization-strategy/localization-strategy-concept.webp
 ---
 
-![](localization-strategy.webp "Localization strategy")
+![](localization-strategy-concept.webp "Localization strategy")
 
 
 Today, you're going to learn how to build your strategy for a successful globalization.
+
+You will get a method on how you can increase your sales and make your customers more happy.
 
 > The best part?
 
@@ -27,6 +29,7 @@ We'll also show you some examples of major brands and how they did it.
 * [What is a strategy for localization](#what)
 * [Why do you need such a strategy](#why)
 * [Build your localization approach (step-by-step)](#build)
+* [Benefits of localization](#localization)
 * [Localization checklist](#checklist)
 * [Examples](#examples)
 * [Summary](#summary)
@@ -87,7 +90,7 @@ Your vision statement should be a future state of what your organization wants t
 
 Make a international business plan: Evaluate your needs and goals 
 
-When looking at the content marketing side of things, you should setup a process to create the marketing message and what experience should be created in other markets (Messages, visuals, UX elements).
+When looking at the content marketing side of things, you should setup a process to create the marketing message and see what results can be produced in other markets (Messages, graphics, and UX elements).
 
 Successful marketing campaigns can help to test out if your strategy is working and if we're targeting the right audience.
 
@@ -98,7 +101,7 @@ Finally, do the customer segmentation which defines the different groups of peop
 ### Make tests with localized content
 Test your strategy by reaching out to potential buyers in new markets with your messaging.
 
-To begin, make use of the slogans, key phrases, and CTAs identified in the marketing strategy when developing the plan.
+To begin, make use of the slogans, key phrases, and CTAs identified in the localized-marketing strategy when developing the plan.
 
 Begin with a pilot project to get traction, and then consider localizing entire experiences based on the data.
 
@@ -146,6 +149,42 @@ subdirectories with gTLD: <b>example.com/de/</b>
 Not recommended are URL parameters like <b>yoursite.com?loc=de</b>
 
 
+## Benefits of localization<a name="localization"></a>
+
+![](benefits.webp "benefits of localization")
+
+
+### 1. It helps to reduce immediate costs
+Lack of preparation can result in significant up-front expenses like product or service recalls or the need to alter marketing tactics when entering a new market. If you use a thorough localization plan, the likelihood of the above happening and the added costs that result from it will be reduced.
+
+
+### 2. It improves branding's trust
+It considers the branding colors and marketing messages that are suitable for the regional market. Every nation has a different idea of what is "normal." 
+
+The promotion of new goods and services is one of branding's most significant advantages. People who are loyal to a brand are inevitably interested in any new products the brand releases. This is essential for brands which are going global.
+
+### 3. It increases the revenue
+There are now unexplored markets of billions of clients that are prepared to buy. As long as the additional profits earned surpass the costs of entering the new market, more customers lead to better sales. 
+
+According to <a href="https://hbr.org/2006/04/localization-the-revolution-in-consumer-markets" title="recent study">recent study</a>, businesses that use localization typically make 1.5 times as much as those that don't.
+
+Not only the revenue, also the <a href="https://en.wikipedia.org/wiki/Return_on_investment">return on investment</a> can be improved if you use the right <a href="https://locize.com/blog/tms/" title="translation management system">translation management system</a> during the process of internationalization. 
+
+Because in this way the project managers and translators can work much more efficient and you’ll be sure to get the most out of your resources.
+
+If you apply the proper <a href="https://locize.com/blog/tms/" title="translation management system">translation management system</a> during the internationalization process, you may increase not only the revenue but also the <a href="https://en.wikipedia.org/wiki/Return_on_investment">return on investment</a>. 
+
+Since this will allow the project managers, developers and translators to work much more productively and ensure that you make the most of your resources. In this case managing translated content is simple and doesn't require manual project team communication.
+
+
+### 4. Less customer churn
+The number of consumers or subscribers who ceased using your product or service over a specific time period is referred to as your customer churn rate.
+
+The degree to which your product will satisfy customers and reduce customer turnover depends on a number of factors. Localization is helping to reduce overall churn in this situation. 
+
+The most crucial factors, including language barriers, local customer habits, and cultural considerations, will be taken into account during localization of a business.
+
+
 
 ## Localization Checklist<a name="checklist"></a>
 
@@ -175,7 +214,7 @@ WWF is doing a lot to engage prospective audiences throughout the world.
 <a href="https://www.worldwildlife.org/" title="wwf">![wwf](wwf.webp "wwf")</a>
 
 
-By emphasizing the information that is most important to readers, the WWF is able to create a more appealing experience with content that is constantly new and current.
+By emphasizing the information that is most important to readers, the WWF is able to create a more appealing experience with more engaging content that is always new and fresh.
 
 ✅ It is not only translating its website; it is providing the appropriate material to the appropriate viewers. 
 
@@ -201,6 +240,8 @@ The strategy for effective localization is successful if you can gather the nece
 
 We hope this guide showed you what a strategy is and why it's important. With this basic knowledge you now maybe better understand the concept of localization.
 
+Localization will guarantee a significant return on investment that will amaze all of your company's stakeholders.
+
 <b>Now we want to turn it over to you:</b>
 
 Do you plan to build up a localization strategy?
@@ -212,3 +253,5 @@ Or maybe you have a question about something you read.
 Either way, let us know by leaving a message to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> right now.</b>
 
 The implementation of the software part can be assisted by our team's extensive knowledge and the appropriate <a href="https://locize.com/" title="localization software">localization software</a> of us.
+
+<a class="btn btn-outline btn-xl" style="color:white" href="https://www.locize.app/register" title="register to locize">register</a>
