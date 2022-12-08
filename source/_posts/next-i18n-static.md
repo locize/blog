@@ -27,6 +27,8 @@ lang: en
 
 You know [Next.js](https://nextjs.org), right? - If not, stop reading this article and make something else.
 
+*If you're using Next.js 13 with app directory, have a look at [this blog post](../next-13-app-dir-i18n/).*
+
 Next.js is awesome! It gives you the best developer experience with all the features you need...
 
 

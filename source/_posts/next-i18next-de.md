@@ -32,6 +32,8 @@ Der Code wird einmal geschrieben und dann je nach Bedarf als SSG (Static-Site Ge
 
 # Wie kann man Next.js-Apps optimieren, um am besten mit Übersetzungen auf Serverseite und auf Clientseite mit next-i18next zu arbeiten?
 
+*Wenn Next.js 13 mit app directory verwendet wir, sich [diesen Blogbeitrag an](../next-13-app-dir-i18n/) anschauen.*
+
 Nehmen wir das Beispiel von [next-i18next](https://github.com/i18next/next-i18next).
 Während next-i18next [i18next](https://www.i18next.com) und [react-i18next](https://react.i18next.com) unter der Haube verwendet, müssen Benutzer von next-i18next einfach ihre Übersetzungsinhalte als JSON-Dateien einbinden und müssen sich um nichts weiter kümmern.
 
