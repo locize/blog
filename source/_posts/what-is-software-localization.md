@@ -32,7 +32,7 @@ While you might think that you can simply run your text through a translation to
 Often developers only consider the software localization process after the development has started. However, incorporating it in the very early stages will ensure that your business is able to expand into new markets and reach even more customers with relative ease.
 
 ## What is software localization? <a name="what"></a>
-Software localization helps to adapt software to the language and circumstances of the target market while retaining its originality. This means that not only is the text being adapted into the relevant language, but the design and overall user experience (UX) are amended to ensure that it meets the needs of the target audience.
+[Software localization](/software-localization-service.html) helps to adapt software to the language and circumstances of the target market while retaining its originality. This means that not only is the text being adapted into the relevant language, but the design and overall user experience (UX) are amended to ensure that it meets the needs of the target audience.
 
 While [internationalization (i18n)](../what-is-i18n/) is about developing a product to meet the demands of a specific culture or audience, localization of software is a far more in-depth solution. The process usually requires the complete modification of text and multimedia for a software product. 
 
@@ -103,7 +103,7 @@ Effective processes work best when you keep your language and copy simple. While
 It would help if you also considered implementing a style guide, covering things such as your branding, tone of voice, and formality. This will ensure a consistent and clear approach, no matter where in the world your users are accessing your software.
 
 ### Use a localization platform
-Effective software localization is a vast project, and utilizing a proven <a href="https://locize.com" title="localization management platform">localization management platform</a> can help to make the process easier. When choosing a platform, you should ensure that it has been developed specifically for localization. This will help to offer greater customization and allow you to integrate essential tools. For example <a href="/blog/react-i18next/" title="react localization">react localization</a> is made incredibly simple for developers when used in conjunction with the <a href="https://www.i18next.com/" title="i18next">i18next</a> framework.
+Effective [software localization](/software-localization-service.html) is a vast project, and utilizing a proven <a href="https://locize.com" title="localization management platform">localization management platform</a> can help to make the process easier. When choosing a platform, you should ensure that it has been developed specifically for localization. This will help to offer greater customization and allow you to integrate essential tools. For example <a href="/blog/react-i18next/" title="react localization">react localization</a> is made incredibly simple for developers when used in conjunction with the <a href="https://www.i18next.com/" title="i18next">i18next</a> framework.
 
 You may use locize to make the process of the localization-projects of your company easier. Locize is the platform for effectively localizing your website, mobile app, video game or any other web product.
 ![process](software_localization_process.png "software_localization_process")
@@ -183,7 +183,7 @@ Connect your project directly to locize and automatically have new "non-translat
 
 Now we want to turn it over to you:
 
-Do you plan to invest in software localization?
+Do you plan to invest in [software localization](/software-localization-service.html)?
 
 Will you change the way development and translation are handled?
 
