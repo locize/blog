@@ -2,7 +2,7 @@
 title: i18n with Next.js 13 and app directory (an i18next guide)
 description: Looking for a way to internationalize your Next.js 13 project with the new app directory feature? Then this guide is for you!
 
-date: 2022-12-08
+date: 2023-01-02
 tags:
   - i18next
   - react

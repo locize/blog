@@ -2,7 +2,7 @@
 title: What is Software Localization? (2023 Update)
 description: Software localization is to adapt software to the language and circumstances of the target market while retaining its originality.
 
-date: 2022-11-15
+date: 2023-01-01
 tags:
   - workflow
   - process
