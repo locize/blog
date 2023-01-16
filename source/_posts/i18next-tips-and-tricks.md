@@ -16,7 +16,7 @@ thumbnail: i18next-tips-and-tricks/title.jpg
 
 ![](title.jpg)
 
-Internationalization (i18n) and localization (l10n) are important aspects of any web or mobile application. i18next is a powerful JavaScript library that makes it easy to handle i18n and l10n in your application. In this post, we'll explore some tips and tricks for using [i18next](https://www.i18next.com) to its full potential.
+Internationalization ([i18n](../what-is-i18n/)) and localization ([l10n](../localization/)) are important aspects of any web or mobile application. i18next is a powerful JavaScript library that makes it easy to handle i18n and l10n in your application. In this post, we'll explore some tips and tricks for using [i18next](https://www.i18next.com) to its full potential.
 
 ## 1. Use the namespace feature:
 
