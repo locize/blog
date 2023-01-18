@@ -32,7 +32,7 @@ i18next also has built-in support for [pluralization](https://www.i18next.com/tr
 
 ## 3. Take advantage of interpolation:
 
-i18next supports [interpolation](https://www.i18next.com/translation-function/interpolation), which allows you to insert dynamic values into your translations. This can be useful for displaying user-specific information, such as a username or a date. To use interpolation, simply include placeholders in your translation string, and pass an object containing the values to i18next.
+i18next supports [interpolation](https://www.i18next.com/translation-function/interpolation), that allows you to insert dynamic values into your translations. This can be useful for displaying user-specific information, such as a username or a date. To use interpolation, simply include placeholders in your translation string, and pass an object containing the values to i18next.
 <br />
 *Check out [this section in the video](https://youtu.be/SA_9i4TtxLQ?t=433) crash course!*
 
@@ -54,7 +54,7 @@ i18next offers several [backend plugins](https://www.i18next.com/overview/plugin
 
 ## 7. Use the context feature:
 
-i18next provides a [context feature](https://www.i18next.com/translation-function/context) which allows you to provide additional context information for a translation in order to disambiguate between different translations of the same key. This can be useful when a word or phrase can have multiple meanings and the context helps to disambiguate the intended meaning. For example, providing gender specific translations, like "he" and "she" for a specific phrase.
+i18next provides a [context feature](https://www.i18next.com/translation-function/context) which allows you to provide additional context information for a translation in order to disambiguate between different translations of the same key. This can be useful when a word or phrase can have multiple meanings and the context helps to disambiguate the intended meaning. For example, providing gender-specific translations, like "he" and "she" for a specific phrase.
 
 ## 8. Use different i18n formats:
 
@@ -62,8 +62,8 @@ i18next supports different [i18n formats](https://www.i18next.com/overview/plugi
 
 ## 9. Integrate with locize:
 
-[locize](/) is a cloud-based translation management system ([TMS](../tms/)) that integrates seamlessly with [i18next](https://www.i18next.com). By using locize, you can easily manage your translations and collaborate with translators and editors. locize also provides a powerful [editor](https://docs.locize.com/different-views) and a [translation memory](https://docs.locize.com/whats-inside/translation-memory), making it easy to re-use translations and ensure consistency across your application.
-To integrate locize with i18next, you can for example use the [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) plugin. This plugin allows you to load translations from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) and automatically syncs them with your application. [Here](https://youtu.be/ds-yEEYP1Ks?t=423) you can see how this could look like.
+[locize](/) is a cloud-based translation management system ([TMS](../tms/)) that integrates seamlessly with [i18next](https://www.i18next.com). By using locize, you can easily manage your translations and collaborate with translators and editors. locize also provides a powerful [editor](https://docs.locize.com/different-views) and a [translation memory](https://docs.locize.com/whats-inside/translation-memory), making it easy to reuse translations and ensure consistency across your application.
+To integrate locize with i18next, you can for example use the [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) plugin. This plugin allows you to load translations from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) and automatically syncs them with your application. [Here](https://youtu.be/ds-yEEYP1Ks?t=423) you can see what this could look like.
 <br />
 *Check out [this section in the video](https://youtu.be/SA_9i4TtxLQ?t=1076) crash course!*
 
