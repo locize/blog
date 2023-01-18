@@ -15,7 +15,7 @@ thumbnail: what-is-video-game-localization/what-is-video-game-localization.webp
 ![what is localization in video games](what-is-video-game-localization.webp "what is localization in video games")
 
 
-Video games are one of the biggest recreational pastimes in the world, with recent estimates suggesting that there are currently nearly <a href="https://gamefid.com/video-game-statistics" title="3.24 billion gamers">3.24 billion gamers</a> across the globe. The incredible demand in recent years has seen growth skyrocket, and estimates suggest that by 2025 the industry will be worth an astounding <a href="https://www.wepc.com/news/video-game-statistics/" title="$268 billion">$268 billion</a>, up from the $159.3 billion in 2020. 
+Video games are one of the biggest recreational pastimes in the world, with recent estimates suggesting that there are currently nearly <a href="https://financesonline.com/number-of-gamers-worldwide/" title="2.7 billion gamers">2.7 billion gamers</a> across the globe. The incredible demand in recent years has seen growth skyrocket, and estimates suggest that by 2025 the industry will be worth an astounding <a href="https://www.wepc.com/news/video-game-statistics/" title="$268 billion">$268 billion</a>, up from the $159.3 billion in 2020. 
 
 While there can be no denying the popularity of the video game market, effective localization is essential for every video game producer. What is localization in video games, though? How does it work?
 
@@ -89,7 +89,7 @@ What is localization in video games? Well, as the market continues to grow, it i
 
 Localization can be a complex process, though, so working with a professional partner can help to ensure that you are able to create the most immersive and engaging experience possible. To make the process more streamlined, you should take the time to plan your project, create a localization kit, and creating quality assurance checks will ensure that your various localization partners know exactly what is required. 
 
-The more detailed your localization is, the greater the experience that each player has and the more gamers that will want to engage with your game. With some 3.24 billion players in the world, open your game up to a wider audience today.  
+The more detailed your localization is, the greater the experience that each player has and the more gamers that will want to engage with your game. With some 2.7 billion players in the world, open your game up to a wider audience today.  
 
 ## Try Locize to make your game incredible
 
