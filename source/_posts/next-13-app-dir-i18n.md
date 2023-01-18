@@ -33,11 +33,11 @@ It seems pretty fast and it lays the foundations to be dynamic without limits.
 
 ## Afterthoughts...
 
-This sounds good, but looking more into the app directory, it looks like this is a complete new Next.js setup... not really comparable to the old one...
+This sounds good, but looking more into the app directory, it looks like this is a completely new Next.js setup... not really comparable to the old one...
 
 > What does this mean regarding i18n?
 
-Looking at the [docs](https://beta.nextjs.org/docs/app-directory-roadmap#not-planned-features) it seems our old approaches will no work anymore.
+Looking at the [docs](https://beta.nextjs.org/docs/app-directory-roadmap#not-planned-features) it seems our old approaches will not work anymore.
 
 ![](not-planned.jpg)
 
@@ -45,7 +45,7 @@ Nice features provided by [next-i18next](https://next.i18next.com) *(and other N
 
 ## A new approach
 
-In this section you'll see how we can internationalize the new app directory with the use of [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [i18next-resources-to-backend](https://github.com/i18next/i18next-resources-to-backend).
+In this section, you'll see how we can internationalize the new app directory with the use of [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [i18next-resources-to-backend](https://github.com/i18next/i18next-resources-to-backend).
 <br />
 `npm install i18next react-i18next i18next-resources-to-backend`
 
@@ -59,7 +59,7 @@ In this section you'll see how we can internationalize the new app directory wit
 
 ### 1. Folder structure <a name="step-1"></a>
 
-Let's start by creating a new folder structure that uses the language as url parameter. A so called [dynamic segment](https://beta.nextjs.org/docs/routing/defining-routes#dynamic-segments):
+Let's start by creating a new folder structure that uses the language as url parameter. A so-called [dynamic segment](https://beta.nextjs.org/docs/routing/defining-routes#dynamic-segments):
 
 ```
 .
@@ -228,7 +228,7 @@ The detected language will be used to redirect to the appropriate page.
 
 Let's prepare i18next in the `app/i18n/index.js` file:
 <br />
-We're not using the i18next singleton here but create a new instance on each `useTranslation` call, because during compilation everything seems to be executed in parallel. Having a separate instance will keep the translations consistent.
+We're not using the i18next singleton here but creating a new instance on each `useTranslation` call, because during compilation everything seems to be executed in parallel. Having a separate instance will keep the translations consistent.
 
 ```js
 import { createInstance } from 'i18next'
@@ -474,7 +474,7 @@ export default async function Page({ params: { lng } }) {
 
 So far we've created serverside pages only.
 <br />
-So how does clientside pages look like?
+So what do clientside pages look like?
 
 Since clientside react components can't `async` we need to do some adjustments.
 
