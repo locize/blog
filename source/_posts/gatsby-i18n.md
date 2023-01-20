@@ -25,9 +25,9 @@ lang: en
 
 You know [Gatsby](https://www.gatsbyjs.com), right? - If not, stop reading this article and make something else.
 
-Yes, Gatsby the an open-source framework that combines functionality from React, GraphQL and Webpack into a single tool for building static websites and apps.
+Yes, Gatsby an open-source framework that combines functionality from React, GraphQL and Webpack into a single tool for building static websites and apps.
 
-> But how does internationalization (i18n) looks like in Gatsby?
+> But what does internationalization (i18n) look like in Gatsby?
 
 There are some plugins/libraries that may help instrumenting the Gatsby code for internationalization.
 In this article we will use a plugin based on the famous i18n framework [i18next](https://www.i18next.com), respectively its great extension for [React.js](https://reactjs.org) - [react-i18next](https://react.i18next.com).
@@ -52,7 +52,7 @@ The Gatsby plugin we're using is [gatsby-plugin-react-i18next](https://github.co
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
 
-When it comes to React localization, one of the most popular i18n framework is [i18next](https://www.i18next.com) with it's react extension [react-i18next](https://react.i18next.com), and for good reasons:
+When it comes to React localization, one of the most popular i18n framework is [i18next](https://www.i18next.com) with its react extension [react-i18next](https://react.i18next.com), and for good reasons:
 
 *i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...).*
 <br />
@@ -264,7 +264,7 @@ You should now see something like this:
 
 ![gatsby language switcher](app_0.jpg "locize © inweso GmbH")
 
-By default, on first load, [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next) will fallback to the `defaultLanguage` if the browser's detected language is not included in the array of `languages`.
+By default, on the first load, [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next) will fallback to the `defaultLanguage` if the browser's detected language is not included in the array of `languages`.
 
 If you want to fallback to a different language in the `languages` array, you can set the `fallbackLanguage` option.
 
@@ -401,7 +401,7 @@ A new translation key for `locales/en/index.json`:
 
 The `Link` component exported from `gatsby-plugin-react-i18next`automatically links to the correct language.
 <br />
-The `Link` component is identical to Gatsby Link component except that you can provide additional language prop to create a link to a page with different language.
+The `Link` component is identical to Gatsby Link component except that you can provide an additional language prop to create a link to a page with a different language.
 
 
 ## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
@@ -484,7 +484,7 @@ export const query = graphql`
 
 Based on the count value i18next will choose the correct plural form.
 
-i18next provides also the ability to have special translation for `{count: 0}`, so that a more natural language can be used. If the `count` is `0`, and a `_zero` entry is present, then it will be used instead of the regular language plural suffix (`_other`).
+i18next provides also the ability to have a special translation for `{count: 0}`, so that a more natural language can be used. If the `count` is `0`, and a `_zero` entry is present, then it will be used instead of the regular language plural suffix (`_other`).
 
 Read more about [pluralization](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation) in the [official i18next documentation](https://www.i18next.com/).
 
@@ -523,7 +523,7 @@ Are you seeing this warning in the development console (`debug: true`)?
 
 With [v21](https://www.i18next.com/misc/migration-guide#v20.x.x-to-v21.0.0) i18next streamlined the suffix with the one used in the [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules).
 In environments where the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API  is not available (like older Android devices), you may need to [polyfill](https://github.com/eemeli/intl-pluralrules) the [Intl.PluralRules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules) API.
-In case it is not available it will fallback to the [i18next JSON format v3](https://www.i18next.com/misc/json-format#i-18-next-json-v3) plural handling. And if your json is already using the new suffixes, your plural keys will probably not be shown.
+In case it is not available it will fall back to the [i18next JSON format v3](https://www.i18next.com/misc/json-format#i-18-next-json-v3) plural handling. And if your json is already using the new suffixes, your plural keys will probably not be shown.
 
 *tldr;*
 
@@ -600,7 +600,7 @@ Import luxon and define a format function, like documented in the [documentation
 }
 ```
 
-**😎 Cool, now we have a language specific date formatting!**
+**😎 Cool, now we have a language-specific date formatting!**
 
 English:
 ![gatsby english](app_3.jpg "locize © inweso GmbH")
@@ -611,7 +611,7 @@ German:
 
 ## Context <a name="context"></a>
 
-What about a specific greeting message based on the current day time? i.e. morning, evening, etc.
+What about a specific greeting message based on the current daytime? i.e. morning, evening, etc.
 This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
 
 Let's create a `getGreetingTime` function and use the result as context information for our footer translation:
@@ -671,7 +671,7 @@ const Layout = ({ children }) => {
 export default Layout;
 ```
 
-And add some context specific translations keys:
+And add some context-specific translations keys:
 
 `locales/en/common.json`
 ```json
@@ -704,7 +704,7 @@ Thanks to the [babel-plugin-i18next-extract](https://i18next-extract.netlify.app
 
 It works like this:
 <br />
-First install the required dependencies:
+First, install the required dependencies:
 
 `npm install @babel/cli @babel/plugin-transform-typescript babel-plugin-i18next-extract`
 
@@ -932,7 +932,7 @@ and run `npm run export` and then `npm run syncLocales`, we get this:
 
 With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
 
-Want to see how this looks like?
+Want to see what this look like?
 
 Ok, first install the locize dependency:
 
@@ -1042,8 +1042,8 @@ If you want to learn more basics about i18next, there's also an [i18next crash c
 
 I hope you’ve learned a few new things about [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next), [i18next](https://www.i18next.com), [React.js localization](https://react.i18next.com) and [modern localization workflows](https://locize.com).
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍
