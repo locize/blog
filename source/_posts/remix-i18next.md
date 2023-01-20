@@ -51,8 +51,8 @@ This is a traditional way. But be aware sending files around creates always an o
 [i18next](https://www.i18next.com) helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
 - How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
+- How do you handle proper versioning?
+- How do you deploy translation changes without deploying your complete application?
 - and a lot more...
 
 **Looking for something like this❓**
@@ -581,8 +581,8 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 
 Awesome! Thanks to [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍

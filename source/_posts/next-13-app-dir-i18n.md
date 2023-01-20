@@ -709,8 +709,8 @@ Alternatively, you can also use the `locize sync` command to synchronize your lo
 
 I hope you’ve learned a few new things about i18n in the new app directory setup, [Next.js](https://nextjs.org), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com), [react-i18next](https://react.i18next.com), [i18next-resources-to-backend](https://github.com/i18next/i18next-resources-to-backend) and [modern localization workflows](https://locize.com).
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 ## 👍

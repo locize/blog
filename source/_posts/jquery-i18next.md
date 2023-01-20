@@ -803,8 +803,8 @@ This is a traditional way. But be aware sending files around creates always an o
 i18next helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
 - How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
+- How do you handle proper versioning?
+- How do you deploy translation changes without deploying your complete application?
 - and a lot more...
 
 **Looking for something like this❓**
@@ -1149,8 +1149,8 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 
 I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [jQuery localization](https://github.com/i18next/jquery-i18next) and [modern localization workflows](https://locize.com).
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍

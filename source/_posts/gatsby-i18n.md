@@ -844,7 +844,7 @@ This is the traditional way. But be aware, sending files around creates always a
 i18next helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
 - How do you keep track of new or removed content?
-- How you handle proper versioning?
+- How do you handle proper versioning?
 - and a lot more...
 
 **Looking for something like this❓**

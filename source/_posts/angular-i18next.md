@@ -549,6 +549,6 @@ I hope you’ve learned a few new things about [i18next](https://www.i18next.com
 
 So if you want to take your i18n topic to the next level, it's worth to try [locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍

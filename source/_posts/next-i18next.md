@@ -476,8 +476,8 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 
 Awesome! Thanks to [next-i18next](https://github.com/i18next/next-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍

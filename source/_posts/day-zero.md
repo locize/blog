@@ -24,8 +24,8 @@ Helping developers to get their applications translated is great - but there is 
 
 - How do you integrate any translation services / agency?
 - How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
+- How do you handle proper versioning?
+- How do you deploy translation changes without deploying your complete application?
 
 
 ### locize to the rescue

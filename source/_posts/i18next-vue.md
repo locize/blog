@@ -24,9 +24,9 @@ lang: en
 ![Vue Localization made easy with this step-by-step guide using i18next ✅](vue-localization.jpg "Vue Localization example")
 
 Since [Vue.js](https://vuejs.org/) is an approachable, performant and versatile framework for building web user interfaces, it also needs a best-in-class internationalization solution.
-You may know [vue-i18n](../give-vue-i18n-more-superpowers/), but for those already knowing [i18next](https://www.i18next.com) a Vue.js adapted version of i18next would be more appropriate.
+You may know [vue-i18n](../give-vue-i18n-more-superpowers/), but for those who already know [i18next](https://www.i18next.com) a Vue.js adapted version of i18next would be more appropriate.
 
-In this tutorial we'll make use of the [i18next-vue](https://github.com/i18next/i18next-vue) module.
+In this tutorial, we'll make use of the [i18next-vue](https://github.com/i18next/i18next-vue) module.
 
 
 ## TOC
@@ -50,7 +50,7 @@ In this tutorial we'll make use of the [i18next-vue](https://github.com/i18next/
 
 # So first of all: "Why i18next?" <a name="why-i18next"></a>
 
-When it comes to Vue localization, one of the most popular is [i18next](https://www.i18next.com) with it's Vue extension [i18next-vue](https://i18next.github.io/i18next-vue/), and for good reasons:
+When it comes to Vue localization, one of the most popular is [i18next](https://www.i18next.com) with its Vue extension [i18next-vue](https://i18next.github.io/i18next-vue/), and for good reasons:
 
 *i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), [Angular](../angular-i18next/), Vue, ...).*
 <br />
@@ -84,7 +84,7 @@ Make sure you have Node.js and npm installed. It's best, if you have some experi
 
 ## Getting started <a name="getting-started"></a>
 
-Take your own Vue project or create a new one, new one, i.e. with [the vue create cli command](https://cli.vuejs.org/guide/creating-a-project.html#vue-create).
+Take your own Vue project or create a new one, i.e. with [the vue create cli command](https://cli.vuejs.org/guide/creating-a-project.html#vue-create).
 
 `npx @vue/cli create vue-starter-project`
 
@@ -141,11 +141,11 @@ import App from './App.vue'
 i18n(createApp(App)).mount('#app')
 ```
 
-Now let's try to move some hard coded text out to the translations.
+Now let's try to move some hard-coded text out to the translations.
 
-For the first text we just use a simple `welcome` key to directly invoke the `$t` function. The `$t` is more or less the same as [`i18next.t`](https://www.i18next.com/overview/api#t).
+For the first text, we just use a simple `welcome` key to directly invoke the `$t` function. The `$t` is more or less the same as [`i18next.t`](https://www.i18next.com/overview/api#t).
 
-For the second text we will use the [`v-html` directive](https://vuejs.org/guide/essentials/template-syntax.html#raw-html) to directly output real HTML.
+For the second text, we will use the [`v-html` directive](https://vuejs.org/guide/essentials/template-syntax.html#raw-html) to directly output real HTML.
 
 >**Security Warning**<br />Dynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use `v-html` on trusted content and never on user-provided content.
 
@@ -290,12 +290,12 @@ export default function (app) {
 
 **🥳 Awesome, you've just created your first language switcher!**
 
-Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
+Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as the preferred language.
 
 ### How to get the current language? <a name="current-language"></a>
 
 Since i18next v21 there is [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
-It is set to the current resolved language and it can be used as primary used language, for example in a language switcher.
+It is set to the current resolved language and it can be used as the primary used language, for example in a language switcher.
 
 If your detected language for example is `en-US` and you provided translations only for `en` *(fallbackLng)* instead `i18next.resolvedLanguage` will return `en`.
 
@@ -342,14 +342,14 @@ If you like to see how this works, have a look at [this section in that other bl
 
 ## Formatting <a name="formatting"></a>
 
-Also [formatting](https://www.i18next.com/translation-function/formatting) can be done.
+Also, [formatting](https://www.i18next.com/translation-function/formatting) can be done.
 
 If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#formatting).
 
 
 ## Context <a name="context"></a>
 
-What about a specific greeting message based on the current day time? i.e. morning, evening, etc.
+What about a specific greeting message based on the current daytime? i.e. morning, evening, etc.
 This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
 
 If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#context).
@@ -358,7 +358,7 @@ If you like to see how this works, have a look at [this section in that other bl
 ## Separate translations from code <a name="separate"></a>
 
 Having the translations in our `i18n.js` file works, but is not that suitable to work with, for translators.
-Let's separate the translations from the code and pleace them in dedicated json files.
+Let's separate the translations from the code and place them in dedicated json files.
 
 Because this is a web application, [i18next-http-backend](https://github.com/i18next/i18next-http-backend) will help us to do so.
 
@@ -398,11 +398,11 @@ export default function (app) {
 ```
 
 Now the translations are loaded asynchronously.
-If you have a slow network connectivity, you may notice until the translations are loaded only the i18n keys are shown.
+If you have slow network connectivity, you may notice until the translations are loaded only the i18n keys are shown.
 
 To prevent this, we make use of the new [Suspense](https://vuejs.org/guide/built-ins/suspense.html) functionality of Vue.js.
 
-First let's adapt the `i18n.js` file, by exporting the i18next init promise:
+First, let's adapt the `i18n.js` file, by exporting the i18next init promise:
 ```javascript
 import i18next from 'i18next'
 import I18NextVue from 'i18next-vue'
@@ -496,7 +496,7 @@ import App from './Suspenser.vue'
 i18n(createApp(App)).mount('#app')
 ```
 
-Now, as long your translations gets loaded you'll see the fallback template:
+Now, as long as your translations get loaded you'll see the fallback template:
 ![](app_2.jpg "locize © inweso GmbH")
 
 Now your app looks still the same, but your translations are separated.
@@ -507,7 +507,7 @@ Or if you're working with a translation management system you can just [synchron
 
 ## Better translation management <a name="better-translation-management"></a>
 
-By sending the translations to some translators or translator agency you have more control and a direct contact with them. But this also means more work for you.
+By sending the translations to some translators or translator agencies you have more control and a direct contact with them. But this also means more work for you.
 This is a traditional way. But be aware sending files around creates always an overhead.
 
 > Does a better option exist?
@@ -517,8 +517,8 @@ This is a traditional way. But be aware sending files around creates always an o
 i18next helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
 - How do you keep track of new or removed content?
-- How you handle proper versioning?
-- How you deploy translation changes without deploying your complete application?
+- How do you handle proper versioning?
+- How do you deploy translation changes without deploying your complete application?
 - and a lot more...
 
 **Looking for something like this❓**
@@ -537,9 +537,9 @@ i18next helps to get the application translated, and this is great - but there i
 
 ![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### How does this look like? <a name="how-look"></a>
+### What does this look like? <a name="how-look"></a>
 
-First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
+First, you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
 
 Done so, we're going to replace [i18next-http-backend](https://github.com/i18next/i18next-http-backend) with [i18next-locize-backend](https://github.com/locize/i18next-locize-backend).
@@ -585,7 +585,7 @@ export default function (app) {
 }
 ```
 
-[i18next-locize-backend](https://github.com/locize/i18next-locize-backend) offers a functionality to retrieve the available languages directly from locize, let's use it:
+[i18next-locize-backend](https://github.com/locize/i18next-locize-backend) offers functionality to retrieve the available languages directly from locize, let's use it:
 
 ```javascript
 <template>
@@ -629,7 +629,7 @@ export default {
 
 ### save missing translations <a name="save-missing"></a>
 
-Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys gets added to locize automatically, while developing the app.
+Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys get added to locize automatically, while developing the app.
 
 Just pass `saveMissing: true` in the i18next options:
 
@@ -688,7 +688,7 @@ With the help of the [locize](https://github.com/locize/locize) plugin, you'll b
 
 Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation) and the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
 
-*Check out this [video](https://youtu.be/VfxBpSXarlU) to see how the automatic machine translation workflow looks like!*
+*Check out this [video](https://youtu.be/VfxBpSXarlU) to see what the automatic machine translation workflow looks like!*
 
 {% youtube VfxBpSXarlU %}
 
@@ -760,10 +760,10 @@ export default function (app) {
 
 Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
 
-First in locize, create a dedicated version for production. Do not enable auto publish for that version but publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version).
+First, in locize, create a dedicated version for production. Do not enable auto publish for that version but publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version).
 Lastly, [enable Cache-Control max-age​](https://docs.locize.com/more/caching) for that production version.
 
-Let's making use of the environment feature...
+Let's make use of the environment feature...
 
 Lets' create a default environment file and one for development and one for production:
 
@@ -837,9 +837,9 @@ export default function (app) {
 }
 ```
 
-Now, during development, you'll continue to save missing keys and to make use of `lastused` feature. => `npm run serve`
+Now, during development, you'll continue to save missing keys and make use of `lastused` feature. => `npm run serve`
 
-And in production environment, `saveMissing` and `lastused` are disabled, and also the api-key is not exposed. => `npm run build`
+And in the production environment, `saveMissing` and `lastused` are disabled, and also the API key is not exposed. => `npm run build`
 
 
 [Caching](https://docs.locize.com/more/caching):
@@ -862,8 +862,8 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 
 I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [Vue.js localization](https://i18next.github.io/i18next-vue/) and [modern localization workflows](https://locize.com).
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 # 👍

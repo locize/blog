@@ -721,9 +721,9 @@ Alternatively, you can also use the `locize download` command to always download
 
 I hope you’ve learned a few new things about i18n in [Remix](https://remix.run), [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com) and [modern localization workflows](https://locize.com).
 
-So if you want to take your i18n topic to the next level, it's worth to try the [localization management platform - locize](https://locize.com).
+So if you want to take your i18n topic to the next level, it's worth trying the [localization management platform - locize](https://locize.com).
 
-The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So with using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
+The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
