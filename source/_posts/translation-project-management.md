@@ -2,7 +2,7 @@
 title: 7 steps to master translation project management (2023)
 description: A step-by-step tutorial providing advice on how to master translation project management. Further tips on being more efficient.
 
-date: 2023-01-19
+date: 2023-01-20
 tags:
   - language translation
   - project management
@@ -55,7 +55,7 @@ Generally, the costs of a translation process can be as follows:
 
 
 * Cost of required tools and software (licenses) project managers' and translators' fees
-* Continuing costs for tasks such as <a target="__blank" href="https://en.wikipedia.org/wiki/Translation" title="translation">translation</a>, editing, <a target="__blank" href="https://dictionary.cambridge.org/de/worterbuch/englisch/proofreading" title="proofreading">proofreading</a>, and formatting, as well as quality assurance, testing, and <a href="/blog/localization" title="localization">localization</a>.
+* Continuing costs for tasks such as <a target="__blank" href="https://en.wikipedia.org/wiki/Translation" title="translation">translation</a>, editing, <a target="__blank" href="https://dictionary.cambridge.org/de/worterbuch/englisch/proofreading" title="proofreading">proofreading</a>, and formatting, as well as quality assurance, testing, and <a href="../localization" title="localization">localization</a>.
 * The cost of any required equipment, technology, additional services, and travel charges.
 * Costs for any required software integration, third-party vendor services, training, and legal and regulatory needs.
 
@@ -119,11 +119,11 @@ Provides information on how translations are used and how people interact with t
 Locize, the management system for translations and localization, is designed to interact with a wide number of platforms and tools, including website builders, content management systems, and software development kits.
 
 ## Locize: What is it <a name="nextlevel"></a>
-Locize is a cloud-based <a href="/blog/tms/" title="translation management system">translation management system</a> that enables teams to cooperate on website and app localization. 
+Locize is a cloud-based <a href="../tms/" title="translation management system">translation management system</a> that enables teams to cooperate on website and app localization. 
 
 To help with the localization process, it includes capabilities like machine translation, translation memory, and terminology management. It also has an API and integration possibilities for a variety of development frameworks and platforms.
 
-Locize is also a <a href="https://locize.com" title="localization software">localization software</a> that provides a variety of features for managing and translating website and application content.
+Locize is also a <a href="/" title="localization software">localization software</a> that provides a variety of features for managing and translating website and application content.
 
 Now we'd like to hand it on to you:
 
@@ -143,5 +143,5 @@ Coordination with translators, management of timetables and budgets, and ensurin
 
 Translation project managers may help guarantee that localization projects are finished on time and under budget, while also ensuring that the end result is of high quality by following the best practices and utilizing the appropriate tools.
 
-To increase the accuracy and efficiency of the translation process, the <a href="https://www.localistars.com/en/blog/translation-industry/" title="translation industry">translation industry</a> is facing rule-based automation and artificial intelligence.
+To increase the accuracy and efficiency of the translation process, the <a href="https://www.localistars.com/blog/translation-industry/" title="translation industry">translation industry</a> is facing rule-based automation and artificial intelligence.
 
