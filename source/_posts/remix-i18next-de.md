@@ -28,7 +28,7 @@ Im [vorherigen Blogbeitrag](../remix-i18n-de/) haben wir auf einfache Weise gele
 <br />
 In diesem Blogbeitrag werden wir versuchen, die volle Leistungsfähigkeit von [i18next](https://www.i18next.com) freizusetzen und uns auf einen kontinuierlichen Lokalisierungsworkflow zu konzentrieren.
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
   * [Besseres Übersetzungsmanagement](#better-translation-management)
     - [Auf jeden Fall!](#for-sure)
     - [Wie sieht das aus?](#how-look)
@@ -38,7 +38,7 @@ In diesem Blogbeitrag werden wir versuchen, die volle Leistungsfähigkeit von [i
   * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
 
 
-# Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
+## Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
 
 Im vorherigen Blogbeitrag gab es einen [freiwilligen Teil](../remix-i18n-de/#voluntary). Dies war bereits der erste Schritt.
 
@@ -47,7 +47,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 
 > Gibt es eine bessere Option?
 
-### Auf jeden Fall! <a name="for-sure"></a>
+#### Auf jeden Fall! <a name="for-sure"></a>
 
 [i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
 - Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
@@ -71,7 +71,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 - und vieles mehr...
 
 
-### Wie sieht das aus? <a name="how-look"></a>
+#### Wie sieht das aus? <a name="how-look"></a>
 
 Zuerst müssen Sie sich bei locize [registrieren](https://locize.app/register) und [anmelden](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Dann [erstellen Sie ein neues Projekt](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize und fügen Ihre Übersetzungen hinzu. Sie können Ihre Übersetzungen entweder über die [CLI](https://github.com/locize/react-tutorial#use-the-locize-cli) oder durch [Importieren der einzelnen json-Dateien](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) oder über die [API](https://docs.locize.com/integration/api#update-remove-translations) bewerkstelligen.
@@ -298,7 +298,7 @@ Das bedeutet, wenn Sie Übersetzungen in locize ändern, stehen sie Ihrer Remix-
 *Nur um die neusten Übersetzungen serverseitig zu haben (z.B. für SEO-Optimierungen) ist ein neues `npm run downloadLocales` und Rebuild nötig.*
 
 
-### fehlende Übersetzungen speichern <a name="save-missing"></a>
+#### fehlende Übersetzungen speichern <a name="save-missing"></a>
 
 Dank der Verwendung der [saveMissing-Funktionalität](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App neue Schlüssel zur automatischen Lokalisierung hinzugefügt.
 
@@ -374,7 +374,7 @@ ergibt in locize das folgende:
 ![missing key](../remix-i18next/missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 aber es gibt noch mehr... <a name="more"></a>
+#### 👀 aber es gibt noch mehr... <a name="more"></a>
 
 Dank des Plugins [locize-lastused](https://github.com/locize/locize-lastused) können Sie [in locize Schlüssel finden und filtern, welche verwendet oder nicht mehr verwendet werden](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -473,7 +473,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 ![i18next inkontext](../remix-i18next/in_context.jpg "locize © inweso GmbH")
 
 
-### 📦 Bereiten wir uns auf die Produktion vor 🚀 <a name="production"></a>
+#### 📦 Bereiten wir uns auf die Produktion vor 🚀 <a name="production"></a>
 
 Jetzt bereiten wir die App für den Produktionsstart vor (https://docs.locize.com/guides-tips-and-tricks/going-production).
 
@@ -578,7 +578,7 @@ Es gibt auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
 
 Genial! Dank [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) und [locize](https://locize.com) ist Ihr kontinuierlicher Lokalisierungs-Workflow einsatzbereit.
 
@@ -586,4 +586,4 @@ Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es s
 
 Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

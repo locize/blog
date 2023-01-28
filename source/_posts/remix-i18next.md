@@ -27,7 +27,7 @@ In the [previous blog post](../remix-i18n/) we learned on a simple way how we ca
 <br />
 In this blog post we will try to unleash the full power of [i18next](https://www.i18next.com) and focus on a continuous localization workflow.
 
-## TOC
+### TOC
   * [Better translation management](#better-translation-management)
     - [For sure!](#for-sure)
     - [How does this look like?](#how-look)
@@ -37,7 +37,7 @@ In this blog post we will try to unleash the full power of [i18next](https://www
   * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
 
-# Better translation management <a name="better-translation-management"></a>
+## Better translation management <a name="better-translation-management"></a>
 
 In the previous blog post there was a [voluntary part](../remix-i18n/#voluntary). This already was the first step.
 
@@ -46,7 +46,7 @@ This is a traditional way. But be aware sending files around creates always an o
 
 > Does a better option exist?
 
-### For sure! <a name="for-sure"></a>
+#### For sure! <a name="for-sure"></a>
 
 [i18next](https://www.i18next.com) helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
@@ -70,7 +70,7 @@ This is a traditional way. But be aware sending files around creates always an o
 - and a lot more...
 
 
-### How does this look like? <a name="how-look"></a>
+#### How does this look like? <a name="how-look"></a>
 
 First, if not already done, you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
@@ -297,7 +297,7 @@ This means if you change translations in locize they will be available to your R
 *Only to have the newest translations on server side (i.e. for SEO optimizations) a new `npm run downloadLocales` and rebuild is needed.*
 
 
-### save missing translations <a name="save-missing"></a>
+#### save missing translations <a name="save-missing"></a>
 
 Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys gets added to locize automatically, while developing the app.
 
@@ -373,7 +373,7 @@ will result in locize like this:
 ![missing key](missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... <a name="more"></a>
+#### 👀 but there's more... <a name="more"></a>
 
 Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -472,7 +472,7 @@ if (!i18next.isInitialized) { // prevent i18next to be initialized multiple time
 ![i18next incontext](in_context.jpg "locize © inweso GmbH")
 
 
-### 📦 Let's prepare for production 🚀 <a name="production"></a>
+#### 📦 Let's prepare for production 🚀 <a name="production"></a>
 
 Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
 
@@ -577,7 +577,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 Awesome! Thanks to [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
 
@@ -585,4 +585,4 @@ So if you want to take your i18n topic to the next level, it's worth trying the 
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

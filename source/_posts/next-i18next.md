@@ -29,7 +29,7 @@ The code is written once and depending on your needs it is then executed as SSG 
 
 >So also the internationalization, right?
 
-# How to optimize Next.js apps to best work with translations on server side and on client side with next-i18next?
+## How to optimize Next.js apps to best work with translations on server side and on client side with next-i18next?
 
 *If you're using Next.js 13 with app directory, have a look at [this blog post](../next-13-app-dir-i18n/).*
 
@@ -46,7 +46,7 @@ We will discuss 2 different setups: [One with an active backend](#ssr) and anoth
 
 The basic target is always the same: We want everything to be SEO optimized in all languages and serve always the newest translations to our users.
 
-# Example with a backend server <a name="ssr"></a>
+## Example with a backend server <a name="ssr"></a>
 
 ![](next-build.jpg)
 
@@ -71,20 +71,20 @@ Now let's connect to an awesome translation management system and manage your tr
 Let's synchronize the translation files with [locize](https://locize.com).
 This can be done on-demand or on the CI-Server or before deploying the app.
 
-## What to do to reach this step:
+### What to do to reach this step:
 1. in locize: signup at https://locize.app/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language))
 4. install the [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
 
-## Use the [locize-cli](https://github.com/locize/locize-cli)
+### Use the [locize-cli](https://github.com/locize/locize-cli)
 Use the `locize sync` command to synchronize your local repository (`public/locales`) with what is published on locize.
 
 Alternatively, you can also use the `locize download` command to always download the published locize translations to your local repository (`public/locales`) before bundling your app.
 
 > But you were talking about having always up-to-date translations without the need to redeploy your app?
 
-## Yes, let's adapt for that:
+### Yes, let's adapt for that:
 
 We will use the [i18next-locize-backend plugin](https://github.com/locize/i18next-locize-backend), but only on client side.
 
@@ -140,7 +140,7 @@ And then remove the `serverSideTranslation` to [`getStaticProps`](https://nextjs
 // }
 ```
 
-## That's it! Let's check the result:
+### That's it! Let's check the result:
 
 The HTML returned from the server looks correctly translated. So this is well optimized for search engines.
 ![](ssr-translations.jpg)
@@ -153,7 +153,7 @@ And on client side, the up-to-date translations are directly fetched from the [l
 *🧑‍💻 The code can be found [here](https://github.com/locize/next-i18next-locize).*
 
 
-### Additional hint:
+#### Additional hint:
 
 If you've configured [caching](https://docs.locize.com/more/caching) for your locize version, you may not need the [i18next-localstorage-backend](https://github.com/i18next/i18next-localstorage-backend) and [i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) plugin.
 
@@ -178,7 +178,7 @@ module.exports = {
 }
 ```
 
-## Alternative usage: <a name="alternative-usage"></a>
+### Alternative usage: <a name="alternative-usage"></a>
 
 In case you're using the [ready flag](https://react.i18next.com/latest/usetranslation-hook#not-using-suspense) and are seeing a warning like this: `Expected server HTML to contain a matching text node for...` this is because of the following reason:
 
@@ -226,7 +226,7 @@ This way the ready check is also not necessary anymore, because the translations
 
 
 
-# Static Website example <a name="ssg"></a>
+## Static Website example <a name="ssg"></a>
 
 ![](next-export.jpg)
 
@@ -244,7 +244,7 @@ Well, this features requires a Node.js server, or dynamic logic that cannot be c
 There is a [dedicated article](../next-i18n-static/) with a solution to that Next.js problem. [Follow that guide first!](../next-i18n-static/)
 [![](../next-i18n-static/title.jpg)](../next-i18n-static/)
 
-## Done so? Then let's continue here:
+### Done so? Then let's continue here:
 
 It's the same `next-i18next.config.js` config like in the [previous example](#ssr):
 
@@ -303,7 +303,7 @@ const getStaticProps = makeStaticProps(['common', 'footer'], { emptyI18nStoreSto
 export { getStaticPaths, getStaticProps }
 ```
 
-## That's it! Let's check the result:
+### That's it! Let's check the result:
 
 The generated static HTML looks correctly translated. So this is well optimized for search engines.
 ![](ssg-translations.jpg)
@@ -316,11 +316,11 @@ And on client side, the up-to-date translations are directly fetched from the [l
 *🧑‍💻 The code can be found [here](https://github.com/i18next/next-language-detector/tree/main/examples/client-loading).*
 
 
-# Continuous Localization
+## Continuous Localization
 
 Since we're now "connected" to as smart [translation management system](https://lociize.com), we can try to make use of its full potential.
 
-## save missing translations <a name="save-missing"></a>
+### save missing translations <a name="save-missing"></a>
 
 >I wish newly added keys in the code, would automatically be saved to locize.
 
@@ -362,7 +362,7 @@ will result in locize like this:
 ![missing key](missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... <a name="more"></a>
+#### 👀 but there's more... <a name="more"></a>
 
 Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -416,7 +416,7 @@ module.exports = {
 
 ![i18next incontext](in_context.jpg "locize © inweso GmbH")
 
-### 📦 Let's prepare for production 🚀 <a name="production"></a>
+#### 📦 Let's prepare for production 🚀 <a name="production"></a>
 
 Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
 
@@ -472,7 +472,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 Awesome! Thanks to [next-i18next](https://github.com/i18next/next-i18next), [i18next](https://www.i18next.com), [react-i18next](https://react.i18next.com) and [locize](https://locize.com) your continuous localization workflow is ready to go.
 
@@ -480,4 +480,4 @@ So if you want to take your i18n topic to the next level, it's worth trying the 
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

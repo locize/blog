@@ -32,7 +32,7 @@ You know [Next.js](https://nextjs.org), right? - If not, stop reading this artic
 Next.js is awesome! It gives you the best developer experience with all the features you need...
 
 
-## TOC
+### TOC
   * [BUT, you may have heard about this](#but)
   * [So what can we do now?](#what-do)
   * [The recipe](#recipe)
@@ -41,7 +41,7 @@ Next.js is awesome! It gives you the best developer experience with all the feat
   * [🎉🥳 Congratulations 🎊🎁](#congratulations)
       
 
-# **BUT**, you may have heard about this: <a name="but"></a>
+## **BUT**, you may have heard about this: <a name="but"></a>
 
 >Error: i18n support is not compatible with next export. See here for more info on deploying: https://nextjs.org/docs/deployment
 
@@ -50,7 +50,7 @@ Well, this features requires a Node.js server, or dynamic logic that cannot be c
 
 This is the case if you're using [next-i18next](https://github.com/i18next/next-i18next) for example.
 
-# So what can we do now? <a name="what-do"></a>
+## So what can we do now? <a name="what-do"></a>
 
 ![](what.jpg)
 
@@ -66,7 +66,7 @@ Executing `next export` when not using i18n seems to work.
 What if we do not try to use the [internationalized routing](https://nextjs.org/docs/advanced-features/i18n-routing) feature and do the i18n routing on our own?
 
 
-# The recipe <a name="recipe"></a>
+## The recipe <a name="recipe"></a>
 
 ![](cook-book.jpg "recipe")
 
@@ -355,7 +355,7 @@ Sounds feasible. Let's start!
   ```
 
 
-# The outcome <a name="outcome"></a>
+## The outcome <a name="outcome"></a>
 
 ![](result.jpg)
 
@@ -386,7 +386,7 @@ Export successful. Files written to /Users/usr/projects/my-awesome-project/out
 *🧑‍💻 The complete code can be found [here](https://github.com/i18next/next-language-detector/tree/main/examples/basic).*
 
 
-# The voluntary part <a name="voluntary"></a>
+## The voluntary part <a name="voluntary"></a>
 
 ![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
@@ -395,19 +395,19 @@ Connect to an awesome translation management system and manage your translations
 Let's synchronize the translation files with [locize](https://locize.com).
 This can be done on-demand or on the CI-Server or before deploying the app.
 
-## What to do to reach this step:
+### What to do to reach this step:
 1. in locize: signup at https://locize.app/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language))
 4. install the [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
 
-## Use the [locize-cli](https://github.com/locize/locize-cli)
+### Use the [locize-cli](https://github.com/locize/locize-cli)
 Use the `locize sync` command to synchronize your local repository (`public/locales`) with what is published on locize.
 
 Alternatively, you can also use the `locize download` command to always download the published locize translations to your local repository (`public/locales`) before bundling your app.
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 I hope you’ve learned a few new things about static site generation (SSG), [Next.js](https://nextjs.org), [next-i18next](https://github.com/i18next/next-i18next), [i18next](https://www.i18next.com) and [modern localization workflows](https://locize.com).
 
@@ -415,11 +415,11 @@ So if you want to take your i18n topic to the next level, it's worth trying the 
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
-# 👍
+## 👍
 
 ---
 
-# Looking for an optimized Next.js translations setup?
+## Looking for an optimized Next.js translations setup?
 
 [![next-i18next](../next-i18next/next-i18next.jpg)](../next-i18next/)
 [Here](../next-i18next/) you'll find a blog post on how to best use next-i18next with client side translation download and SEO optimization.

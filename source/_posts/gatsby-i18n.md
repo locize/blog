@@ -34,7 +34,7 @@ In this article we will use a plugin based on the famous i18n framework [i18next
 <br />
 The Gatsby plugin we're using is [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next) created by [Dmitriy Nevzorov](https://twitter.com/nevzorov_d).
 
-## TOC
+### TOC
   * [So first of all: "Why i18next?"](#why-i18next)
   * [Let's get into it...](#start)
     - [Prerequisites](#prerequisites)
@@ -50,7 +50,7 @@ The Gatsby plugin we're using is [gatsby-plugin-react-i18next](https://github.co
     - [👀 but there's more... (InContext Editor)](#more)
   * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+## So first of all: "Why i18next?" <a name="why-i18next"></a>
 
 When it comes to React localization, one of the most popular i18n framework is [i18next](https://www.i18next.com) with its react extension [react-i18next](https://react.i18next.com), and for good reasons:
 
@@ -77,14 +77,14 @@ When it comes to React localization, one of the most popular i18n framework is [
 [Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Let's get into it... <a name="start"></a>
+## Let's get into it... <a name="start"></a>
 
-## Prerequisites <a name="prerequisites"></a>
+### Prerequisites <a name="prerequisites"></a>
 
 Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript, React.js and basic Gatsby, before jumping to [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next). This Gatsby localization example is not intended to be a Gatsby or React beginner tutorial.
 
 
-## Getting started <a name="getting-started"></a>
+### Getting started <a name="getting-started"></a>
 
 Take your own Gatsby project or create a new one, i.e. with the [gatsby-cli](https://www.gatsbyjs.com/docs/reference/gatsby-cli/#new).
 
@@ -231,7 +231,7 @@ And maybe also another one for German?
 ```
 
 
-## Language Switcher <a name="language-switcher"></a>
+### Language Switcher <a name="language-switcher"></a>
 
 To be able to switch between different languages, we need a language switcher:
 
@@ -274,7 +274,7 @@ Now switching to `de` (German) should also work:
 
 **🥳 Awesome, you've just created your first language switcher!**
 
-## Internationalized links <a name="i18n-link"></a>
+### Internationalized links <a name="i18n-link"></a>
 
 Let's create a second page...
 
@@ -404,7 +404,7 @@ The `Link` component exported from `gatsby-plugin-react-i18next`automatically li
 The `Link` component is identical to Gatsby Link component except that you can provide an additional language prop to create a link to a page with a different language.
 
 
-## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
+### Interpolation and Pluralization <a name="interpolation-pluralization"></a>
 
 i18next goes beyond just providing the standard i18n features.
 But for sure it's able to handle [plurals](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation).
@@ -515,7 +515,7 @@ t('key', {count: 99}); // -> "many"
 t('key', {count: 100}); // -> "other"
 ```
 
-### Why are my plural keys not working? <a name="pluralsv4"></a>
+#### Why are my plural keys not working? <a name="pluralsv4"></a>
 
 Are you seeing this warning in the development console (`debug: true`)?
 
@@ -534,7 +534,7 @@ import 'intl-pluralrules'
 ```
 
 
-## Formatting <a name="formatting"></a>
+### Formatting <a name="formatting"></a>
 
 Now, let’s check out how we can use different date formats with the help of [i18next](https://www.i18next.com) and [Luxon](https://moment.github.io/luxon) to handle date and time.
 
@@ -609,7 +609,7 @@ German:
 ![gatsby german](app_4.jpg "locize © inweso GmbH")
 
 
-## Context <a name="context"></a>
+### Context <a name="context"></a>
 
 What about a specific greeting message based on the current daytime? i.e. morning, evening, etc.
 This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
@@ -698,7 +698,7 @@ And add some context-specific translations keys:
 ![gatsby translations](app_5.jpg "locize © inweso GmbH")
 
 
-## Key extraction <a name="extract"></a>
+### Key extraction <a name="extract"></a>
 
 Thanks to the [babel-plugin-i18next-extract](https://i18next-extract.netlify.app) you can automatically extract translations inside the `t` function and `Trans` component from your pages and save them in the namespace files.
 
@@ -823,7 +823,7 @@ Running `npm run extract` will now add that new `cta` key to the namespace file:
 }
 ```
 
-## Extra power <a name="extra-power"></a>
+### Extra power <a name="extra-power"></a>
 
 **This is all already great, but we can do even more!**
 
@@ -839,7 +839,7 @@ This is the traditional way. But be aware, sending files around creates always a
 
 > Does a better option exist?
 
-### For sure! <a name="for-sure"></a>
+#### For sure! <a name="for-sure"></a>
 
 i18next helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
@@ -862,7 +862,7 @@ i18next helps to get the application translated, and this is great - but there i
 
 ![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### How does this look like? <a name="how-look"></a>
+#### How does this look like? <a name="how-look"></a>
 
 First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add all required languages. And finally you can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
@@ -928,7 +928,7 @@ and run `npm run export` and then `npm run syncLocales`, we get this:
 ![gatsby translations](app_6.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... (InContext Editor) <a name="more"></a>
+#### 👀 but there's more... (InContext Editor) <a name="more"></a>
 
 With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
 
@@ -1038,7 +1038,7 @@ Then go to your locize project and define your in-context editor urls, like desc
 If you want to learn more basics about i18next, there's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 I hope you’ve learned a few new things about [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next), [i18next](https://www.i18next.com), [React.js localization](https://react.i18next.com) and [modern localization workflows](https://locize.com).
 
@@ -1046,4 +1046,4 @@ So if you want to take your i18n topic to the next level, it's worth trying the 
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

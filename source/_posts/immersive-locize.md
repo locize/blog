@@ -16,7 +16,7 @@ thumbnail: immersive-locize/title.jpg
 
 I've decided to have the platform fully localized in 10 languages at launch. This, would certainly take a lot of time and effor, so I started looking for possible SaaS solutions to his problem. My first search result was [locize](/) and it looked promising so I gave it a go. Needless to say, I wasn't disappoined and I neded up using [locize](/) to fully localize my platform.
 
-# Favorite Features
+## Favorite Features
 
 The best thing about [locize](/) that I found useful was the ability to create multiple projects. Inside each project you can have multiple documents ([namespaces](https://docs.locize.com/more/namespaces)), which came useful to me, since I would have at least 2 different website types.
 
@@ -24,7 +24,7 @@ One would be the main website and the other, the other would represent all the o
 
 The other invaluable feature was the ability to automatically translate all your phrases using Google Translate, but [locize](/) took it one step further by being compliant with [i18next](https://www.i18next.com) standards and also adding appropriate singular and plural translations. This would not be possible for me to do by myself since I would have to have inshight into the grammar rules of each language I wanted localized.
 
-# Corner Cases handled with Ease
+## Corner Cases handled with Ease
 
 Aside from plurals, I also had to handle time and counts of items. Luckily, using interpolation, [locize](/) understood my request and properly formatted the time which I used to show how long ago each article was written. Also, the count of items, for example comments each article gets, was formatted properly. But this was not the biggest hurdle I had to jump over.
 
@@ -36,7 +36,7 @@ The best part is that this was not just any text, but actually **Markdown**, whi
 
 ![](screens.jpg)
 
-# Final Thoughts
+## Final Thoughts
 
 I found [locize](/) to be invaluable to my localization effort. I will continue using it for other projects and the ability to pause your project and pay less for your monthly subscription when you're not using it is an added bonus!
 

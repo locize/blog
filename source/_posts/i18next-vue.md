@@ -29,7 +29,7 @@ You may know [vue-i18n](../give-vue-i18n-more-superpowers/), but for those who a
 In this tutorial, we'll make use of the [i18next-vue](https://github.com/i18next/i18next-vue) module.
 
 
-## TOC
+### TOC
   * [So first of all: "Why i18next?"](#why-i18next)
   * [Let's get into it...](#start)
     - [Prerequisites](#prerequisites)
@@ -48,7 +48,7 @@ In this tutorial, we'll make use of the [i18next-vue](https://github.com/i18next
       - [📦 Let's prepare for production 🚀](#production)
   * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+## So first of all: "Why i18next?" <a name="why-i18next"></a>
 
 When it comes to Vue localization, one of the most popular is [i18next](https://www.i18next.com) with its Vue extension [i18next-vue](https://i18next.github.io/i18next-vue/), and for good reasons:
 
@@ -75,14 +75,14 @@ When it comes to Vue localization, one of the most popular is [i18next](https://
 [Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Let's get into it... <a name="start"></a>
+## Let's get into it... <a name="start"></a>
 
-## Prerequisites <a name="prerequisites"></a>
+### Prerequisites <a name="prerequisites"></a>
 
 Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic Vue.js, before jumping to [i18next-vue](https://i18next.github.io/i18next-vue/).
 
 
-## Getting started <a name="getting-started"></a>
+### Getting started <a name="getting-started"></a>
 
 Take your own Vue project or create a new one, i.e. with [the vue create cli command](https://cli.vuejs.org/guide/creating-a-project.html#vue-create).
 
@@ -201,7 +201,7 @@ export default function (app) {
 ```
 
 
-## Language Switcher <a name="language-switcher"></a>
+### Language Switcher <a name="language-switcher"></a>
 
 Now let's define a language switcher:
 
@@ -292,14 +292,14 @@ export default function (app) {
 
 Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as the preferred language.
 
-### How to get the current language? <a name="current-language"></a>
+#### How to get the current language? <a name="current-language"></a>
 
 Since i18next v21 there is [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
 It is set to the current resolved language and it can be used as the primary used language, for example in a language switcher.
 
 If your detected language for example is `en-US` and you provided translations only for `en` *(fallbackLng)* instead `i18next.resolvedLanguage` will return `en`.
 
-#### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
+##### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
 
 ```javascript
 /* language */
@@ -332,7 +332,7 @@ i18next.resolvedLanguage;
 // for example in a language switcher.
 ```
 
-## Interpolation and Pluralization <a name="interpolation-pluralization"></a>
+### Interpolation and Pluralization <a name="interpolation-pluralization"></a>
 
 i18next goes beyond just providing the standard i18n features.
 But for sure it's able to handle [plurals](https://www.i18next.com/translation-function/plurals) and [interpolation](https://www.i18next.com/translation-function/interpolation).
@@ -340,14 +340,14 @@ But for sure it's able to handle [plurals](https://www.i18next.com/translation-f
 If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#interpolation-pluralization).
 
 
-## Formatting <a name="formatting"></a>
+### Formatting <a name="formatting"></a>
 
 Also, [formatting](https://www.i18next.com/translation-function/formatting) can be done.
 
 If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#formatting).
 
 
-## Context <a name="context"></a>
+### Context <a name="context"></a>
 
 What about a specific greeting message based on the current daytime? i.e. morning, evening, etc.
 This is possible thanks to the [context](https://www.i18next.com/translation-function/context) feature of i18next.
@@ -355,7 +355,7 @@ This is possible thanks to the [context](https://www.i18next.com/translation-fun
 If you like to see how this works, have a look at [this section in that other blog post](../react-i18next/#context).
 
 
-## Separate translations from code <a name="separate"></a>
+### Separate translations from code <a name="separate"></a>
 
 Having the translations in our `i18n.js` file works, but is not that suitable to work with, for translators.
 Let's separate the translations from the code and place them in dedicated json files.
@@ -505,14 +505,14 @@ This gives you the possibility to send the translations to some translators.
 Or if you're working with a translation management system you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
-## Better translation management <a name="better-translation-management"></a>
+### Better translation management <a name="better-translation-management"></a>
 
 By sending the translations to some translators or translator agencies you have more control and a direct contact with them. But this also means more work for you.
 This is a traditional way. But be aware sending files around creates always an overhead.
 
 > Does a better option exist?
 
-### For sure! <a name="for-sure"></a>
+#### For sure! <a name="for-sure"></a>
 
 i18next helps to get the application translated, and this is great - but there is more to it.
 - How do you integrate any translation services / agency?
@@ -537,7 +537,7 @@ i18next helps to get the application translated, and this is great - but there i
 
 ![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### What does this look like? <a name="how-look"></a>
+#### What does this look like? <a name="how-look"></a>
 
 First, you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by using the [cli](https://github.com/locize/react-tutorial#use-the-locize-cli) or by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations).
@@ -627,7 +627,7 @@ export default {
 </script>
 ```
 
-### save missing translations <a name="save-missing"></a>
+#### save missing translations <a name="save-missing"></a>
 
 Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys get added to locize automatically, while developing the app.
 
@@ -680,7 +680,7 @@ will result in locize like this:
 ![missing key](missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... <a name="more"></a>
+#### 👀 but there's more... <a name="more"></a>
 
 Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -756,7 +756,7 @@ export default function (app) {
 ![i18next incontext](in_context.jpg "locize © inweso GmbH")
 
 
-### 📦 Let's prepare for production 🚀 <a name="production"></a>
+#### 📦 Let's prepare for production 🚀 <a name="production"></a>
 
 Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production).
 
@@ -858,7 +858,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [Vue.js localization](https://i18next.github.io/i18next-vue/) and [modern localization workflows](https://locize.com).
 
@@ -866,4 +866,4 @@ So if you want to take your i18n topic to the next level, it's worth trying the 
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

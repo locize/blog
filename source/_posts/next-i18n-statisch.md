@@ -31,7 +31,7 @@ Sie kennen [Next.js](https://nextjs.org), richtig? - Wenn nicht, hören Sie auf,
 Next.js ist grossartig! Es bietet Ihnen die beste Entwicklererfahrung mit allen Funktionen, die Sie benötigen ...
 
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
   * [ABER, Sie haben vielleicht schon davon gehört](#but)
   * [Also was können wir jetzt tun?](#what-do)
   * [Das Rezept](#recipe)
@@ -40,7 +40,7 @@ Next.js ist grossartig! Es bietet Ihnen die beste Entwicklererfahrung mit allen 
   * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
       
 
-# **ABER**, Sie haben vielleicht schon davon gehört: <a name="but"></a>
+## **ABER**, Sie haben vielleicht schon davon gehört: <a name="but"></a>
 
 >Error: i18n support is not compatible with next export. See here for more info on deploying: https://nextjs.org/docs/deployment
 
@@ -49,7 +49,7 @@ Nun, diese Funktion erfordert einen Node.js-Server oder eine dynamische Logik, d
 
 Dies ist beispielsweise der Fall, wenn Sie [next-i18next](https://github.com/i18next/next-i18next) verwenden.
 
-# Also was können wir jetzt tun? <a name="what-do"></a>
+## Also was können wir jetzt tun? <a name="what-do"></a>
 
 ![](../next-i18n-static/what.jpg)
 
@@ -65,7 +65,7 @@ Das Ausführen von `next export`, wenn i18n nicht verwendet wird, scheint zu fun
 Was ist, wenn wir nicht versuchen, die Funktion [internationalisiertes Routing](https://nextjs.org/docs/advanced-features/i18n-routing) zu verwenden und das i18n-Routing selbst durchführen?
 
 
-# Das Rezept <a name="recipe"></a>
+## Das Rezept <a name="recipe"></a>
 
 ![](../next-i18n-static/cook-book.jpg "recipe")
 
@@ -354,7 +354,7 @@ Klingt machbar. Lasst uns beginnen!
   ```
 
 
-# Das Ergebnis <a name="outcome"></a>
+## Das Ergebnis <a name="outcome"></a>
 
 ![](../next-i18n-static/result.jpg)
 
@@ -385,7 +385,7 @@ Export successful. Files written to /Users/usr/projects/my-awesome-project/out
 *🧑‍💻 Der komplette Code kann [hier](https://github.com/i18next/next-language-detector/tree/main/examples/basic) gefunden werden.*
 
 
-# Der freiwillige Teil <a name="voluntary"></a>
+## Der freiwillige Teil <a name="voluntary"></a>
 
 ![transformieren Sie den Lokalisierungsprozess](../next-i18n-static/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
@@ -394,19 +394,19 @@ Verbinden Sie sich mit einem grossartigen Übersetzungsmanagementsystem und verw
 Lassen Sie uns die Übersetzungsdateien mit [locize](https://locize.com) synchronisieren.
 Dies kann bei Bedarf oder auf dem CI-Server oder vor der Bereitstellung der App erfolgen.
 
-## Was zu tun ist, um diesen Schritt zu erreichen:
+### Was zu tun ist, um diesen Schritt zu erreichen:
 1. in locize: Anmeldung unter https://locize.app/register und [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [ein neues Projekt erstellen](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. in locize: Fügen Sie alle Ihre zusätzlichen Sprachen hinzu (dies kann auch über die [API](https://docs.locize.com/integration/api#add-new-language) erfolgen)
 4. installiere das [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
 
-## Benutzen Sie die [locize-cli](https://github.com/locize/locize-cli)
+### Benutzen Sie die [locize-cli](https://github.com/locize/locize-cli)
 Verwenden Sie den Befehl `locize sync`, um Ihr lokales Repository (`public/locales`) mit dem zu synchronisieren, was auf locize veröffentlicht wurde.
 
 Alternativ können Sie auch den Befehl `locize download` verwenden, um die veröffentlichten locize-Übersetzungen immer in Ihr lokales Repository (`public/locales`) herunterzuladen, bevor Sie Ihre App bündeln.
 
 
-# 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
 
 Ich hoffe, Sie haben ein paar neue Dinge über die Generierung statischer Websites (SSG), [Next.js](https://nextjs.org), [next-i18next](https://github.com/i18next/next-i18next), [i18next](https://www.i18next.com) und [moderne Lokalisierungsworkflows](https://locize.com).
 
@@ -414,11 +414,11 @@ Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es s
 
 Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
-# 👍
+## 👍
 
 ---
 
-# Suchen Sie nach einem optimierten Next.js-Übersetzungs-Setup?
+## Suchen Sie nach einem optimierten Next.js-Übersetzungs-Setup?
 
 [![next-i18next](../next-i18next/next-i18next.jpg)](../next-i18next-de/)
 [Hier](../next-i18next-de/) finden Sie einen Blogbeitrag zur optimalen Verwendung von next-i18next mit clientseitigem Übersetzungsdownload und SEO-Optimierung.

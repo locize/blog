@@ -31,7 +31,7 @@ Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) er
 
 ***Es gibt auch einen [zweiten Teil dieses Blogposts](../remix-i18next-de/), der sich mehr auf einen kontinuierlichen Lokalisierungsworkflow konzentriert.***
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
   * [Also erstmal: "Warum i18next?"](#why-i18next)
   * [Fangen wir an...](#start)
     - [Voraussetzungen](#prerequisites)
@@ -42,7 +42,7 @@ Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) er
   * [Teil 2](../remix-i18next-de/)
 
 
-# Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
+## Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
 *i18next wurde Ende 2011 erstellt. Es ist älter als die meisten Bibliotheken, die Sie heutzutage verwenden, einschliesslich der wichtigsten Frontend-Technologien ([React](../react-i18next-de/), [Angular](../angular-i18next-de/), [Vue](../i18next-vue-de/), ...).*
 <br />
@@ -66,14 +66,14 @@ Es wurde im Oktober 2021 von [Sergio Xalambrí](https://github.com/sergiodxa) er
 [Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Fangen wir an... <a name="start"></a>
+## Fangen wir an... <a name="start"></a>
 
-## Voraussetzungen <a name="prerequisites"></a>
+### Voraussetzungen <a name="prerequisites"></a>
 
 Stellen Sie sicher, dass Sie Node.js und npm installiert haben. Es ist am besten, wenn Sie etwas Erfahrung mit einfachem HTML, JavaScript und grundlegendem [React](https://reactjs.org) und [Remix](https://remix.run) haben, bevor Sie mit [remix-i18next]( https://github.com/sergiodxa/remix-i18next) loslegen.
 
 
-## Einstieg <a name="getting-started"></a>
+### Einstieg <a name="getting-started"></a>
 
 Nehmen Sie Ihr eigenes Remix-Projekt oder verwenden Sie diese Beispiel-App [hier](https://github.com/locize/locize-remix-i18next-example/tree/start).
 
@@ -481,7 +481,7 @@ Fügen Sie die Schlüssel zu Ihren Übersetzungen hinzu, z. B. `public/locales/e
 }
 ```
 
-## Sprach Wechsler <a name="language-switcher"></a>
+### Sprach Wechsler <a name="language-switcher"></a>
 
 remix-i18next erkennt standardmässig die aktuelle Sprache in dieser Reihenfolge:
 - der lng-Suchparameter
@@ -696,7 +696,7 @@ Das bedeutet also, dass wir den Suchparameter lng verwenden, um die Sprache zu �
 *🧑‍💻 Den vollständigen Code finden Sie [hier](https://github.com/locize/locize-remix-i18next-example/tree/local).*
 
 
-## Der freiwillige Teil <a name="voluntary"></a>
+### Der freiwillige Teil <a name="voluntary"></a>
 
 ![transformieren Sie den Lokalisierungsprozess](../remix-i18n/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
@@ -705,19 +705,19 @@ Verbinden Sie sich mit einem grossartigen Übersetzungsmanagementsystem und verw
 Lassen Sie uns die Übersetzungsdateien mit [locize](https://locize.com) synchronisieren.
 Dies kann bei Bedarf oder auf dem CI-Server oder vor der Bereitstellung der App erfolgen.
 
-## Was zu tun ist, um diesen Schritt zu erreichen:
+### Was zu tun ist, um diesen Schritt zu erreichen:
 1. in locize: Anmeldung unter https://locize.app/register und [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [ein neues Projekt erstellen](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. in locize: Fügen Sie alle Ihre zusätzlichen Sprachen hinzu (dies kann auch über [API](https://docs.locize.com/integration/api#add-new-language) erfolgen)
 4. installieren der [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
 
-## Verwenden Sie die [locize-cli](https://github.com/locize/locize-cli)
+### Verwenden Sie die [locize-cli](https://github.com/locize/locize-cli)
 Verwenden Sie den Befehl `locize sync`, um Ihr lokales Repository (`public/locales`) mit dem zu synchronisieren, was auf locize veröffentlicht wird.
 
 Alternativ können Sie auch den Befehl `locize download` verwenden, um die veröffentlichten locize-Übersetzungen immer in Ihr lokales Repository (`public/locales`) herunterzuladen, bevor Sie Ihre App bündeln.
 
 
-# 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Herzliche Glückwünsche 🎊🎁 <a name="congratulations"></a>
 
 Ich hoffe, Sie haben ein paar neue Dinge über i18n gelernt in [Remix](https://remix.run), [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next] (https://www.i18next.com) und auch etwas über [moderne Lokalisierungsworkflows](https://locize.com).
 
@@ -728,6 +728,6 @@ Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18ne
 Es gibt auch ein [i18next Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
-# 👍
+## 👍
 
 *Wenn Sie wissen möchten, wie Sie die volle Leistung von i18next entfesseln können, [schauen Sie sich **"Teil 2"** an](../remix-i18next-de/)!*

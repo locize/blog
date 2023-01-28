@@ -36,12 +36,12 @@ Think of all user faced content not directly rendered in your browser...
 - Or you're using [server side rendering (SSR)](#ssr)?
 - etc.
 
-# Let's check that out...
+## Let's check that out...
 
 We will show some examples that uses [i18next](https://www.i18next.com) as i18n framework. If you're curious to know why we suggest i18next, have a look at [this page](https://locize.com/i18next.html).
 
 
-# Command line interface (CLI) <a name="cli"></a>
+## Command line interface (CLI) <a name="cli"></a>
 
 Let's start with something simple: a verry small CLI app. For this example let's use [commander](https://github.com/tj/commander.js), originally created by [TJ Holowaychuk](https://twitter.com/tjholowaychuk).
 We are defining a `sayhi` command with optional language and name parameters that should respond with a salutation in the appropriate language.
@@ -157,17 +157,17 @@ if (!process.argv.slice(2).length) {
 Ok, what's the result?
 
 ```sh
-# if we execute the cli command without any parameters...
+## if we execute the cli command without any parameters...
 mycli sayhi
-# result: Hello World!
+## result: Hello World!
 
-# if we execute the cli command with a language parameter...
+## if we execute the cli command with a language parameter...
 mycli sayhi --language de
-# result: Hallo Welt!
+## result: Hallo Welt!
 
-# if we execute the cli command with a language parameter and a name parameter...
+## if we execute the cli command with a language parameter and a name parameter...
 mycli sayhi --language de --name John
-# result: Hallo John!
+## result: Hallo John!
 ```
 
 **Easy, isn't it?**
@@ -204,13 +204,13 @@ module.exports = (lng) => i18next.getFixedT(lng || systemLocale)
 
 *🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-cli-app-example).*
 
-## A possible next step...
+### A possible next step...
 
 A possible next step could be to professionalize the translation management.
 This means the translations would be "managed" (add new languages, new translations etc...) in a translation management system (TMS), like [locize](https://www.locize.com) and synchronized with your code. To see how this could look like, check out [**Step 1** in this tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize).
 
 
-# Generate Emails <a name="email"></a>
+## Generate Emails <a name="email"></a>
 
 Another typical server side use case that requires internationalization is the generation of emails.
 
@@ -332,11 +332,11 @@ This is how the resulting html could look like:
 *🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-fs-backend/blob/master/example/fastify/app.js#L14-L19).*
 
 
-# Server Side Rendering (SSR) <a name="ssr"></a>
+## Server Side Rendering (SSR) <a name="ssr"></a>
 
 We will try 2 different SSR examples, a classic one using [Fastify with pug](#pug) and a more trendy one using [Next.js](#nextjs).
 
-## Fastify with Pug example <a name="pug"></a>
+### Fastify with Pug example <a name="pug"></a>
 
 For this example we will use my favorite http framework [Fastify](https://www.fastify.io) (created by [Matteo Collina](https://twitter.com/matteocollina) and [Tomas Della Vedova](https://twitter.com/delvedor)), but any other framework will also work.
 
@@ -464,16 +464,16 @@ If you check the console output you'll also see something like this:
 
 ```sh
 node app.js
-# Server is listening on port 8080.
-# Der server lauscht auf dem Port 8080.
-# Il server sta aspettando sul port 8080.
+## Server is listening on port 8080.
+## Der server lauscht auf dem Port 8080.
+## Il server sta aspettando sul port 8080.
 ```
 
 *Yes, if you like, you can also internationalize your log statements 😁*
 
 *🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-fs-backend/tree/master/example/fastify).*
 
-### A possible next step...
+#### A possible next step...
 
 Do you wish to manage your translations in a translation management system (TMS), like [locize](https://www.locize.com)?
 
@@ -536,7 +536,7 @@ export default app
 **😎 Cool, right?**
 
 
-## Next.js example <a name="nextjs"></a>
+### Next.js example <a name="nextjs"></a>
 
 Now it's time for [Next.js](https://nextjs.org)...
 
@@ -603,7 +603,7 @@ A demo of how such an app looks like when it is deployed, can be found [here](ht
 
 **This looks really simple, right?**
 
-## Manage the translations outside of the code
+### Manage the translations outside of the code
 
 To best manage the translations there are 3 different approaches:
 
@@ -667,7 +667,7 @@ You can, for example, run an [npm script](https://github.com/locize/next-i18next
 
 i.e. `locize download --project-id=d3b405cf-2532-46ae-adb8-99e88d876733 --ver=latest --clean=true --path=./public/locales`
 
-### Best approach: optimized for server and client side
+#### Best approach: optimized for server and client side
 
 [![next-i18next](../next-i18next/next-i18next.jpg)](../next-i18next/)
 [Here](../next-i18next/) you'll find a blog post on how to best use next-i18next with client side translation download and SEO optimization.
@@ -678,7 +678,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Conclusion 🎊🎁
+## 🎉🥳 Conclusion 🎊🎁
 
 As you see i18n is also important on server side.
 

@@ -24,7 +24,7 @@ If you are in such a position, you may know why...
 <br />
 Let's start by telling what some tasks and responsibilities this roles entail.
 
-# What is a tech team leader / engineering manager doing?
+## What is a tech team leader / engineering manager doing?
 
 ![](foreman.jpg)
 
@@ -55,7 +55,7 @@ The delicate balancing what engineers like to do versus what needs to be done.
 Somehow manage the too often existing mentality that one group works on "the business" and the other works on the "code" or the "release", by trying to "connect" the work that the engineers do to the business.
 
 
-# How may a tech team leader / engineering manager feel?
+## How may a tech team leader / engineering manager feel?
 
 ![](alone.jpg)
 
@@ -68,7 +68,7 @@ In the eyes of your team they’re "the business" and in the eyes of the executi
 Directly in the middle of the tension between the business sides and the technical side of the company.
 
 
-# Some situations
+## Some situations
 
 ![](discuss.png)
 
@@ -99,7 +99,7 @@ You can't tell the customer, the next release will come with unverified texts an
 >Tech team leaders / engineering managers are alone!
 
 
-# Is there something that we could do to help?
+## Is there something that we could do to help?
 
 ![](solution.jpg)
 
@@ -118,7 +118,7 @@ You may also want to have some reviewing workflow, a history, integrated orderin
 
 >Cool this will for sure calm down some tensions, but isn't this a little over the top... an extra tooling and deployment — does not all this just add more complexity and effort?
 
-### You don’t have to build this yourself!!! — There is [locize](https://locize.com)!
+#### You don’t have to build this yourself!!! — There is [locize](https://locize.com)!
 
 [locize](https://locize.com) removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
 

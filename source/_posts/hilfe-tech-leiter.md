@@ -25,7 +25,7 @@ Wenn Sie in einer solchen Position sind, wissen Sie vielleicht, warum...
 <br />
 Lassen Sie uns zunächst sagen, welche Aufgaben und Verantwortlichkeiten diese Rollen mit sich bringen.
 
-# Was macht ein Technischer Teamleiter/Engineering Manager?
+## Was macht ein Technischer Teamleiter/Engineering Manager?
 
 ![](../help-tech-leads/foreman.jpg)
 
@@ -56,7 +56,7 @@ Das heikle Abwägen zwischen dem, was Entwickler gerne tun, und dem, was getan w
 Sie bewältigen irgendwie die zu häufig vorhandene Mentalität, dass eine Gruppe am „Geschäft“ und die andere am „Code“ oder der „Freigabe“ arbeitet, indem Sie versuchen, die Arbeit der Ingenieure mit dem Geschäft zu „verbinden“.
 
 
-# Wie wird sich wohl ein technischer Teamleiter / Engineering-Manager fühlen?
+## Wie wird sich wohl ein technischer Teamleiter / Engineering-Manager fühlen?
 
 ![](../help-tech-leads/alone.jpg)
 
@@ -69,7 +69,7 @@ In den Augen Ihres Teams sind sie „das Geschäft“ und in den Augen der Führ
 Direkt im Spannungsfeld zwischen der kaufmännischen Seite und der technischen Seite des Unternehmens.
 
 
-# Einige Situationen
+## Einige Situationen
 
 ![](../help-tech-leads/discuss.png)
 
@@ -100,7 +100,7 @@ Sie können dem Kunden nicht sagen, dass die nächste Version mit unverifizierte
 >Technische Teamleiter / Engineering-Manager sind alleine!
 
 
-# Gibt es etwas, was wir tun könnten, um zu helfen?
+## Gibt es etwas, was wir tun könnten, um zu helfen?
 
 ![](../help-tech-leads/solution.jpg)
 
@@ -119,7 +119,7 @@ Vielleicht möchten Sie auch einen Überarbeitungs-Workflow, eine Historie, eine
 
 >Cool, das wird sicherlich einige Spannungen beruhigen, aber ist das nicht ein wenig übertrieben ... ein zusätzliches Tooling und eine zusätzliche Bereitstellung - fügt das alles nicht nur mehr Komplexität und Aufwand hinzu?
 
-### Sie müssen das nicht selbst bauen!!! — Es gibt [locize](https://locize.com)!
+#### Sie müssen das nicht selbst bauen!!! — Es gibt [locize](https://locize.com)!
 
 [locize](https://locize.com) beseitigt den Schmerz im Übersetzungsprozess. Keine Verzögerungen mehr beim Versand Ihrer Software aufgrund fehlender Übersetzungen. Übersetzer können vom ersten Tag an mit Änderungen Schritt halten. Der kontinuierliche Lokalisierungsprozess hält mit Ihrem anspruchsvollen Geschäft Schritt.
 

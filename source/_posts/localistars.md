@@ -28,36 +28,36 @@ As client you'll find translators and as translator you'll find translation jobs
 
 ![localistars logo](https://localistars.com/image/logo/logo-black.svg)
 
-# How is localistars different?
+## How is localistars different?
 As we know how hard it can be to have a solid and working localization process between developers and technical editors / translators, our mission is to offer a platform where everybody is efficient to do its own work and everybody is happy.
 
 localistars is completely in line with locize's mission: "Bridging the gap between translation and development"
 
 [With localistars you're in direct contact with the translator](https://www.localistars.com/translator) – it's your project, you hold the reins. In contrast to other services localistars don't set the price and forward the contract to the cheapest translator to maximize the profit. You choose the translator for your projects yourself, it's your contractor.
 
-## Find the best offer
+### Find the best offer
 Choose the best fitting translators.
 As client you accept bids based on price and experience of the translator.
 
-## Direct contact
+### Direct contact
 There is no middleman – you get direct access to the experts. No annoying text monitoring or filtering.
 As client you may choose to collaborate with the same translators for future projects and grow your own team.
 
-### Translators are in the actors
+#### Translators are in the actors
 If you are a translator or copywriter (freelancer or agency) who enjoys working autonomously, then localistars is the perfect platform for you - localistars is about you.
 Find new clients with ease. More time to do the meaningful work, less time wasted on searching and contracting. Overall localistars is your chance to increase your income.
 
-## Content-centric
+### Content-centric
 It's all about the content. Projects are set-up with content in mind so the localistars can work together effectively.
 Clients want to reach their global audience while translators want to choose from diverse tasks. We heard you both.
 
-## Risk-free payment
+### Risk-free payment
 Clients will only be charged if they approve the content provided by a translator.
 As a localistar you don't need to worry about your payment.
 Translators always get paid on approval.
 
 
-# Getting started with localistars
+## Getting started with localistars
 Getting started is simple – the first step is to [signup or signin on localistars](https://www.localistars.app). Set up your profile and your organisation. Then follow [this guide](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars).
 
 **Check out the [_video_](https://youtu.be/T0giUsKS5KQ) and be a localistar!**

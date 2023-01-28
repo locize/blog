@@ -21,7 +21,7 @@ You're going to learn about a subject today that is more popular than ever.
 
 Let's start by reviewing basic definitional information concerning multi-tenant as well as the benefits of such an architecture.
 
-# Definition: Multi tenant
+## Definition: Multi tenant
 
 A software that is multi-tenant may serve several customers with a single application instance. A single instance of a software program (and its underlying database and technology) supports several tenants in multi-tenant software architecture, also known as software multi-tenancy (or user accounts).
 
@@ -31,21 +31,21 @@ In this situation, instead of a dedicated server, the space for each tenant or c
 
 There are three main types of multi tenant architecture:
 
-### 1) Shared database
+#### 1) Shared database
 A multi-tenancy architecture with a multi-tenant database is a single, shared database structure. Because shared resources are used, this is the simplest of the three kinds and has a relatively low cost to tenants.
 To host tenants and store data, this design employs a single application and database instance. Using a single, common database schema provides for faster scaling, but can result in greater total running expenses.
 
-### 2) Single database with several schemas
+#### 2) Single database with several schemas
 A single database with several schemas is another approach to multi-tenancy. This approach has a single application instance and separate databases for each tenant. Because of this design, each individual database incurs more expenses and requires more administrative effort. It is useful when data from various clients must be processed differently, such as when they are located in different countries with different legislation.
 
-### 3) Several databases
+#### 3) Several databases
 Data is stored in numerous databases in the third type of multi-tenant architecture. This approach is very difficult in terms of administration and maintenance, however renters may be distinguished from one another using a predefined criterion.
 
 ![source: diegosucaria.info](multi-tenant-architecture.webp)
 
 
 
-## The advantages of multi tenant applications
+### The advantages of multi tenant applications
 The huge advantage for shared resources is that it will make the entry cost very low and the scalability easier and faster. These are the main other advantages of multi-tenant architecture:
 
 - <b>Lower costs:</b> When compare to other hosting architectures, it’s costs less than a single infrastructure is used for multiple tenants
@@ -54,19 +54,19 @@ The huge advantage for shared resources is that it will make the entry cost very
 - <b>Easy customization:</b> It’s highly flexible, allowing each tenant client to modify the application to their individual business needs without incurring the expense, time, and risk of having an own development.
 - <b>High productivity:</b> There is an improvement in productivity for the tenant because there is no need to manage the infrastructure.
 
-## Multi-tenant vs. single-tenant
+### Multi-tenant vs. single-tenant
 The main difference is the access to source-code. In single-tenant architectures, a tenant will have a singular instance of an application dedicated to them. 
 The key distinction is the availability of source code. A tenant in a single-tenant architecture will have a single instance of an application devoted to them.
 
 
-### Example
+#### Example
 Assume that each client has a separate residence that is completely cut off from any nearby structures. In a multi-tenant cloud architecture, tenants reside in several apartments inside the same structure. 
 
 The same security system and communal utilities link them all. However, each tenant's privacy is protected within their apartment since they each have a key. But it's more probable that their neighbors' behavior will affect how comfortable they are in the flat.
 
 <br /><br />
 
-## How locize introduce multi-tenant in translation management
+### How locize introduce multi-tenant in translation management
 
 For locize the multi-tenant approach is less of the classical infrastrucutre topic, but it still makes perfect sense for the translation management system since it functions as a fully independent application/project that is integrated into your own application or website.
 
@@ -103,7 +103,7 @@ Now, tenants have the option of maintaining translations exactly as you gave the
 You can choose to pay such expenses by letting the consumer pay with his own credit card or by subscribing to those tenant projects using your main subscription.
 
 
-## Additional links
+### Additional links
 
 ➡️ Create a free new [user account](https://www.locize.app/register) for multi tenant experience
 

@@ -28,7 +28,7 @@ Sie kennen vielleicht [vue-i18n](../give-vue-i18n-more-superpowers/), aber für 
 In diesem Tutorial verwenden wir das Modul [i18next-vue](https://github.com/i18next/i18next-vue).
 
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
   * [Also erstmal: "Warum i18next?"](#why-i18next)
   * [Fangen wir an...](#start)
     - [Voraussetzungen](#prerequisites)
@@ -47,7 +47,7 @@ In diesem Tutorial verwenden wir das Modul [i18next-vue](https://github.com/i18n
       - [📦 Bereiten wir uns auf die Produktion vor 🚀](#production)
   * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
 
-# Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
+## Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
 Wenn es um Vue-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner Vue-Erweiterung [i18next-vue](https://i18next.github.io/i18next-vue), und das aus guten Gründen:
 
@@ -74,14 +74,14 @@ Wenn es um Vue-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18nex
 [Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Fangen wir an... <a name="start"></a>
+## Fangen wir an... <a name="start"></a>
 
-## Voraussetzungen <a name="prerequisites"></a>
+### Voraussetzungen <a name="prerequisites"></a>
 
 Stellen Sie sicher, dass Sie Node.js und npm installiert haben. Wenn Sie etwas Erfahrung mit einfachem HTML, JavaScript und grundlegendem Vue.js haben, ist es am besten, bevor Sie zu [i18next-vue](https://i18next.github.io/i18next-vue/) springen.
 
 
-## Einstieg <a name="getting-started"></a>
+### Einstieg <a name="getting-started"></a>
 
 Nehmen Sie Ihr eigenes Vue-Projekt oder erstellen Sie ein neues, neues, z. B. mit [dem Befehl vue create cli](https://cli.vuejs.org/guide/creating-a-project.html#vue-create).
 
@@ -200,7 +200,7 @@ export default function (app) {
 ```
 
 
-## Sprachumschalter <a name="language-switcher"></a>
+### Sprachumschalter <a name="language-switcher"></a>
 
 Lassen Sie uns nun einen Sprachumschalter definieren:
 
@@ -291,14 +291,14 @@ export default function (app) {
 
 Dank [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector) versucht es jetzt, die Browsersprache zu erkennen und diese Sprache automatisch zu verwenden, wenn Sie die Übersetzungen dafür bereitgestellt haben. Die manuell ausgewählte Sprache im Sprachumschalter wird im localStorage beibehalten, beim nächsten Besuch der Seite wird diese Sprache als bevorzugte Sprache verwendet.
 
-### Wie erhalte ich die aktuelle Sprache? <a name="current-language"></a>
+#### Wie erhalte ich die aktuelle Sprache? <a name="current-language"></a>
 
 Seit i18next v21 gibt es [`i18next.resolvedLanguage`](https://www.i18next.com/overview/api#resolvedlanguage).
 Es ist auf die aktuell aufgelöste Sprache eingestellt und kann als primär verwendete Sprache verwendet werden, beispielsweise in einem Sprachumschalter.
 
 Wenn Ihre erkannte Sprache zum Beispiel `en-US` ist und Sie Übersetzungen nur für `en` bereitgestellt haben, wird stattdessen `i18next.resolvedLanguage` `en` zurückgeben.
 
-#### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
+##### i18next.language vs. i18next.languages vs. i18next.resolvedLanguage
 
 ```javascript
 /* language */
@@ -331,7 +331,7 @@ i18next.resolvedLanguage;
 // zum Beispiel in einem Sprachumschalter.
 ```
 
-## Interpolation und Pluralisierung <a name="interpolation-pluralization"></a>
+### Interpolation und Pluralisierung <a name="interpolation-pluralization"></a>
 
 i18next geht über die Bereitstellung der standardmässigen i18n-Funktionen hinaus.
 Aber sicher ist es in der Lage, [Plurale](https://www.i18next.com/translation-function/plurals) und [Interpolation](https://www.i18next.com/translation-function/interpolation) zu verarbeiten.
@@ -339,14 +339,14 @@ Aber sicher ist es in der Lage, [Plurale](https://www.i18next.com/translation-fu
 Wenn Sie sehen möchten, wie das funktioniert, schauen Sie sich [diesen Abschnitt in diesem anderen Blogbeitrag](../react-i18next-de/#interpolation-pluralization) an.
 
 
-## Formatierung <a name="formatting"></a>
+### Formatierung <a name="formatting"></a>
 
 Auch [Formatierung](https://www.i18next.com/translation-function/formatting) kann durchgeführt werden.
 
 Wenn Sie sehen möchten, wie das funktioniert, schauen Sie sich [diesen Abschnitt in diesem anderen Blogbeitrag](../react-i18next-de/#formatting) an.
 
 
-## Kontext <a name="context"></a>
+### Kontext <a name="context"></a>
 
 Was ist mit einer bestimmten Begrüssungsnachricht basierend auf der aktuellen Tageszeit? also morgens, abends usw.
 Dies ist dank der Funktion [context](https://www.i18next.com/translation-function/context) von i18next möglich.
@@ -354,7 +354,7 @@ Dies ist dank der Funktion [context](https://www.i18next.com/translation-functio
 Wenn Sie sehen möchten, wie das funktioniert, schauen Sie sich [diesen Abschnitt in diesem anderen Blogbeitrag](../react-i18next-de/#context) an.
 
 
-## Übersetzungen vom Code trennen <a name="separate"></a>
+### Übersetzungen vom Code trennen <a name="separate"></a>
 
 Die Übersetzungen in unserer Datei `i18n.js` zu haben, funktioniert, ist aber für Übersetzer nicht so geeignet, damit zu arbeiten.
 Lassen Sie uns die Übersetzungen vom Code trennen und sie in dedizierte JSON-Dateien einfügen.
@@ -501,14 +501,14 @@ Solange Ihre Übersetzungen geladen werden, sehen Sie jetzt die Fallback-Vorlage
 Jetzt sieht Ihre App immer noch gleich aus, aber Ihre Übersetzungen sind getrennt.
 Wenn Sie eine neue Sprache unterstützen möchten, erstellen Sie einfach einen neuen Ordner und eine neue JSON-Übersetzungsdatei.
 Dies gibt Ihnen die Möglichkeit, die Übersetzungen an einige Übersetzer zu senden.
-Oder wenn Sie mit einem Übersetzungsmanagementsystem arbeiten, können Sie einfach [die Dateien mit einem CLI synchronisieren](https://github.com/locize/react-tutorial#use-the-locize-cli).## Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
+Oder wenn Sie mit einem Übersetzungsmanagementsystem arbeiten, können Sie einfach [die Dateien mit einem CLI synchronisieren](https://github.com/locize/react-tutorial#use-the-locize-cli).### Besseres Übersetzungsmanagement <a name="better-translation-management"></a>
 
 Indem Sie die Übersetzungen an einige Übersetzer oder Übersetzungsagenturen senden, haben Sie mehr Kontrolle und einen direkten Kontakt mit ihnen. Das bedeutet aber auch mehr Arbeit für Sie.
 Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dateien immer einen Overhead verursacht.
 
 > Gibt es eine bessere Option?
 
-### Auf jeden Fall! <a name="sicher"></a>
+#### Auf jeden Fall! <a name="sicher"></a>
 
 [i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
 - Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
@@ -533,7 +533,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 
 ![transformiere den Lokalisierungsprozess](../react-i18next/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### Wie sieht das aus? <a name="how-look"></a>
+#### Wie sieht das aus? <a name="how-look"></a>
 
 Zuerst müssen Sie sich bei locize [registrieren](https://locize.app/register) und [anmelden](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Dann [erstellen Sie ein neues Projekt](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize und fügen Ihre Übersetzungen hinzu. Sie können Ihre Übersetzungen entweder über die [CLI](https://github.com/locize/react-tutorial#use-the-locize-cli) oder durch [Importieren der einzelnen json-Dateien](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) oder über die [API](https://docs.locize.com/integration/api#update-remove-translations) bewerkstelligen.
@@ -623,7 +623,7 @@ export default {
 </script>
 ```
 
-### fehlende Übersetzungen speichern <a name="save-missing"></a>
+#### fehlende Übersetzungen speichern <a name="save-missing"></a>
 
 Dank der Verwendung der [saveMissing-Funktion](https://www.i18next.com/overview/configuration-options#missing-keys) werden während der Entwicklung der App neue Schlüssel automatisch zu locize hinzugefügt.
 
@@ -676,7 +676,7 @@ resultiert in locize wie folgt:
 ![missing key](../i18next-vue/missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 aber es gibt noch mehr... <a name="more"></a>
+#### 👀 aber es gibt noch mehr... <a name="more"></a>
 
 Dank des Plugins [locize-lastused](https://github.com/locize/locize-lastused) können Sie [in locize, Schlüssel welche verwendet oder nicht mehr verwendet werden, finden und filtern](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -752,7 +752,7 @@ export default function (app) {
 ![i18next inkontext](../i18next-vue/in_context.jpg "locize © inweso GmbH")
 
 
-### 📦 Bereiten wir uns auf die Produktion vor 🚀 <a name="production"></a>
+#### 📦 Bereiten wir uns auf die Produktion vor 🚀 <a name="production"></a>
 
 Jetzt bereiten wir die App für den Produktionsstart vor (https://docs.locize.com/guides-tips-and-tricks/going-production).
 
@@ -854,7 +854,7 @@ Es gibt auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
 
 Ich hoffe, Sie haben ein paar neue Dinge über [i18next](https://www.i18next.com), [Vue.js localization](https://i18next.github.io/i18next-vue/) und [moderne Lokalisierungs-Workflows](https://locize.com) gelernt.
 
@@ -862,4 +862,4 @@ Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es s
 
 Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

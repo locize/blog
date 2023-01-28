@@ -37,12 +37,12 @@ Denken Sie an alle benutzerseitigen Inhalte, die nicht direkt in Ihrem Browser g
 - Oder verwenden Sie [serverseitiges Rendering (SSR)](#ssr)?
 - etc.
 
-# Lassen Sie uns das überprüfen ...
+## Lassen Sie uns das überprüfen ...
 
 Wir zeigen einige Beispiele, die [i18next](https://www.i18next.com) als i18n-Framework verwenden. Wenn Sie wissen möchten, warum wir i18next vorschlagen, werfen Sie einen Blick auf [diese Seite](https://locize.com/i18next.html).
 
 
-# Befehlszeilenschnittstelle (CLI) <a name="cli"></a>
+## Befehlszeilenschnittstelle (CLI) <a name="cli"></a>
 
 Beginnen wir mit etwas Einfachem: einer sehr kleinen CLI-App. Für dieses Beispiel verwenden wir [commander](https://github.com/tj/commander.js), ursprünglich erstellt von [TJ Holowaychuk](https://twitter.com/tjholowaychuk).
 Wir definieren einen `sayhi`-Befehl mit optionalen Sprach- und Namensparametern, der mit einer Anrede in der entsprechenden Sprache antworten sollte.
@@ -158,17 +158,17 @@ if (!process.argv.slice(2).length) {
 Ok, was ist das Ergebnis?
 
 ```sh
-# if we execute the cli command without any parameters...
+## if we execute the cli command without any parameters...
 mycli sayhi
-# result: Hello World!
+## result: Hello World!
 
-# if we execute the cli command with a language parameter...
+## if we execute the cli command with a language parameter...
 mycli sayhi --language de
-# result: Hallo Welt!
+## result: Hallo Welt!
 
-# if we execute the cli command with a language parameter and a name parameter...
+## if we execute the cli command with a language parameter and a name parameter...
 mycli sayhi --language de --name John
-# result: Hallo John!
+## result: Hallo John!
 ```
 
 **Einfach, nicht wahr?**
@@ -205,13 +205,13 @@ module.exports = (lng) => i18next.getFixedT(lng || systemLocale)
 
 *🧑‍💻 Ein Codebeispiel finden Sie [hier](https://github.com/i18next/i18next-cli-app-example).*
 
-## Ein möglicher nächster Schritt...
+### Ein möglicher nächster Schritt...
 
 Ein möglicher nächster Schritt könnte die Professionalisierung des Übersetzungsmanagements sein.
 Das bedeutet, dass die Übersetzungen in einem Übersetzungsmanagementsystem (TMS) wie [locize](https://www.locize.com) „verwaltet“ (neue Sprachen hinzufügen, neue Übersetzungen usw.) und mit Ihrem Code synchronisiert werden. Sehen Sie sich [**Schritt 1** in diesem Tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize) an, um zu sehen, wie das aussehen könnte.
 
 
-# E-Mails generieren <a name="email"></a>
+## E-Mails generieren <a name="email"></a>
 
 Ein weiterer typischer serverseitiger Anwendungsfall, der eine Internationalisierung erfordert, ist die Generierung von E-Mails.
 
@@ -333,11 +333,11 @@ So könnte das resultierende HTML aussehen:
 *🧑‍💻 Ein Codebeispiel finden Sie [hier](https://github.com/i18next/i18next-fs-backend/blob/master/example/fastify/app.js#L14-L19).*
 
 
-# Serverseitiges Rendern (SSR) <a name="ssr"></a>
+## Serverseitiges Rendern (SSR) <a name="ssr"></a>
 
 Wir werden 2 verschiedene SSR-Beispiele ausprobieren, ein klassisches mit [Fastify with pug](#pug) und ein trendigeres mit [Next.js](#nextjs).
 
-## Fastify mit Pug-Beispiel <a name="pug"></a>
+### Fastify mit Pug-Beispiel <a name="pug"></a>
 
 Für dieses Beispiel verwenden wir mein bevorzugtes http-Framework [Fastify](https://www.fastify.io) (erstellt von [Matteo Collina](https://twitter.com/matteocollina) und [Tomas Della Vedova](https://twitter.com/delvedor)), aber jedes andere Framework funktioniert auch.
 
@@ -465,16 +465,16 @@ Wenn Sie die Konsolenausgabe überprüfen, sehen Sie auch Folgendes:
 
 ```sh
 node app.js
-# Server is listening on port 8080.
-# Der server lauscht auf dem Port 8080.
-# Il server sta aspettando sul port 8080.
+## Server is listening on port 8080.
+## Der server lauscht auf dem Port 8080.
+## Il server sta aspettando sul port 8080.
 ```
 
 *Ja, wenn Sie möchten, können Sie Ihre Protokollauszüge auch internationalisieren 😁*
 
 *🧑‍💻 Ein Codebeispiel finden Sie [hier](https://github.com/i18next/i18next-fs-backend/tree/master/example/fastify).*
 
-### Ein möglicher nächster Schritt...
+#### Ein möglicher nächster Schritt...
 
 Möchten Sie Ihre Übersetzungen in einem Übersetzungsmanagementsystem (TMS) wie [locize](https://www.locize.com) verwalten?
 
@@ -537,7 +537,7 @@ export default app
 **😎 Cool, oder?**
 
 
-## Next.js-Beispiel <a name="nextjs"></a>
+### Next.js-Beispiel <a name="nextjs"></a>
 
 Jetzt ist es Zeit für [Next.js](https://nextjs.org)...
 
@@ -604,7 +604,7 @@ A demo of how such an app looks like when it is deployed, can be found [here](ht
 
 **Das sieht wirklich einfach aus, oder?**
 
-## Verwalten Sie die Übersetzungen ausserhalb des Codes
+### Verwalten Sie die Übersetzungen ausserhalb des Codes
 
 Um die Übersetzungen optimal zu verwalten, gibt es drei verschiedene Ansätze:
 
@@ -668,7 +668,7 @@ Sie können beispielsweise ein [npm-Skript](https://github.com/locize/next-i18ne
 
 i.e. `locize download --project-id=d3b405cf-2532-46ae-adb8-99e88d876733 --ver=latest --clean=true --path=./public/locales`
 
-### Bester Ansatz: optimiert für Server- und Clientseite
+#### Bester Ansatz: optimiert für Server- und Clientseite
 
 [![next-i18next](../next-i18next/next-i18next.jpg)](../next-i18next/)
 [Hier](../next-i18next/) finden Sie einen Blogbeitrag zur optimalen Verwendung von next-i18next mit clientseitigem Übersetzungsdownload und SEO-Optimierung.
@@ -679,7 +679,7 @@ Es gibt auch ein [i18next Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Fazit 🎊🎁
+## 🎉🥳 Fazit 🎊🎁
 
 Wie Sie sehen, ist i18n auch serverseitig wichtig.
 

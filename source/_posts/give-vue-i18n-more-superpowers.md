@@ -27,7 +27,7 @@ The most famous i18n plugin for the progressive JavaScript framework [Vue.js](ht
 
 ![](vue-i18n-stats.jpg "locize © inweso GmbH")
 
-## TOC
+### TOC
   * [New versions](#new-versions)
   * [So how does a basic vue-i18n setup look like? Let's get into it...](#start)
   * Is it possible to make a vue-18n setup even better?
@@ -42,27 +42,27 @@ The most famous i18n plugin for the progressive JavaScript framework [Vue.js](ht
     - [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
 
-# New versions <a name="new-versions"></a>
+## New versions <a name="new-versions"></a>
 
 Beside templates, directives, data binding, event handling, etc... with v3 Vue.js is now introducing also [Composition API](https://vuejs.org/api/composition-api-setup.html), [Teleport](https://vuejs.org/guide/built-ins/teleport.html), Fragments... and [Suspense](https://vuejs.org/guide/built-ins/suspense.html).
 The appropriate version to Vue.js v3 for [Vue I18n](https://vue-i18n.intlify.dev/) is [v9](https://blog.intlify.dev/posts/vue-i18n-9.html).
 
 
-# So how does a basic vue-i18n setup look like? <a name="start"></a>
-## Let's get into it...
+## So how does a basic vue-i18n setup look like? <a name="start"></a>
+### Let's get into it...
 
-## Prerequisites <a name="prerequisites"></a>
+### Prerequisites <a name="prerequisites"></a>
 
 Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic Vue.js, before jumping to [vue-i18n](https://vue-i18n.intlify.dev/).
 
 
-## Getting started <a name="getting-started"></a>
+### Getting started <a name="getting-started"></a>
 
 Take your own Vue.js project or create a new one, i.e. with [the vue create cli command](https://cli.vuejs.org/guide/creating-a-project.html#vue-create).
 
 ```sh
 npx @vue/cli create vue-starter-project
-# select vue 3 preset
+## select vue 3 preset
 ```
 
 Let's install the vue-i18n dependency:
@@ -149,7 +149,7 @@ You should now see something like this:
 ![](app_0.jpg "locize © inweso GmbH")
 
 
-## Language Switcher <a name="language-switcher"></a>
+### Language Switcher <a name="language-switcher"></a>
 
 Now we will create a language switcher to make the content change between different languages.
 
@@ -186,7 +186,7 @@ export default {
 
 **🥳 Awesome, you've just created your first language switcher!**
 
-## Component interpolation and directive <a name="component-directive"></a>
+### Component interpolation and directive <a name="component-directive"></a>
 
 Now let's try [component interpolation](https://vue-i18n.intlify.dev/guide/advanced/component.html#basic-usage) and the [translation directive](https://vue-i18n.intlify.dev/api/directive.html#translationdirective):
 
@@ -269,7 +269,7 @@ This should be the result:
 ![](app_2.jpg "locize © inweso GmbH")
 
 
-## Where are the additional superpowers? <a name="superpowers"></a>
+### Where are the additional superpowers? <a name="superpowers"></a>
 
 Let's meet [locizer](https://github.com/locize/locizer)...
 
@@ -277,7 +277,7 @@ Let's meet [locizer](https://github.com/locize/locizer)...
 
 > [What is locize?](../react-i18next/#for-sure)
 
-### How does this look like? <a name="how-look"></a>
+#### How does this look like? <a name="how-look"></a>
 
 First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations) or by using the [CLI](https://github.com/locize/locize-cli).
@@ -405,7 +405,7 @@ By default the language detection also is looking for the query parameter lng, s
 ![](app_2.jpg "locize © inweso GmbH")
 
 
-### save missing translations <a name="save-missing"></a>
+#### save missing translations <a name="save-missing"></a>
 
 >I wish newly added keys in the code, would automatically be saved to locize.
 
@@ -539,7 +539,7 @@ Lastly, with the help of the [auto-machinetranslation workflow](https://docs.loc
 
 ![](app_4.jpg "locize © inweso GmbH")
 
-### 👀 but there's more... <a name="more"></a>
+#### 👀 but there's more... <a name="more"></a>
 
 [Caching](https://docs.locize.com/more/caching):
 
@@ -552,11 +552,11 @@ Lastly, with the help of the [auto-machinetranslation workflow](https://docs.loc
 *🧑‍💻 The code can be found [here](https://github.com/locize/locizer/tree/master/example/vue).*
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 I hope you’ve learned a few new things about [Vue.js localization](https://vue-i18n.intlify.dev/) and [modern localization workflows](https://locize.com).
 
 So if you want to take your i18n topic to the next level, it's worth to try [locize](https://locize.com).
 
 
-# 👍
+## 👍

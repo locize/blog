@@ -43,7 +43,7 @@ In this tutorial, we will add additional superpowers to [svelte-i18n](https://gi
     - [👀 but there's more...](#more)
     - [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
-# So how does a basic svelte-i18n setup look like? <a name="start"></a>
+## So how does a basic svelte-i18n setup look like? <a name="start"></a>
 ## Let's get into it...
 
 ## Prerequisites <a name="prerequisites"></a>

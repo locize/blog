@@ -35,12 +35,12 @@ Think of all user faced content not directly rendered in your browser...
 - Or you're sending some emails?
 - etc.
 
-# Let's check that out...
+## Let's check that out...
 
 We will show some examples that uses [i18next](https://www.i18next.com) as i18n framework. If you're curious to know why we suggest i18next, have a look at [this page](https://locize.com/i18next.html).
 
 
-# Command line interface (CLI) <a name="cli"></a>
+## Command line interface (CLI) <a name="cli"></a>
 
 Let's start with something simple: a verry small CLI app.
 We are defining a `sayhi` command with optional language and name parameters that should respond with a salutation in the appropriate language.
@@ -140,17 +140,17 @@ if (name) {
 Ok, what's the result?
 
 ```sh
-# if we execute the cli command without any parameters...
+## if we execute the cli command without any parameters...
 deno run --allow-read mod.ts sayhi
-# result: Hello World!
+## result: Hello World!
 
-# if we execute the cli command with a language parameter...
+## if we execute the cli command with a language parameter...
 deno run --allow-read mod.ts sayhi --language de
-# result: Hallo Welt!
+## result: Hallo Welt!
 
-# if we execute the cli command with a language parameter and a name parameter...
+## if we execute the cli command with a language parameter and a name parameter...
 deno run --allow-read mod.ts sayhi --language de --name John
-# result: Hallo John!
+## result: Hallo John!
 ```
 
 **Easy, isn't it?**
@@ -181,13 +181,13 @@ export default (lng: string | undefined | null) =>
 
 *🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-cli-app-example-deno).*
 
-## A possible next step...
+### A possible next step...
 
 A possible next step could be to professionalize the translation management.
 This means the translations would be "managed" (add new languages, new translations etc...) in a translation management system (TMS), like [locize](https://www.locize.com) and synchronized with your code. To see how this could look like, check out [**Step 1** in this tutorial](https://github.com/locize/react-tutorial#step-1---keep-existing-code-setup-but-synchronize-with-locize).
 
 
-# Server Side Rendering (SSR) <a name="ssr"></a>
+## Server Side Rendering (SSR) <a name="ssr"></a>
 
 For this example we will use the http framework [abc](https://github.com/zhmushan/abc) (created by [木杉](https://twitter.com/zhmushan), but any other framework will also work.
 
@@ -317,16 +317,16 @@ If you check the console output you'll also see something like this:
 
 ```sh
 node app.js
-# Server is listening on port 8080.
-# Der server lauscht auf dem Port 8080.
-# Il server sta aspettando sul port 8080.
+## Server is listening on port 8080.
+## Der server lauscht auf dem Port 8080.
+## Il server sta aspettando sul port 8080.
 ```
 
 *Yes, if you like, you can also internationalize your log statements 😁*
 
 *🧑‍💻 A code example can be found [here](https://github.com/i18next/i18next-http-middleware/tree/master/example/deno).*
 
-### A possible next step...
+#### A possible next step...
 
 Do you wish to manage your translations in a translation management system (TMS), like [locize](https://www.locize.com)?
 
@@ -339,7 +339,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Conclusion 🎊🎁
+## 🎉🥳 Conclusion 🎊🎁
 
 As you see i18n is also important for Deno.
 

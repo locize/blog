@@ -33,7 +33,7 @@ Some folks have their theories... they believe it is dangerous.
 I think they are right... but I want you at least to know that other parallel universes exist and what they look like.
 
 
-## Clarification
+### Clarification
 
 There are far more i18n formats than the ones I am listing here.
 In order not to get lost in the madness of the infinite i18n format universes, I limit myself here to the first eight formats used in the JavaScript ecosystem that I was able to find.
@@ -52,7 +52,7 @@ To define some sort of sorting, the formats are listed based on their weekly [do
 * [Fluent](#fluent)
 
 
-# i18next <a name="i18next"></a>
+## i18next <a name="i18next"></a>
 
 One of the most popular i18n format is the one used by the i18n framework [i18next](https://www.i18next.com).
 <br />
@@ -144,7 +144,7 @@ With nesting we can also reduce the repetitions:
 But it may be that the translators like this nesting substitution less.
 
 
-# ICU Message Format <a name="icu"></a>
+## ICU Message Format <a name="icu"></a>
 
 The second format is the [ICU Message Format](https://unicode-org.github.io/icu/userguide/format_parse/messages/).
 <br />
@@ -187,7 +187,7 @@ intl.formatMessage({ id: 'dessert' }, { what: undefined }) // -> "I would like t
 Also here the translation key remains the same for each invocation, and the context and count option differs.
 
 
-# vue-i18n <a name="vue-i18n"></a>
+## vue-i18n <a name="vue-i18n"></a>
 
 The next found format, while exploring the multiverse, is the [vue-i18n format](https://kazupon.github.io/vue-i18n/guide/messages.html#structure). It is used practically only in the [vue-i18n](https://kazupon.github.io/vue-i18n/) framework itself.
 <br />
@@ -222,7 +222,7 @@ $t('dessert') // -> "I would like to eat something."
 Compared the the previous formats, this one needs to change the translation key to accomplish a context like feature.
 
 
-# i18n-js <a name="i18n-js"></a>
+## i18n-js <a name="i18n-js"></a>
 
 The origin of this format start Ruby. The [i18n-js format](https://www.npmjs.com/package/i18n-js) is a direct export of translations defined by [Ruby on Rails](https://guides.rubyonrails.org/i18n.html).
 <br />
@@ -261,7 +261,7 @@ i18n.t('dessert'); // -> "I would like to eat something."
 Also this format needs to change the translation key to accomplish a context like feature.
 
 
-# Polyglot.js <a name="polyglot"></a>
+## Polyglot.js <a name="polyglot"></a>
 
 This older format provides a solution for interpolation and pluralization, based off of [Airbnb](https://www.airbnb.com)’s experience.
 <br />
@@ -291,7 +291,7 @@ polyglot.t('dessert') // -> "I would like to eat something."
 Also this format needs to change the translation key to accomplish a context like feature.
 
 
-# Gettext <a name="gettext"></a>
+## Gettext <a name="gettext"></a>
 
 [Gettext](http://www.gnu.org/software/gettext/) is a very old translation standard. There are implementations of Gettext in a lot of programming languages.
 <br />
@@ -366,7 +366,7 @@ i18n.translate('dessert').fetch() // -> "I would like to eat something."
 This format offers, pluralization, interpolation and a context feature, but a strange API in my opinion.
 
 
-# FBT <a name="fbt"></a>
+## FBT <a name="fbt"></a>
 
 Of all the formats encountered in the i18n multiverse, this format is arguably the most distant universe, or should I say: most distant "metaverse" ;-)
 <br />
@@ -465,7 +465,7 @@ Each instrumented code part is mapped with a hash to the translations.
 Like said... it's really different than all other formats.
 
 
-# Fluent <a name="fluent"></a>
+## Fluent <a name="fluent"></a>
 
 The last format in this multiverse trip is [Fluent](https://projectfluent.org) a [Mozilla](https://mozilla.org) project.
 <br />
@@ -504,7 +504,7 @@ bundle.formatPattern(bundle.getMessage('dessert').value, { toEat: '' }) // -> "I
 Like [ICU Message Format](#icu) it uses only 1 key to generate all variations. So the value may look a bit more complex, like a language on its own.
 
 
-# Coming back home
+## Coming back home
 
 ![](portal.jpg)
 

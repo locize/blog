@@ -32,7 +32,7 @@ Manche Leute haben ihre Theorien... sie glauben, dass es gefährlich ist.
 Ich denke, sie haben Recht ... aber ich möchte, dass Sie zumindest wissen, dass andere Paralleluniversen existieren und wie sie aussehen.
 
 
-## Klarstellung
+### Klarstellung
 
 Es gibt weitaus mehr i18n-Formate als diejenigen, welche ich hier aufliste.
 Um mich nicht im Wahnsinn der unendlichen i18n-Format-Universen zu verlieren, beschränke ich mich hier auf die ersten acht Formate, die im JavaScript-Ökosystem verwendet werden und die ich finden konnte.
@@ -51,7 +51,7 @@ Um eine Art Sortierung zu definieren, werden die Formate basierend auf ihren wö
 * [Fluent](#fluent)
 
 
-# i18next <a name="i18next"></a>
+## i18next <a name="i18next"></a>
 
 Eines der beliebtesten i18n-Formate wird vom i18n-Framework [i18next] verwendet.(https://www.i18next.com).
 <br />
@@ -143,7 +143,7 @@ Mit Verschachtelung können wir auch die Wiederholungen reduzieren:
 Aber es kann sein, dass die Übersetzer diese Verschachtelungssubstitution weniger mögen.
 
 
-# ICU Message Format <a name="icu"></a>
+## ICU Message Format <a name="icu"></a>
 
 Das zweite Format ist das [ICU Message Format](https://unicode-org.github.io/icu/userguide/format_parse/messages/).
 <br />
@@ -186,7 +186,7 @@ intl.formatMessage({ id: 'dessert' }, { what: undefined }) // -> "Ich möchte et
 Auch hier bleibt der Übersetzungsschlüssel für jeden Aufruf gleich, und die Kontext- und Zähloption ist unterschiedlich.
 
 
-# vue-i18n <a name="vue-i18n"></a>
+## vue-i18n <a name="vue-i18n"></a>
 
 Das nächste gefundene Format beim Erkunden des Multiversums ist das [vue-i18n-Format](https://kazupon.github.io/vue-i18n/guide/messages.html#structure). Es wird praktisch nur im Framework [vue-i18n](https://kazupon.github.io/vue-i18n/) selbst verwendet.
 <br />
@@ -221,7 +221,7 @@ $t('dessert') // -> "Ich würde gerne etwas essen."
 Im Vergleich zu den vorherigen Formaten muss dieses den Übersetzungsschlüssel ändern, um eine kontextähnliche Funktion zu erreichen.
 
 
-# i18n-js <a name="i18n-js"></a>
+## i18n-js <a name="i18n-js"></a>
 
 Der Ursprung dieses Formats ist in Ruby. Das [i18n-js-Format](https://www.npmjs.com/package/i18n-js) ist ein direkter Export von Übersetzungen, welche von [Ruby on Rails](https://guides.rubyonrails.org/i18n.html).
 <br />
@@ -260,7 +260,7 @@ i18n.t('dessert'); // -> "Ich würde gerne etwas essen."
 Auch dieses Format muss den Übersetzungsschlüssel ändern, um eine kontextähnliche Funktion zu erreichen.
 
 
-# Polyglot.js <a name="polyglot"></a>
+## Polyglot.js <a name="polyglot"></a>
 
 Dieses ältere Format bietet eine Lösung für Interpolation und Pluralisierung, basierend auf der Erfahrung von [Airbnb](https://www.airbnb.com).
 <br />
@@ -290,7 +290,7 @@ polyglot.t('dessert') // -> "Ich würde gerne etwas essen."
 Auch dieses Format muss den Übersetzungsschlüssel ändern, um eine kontextähnliche Funktion zu erreichen.
 
 
-# Gettext <a name="gettext"></a>
+## Gettext <a name="gettext"></a>
 
 [Gettext](http://www.gnu.org/software/gettext/) ist ein sehr alter Übersetzungsstandard. Es gibt Implementierungen von Gettext in vielen Programmiersprachen.
 <br />
@@ -365,7 +365,7 @@ i18n.translate('dessert').fetch() // -> "Ich würde gerne etwas essen."
 Dieses Format bietet Pluralisierung, Interpolation und eine Kontextfunktion, aber meiner Meinung nach eine seltsame API.
 
 
-# FBT <a name="fbt"></a>
+## FBT <a name="fbt"></a>
 
 Von allen im i18n-Multiversum anzutreffenden Formaten ist dieses Format wohl das am weitesten entfernte Universum, oder sollte ich sagen: das am weitesten entfernte "Metaversum" ;-)
 <br />
@@ -464,7 +464,7 @@ Jeder instrumentierte Codeteil wird mit einem Hash auf die Übersetzungen abgebi
 Wie gesagt... es ist wirklich anders als alle anderen Formate.
 
 
-# Fluent <a name="fluent"></a>
+## Fluent <a name="fluent"></a>
 
 Das letzte Format dieser Multiversum-Reise ist [Fluent](https://projectfluent.org), ein [Mozilla](https://mozilla.org)-Projekt.
 <br />
@@ -503,7 +503,7 @@ bundle.formatPattern(bundle.getMessage('dessert').value, { toEat: '' }) // -> "I
 Wie [ICU Message Format](#icu) verwendet es nur 1 Schlüssel, um alle Variationen zu generieren. Der Wert kann also etwas komplexer aussehen, wie eine eigenständige Sprache.
 
 
-# Zurück nach Hause kommen
+## Zurück nach Hause kommen
 
 ![](../i18n-formats-javascript/portal.jpg)
 

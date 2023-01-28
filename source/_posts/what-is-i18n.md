@@ -22,7 +22,7 @@ Today you're going to be introduced to a topic every growing business should be 
 
 In fact, this is the same topic that has helped many of our clients in growing even faster.
 
-# i18n
+## i18n
 
 It stands for internationalization because the number 18 represents the number of letters between the first and last character of internationalization.
 
@@ -39,7 +39,7 @@ You don't need to make a huge investment in a technology stack.
 Let's get started.
 
 
-## Table of contents
+### Table of contents
   * [What is internationalization](#intro)
   * [How the industry treat it](#industry)
   * [The different steps during internationalization](#fields)
@@ -49,7 +49,7 @@ Let's get started.
   * [Conclusion](#conclusion)
   * [Additional links](#links)
 
-## What is internationalization <a name="intro"></a>
+### What is internationalization <a name="intro"></a>
 
 In general, it refers to the process of bringing businesses into international markets. Typically, this type of company is led by an entrepreneur who thinks globally and has a good understanding of global cultures. As stated in the introduction, i18n is a shorthand for internationalization and is commonly used in the software industry. As a result of going global, companies' product design and development suffer.
 
@@ -59,7 +59,7 @@ We live in an undeniably digital world, and things are only going to get faster.
 
 ![international business](international-business.jpg)
 
-## It is not always given the attention it deserves <a name="industry"></a>
+### It is not always given the attention it deserves <a name="industry"></a>
 
 In our opinion, the process of managing software to support local circumstances is in growing companies still a manual procedure. In this stage the company is in, a professional way is appreciated for the clients. Here are some interesting <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_21_5481" title="facts about internet surfers in Europe">facts about internet surfers in Europe</a> that showing how important localization is:
 
@@ -74,7 +74,7 @@ Finally, according to <a href="https://www.bea.gov/data/intl-trade-investment/in
 
 These figures show that every company must be aware of the internationalization of its operations, particularly its software. The software can be viewed as the primary means of achieving digital transformation. This leads us to the next subject on which you should brush up on your internationalization knowledge:
 
-## The different steps during internationalization  <a name="fields"></a>
+### The different steps during internationalization  <a name="fields"></a>
 This can be used as step-by-step procedure:
 
 - Build your team
@@ -94,7 +94,7 @@ An i18n-framework can be used for the preparation of your software during the pr
   This is, without a doubt, a very important aspect of i18n-approach. A translation-marketplace can help you <a href="https://www.localistars.com/en/translator/" title="find a translator">find a translator</a> very quickly, and your i18n will be far more effective.</p>
 </div>
 
-## The benefits of i18n-localization <a name="benefits"></a>
+### The benefits of i18n-localization <a name="benefits"></a>
 There are numerous advantages to deploying your digital infrastructure with the appropriate technologies. If you choose the right partner, you can deliver comprehensive localization automation solutions that enable you to integrate localization into your continuous delivery workflow.
 
 - Increase your consumer base
@@ -113,14 +113,14 @@ We at locize are specialists to make your internationalization a success story.<
 
 </div>
 
-## How are developers affected from it <a name="developers"></a>
+### How are developers affected from it <a name="developers"></a>
 
 This is where l10n enters the picture. L10n, or localization, is the software component or service of internationalization. As a result, the developers who are involved are a critical component of your internationalization's success. i18n is the process by which developers prepare a software product for use in markets other than the one in which their company operates.
 
 Developers are indirectly responsible for the results that appear in search engine results such as Google. You can optimize Google Search results for your site if it provides different content to users in different languages, countries, or regions. This <a href="https://developers.google.com/search/docs/advanced/crawling/managing-multi-regional-sites?visit_id=637780250358013835-1550662745&rd=1" title="guide">guide</a>  will help you on that.
 
 
-### What is software-localization
+#### What is software-localization
 When adapting a web product to a new customer base in a different region, a developer must take care of [software localization](../what-is-software-localization/). Typically, the process necessitates the complete modification of text and multimedia for a software product.
 
 As JavaScript and its frameworks are the most famous programming-languages today, there needs to be discussed how JavaScript applications can be adjusted for global audience. 
@@ -137,7 +137,7 @@ This guide of <a href="/javascript-localization.html" title="javascript localiza
 </div>
 
 
-## How to measure the success <a name="measure"></a>
+### How to measure the success <a name="measure"></a>
 
 You may ask yourself how you can track the progress of your project regarding internationalization. How many translations are left to be done? Is the localized-content also be used from website-visitors? Is your code on good quality or not?
 
@@ -160,7 +160,7 @@ locize help to measure the progress:
 Find out more at the <a href="https://docs.locize.com/issues" title="locize documentation for checks">locize documentation for issue detection</a>.
 
 
-## Conclusion <a name="conclusion"></a>
+### Conclusion <a name="conclusion"></a>
 How do you manage the internationalization of your application? <b>Either way, let us know by write us an email to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> or leave us a comment on <a href="https://twitter.com/locize" title="twitter locize">twitter</a> or <a href="https://www.facebook.com/locize" title="facebook locize">facebook</a> right now.</b>
 
 The term "i18n" is mostly associated with the software business. It defines the development operations required when a corporation expands into new countries or markets. i18n refers to a complete business that was created to meet the needs of clients who needed to convert their programs, websites, or <a href="../what-is-video-game-localization/" title="video-games">video-games</a>.
@@ -168,7 +168,7 @@ The term "i18n" is mostly associated with the software business. It defines the 
 If you're just starting out and want to learn more about "what is i18n," the following links can be helpful.
 
 
-## Additional links <a name="links"></a>
+### Additional links <a name="links"></a>
 
 
 ➡️ Create a free new [user account](https://www.locize.app/register) for advanced i18n-experience with locize

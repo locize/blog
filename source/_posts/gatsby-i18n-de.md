@@ -35,7 +35,7 @@ In diesem Artikel verwenden wir ein Plugin, das auf dem berühmten i18n-Framewor
 <br />
 Das von uns verwendete Gatsby-Plugin ist [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next), erstellt von [Dmitriy Nevzorov](https://twitter.com/nevzorov_d).
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
   * [Also erstmal: "Warum i18next?"](#why-i18next)
   * [Fangen wir an...](#start)
     - [Voraussetzungen](#prerequisites)
@@ -51,7 +51,7 @@ Das von uns verwendete Gatsby-Plugin ist [gatsby-plugin-react-i18next](https://g
     - [👀 aber es gibt noch mehr... (In-Kontext-Editor)](#more)
   * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
 
-# Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
+## Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
 Wenn es um React-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18next](https://www.i18next.com) mit seiner React-Erweiterung [react-i18next](https://react.i18next.com), und das aus guten Gründen:
 
@@ -78,14 +78,14 @@ Wenn es um React-Lokalisierung geht, ist eines der beliebtesten Frameworks [i18n
 [Hier](https://www.i18next.com/overview/comparison-to-others) finden Sie weitere Informationen darüber, warum i18next so besonders ist und [wie es funktioniert](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Fangen wir an... <a name="start"></a>
+## Fangen wir an... <a name="start"></a>
 
-## Voraussetzungen <a name="prerequisites"></a>
+### Voraussetzungen <a name="prerequisites"></a>
 
 Stellen Sie sicher, dass Sie Node.js und npm installiert haben. Am besten, wenn Sie etwas Erfahrung mit einfachem HTML, JavaScript, React.js und einfachem Gatsby haben, bevor Sie zu [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next). Dieses Gatsby-Lokalisierungsbeispiel ist nicht als Gatsby- oder React-Tutorial für Anfänger gedacht.
 
 
-## Einstieg <a name="getting-started"></a>
+### Einstieg <a name="getting-started"></a>
 
 Nehmen Sie Ihr eigenes Gatsby-Projekt oder erstellen Sie ein neues, z. B. mit der [gatsby-cli](https://www.gatsbyjs.com/docs/reference/gatsby-cli/#new).
 
@@ -232,7 +232,7 @@ Und vielleicht auch noch eine für Deutsch?
 ```
 
 
-## Sprachumschalter <a name="language-switcher"></a>
+### Sprachumschalter <a name="language-switcher"></a>
 
 Um zwischen verschiedenen Sprachen wechseln zu können, benötigen wir einen Sprachumschalter:
 
@@ -275,7 +275,7 @@ Jetzt sollte auch das Umschalten auf `de` (Deutsch) funktionieren:
 
 **🥳 Toll, Sie haben gerade Ihren ersten Sprachumschalter erstellt!**
 
-## Internationalisierte Links <a name="i18n-link"></a>
+### Internationalisierte Links <a name="i18n-link"></a>
 
 Lassen Sie uns eine zweite Seite erstellen ...
 
@@ -405,7 +405,7 @@ Die aus `gatsby-plugin-react-i18next` exportierte `Link`-Komponente verlinkt aut
 Die `Link`-Komponente ist identisch mit der Gatsby-Link-Komponente, ausser dass Sie die zusätzliche Sprach-prop bereitstellen können, um einen Link zu einer Seite mit einer anderen Sprache zu erstellen.
 
 
-## Interpolation und Pluralisierung <a name="interpolation-pluralization"></a>
+### Interpolation und Pluralisierung <a name="interpolation-pluralization"></a>
 
 i18next geht über die Bereitstellung der standardmässigen i18n-Funktionen hinaus.
 Aber sicher ist es in der Lage, [Plurale](https://www.i18next.com/translation-function/plurals) und [Interpolation](https://www.i18next.com/translation-function/interpolation) zu verarbeiten.
@@ -516,7 +516,7 @@ t('key', {count: 99}); // -> "many"
 t('key', {count: 100}); // -> "other"
 ```
 
-### Warum funktionieren meine Pluralformen nicht? <a name="pluralsv4"></a>
+#### Warum funktionieren meine Pluralformen nicht? <a name="pluralsv4"></a>
 
 Sehen Sie diese Warnung in der Entwicklungskonsole (`debug: true`)?
 
@@ -535,7 +535,7 @@ import 'intl-pluralrules'
 ```
 
 
-## Formatierung <a name="formatting"></a>
+### Formatierung <a name="formatting"></a>
 
 Sehen wir uns nun an, wie wir verschiedene Datumsformate mit Hilfe von [i18next](https://www.i18next.com) und [Luxon](https://moment.github.io/luxon) verwenden können, um das Datum zu verarbeiten und Zeit.
 
@@ -610,7 +610,7 @@ Deutsch:
 ![gatsby german](../gatsby-i18n/app_4.jpg "locize © inweso GmbH")
 
 
-## Kontext <a name="context"></a>
+### Kontext <a name="context"></a>
 
 Was ist mit einer bestimmten Begrüssungsnachricht basierend auf der aktuellen Tageszeit? also morgens, abends usw.
 Dies ist dank der Funktion [context](https://www.i18next.com/translation-function/context) von i18next möglich.
@@ -699,7 +699,7 @@ Und fügen Sie einige kontextspezifische Übersetzungsschlüssel hinzu:
 ![gatsby Übersetzungen](../gatsby-i18n/app_5.jpg "locize © inweso GmbH")
 
 
-## Schlüsselextraktion <a name="extract"></a>
+### Schlüsselextraktion <a name="extract"></a>
 
 Dank [babel-plugin-i18next-extract](https://i18next-extract.netlify.app) können Sie automatisch Übersetzungen innerhalb der `t`-Funktion und der `Trans`-Komponente aus Ihren Seiten extrahieren und in den Namespace-Dateien speichern.
 
@@ -824,7 +824,7 @@ Das Ausführen von `npm run extract` fügt nun diesen neuen `cta`-Schlüssel zur
 }
 ```
 
-## Extra-Power <a name="extra-power"></a>
+### Extra-Power <a name="extra-power"></a>
 
 **Das ist alles schon toll, aber wir können noch mehr!**
 
@@ -840,7 +840,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 
 > Gibt es eine bessere Option?
 
-### Auf jeden Fall! <a name="sicher"></a>
+#### Auf jeden Fall! <a name="sicher"></a>
 
 [i18next](https://www.i18next.com) hilft dabei, die Anwendung zu übersetzen, und das ist grossartig – aber es steckt noch mehr dahinter.
 - Wie integrieren Sie eventuelle Übersetzungsdienste/-agenturen?
@@ -863,7 +863,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 
 ![transformiere den Lokalisierungsprozess](../gatsby-i18n/transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
-### Wie sieht das aus? <a name="how-look"></a>
+#### Wie sieht das aus? <a name="how-look"></a>
 
 Zuerst müssen Sie sich bei locize [registrieren](https://locize.app/register) und [anmelden](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Dann [erstellen Sie ein neues Projekt](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize und fügen Ihre Übersetzungen hinzu. Sie können Ihre Übersetzungen entweder über die [CLI](https://github.com/locize/react-tutorial#use-the-locize-cli) oder durch [Importieren der einzelnen json-Dateien](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) oder über die [API](https://docs.locize.com/integration/api#update-remove-translations) bewerkstelligen.
@@ -929,7 +929,7 @@ und anschliessend `npm run export` und dann `npm run syncLocales` ausführen, er
 ![gatsby Übersetzungen](../gatsby-i18n/app_6.jpg "locize © inweso GmbH")
 
 
-### 👀 aber es gibt noch mehr... (In-Kontext-Editor) <a name="more"></a>
+#### 👀 aber es gibt noch mehr... (In-Kontext-Editor) <a name="more"></a>
 
 Mit Hilfe des Plugins [locize](https://github.com/locize/locize) können Sie Ihre App im locize [InContext Editor](https://docs.locize.com/more/incontext-editor) verwenden.
 
@@ -1039,7 +1039,7 @@ Gehen Sie dann zu Ihrem Locize-Projekt und definieren Sie Ihre Kontext-Editor-UR
 Wenn Sie mehr Grundlagen über i18next erfahren möchten, gibt es auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
-# 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
 
 Ich hoffe, Sie haben ein paar neue Dinge über [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next), [i18next](https://www.i18next.com), [React.js-Lokalisierung](https://react.i18next.com) und [moderne Lokalisierungs-Workflows](https://locize.com) gelernt.
 
@@ -1047,4 +1047,4 @@ Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es s
 
 Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

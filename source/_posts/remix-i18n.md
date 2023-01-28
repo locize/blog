@@ -30,7 +30,7 @@ It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodx
 
 ***There is also a [second part of this blog post](../remix-i18next/), that focuses more on a continuous localization workflow.***
 
-## TOC
+### TOC
   * [So first of all: "Why i18next?"](#why-i18next)
   * [Let's get into it...](#start)
     - [Prerequisites](#prerequisites)
@@ -41,7 +41,7 @@ It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodx
   * [Part 2](../remix-i18next/)
 
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+## So first of all: "Why i18next?" <a name="why-i18next"></a>
 
 *i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), [Angular](../angular-i18next/), [Vue](../i18next-vue/), ...).*
 <br />
@@ -66,14 +66,14 @@ It was created in October 2021 by [Sergio Xalambrí](https://github.com/sergiodx
 [Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Let's get into it... <a name="start"></a>
+## Let's get into it... <a name="start"></a>
 
-## Prerequisites <a name="prerequisites"></a>
+### Prerequisites <a name="prerequisites"></a>
 
 Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic [React](https://reactjs.org) and [Remix](https://remix.run), before jumping to [remix-i18next](https://github.com/sergiodxa/remix-i18next).
 
 
-## Getting started <a name="getting-started"></a>
+### Getting started <a name="getting-started"></a>
 
 Take your own Remix project or use this example app [here](https://github.com/locize/locize-remix-i18next-example/tree/start).
 
@@ -481,7 +481,7 @@ Add the keys to your translations, i.e. `public/locales/en/common.json`:
 }
 ```
 
-## Language Switcher <a name="language-switcher"></a>
+### Language Switcher <a name="language-switcher"></a>
 
 remix-i18next by default will detect the current language in this order:
 - the lng search parameter
@@ -696,7 +696,7 @@ So this means we're using the lng search parameter to change the language. And p
 *🧑‍💻 The complete code can be found [here](https://github.com/locize/locize-remix-i18next-example/tree/local).*
 
 
-## The voluntary part <a name="voluntary"></a>
+### The voluntary part <a name="voluntary"></a>
 
 ![transform the localization process](transform_your_localization_process_small.jpg "locize © inweso GmbH")
 
@@ -705,19 +705,19 @@ Connect to an awesome translation management system and manage your translations
 Let's synchronize the translation files with [locize](https://locize.com).
 This can be done on-demand or on the CI-Server or before deploying the app.
 
-## What to do to reach this step:
+### What to do to reach this step:
 1. in locize: signup at https://locize.app/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language))
 4. install the [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
 
-## Use the [locize-cli](https://github.com/locize/locize-cli)
+### Use the [locize-cli](https://github.com/locize/locize-cli)
 Use the `locize sync` command to synchronize your local repository (`public/locales`) with what is published on locize.
 
 Alternatively, you can also use the `locize download` command to always download the published locize translations to your local repository (`public/locales`) before bundling your app.
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 I hope you’ve learned a few new things about i18n in [Remix](https://remix.run), [remix-i18next](https://github.com/sergiodxa/remix-i18next), [i18next](https://www.i18next.com) and [modern localization workflows](https://locize.com).
 
@@ -728,6 +728,6 @@ The founders of [locize](https://locize.com) are also the creators of [i18next](
 There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
-# 👍
+## 👍
 
 *If you like to know how to unleash the full power of i18next, [check out **"Part 2"**](../remix-i18next/)!*

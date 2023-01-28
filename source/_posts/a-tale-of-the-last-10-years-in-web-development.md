@@ -18,7 +18,7 @@ redirect_from:
 
 > This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents depicted in this story are either the products of my imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
 
-# An Introduction
+## An Introduction
 
 This story is based on a true story of each of us. Over the past 10 years, many web developers have experienced such a journey. Starting from [jQuery](https://jquery.com/), passing through [Angular](https://angular.io/), using [React](https://reactjs.org/) and streak [Vue](https://vuejs.org/).
 
@@ -131,7 +131,7 @@ _To see how this could look like click_ [_here_](https://adrai.github.io/i18next
 
 **_Technologies and libraries come and go, but_** [**_i18next_**](https://www.i18next.com) **_remains!_**
 
-### Post-credits scene
+#### Post-credits scene
 
 There are voices who say that they have also replaced their [i18next-xhr-backend](https://github.com/i18next/i18next-xhr-backend) with that of [locize](https://github.com/locize/i18next-locize-backend).
 

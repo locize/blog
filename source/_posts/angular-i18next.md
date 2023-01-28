@@ -28,7 +28,7 @@ When it comes to JavaScript localization, one of the most popular frameworks is 
 It was created back in April 2017 by [Sergey Romanchuk](https://github.com/Romanchuk).
 
 
-## TOC
+### TOC
   * [So first of all: "Why i18next?"](#why-i18next)
   * [Let's get into it...](#start)
     - [Prerequisites](#prerequisites)
@@ -40,7 +40,7 @@ It was created back in April 2017 by [Sergey Romanchuk](https://github.com/Roman
       - [👀 but there's more...](#more)
   * [🎉🥳 Congratulations 🎊🎁](#congratulations)
 
-# So first of all: "Why i18next?" <a name="why-i18next"></a>
+## So first of all: "Why i18next?" <a name="why-i18next"></a>
 
 *i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend technology ([React](../react-i18next/), Angular, [Vue](../i18next-vue/), ...).*
 <br />
@@ -65,14 +65,14 @@ It was created back in April 2017 by [Sergey Romanchuk](https://github.com/Roman
 [Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-# Let's get into it... <a name="start"></a>
+## Let's get into it... <a name="start"></a>
 
-## Prerequisites <a name="prerequisites"></a>
+### Prerequisites <a name="prerequisites"></a>
 
 Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic Angular, before jumping to [angular-i18next](https://github.com/Romanchuk/angular-i18next/).
 
 
-## Getting started <a name="getting-started"></a>
+### Getting started <a name="getting-started"></a>
 
 Take your own Angular project or create a new one, i.e. with [the Angular cli](https://angular.io/guide/setup-local#install-the-angular-cli).
 
@@ -238,7 +238,7 @@ And thanks to the language-detector, you can also try to switch the language wit
 ![language detector](app_3.jpg "locize © inweso GmbH")
 
 
-## Language Switcher <a name="language-switcher"></a>
+### Language Switcher <a name="language-switcher"></a>
 
 We like to offer the possibility to change the language via some sort of language switcher.
 
@@ -303,7 +303,7 @@ export class AppComponent {
 Thanks to [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
 
 
-## Separate translations from code <a name="separate"></a>
+### Separate translations from code <a name="separate"></a>
 
 Having the translations in our code works, but is not that suitable to work with, for translators.
 Let's separate the translations from the code and pleace them in dedicated json files.
@@ -312,7 +312,7 @@ Let's separate the translations from the code and pleace them in dedicated json 
 
 > [What is locize?](../react-i18next/#for-sure)
 
-### How does this look like? <a name="how-look"></a>
+#### How does this look like? <a name="how-look"></a>
 
 First you need to signup at [locize](https://locize.app/register) and [login](https://docs.locize.com/integration/getting-started/create-a-user-account).
 Then [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project) in locize and add your translations. You can add your translations either by [importing the individual json files](https://docs.locize.com/more/general-questions/how-to-import-translations-from-a-file) or via [API](https://docs.locize.com/integration/api#update-remove-translations) or by using the [CLI](https://github.com/locize/locize-cli).
@@ -389,7 +389,7 @@ The app looks still the same, but the translations are now completely separated 
 ![](app_4.jpg "locize © inweso GmbH")
 
 
-### save missing translations <a name="save-missing"></a>
+#### save missing translations <a name="save-missing"></a>
 
 Thanks to the use of the [saveMissing functionality](https://www.i18next.com/overview/configuration-options#missing-keys), new keys gets added to locize automatically, while developing the app.
 
@@ -421,7 +421,7 @@ will result in locize like this:
 ![missing key](missing_key.jpg "locize © inweso GmbH")
 
 
-### 👀 but there's more... <a name="more"></a>
+#### 👀 but there's more... <a name="more"></a>
 
 Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
@@ -543,7 +543,7 @@ There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
 
 
-# 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
+## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
 
 I hope you’ve learned a few new things about [i18next](https://www.i18next.com), [angular-i18next](https://github.com/Romanchuk/angular-i18next/) and [modern localization workflows](https://locize.com).
 
@@ -551,4 +551,4 @@ So if you want to take your i18n topic to the next level, it's worth to try [loc
 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
-# 👍
+## 👍

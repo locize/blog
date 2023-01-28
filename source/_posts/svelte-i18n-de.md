@@ -44,7 +44,7 @@ In diesem Tutorial werden wir zusätzliche Superkräfte zu [svelte-i18n](https:/
     - [👀 aber es gibt noch mehr...](#more)
     - [🎉🥳 Herzlichen Glückwunsch 🎊🎁](#congratulations)
 
-# Wie sieht also ein einfaches Svelte-i18n-Setup aus? <a name="start"></a>
+## Wie sieht also ein einfaches Svelte-i18n-Setup aus? <a name="start"></a>
 ## Lassen Sie uns darauf eingehen...
 
 ## Voraussetzungen <a name="prerequisites"></a>

@@ -16,13 +16,13 @@ thumbnail: vue-js-from-internationalization-i18n-to-localization-l10n-and-back-a
 
 ![](title.jpeg "locize © inweso GmbH")
 
-# What is internationalization?!?
+## What is internationalization?!?
 
 >Internationalization is the designing of a product in such a way that it will meet the needs of users in many countries or can be easily adapted to do so. Internationalization might mean designing a website so that when it is translated from English to Spanish the layout still works — many words in Spanish have more characters and therefore take up more space on the page in Spanish than in English.
 
 *quote by: https://www.investopedia.com/terms/i/internationalization.asp*
 
-# Open Source to the rescue
+## Open Source to the rescue
 
 Thanks to the restless open source community you won’t have to reinvent an i18n solution. Just to give you an idea let’s mention two mature solutions to translate your vue.js app here:
 
@@ -40,7 +40,7 @@ Thanks to the restless open source community you won’t have to reinvent an i18
 - plugins for language detection, loading, caching, …
 - learn more reading the [documentation](https://github.com/panter/vue-i18next) and the [i18next documentation](https://www.i18next.com/translation-function/essentials) for translation functionalities like plural, context, …
 
-# From internationalization to localization
+## From internationalization to localization
 
 As you can see in the [getting started guide](https://kazupon.github.io/vue-i18n/guide/started.html) of vue-i18n making your vue.js application fit for translation is not as daunting as it seemed first. Honestly it’s rather easy.
 
@@ -48,7 +48,7 @@ Now let us show you how easy the next step could be doing the same for localizat
 
 >After enabling the developers it’s time to enable your localization team to translate your product.
 
-## Step 1: Creating a fast translation loop — continuous localization
+### Step 1: Creating a fast translation loop — continuous localization
 
 Our goal is to extend vue-i18n to to use it’s existing missing function to directly send new texts to the translation managment tool and to directly load translations from there.
 
@@ -127,7 +127,7 @@ Awesome. Now we have our code connected with our translation management. Develop
 
 >The power of true continuous localization
 
-## Step 2: Enable translations to be in high quality
+### Step 2: Enable translations to be in high quality
 
 Localization is hard. Even harder if you have to guess the context during translations. So lets improve this by enabling translations directly inside your vue.js app.
 
@@ -152,7 +152,7 @@ locizeEditor.init({
 
 Now open your website with `?locize=true` and you will see the incontext editor. While turned on you can click on any text element on your page to directly jump to it and make the initial translation or the changes needed.
 
-# Summary
+## Summary
 
 You see internationalization is done rather easily and localization hasn’t to be harder. With the right tools you can not only keep your development — translation cycle short but you can also improve the quality, save time and money.
 

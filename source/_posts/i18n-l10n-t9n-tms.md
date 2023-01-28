@@ -23,7 +23,7 @@ When it comes to software localization there are some important parts you have t
 If the term localization (l10n) is new to you, then take a look at [this explanation](../localization/) or at [this blog post about software localization](../what-is-software-localization/).
 
 
-# i18n - internationalization <a name="i18n"></a>
+## i18n - internationalization <a name="i18n"></a>
 
 Where the software code is created, [i18n](../what-is-i18n/) is also to be found. Developers needs to instrumentalize the code to be able to be localized to various languages and regions.
 
@@ -52,7 +52,7 @@ The biggest mistake one can do is looking on software localization as it’s onl
 The requirements are clear: enable the application to be translated later but without time to think more about it. It ends with reaching the release day with an application ready to be published in one language.
 
 
-# t9n - translation <a name="t9n"></a>
+## t9n - translation <a name="t9n"></a>
 
 When the code is ready to be localized, someone needs to translate the content.
 
@@ -72,7 +72,7 @@ You can have your translation done by freelancers, agencies or in-house employee
 Text translations are just one element in the localization process. You may also think of images, documents that differs not only for different languages, but also for different countries or regions.
 
 
-# TMS - Translation Management System <a name="tms"></a>
+## TMS - Translation Management System <a name="tms"></a>
 
 After having internationalized the code and knowing how the content is translated, how will these 2 parts interact with each other?
 
@@ -81,7 +81,7 @@ After having internationalized the code and knowing how the content is translate
   <p style="color:grey; margin-top: 5px;">Translation management is the systematic process and automation that manages translations and other digital assets, eliminating repetitive and laborious manual tasks while enabling progress overview and control, increasing collaboration and delivering greater efficiency.</p>
 </div>
 
-## Manually merging translation files?
+### Manually merging translation files?
 
 One day (before release) the responsible for localization will knock at the developer's door and asking for the resource files to be translated. The developer will hand them out and deep in their mind the developer knows there will be some changes in the last days before release and even more changes after release.
 
@@ -115,7 +115,7 @@ Because software development never stops when the first version of a product is 
 </div>
 
 
-# i18n, l10n, TMS - So which are the key pieces to localize your software project?
+## i18n, l10n, TMS - So which are the key pieces to localize your software project?
 
 [![](puzzle_specific.png "The key pieces to localize your software project")](https://www.localistars.com/ecosystem/)
 
