@@ -20,11 +20,6 @@ redirect_from:
 
 label: react-i18next
 lang: en
-
-faqs: hi
-  # -
-  #   question: abc?
-  #   answer: def!
 ---
 
 ![React Localization made easy with this step-by-step guide using i18next ✅](react-localization.jpg "React Localization example")
@@ -1383,7 +1378,7 @@ The founders of [locize](https://locize.com) are also the creators of [i18next](
       "name": "Can i18next be used for server-side rendering and how does it impact performance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, i18next can be used for server-side rendering. Using i18next on the server-side can improve the performance of your website by allowing you to pre-render the internationalized content, which can then be served to the user's browser. "
+        "text": "Yes, i18next can be used for server-side rendering. Using i18next on the server-side can improve the performance of your website by allowing you to pre-render the internationalized content, which can then be served to the user's browser."
       }
     }]
   }

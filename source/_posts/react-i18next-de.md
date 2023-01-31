@@ -1322,3 +1322,62 @@ Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es s
 Die Gründer von [locize](https://locize.com) sind auch die Schöpfer von [i18next](https://www.i18next.com). Mit der Nutzung von [locize](https://locize.com) unterstützen Sie also direkt die Zukunft von [i18next](https://www.i18next.com).
 
 ## 👍
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Warum i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nachhaltigkeit: i18next wurde Ende 2011 entwickelt. Es ist älter als die meisten Bibliotheken, die Sie heute verwenden werden, einschließlich der wichtigsten Frontend-Technologien (React, Angular, Vue, ...). Reifegrad: Basierend darauf, wie lange i18next bereits als Open Source verfügbar ist, gibt es keinen echten i18n-Fall, der nicht mit i18next gelöst werden könnte. Erweiterbarkeit: i18next kann in jeder Javascript-Umgebung (und einigen Nicht-Javascript-Umgebungen - .net, elm, iOS, android, ruby, ...), mit jedem UI-Framework, mit jedem i18n-Format, ... die Möglichkeiten sind endlos. Reichtum: Es gibt eine Vielzahl von Funktionen und Möglichkeiten, die Sie mit i18next im Vergleich zu anderen regulären i18n-Frameworks erhalten."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie funktioniert i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "image": "https://locize.com/img/i18next_how_it_works.png",
+        "text": "Auf den ersten Blick scheint i18next ein einfaches Schlüssel-/Übersetzungswörterbuch zu sein, aber in Wirklichkeit ist es ein ausgeklügeltes und sehr erweiterbares i18n-Framework mit viel Power. Es bietet Übersetzungen aus verschiedenen Quellen, eine Spracherkennung, Pluralformauflösungen, Caching, Post-Processing, alternative i18n-Formate und mehr. Sie sehen, es bietet nicht nur die Standard-i18n-Funktionen, wie Interpolation, Formatierung usw. Aber das Beste daran ist sicherlich das grenzenlose Ökosystem rund um i18next. Wir kennen kein anderes i18n-Framework mit einer so großen Community. Das ist der Grund, warum wir i18next so sehr mögen!"
+      }
+    },{
+      "@type": "Question",
+      "name": "Was ist i18next und wie funktioniert es?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "image": "https://locize.com/img/i18next_how_it_works.png",
+        "text": "i18next ist ein in und für JavaScript geschriebenes Internationalisierungs-Framework. Aber es ist viel mehr als das. i18next bietet mehr als nur die Standard-i18n-Funktionen wie (Plural, Kontext, Interpolation, Format). Es bietet Ihnen eine Komplettlösung für die Lokalisierung Ihres Produkts vom Web über das Handy bis zum Desktop. Auf den ersten Blick scheint i18next ein einfaches Schlüssel-/Übersetzungswörterbuch zu sein, aber in Wirklichkeit ist es ein ausgeklügeltes und sehr erweiterbares i18n-Framework mit einer Menge Power. Es bietet Übersetzungen aus verschiedenen Quellen, eine Spracherkennung, Pluralformauflösungen, Caching, Post-Processing, alternative i18n-Formate und mehr. Sie sehen, es bietet nicht nur die Standard-i18n-Funktionen, wie Interpolation, Formatierung usw. Aber das Beste daran ist sicherlich das grenzenlose Ökosystem rund um i18next. Wir kennen kein anderes i18n-Framework mit einer so großen Community. Das ist der Grund, warum wir i18next so sehr mögen!"
+      }
+    },{
+      "@type": "Question",
+      "name": "Was ist i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "i18next ist ein in und für JavaScript geschriebenes Internationalisierungs-Framework. Aber es ist viel mehr als das. i18next bietet mehr als nur die Standard-i18n-Funktionen wie (Plural, Kontext, Interpolation, Format). Es bietet Ihnen eine Komplettlösung für die Lokalisierung Ihres Produkts vom Web über das Handy bis zum Desktop."
+      }
+    },{
+      "@type": "Question",
+      "name": "Welche Vorteile hat die Verwendung von i18next gegenüber anderen Internationalisierungsbibliotheken?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Geringes Gewicht und Flexibilität: i18next ist eine kleine Bibliothek, die keine große Einrichtung erfordert und leicht in andere Bibliotheken und Frameworks integriert werden kann. Unterstützung für mehrere Sprachen: i18next unterstützt eine breite Palette von Sprachen und bietet eine einfache Möglichkeit, zwischen ihnen zu wechseln. Einfaches API: i18next bietet ein einfaches und intuitives API für die Übersetzung und Formatierung von Strings, Daten und Zahlen. Behandlung von Pluralisierung und Geschlecht: i18next bietet integrierte Unterstützung für die Behandlung von Pluralisierung und Geschlecht in verschiedenen Sprachen. Gute Leistung: i18next ist auf Leistung ausgelegt und bietet Caching-Mechanismen, um die Anzahl der Suchvorgänge zu minimieren. Aktive Gemeinschaft: i18next hat eine große und aktive Gemeinschaft von Entwicklern, die zur Bibliothek beitragen und Unterstützung für neue Funktionen und Fehlerbehebungen bieten."
+      }
+    },{
+      "@type": "Question",
+      "name": "Kann i18next mit gängigen Frontend-Frameworks wie React, Vue und Angular integriert werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, i18next kann mit gängigen Frontend-Frameworks wie React, Vue und Angular integriert werden. Für jedes Framework gibt es offizielle Pakete und von der Community unterstützte Pakete, die für die Integration zur Verfügung stehen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Kann i18next für das serverseitige Rendering verwendet werden und wie wirkt sich dies auf die Leistung aus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, i18next kann für das serverseitige Rendering verwendet werden. Die Verwendung von i18next auf der Serverseite kann die Leistung Ihrer Website verbessern, da Sie den internationalisierten Inhalt vorrendern können, der dann dem Browser des Benutzers zur Verfügung gestellt werden kann."
+      }
+    }]
+  }
+</script>
