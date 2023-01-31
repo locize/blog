@@ -20,6 +20,11 @@ redirect_from:
 
 label: react-i18next
 lang: en
+
+faqs: hi
+  # -
+  #   question: abc?
+  #   answer: def!
 ---
 
 ![React Localization made easy with this step-by-step guide using i18next ✅](react-localization.jpg "React Localization example")
@@ -1324,3 +1329,62 @@ So if you want to take your i18n topic to the next level, it's worth trying the 
 The founders of [locize](https://locize.com) are also the creators of [i18next](https://www.i18next.com). So by using [locize](https://locize.com) you directly support the future of [i18next](https://www.i18next.com).
 
 ## 👍
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Why i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sustainability: i18next was created in late 2011. It's older than most of the libraries you will use nowadays, including your main frontend tech (React, Angular, Vue, ...). Maturity: Based on how long i18next already is available open source, there is no real i18n case that could not be solved with i18next. Extensibility: i18next can be used in any javascript (and a few non-javascript - .net, elm, iOS, android, ruby, ...) environment, with any UI framework, with any i18n format, ... the possibilities are endless. Richness: There is a plenty of features and possibilities you'll get with i18next compared to other regular i18n frameworks."
+      }
+    },{
+      "@type": "Question",
+      "name": "How does i18next work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "image": "https://locize.com/img/i18next_how_it_works.png",
+        "text": "At first, i18next seems to be a simple key/translation dictionary, but in reality it is an elaborated and very extensible i18n framework with a lot of power. It offers translations to be provided from different sources, a language detection, plural form resolutions, caching, post processing, alternative i18n formats and more. You see it does not only offer the standard i18n features, like interpolation, formatting, etc. But the best thing about it is certainly the limitless ecosystem around i18next. We don't know of any other i18n framework with such a large community. That's why we like i18next that much!"
+      }
+    },{
+      "@type": "Question",
+      "name": "What is i18next and how does it work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "image": "https://locize.com/img/i18next_how_it_works.png",
+        "text": "i18next is an internationalization-framework written in and for JavaScript. But it's much more than that. i18next goes beyond just providing the standard i18n features such as (plurals, context, interpolation, format). It provides you with a complete solution to localize your product from web to mobile and desktop. At first, i18next seems to be a simple key/translation dictionary, but in reality it is an elaborated and very extensible i18n framework with a lot of power. It offers translations to be provided from different sources, a language detection, plural form resolutions, caching, post processing, alternative i18n formats and more. You see it does not only offer the standard i18n features, like interpolation, formatting, etc. But the best thing about it is certainly the limitless ecosystem around i18next. We don't know of any other i18n framework with such a large community. That's why we like i18next that much!"
+      }
+    },{
+      "@type": "Question",
+      "name": "What is i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "i18next is an internationalization-framework written in and for JavaScript. But it's much more than that. i18next goes beyond just providing the standard i18n features such as (plurals, context, interpolation, format). It provides you with a complete solution to localize your product from web to mobile and desktop."
+      }
+    },{
+      "@type": "Question",
+      "name": "What are the benefits of using i18next over other internationalization libraries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lightweight and flexible: i18next is a small library that doesn't require a lot of setup and can be easily integrated with other libraries and frameworks. Support for multiple languages: i18next supports a wide range of languages and provides a simple way to switch between them on the fly. Easy to use API: i18next provides a simple and intuitive API for translating and formatting strings, dates, and numbers. Pluralization and gender handling: i18next provides built-in support for handling pluralization and gender in different languages. Good performance: i18next is designed for performance and provides caching mechanisms to minimize the number of lookups. Active community: i18next has a large and active community of developers who contribute to the library and provide support for new features and bug fixes."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can i18next be integrated with popular frontend frameworks like React, Vue, and Angular?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, i18next can be integrated with popular frontend frameworks such as React, Vue, and Angular. There are official packages for each framework and community-supported packages available for integration."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can i18next be used for server-side rendering and how does it impact performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, i18next can be used for server-side rendering. Using i18next on the server-side can improve the performance of your website by allowing you to pre-render the internationalized content, which can then be served to the user's browser. "
+      }
+    }]
+  }
+</script>
