@@ -68,7 +68,7 @@ Kurz gesagt, die Pflege eines Open-Source-Projekts ist eine anspruchsvolle, aber
 
 ![](../maintaining-open-source/team-work.jpg)
 
-Abschliessend möchte ich [locize](https://locize.com/i18next.html#official-sponsor) dafür danken, dass sie uns die Möglichkeit geben, unsere i18next-Community zu unterstützen und in Open-Source-Aktivitäten zu investieren.
+Abschliessend möchte ich mich bei [locize](https://locize.com/i18next.html#official-sponsor) für die Unterstützung unserer i18next Community und die Investition in Open Source Aktivitäten bedanken.
 Ohne diese Unterstützung wäre i18next nicht da, wo es heute ist.
 
 <script type="application/ld+json">
