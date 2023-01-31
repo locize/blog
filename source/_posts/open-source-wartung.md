@@ -12,6 +12,7 @@ tags:
   - localization
   - internationalization
   - translation
+thumbnail: maintaining-open-source/opensource-title.jpg
 
 label: maintaining-open-source
 lang: de
