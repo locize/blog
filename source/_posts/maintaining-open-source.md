@@ -51,7 +51,7 @@ It's important to educate users about the importance of providing a minimal repr
 It's also important to be patient and understanding when dealing with users who may not be familiar with the concept of a minimal reproducible example. Maintaining an open source project is a community effort, and it's important to work together to make the project better. Also, a pull request that includes a **negative test case** is very valuable.
 
 Sometimes it is useful to write a larger guide or blog post that users can go through to avoid basic problems.
-For example, for using i18next in a React application, we wrote [this blog post](../react-i18next-en/) that covers all the initial issues and hurdles.
+For example, for using i18next in a React application, we wrote [this blog post](../react-i18next/) that covers all the initial issues and hurdles.
 
 Remember that as a user of an open source library, you have the power to contribute to its development and make it even better. Don't be afraid to jump in and make a contribution, no matter how small. Every little bit helps, and it's a great way to **give back to the community**. Even if you are not a developer, you can contribute in other ways, such as writing documentation, or helping answer other users' questions.
 
