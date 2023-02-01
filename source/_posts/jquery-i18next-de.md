@@ -756,6 +756,11 @@ $(function () {
     .init({
       debug: true,
       fallbackLng: 'en'
+      // i.e. if you want to customize a different translation path,
+      // use the loadPath option:
+      // backend: {
+      //   loadPath: '/assets/locales/{{lng}}/{{ns}}.json'
+      // }
     }, (err, t) => {
       if (err) return console.error(err);
 
