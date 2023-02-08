@@ -687,3 +687,53 @@ I hope you’ve learned a few new things about server side internationalization 
 So if you want to take your i18n topic to the next level, it's worth to try [i18next](https://www.i18next.com) and also [locize](https://www.locize.com).
 
 👍
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What is i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "i18next is an internationalization-framework written in and for JavaScript. But it's much more than that. i18next goes beyond just providing the standard i18n features such as (plurals, context, interpolation, format). It provides you with a complete solution to localize your product from web to mobile and desktop."
+      }
+    },{
+      "@type": "Question",
+      "name": "What is server side internationalization (i18n)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Server side internationalization is the process of adapting your application's backend to support multiple languages. This ensures that all user-facing content, including emails, command line interfaces (CLIs), server-side rendered sites, etc. are translated into the user's preferred language."
+      }
+    },{
+      "@type": "Question",
+      "name": "Why is it important to handle i18n in the backend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It's important to handle i18n in the backend because some user-facing content is not directly rendered in the browser, such as emails and CLIs. Without proper internationalization in the backend, this content will not be translated into the user's preferred language."
+      }
+    },{
+      "@type": "Question",
+      "name": "What is the example i18n framework used in the text?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The example i18n framework used in the text is i18next."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can you use i18next for CLI apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can use i18next for CLI apps. The text provides an example of how to use i18next to translate a small CLI app that greets the user in the appropriate language."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can you use i18next for email generation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can use i18next for email generation. The text provides an example of how to use i18next to translate the raw data into HTML content in the user's preferred language to be used in an email."
+      }
+    }]
+  }
+</script>

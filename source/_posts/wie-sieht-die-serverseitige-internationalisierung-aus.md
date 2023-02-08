@@ -688,3 +688,53 @@ Ich hoffe, Sie haben ein paar neue Dinge über serverseitige Internationalisieru
 Wenn Sie also Ihr i18n-Thema auf die nächste Ebene bringen möchten, lohnt es sich, [i18next](https://www.i18next.com) und auch [locize](https://www.locize.com) auszuprobieren.
 
 👍
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Was ist i18next?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "i18next ist ein in und für JavaScript geschriebenes Internationalisierungs-Framework. Aber es ist viel mehr als das. i18next bietet mehr als nur die Standard-i18n-Funktionen wie (Plural, Kontext, Interpolation, Format). Es bietet Ihnen eine Komplettlösung für die Lokalisierung Ihres Produkts vom Web über das Handy bis zum Desktop."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was ist serverseitige Internationalisierung (i18n)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei der serverseitigen Internationalisierung wird das Backend Ihrer Anwendung so angepasst, dass es mehrere Sprachen unterstützt. Dadurch wird sichergestellt, dass alle benutzerseitigen Inhalte, einschliesslich E-Mails, Befehlszeilenschnittstellen (CLIs), serverseitig gerenderte Websites usw., in die bevorzugte Sprache des Benutzers übersetzt werden."
+      }
+    },{
+      "@type": "Question",
+      "name": "Warum ist es wichtig, i18n im Backend zu handhaben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Es ist wichtig, i18n im Backend zu handhaben, da einige benutzerseitige Inhalte nicht direkt im Browser gerendert werden, z. B. E-Mails und CLIs. Ohne eine ordnungsgemässe Internationalisierung im Backend werden diese Inhalte nicht in die bevorzugte Sprache des Benutzers übersetzt."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was ist das im Text verwendete Beispiel-i18n-Framework?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Das im Text verwendete Beispiel-i18n-Framework ist i18next."
+      }
+    },{
+      "@type": "Question",
+      "name": "Können Sie i18next für CLI-Apps verwenden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Sie können i18next für CLI-Apps verwenden. Der Text zeigt beispielhaft, wie man mit i18next eine kleine CLI-App übersetzt, die den Benutzer in der passenden Sprache begrüsst."
+      }
+    },{
+      "@type": "Question",
+      "name": "Können Sie i18next für die E-Mail-Generierung verwenden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Sie können i18next für die E-Mail-Generierung verwenden. Der Text enthält ein Beispiel dafür, wie i18next verwendet wird, um die Rohdaten in HTML-Inhalte in der bevorzugten Sprache des Benutzers zu übersetzen, die in einer E-Mail verwendet werden."
+      }
+    }]
+  }
+</script>
