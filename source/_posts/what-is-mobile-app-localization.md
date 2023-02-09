@@ -206,7 +206,7 @@ The support of numerous languages will also have a <b>favorable impact on the ap
 
 Another helpful tip is to transfer strings from code to resource files. Because storing strings in resource files before deploying code allows the team to access those files for translation later without having to change the code. The team may access those files for translation without having to update the code itself.
 
-Check out our <a href="https://locize.com" title="localization software">localization software</a>; it's exactly what we can help you with, and it only takes a few steps to get started.
+Check out our <a href="/" title="localization software">localization software</a>; it's exactly what we can help you with, and it only takes a few steps to get started.
 
 
 ### How it works for others <a name="how"></a>
@@ -255,7 +255,7 @@ You may discover how to use locize in your development and how your team can wor
 
 <strong>In the end, localizing your apps will increase your revenue and enhance user experience.</strong>
 
-<a class="btn btn-outline btn-xl" style="color:white" href="https://locize.com/for-your-team.html" title="for your team">For your team</a>
+<a class="btn btn-outline btn-xl" style="color:white" href="/for-your-team.html" title="for your team">For your team</a>
 
 
 
