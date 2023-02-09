@@ -2,7 +2,7 @@
 title: What is website localization with examples (update)
 description: What is website localization and how can you achieve it step by step? Using this checklist, you might learn from successful cases.
 
-date: 2023-02-08
+date: 2023-01-31
 tags: 
   - guide
   - localization techniques
