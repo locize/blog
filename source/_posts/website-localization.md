@@ -1,13 +1,15 @@
 ---
-title: Website Localization - How to localize your website
-description: What is the most effective method for localizing your website? Learn from popular examples how to take your brand global.
+title: What is website localization with examples (update)
+description: What is website localization and how can you achieve it step by step? Using this checklist, you might learn from successful cases.
 
-date: 2022-05-04
+date: 2023-01-31
 tags: 
   - guide
   - localization techniques
   - refining website content
   - best practices
+  - native language
+  - localization project
 thumbnail: website-localization/website-localization.webp
 
 label: website-localization
@@ -46,7 +48,7 @@ You understand what website localization is? Now, let's find out why it's import
  
 ## Why should you be interested in a positive outcome? <a name="good-outcome"></a>
 
-A good website localization may help multinational businesses establish significant brand awareness outside of their home country. 
+A good website localization may help [multinational businesses](https://www.investopedia.com/terms/m/multinationalcorporation.asp)  establish significant brand awareness outside of their home country.
 
 <b>People on the internet clearly desire to buy from websites in their own language</b>, as evidenced by several [studies](https://insights.csa-research.com/reportaction/305013126/Marketing). Many firms utilize landingpages for a specific area to provide basic corporate information. 
 
@@ -114,7 +116,7 @@ Keep the following techniques in mind for a successful implementation:
 * Change the formatting design - a sentence in some languages can be substantially longer
 * The curreny should be according to customer need
 * Think about the update of graphic and videos
-* Ensure a proper information achitecture
+* Ensure a proper [information architecture](https://www.usability.gov/what-and-why/information-architecture.html)
 * Make it easy to update content
 * Think about SEO-Localization - SEO should be done parallel to development (industry standard)
 * Allow website integrations
@@ -145,7 +147,10 @@ All information must be given in a genuine manner to other locals so that they f
 Understanding the language is frequently insufficient, because people will not buy from a webpage in English if it is not their first language. The material must reflect all of their familiar conditions, not just the language. 
 
 ### Best practices
+
 ➡️ More about the topic? Check the [website-internationalization-best practices](../website-internationalization-best-practices/)
+
+The article highlights effective practices for companies entering foreign markets and requiring website translation. There is a significant distinction between translation and localization. With these ideas, you may save a lot of money and time when your website becomes internationally. Furthermore, the best practices article provides a system for translating content and managing these translations.
 
 ![Create considerable brand awareness](establish.webp)
 
@@ -159,14 +164,13 @@ They offer a large number of regions from which to choose. They also adjust thin
 The following improvements are some general areas that, in the author's view, may be improved by not deeply analyzing their situation. 
 
 ##### First finding 
-In the author's opinion, the language selector is difficult to discover and therefore not well situated for a good website-experience. It's great that the website displays it based on IP address in advance.
+In the author's opinion, the language selector is difficult to discover and therefore not well situated for a good [website-experience](https://blog.hubspot.com/marketing/improve-your-websites-user-experience/). It's great that the website displays it based on IP address in advance.
 
 ##### Second finding 
 In the author's opinion, although switching languages is possible, the user does not receive sufficient tailored info for his intended location. The available Tesla Store Locations are hidden in a bottom menu and are difficult to find. It may help to direct the user's attention to these Locations, allowing the consumer to feel more home.
 
 ##### Third finding 
 In the author's opinion, some product description information is tailored to a larger geographic area, such as Europe. It isn't particular to different areas of Europe; they used the same data across many countries. However, this may be wanted from them, because the efforts would be excessive in comparison to the results they would get. "The product speaks for itself".
-
 
 The author is unable to conduct a thorough analysis of the technical localization aspects as part of this article.
 
@@ -197,7 +201,7 @@ In some circumstances, contemporary technology such as machine translation will 
 We have the following two areas of testing for localization in the web:
 
 ### Language Testing
-Is the language properly tested, and are all of the words correct and understood? This list may be of assistance:
+Is the language properly tested, and are all words correct and understood? Ensure consistency since success and failure can be determined by trust. This list might be useful for testing local language:
 
 * Wrong use of language
 * Spelling mistakes
