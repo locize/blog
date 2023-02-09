@@ -1,13 +1,15 @@
 ---
-title: Website-Lokalisierung - So lokalisieren Sie Ihre Website
-description: Was ist die effektivste Methode zur Lokalisierung Ihrer Website? Lernen Sie anhand beliebter Beispiele, wie Sie Ihre Marke weltweit bekannt machen.
+title: Was ist Website-Lokalisierung mit Beispielen (Aktualisierung)
+description: Was ist Website-Lokalisierung und wie können Sie sie Schritt für Schritt erreichen? Anhand dieser Checkliste können Sie aus erfolgreichen Fällen lernen.
 
-date: 2022-05-04
+date: 2023-01-31
 tags: 
   - guide
   - localization techniques
   - refining website content
   - best practices
+  - native language
+  - localization project
 thumbnail: website-localization/website-localization.webp
 
 label: website-localization
@@ -47,7 +49,7 @@ Sie wissen, was Website-Lokalisierung ist? Lassen Sie uns nun herausfinden, waru
 
 ## Warum sollten Sie an einem positiven Ergebnis interessiert sein? <a name="good-outcome"></a>
 
-Eine gute Website-Lokalisierung kann multinationalen Unternehmen dabei helfen, eine signifikante Markenbekanntheit ausserhalb ihres Heimatlandes aufzubauen.
+Eine gute Website-Lokalisierung kann [multinationalen Unternehmen](https://www.investopedia.com/terms/m/multinationalcorporation.asp) dabei helfen, eine signifikante Markenbekanntheit ausserhalb ihres Heimatlandes aufzubauen.
 
 <b>Menschen im Internet möchten eindeutig auf Websites in ihrer eigenen Sprache kaufen</b>, wie mehrere [Studien](https://insights.csa-research.com/reportaction/305013126/Marketing) belegen. Viele Unternehmen nutzen Landingpages für einen bestimmten Bereich, um grundlegende Unternehmensinformationen bereitzustellen.
 
@@ -115,7 +117,7 @@ Beachten Sie die folgenden Techniken für eine erfolgreiche Implementierung:
 * Ändern Sie das Formatierungsdesign - ein Satz kann in einigen Sprachen erheblich länger sein
 * Die Währung sollte nach Kundenwunsch sein
 * Denken Sie an die Aktualisierung von Grafiken und Videos
-* Stellen Sie eine angemessene Informationsarchitektur sicher
+* Stellen Sie eine [angemessene Informationsarchitektur](https://www.usability.gov/what-and-why/information-architecture.html) sicher
 * Erleichtern Sie das Aktualisieren von Inhalten
 * Denken Sie an SEO-Lokalisierung - SEO sollte parallel zur Entwicklung erfolgen (Industriestandard)
 * Website-Integrationen zulassen
@@ -146,6 +148,9 @@ Alle Informationen müssen anderen Einheimischen auf authentische Weise gegeben 
 Das Verstehen der Sprache ist häufig unzureichend, da Menschen nicht auf einer Webseite auf Englisch kaufen, wenn dies nicht ihre Muttersprache ist. Das Material muss alle ihre vertrauten Bedingungen widerspiegeln, nicht nur die Sprache.
 
 ### Empfohlene Vorgehensweise
+
+Der Artikel hebt effektive Praktiken für Unternehmen hervor, die in ausländische Märkte eintreten und eine Website-Übersetzung benötigen. Es gibt einen wesentlichen Unterschied zwischen Übersetzung und Lokalisierung. Mit diesen Ideen können Sie viel Geld und Zeit sparen, wenn Ihre Website international wird. Darüber hinaus bietet der Best Practices-Artikel ein System zum Übersetzen von Inhalten und zum Verwalten dieser Übersetzungen.
+
 ➡️ Mehr zum Thema? Überprüfen sie [Website-Internationalisierung – Best Practices](../website-internationalisierung-empfohlene-vorgehensweisen/)
 
 ![Schaffen Sie eine beachtliche Markenbekanntheit](../website-localization/establish.webp)
@@ -160,14 +165,13 @@ Sie bieten eine grosse Anzahl von Regionen zur Auswahl. Sie passen auch Dinge wi
 Die folgenden Verbesserungen sind einige allgemeine Bereiche, die nach Ansicht des Autors verbessert werden können, wenn man ihre Situation nicht gründlich analysiert.
 
 ##### Erster Befund
-Nach Meinung des Autors ist die Sprachauswahl schwer zu finden und daher nicht gut geeignet für ein gutes Website-Erlebnis. Es ist grossartig, dass die Website es im Voraus basierend auf der IP-Adresse anzeigt.
+Nach Meinung des Autors ist die Sprachauswahl schwer zu finden und daher nicht gut geeignet für ein gutes [Website-Erlebnis](https://blog.hubspot.com/marketing/improve-your-websites-user-experience/). Es ist grossartig, dass die Website es im Voraus basierend auf der IP-Adresse anzeigt.
 
 ##### Zweiter Befund
 Der Autor ist der Meinung, dass eine Sprachumschaltung zwar möglich ist, der Nutzer aber keine ausreichend zugeschnittenen Informationen für seinen beabsichtigten Standort erhält. Die verfügbaren Tesla Store-Standorte sind in einem unteren Menü versteckt und schwer zu finden. Es kann hilfreich sein, die Aufmerksamkeit des Benutzers auf diese Orte zu lenken, wodurch sich der Verbraucher heimischer fühlt.
 
 ##### Dritter Befund
 Nach Ansicht des Autors sind einige Produktbeschreibungsinformationen auf ein grösseres geografisches Gebiet wie Europa zugeschnitten. Es ist nicht spezifisch für verschiedene Gebiete Europas; Sie verwendeten die gleichen Daten in vielen Ländern. Dies kann jedoch von ihnen gewollt sein, da der Aufwand im Vergleich zu den Ergebnissen, die sie erzielen würden, zu hoch wäre. "Das Produkt spricht für sich".
-
 
 Der Autor kann im Rahmen dieses Artikels keine umfassende Analyse der technischen Lokalisierungsaspekte durchführen.
 
@@ -198,7 +202,7 @@ Unter bestimmten Umständen wird der Vorgang durch moderne Technologien wie masc
 Wir haben die folgenden zwei Testbereiche für die Lokalisierung im Web:
 
 ### Sprachprüfung
-Ist die Sprache richtig getestet und sind alle Wörter richtig und verstanden? Diese Liste kann hilfreich sein:
+Ist die Sprache richtig getestet und sind alle Wörter richtig und verstanden? Stellen Sie Konsistenz sicher, da Erfolg und Misserfolg durch Vertrauen bestimmt werden können. Diese Liste könnte nützlich sein, um die lokale Sprache zu testen:
 
 * Falscher Sprachgebrauch
 * Rechtschreibfehler
