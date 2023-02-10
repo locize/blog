@@ -130,7 +130,18 @@ module.exports = {
 
 Das Entfernen von `serverSideTranslation` zu [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) oder [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props) (abhängig von Ihrem Fall) in den Komponenten auf Seitenebene würde funktionieren, aber das serverseitige HTML nicht korrekt rendern. Die Client-Seite wäre aber in Ordnung.
 
-This can be optimized by keeping the `getServerSideProps` or `getStaticProps` function and making use of the [`reloadResources`](https://www.i18next.com/overview/api#reloadresources) functionality of i18next.
+```javascript
+//
+// Without the getStaticProps or getServerSideProps function,
+// the translsations are loaded via configured i18next backend.
+//
+// export const getStaticProps = async ({ locale }) => {
+//   return {
+//     props: await serverSideTranslations(locale, ['common', 'footer'])
+//   }
+// }
+```
+
 Dies kann optimiert werden, indem die Funktion `getServerSideProps` oder `getStaticProps` beibehalten und die [`reloadResources`](https://www.i18next.com/overview/api#reloadresources)-Funktionalität von i18next verwendet wird.
 
 ```javascript
