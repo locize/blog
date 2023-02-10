@@ -126,7 +126,7 @@ module.exports = {
 }
 ```
 
-And then remove the `serverSideTranslation` to [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) or [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props) (depending on your case) in the page-level components.
+Removing the `serverSideTranslation` to [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) or [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props) (depending on your case) in the page-level components would work, but would not correctly render the server side html. But the client side would be fine.
 
 ```javascript
 //
@@ -139,6 +139,46 @@ And then remove the `serverSideTranslation` to [`getStaticProps`](https://nextjs
 //   }
 // }
 ```
+
+This can be optimized by keeping the `getServerSideProps` or `getStaticProps` function and making use of the [`reloadResources`](https://www.i18next.com/overview/api#reloadresources) functionality of i18next.
+
+```javascript
+const HomePage = () => {
+
+  const { t, i18n } = useTranslation(['common', 'footer'], { bindI18n: 'languageChanged loaded' })
+  // bindI18n: loaded is needed because of the reloadResources call
+  // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
+  useEffect(() => {
+    i18n.reloadResources(i18n.resolvedLanguage, ['common', 'footer'])
+  }, [])
+
+  return (
+    <>
+      <main>
+        <Header heading={t('h1')} title={t('title')} />
+        <Link href='/'>
+          <button
+            type='button'
+          >
+            {t('back-to-home')}
+          </button>
+        </Link>
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common', 'footer']),
+  },
+})
+
+export default HomePage
+```
+
+This way the ready check is also not necessary, because the translations served directly by the server are used. And as soon the translations are reloaded, new translations are shown.
 
 ### That's it! Let's check the result:
 
@@ -177,53 +217,6 @@ module.exports = {
   use: isBrowser ? [LocizeBackend] : []
 }
 ```
-
-### Alternative usage: <a name="alternative-usage"></a>
-
-In case you're using the [ready flag](https://react.i18next.com/latest/usetranslation-hook#not-using-suspense) and are seeing a warning like this: `Expected server HTML to contain a matching text node for...` this is because of the following reason:
-
-The server rendered the correct translation text, but the client still needs to lazy load the translations and will show a different UI. This means there's hydration mismatch.
-
-This can be prevented by keeping the `getServerSideProps` or `getStaticProps` function but making use of the [`reloadResources`](https://www.i18next.com/overview/api#reloadresources) functionality of i18next.
-
-```javascript
-const LazyReloadPage = () => {
-
-  const { t, i18n } = useTranslation(['lazy-reload-page', 'footer'], { bindI18n: 'languageChanged loaded' })
-  // bindI18n: loaded is needed because of the reloadResources call
-  // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
-  useEffect(() => {
-    i18n.reloadResources(i18n.resolvedLanguage, ['lazy-reload-page', 'footer'])
-  }, [])
-
-  return (
-    <>
-      <main>
-        <Header heading={t('h1')} title={t('title')} />
-        <Link href='/'>
-          <button
-            type='button'
-          >
-            {t('back-to-home')}
-          </button>
-        </Link>
-      </main>
-      <Footer />
-    </>
-  )
-}
-
-export const getStaticProps = async ({ locale }) => ({
-  props: {
-    ...await serverSideTranslations(locale, ['lazy-reload-page', 'footer']),
-  },
-})
-
-export default LazyReloadPage
-```
-
-This way the ready check is also not necessary anymore, because the translations served directly by the server are used. And as soon the translations are reloaded, new translations are shown.
-
 
 
 ## Static Website example <a name="ssg"></a>

@@ -127,19 +127,49 @@ module.exports = {
 }
 ```
 
-Und entfernen Sie dann die `serverSideTranslation` zu [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) oder [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props) (abhängig von Ihrem Fall) in den Komponenten auf Seitenebene.
+
+Das Entfernen von `serverSideTranslation` zu [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/get-static-props) oder [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props) (abhängig von Ihrem Fall) in den Komponenten auf Seitenebene würde funktionieren, aber das serverseitige HTML nicht korrekt rendern. Die Client-Seite wäre aber in Ordnung.
+
+This can be optimized by keeping the `getServerSideProps` or `getStaticProps` function and making use of the [`reloadResources`](https://www.i18next.com/overview/api#reloadresources) functionality of i18next.
+Dies kann optimiert werden, indem die Funktion `getServerSideProps` oder `getStaticProps` beibehalten und die [`reloadResources`](https://www.i18next.com/overview/api#reloadresources)-Funktionalität von i18next verwendet wird.
 
 ```javascript
-//
-// Ohne die Funktion getStaticProps oder getServerSideProps,
-// werden die Übersetzungen über das konfigurierte i18next-Backend geladen.
-//
-// export const getStaticProps = async ({ locale }) => {
-//   return {
-//     props: await serverSideTranslations(locale, ['common', 'footer'])
-//   }
-// }
+const HomePage = () => {
+
+  const { t, i18n } = useTranslation(['common', 'footer'], { bindI18n: 'languageChanged loaded' })
+  // bindI18n: loaded is needed because of the reloadResources call
+  // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
+  useEffect(() => {
+    i18n.reloadResources(i18n.resolvedLanguage, ['common', 'footer'])
+  }, [])
+
+  return (
+    <>
+      <main>
+        <Header heading={t('h1')} title={t('title')} />
+        <Link href='/'>
+          <button
+            type='button'
+          >
+            {t('back-to-home')}
+          </button>
+        </Link>
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common', 'footer']),
+  },
+})
+
+export default HomePage
 ```
+
+Auf diese Weise entfällt auch die ready-Prüfung, da die direkt vom Server bereitgestellten Übersetzungen verwendet werden. Und sobald die Übersetzungen neu geladen werden, werden neue Übersetzungen angezeigt.
 
 ### Das ist es! Überprüfen wir das Ergebnis:
 
@@ -178,52 +208,6 @@ module.exports = {
   use: isBrowser ? [LocizeBackend] : []
 }
 ```
-
-### Alternative Verwendung: <a name="alternative-usage"></a>
-
-Falls Sie das [Ready-Flag](https://react.i18next.com/latest/usetranslation-hook#not-using-suspense) verwenden und eine Warnung wie diese sehen: `Expected server HTML to contains a matching text node for...`, hat dies folgenden Grund:
-
-Der Server hat den korrekten Übersetzungstext gerendert, aber der Client muss die Übersetzungen immer noch verzögert laden und zeigt eine andere Benutzeroberfläche an. Dies bedeutet, dass es eine Hydratationsfehlanpassung gibt.
-
-Dies kann verhindert werden, indem die `getServerSideProps`- oder `getStaticProps`-Funktion beibehalten wird, aber die [`reloadResources`](https://www.i18next.com/overview/api#reloadresources)-Funktionalität von i18next genutzt wird.
-
-```javascript
-const LazyReloadPage = () => {
-
-  const { t, i18n } = useTranslation(['lazy-reload-page', 'footer'], { bindI18n: 'languageChanged loaded' })
-  // bindI18n: loaded is needed because of the reloadResources call
-  // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
-  useEffect(() => {
-    i18n.reloadResources(i18n.resolvedLanguage, ['lazy-reload-page', 'footer'])
-  }, [])
-
-  return (
-    <>
-      <main>
-        <Header heading={t('h1')} title={t('title')} />
-        <Link href='/'>
-          <button
-            type='button'
-          >
-            {t('back-to-home')}
-          </button>
-        </Link>
-      </main>
-      <Footer />
-    </>
-  )
-}
-
-export const getStaticProps = async ({ locale }) => ({
-  props: {
-    ...await serverSideTranslations(locale, ['lazy-reload-page', 'footer']),
-  },
-})
-
-export default LazyReloadPage
-```
-
-Auf diese Weise entfällt auch die Ready-Prüfung, da die direkt vom Server bereitgestellten Übersetzungen verwendet werden. Und sobald die Übersetzungen neu geladen werden, werden neue Übersetzungen angezeigt.
 
 
 ## Beispiel für eine statische Website <a name="ssg"></a>
