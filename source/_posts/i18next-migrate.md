@@ -26,7 +26,7 @@ In this article, we'll explore the fastest way to unleash the full power of i18n
 ## Precondition
 We assume you know i18next and already use it. If you don't know i18next, we suggest you read [this](../react-i18next/).
 <br />
-In this article we also assume you're loading your translation resources via [i18next-http-backend](https://github.com/i18next/i18next-http-backend) plugin, but that's not really mandatory.
+In this article, we also assume you're loading your translation resources via [i18next-http-backend](https://github.com/i18next/i18next-http-backend) plugin, but that's not really mandatory.
 
 
 ## Step 1 - Create a locize project
@@ -36,7 +36,7 @@ Sign up and create a new locize project for free, like described [here](https://
 
 Define your source language and if needed change the [i18n format](https://docs.locize.com/integration/supported-i18n-formats).
 
-Then, add all your target languages, like described [here](https://docs.locize.com/integration/getting-started/add-content#add-languages)
+Then, add all your target languages, as described [here](https://docs.locize.com/integration/getting-started/add-content#add-languages)
 
 ![](add_lng.jpg)
 
@@ -45,7 +45,7 @@ Then, add all your target languages, like described [here](https://docs.locize.c
 
 Execute the [locize cli](https://github.com/locize/locize-cli) [migrate](https://github.com/locize/locize-cli#migration-of-existing-i18next-files) command.
 
-Copy-Paste the project-id and the api-key from your locize project settings page, and use it as arguments for your command. Also make sure to pass the path of your current translation files.
+Copy-Paste the project-id and the api-key from your locize project settings page, and use it as arguments for your command. Also, make sure to pass the path of your current translation files.
 
 `npx locize migrate --project-id d950a914-a349-4b04-94ac-000fdf28beed --api-key 4cde8595-062b-44a7-b645-6a3fe739e792 --path public/locales`
 
@@ -82,9 +82,9 @@ By installing the [locize](https://github.com/locize/locize) module and passing 
 
 ## Extra Step 5 - Save missing keys
 
-Enabling the saveMissing option of i18next and passing the api-key via backend options, will automatically add new defined keys to locize.
+Enabling the saveMissing option of i18next and passing the api-key via backend options, will automatically add newly defined keys to locize.
 <br />
-Additionally, if you enable the [automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation) option in locize, the passed default value of your new keys are automatically translated in to your target languages.
+Additionally, if you enable the [automatic machine translation](https://docs.locize.com/whats-inside/auto-machine-translation) option in locize, the passed default value of your new keys is automatically translated into your target languages.
 
 ![](save_missing.jpg)
 
