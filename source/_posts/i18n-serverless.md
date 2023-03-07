@@ -148,7 +148,7 @@ i18next
     }
   })
 
-export default (lng) => i18next.getFixedT(lng || settings.referenceLanguage)
+export default (lng) => i18next.getFixedT(lng)
 ```
 
 So finally, all the above can be used like that:
