@@ -101,7 +101,7 @@ Finally, do the customer segmentation which defines the different groups of peop
 ### Make tests with localized content
 Test your strategy by reaching out to potential buyers in new markets with your messaging.
 
-To begin, make use of the slogans, key phrases, and CTAs identified in the localized-marketing strategy when developing the plan.
+To begin, make use of the slogans, key phrases, and CTAs identified in the <a href="/blog/localization-marketing/" title="localized-marketing">localized-marketing</a> strategy when developing the plan.
 
 Begin with a pilot project to get traction, and then consider localizing entire experiences based on the data.
 
