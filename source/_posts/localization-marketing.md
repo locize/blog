@@ -34,7 +34,7 @@ Today you are going to learn exactly how to avoid marketing-localization mistake
   * [Potential mistakes to avoid in global marketing localization](#mistakes)
   * [Exploring successful global marketing campaigns: Examples from known brands](#globalexamples)
   * [How to measure global marketing efforts](#measure)
-  * [7 steps for marketers and project managers to effectively localize their marketing content](#5tips)
+  * [7 steps for marketers and project managers to effectively localize their marketing content](#7steps)
 
 
 ## What is localization in marketing? <a name="marketinglocalization"></a>
