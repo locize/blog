@@ -487,13 +487,21 @@ Let's introduce the `app/i18n/client.js` file:
 import i18next from 'i18next'
 import { initReactI18next, useTranslation as useTranslationOrg } from 'react-i18next'
 import resourcesToBackend from 'i18next-resources-to-backend'
+import LanguageDetector from 'i18next-browser-languagedetector'
 import { getOptions } from './settings'
 
 // 
 i18next
   .use(initReactI18next)
+  .use(LanguageDetector)
   .use(resourcesToBackend((language, namespace) => import(`./locales/${language}/${namespace}.json`)))
-  .init(getOptions())
+  .init({
+    ...getOptions(),
+    lng: undefined, // let detect the language on client side
+    detection: {
+      order: ['path', 'htmlTag', 'cookie', 'navigator'],
+    }
+  })
 
 export function useTranslation(lng, ns, options) {
   if (i18next.resolvedLanguage !== lng) i18next.changeLanguage(lng)
@@ -502,6 +510,9 @@ export function useTranslation(lng, ns, options) {
 ```
 
 On clientside the normal i18next singleton is ok. It will be initialized just once. And we can make use of the "normal" useTranslation hook. We just wrap it to have the possibility to pass in the language.
+
+To align with the serverside [language detection](#step-2) we make use of [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) and configure it accordingly.
+
 
 We also need to create 2 versions of the Footer component.
 
