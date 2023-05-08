@@ -115,7 +115,7 @@ For locize, the entire automatic machine translation process occurs in the backe
 
 #### Should you choose machine translation, a translation agency or a freelancer?
 These are three options when there is a need of translating content. Whether to engage a translation agency, a freelancer, or make use of machine translation. 
- 
+
 Machine translation would be the most cost-effective approach because it is virtually free. However, if no one reviews the translated information, there will undoubtedly be a lack of quality.
 
 Freelance translators are frequently enthusiastic about their work. They are frequently subject specialists who can execute sophisticated translations in their fields. This might be a wonderful alternative for those on a restricted budget. Working with a person rather than a firm is less expensive, and you don't have to sacrifice quality.

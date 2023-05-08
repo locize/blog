@@ -69,7 +69,7 @@ In den Augen Ihres Teams sind sie „das Geschäft“ und in den Augen der Führ
 Direkt im Spannungsfeld zwischen der kaufmännischen Seite und der technischen Seite des Unternehmens.
 
 
-## Einige Situationen
+## Einige Situationen <a name="situations"></a>
 
 ![](../help-tech-leads/discuss.png)
 

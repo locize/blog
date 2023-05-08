@@ -32,7 +32,7 @@ Context plays a crucial role in accurately translating content. It refers to the
 **- Technical errors:** Without context, translators may not have the technical knowledge necessary to accurately translate technical terms or phrases. For example, a translator may not understand the technical meaning of a term like "cache" and translate it as "hidden storage" leading to confusion for the user.
 
 
-## Best Practices for Using locize's Context Features
+## Best Practices for Using locize's Context Features <a name="context-features"></a>
 
 Locize offers several powerful features to help improve translation accuracy: specific [context information per segment](https://docs.locize.com/whats-inside/context#context-information-per-key-segment), [InContext view](https://docs.locize.com/whats-inside/context#incontext-view), [terminology glossary](https://docs.locize.com/whats-inside/glossary), and [screenshot](https://docs.locize.com/whats-inside/context#screenshots) feature.
 

@@ -68,7 +68,7 @@ In the eyes of your team they’re "the business" and in the eyes of the executi
 Directly in the middle of the tension between the business sides and the technical side of the company.
 
 
-## Some situations
+## Some situations <a name="situations"></a>
 
 ![](discuss.png)
 
