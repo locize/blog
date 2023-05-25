@@ -18,6 +18,8 @@ thumbnail: i18next-tips-and-tricks/title.jpg
 
 Internationalization ([i18n](../what-is-i18n/)) and localization ([l10n](../localization/)) are important aspects of any web or mobile application. i18next is a powerful JavaScript library that makes it easy to handle i18n and l10n in your application. In this post, we'll explore some tips and tricks for using [i18next](https://www.i18next.com) to its full potential.
 
+>Unlock the secrets of successful translations with i18next. Explore advanced tips and techniques to handle complex translation scenarios. From pluralization to context-based translations, this guide will empower you to deliver accurate and culturally appropriate content.
+
 ## 1. Use the namespace feature:
 
 One of the most powerful features of i18next is the ability to use namespaces. [Namespaces](https://www.i18next.com/principles/namespaces) allow you to separate your translations into different groups, making it easier to organize and manage your translations. For example, you can create a namespace for each feature or module in your application, making it easier to update and maintain translations for that specific feature.

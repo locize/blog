@@ -1,6 +1,6 @@
 ---
-title: Beste React Lokalisierung – Internationalisieren Sie mit i18next (ein react-i18next Leitfaden)
-description: React Lokalisierung leicht gemacht mit dieser ✅ Schritt-für-Schritt-Anleitung mit i18next.
+title: Beste React Lokalisierung – Internationalisieren Sie mit i18next (ein vollständiger Leitfaden für react-i18next)
+description: Integrieren Sie i18next nahtlos in Ihre React-Anwendungen. Mit dieser ✅ Schritt-für-Schritt-Anleitung ist das ganz einfach.
 
 date: 2021-04-14
 tags:
@@ -53,6 +53,8 @@ In diesem Artikel verwenden wir das [i18next](https://www.i18next.com)-Framework
       - [👀 aber es gibt noch mehr...](#more)
       - [📦 Bereiten wir uns auf die Produktion vor 🚀](#production)
   * [🎉🥳 Herzliche Glückwünsche 🎊🎁](#congratulations)
+
+>Optimieren Sie Ihren i18next-Einrichtungsprozess mit dieser Schritt-für-Schritt-Anleitung. Bringen Sie Ihr Lokalisierungs-Framework im Handumdrehen zum Laufen und sorgen Sie für reibungslose Sprachübergänge für Ihre Benutzer. Befolgen Sie die Anweisungen und vermeiden Sie Komplikationen bei der Einrichtung für Ihr nächstes internationales Projekt.
 
 ## Also erstmal: "Warum i18next?" <a name="why-i18next"></a>
 
