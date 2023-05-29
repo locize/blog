@@ -472,11 +472,11 @@ export default async function Page({ params: { lng } }) {
 
 ### 5. Client side <a name="step-5"></a>
 
-So far we've created serverside pages only.
+So far we've created server side pages only.
 <br />
-So what do clientside pages look like?
+So what do client side pages look like?
 
-Since clientside react components can't `async` we need to do some adjustments.
+Since client side react components can't `async` we need to do some adjustments.
 
 
 Let's introduce the `app/i18n/client.js` file:
@@ -513,9 +513,9 @@ export function useTranslation(lng, ns, options) {
 }
 ```
 
-On clientside the normal i18next singleton is ok. It will be initialized just once. And we can make use of the "normal" useTranslation hook. We just wrap it to have the possibility to pass in the language.
+On client side the normal i18next singleton is ok. It will be initialized just once. And we can make use of the "normal" useTranslation hook. We just wrap it to have the possibility to pass in the language.
 
-To align with the serverside [language detection](#step-2) we make use of [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) and configure it accordingly.
+To align with the server side [language detection](#step-2) we make use of [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) and configure it accordingly.
 
 
 We also need to create 2 versions of the Footer component.
@@ -560,7 +560,7 @@ export const FooterBase = ({ t, lng }) => {
 }
 ```
 
-The serverside part continuous to use the `async` version, `app/[lng]/components/Footer/index.js`:
+The server side part continuous to use the `async` version, `app/[lng]/components/Footer/index.js`:
 
 ```js
 import { useTranslation } from '../../../i18n'
@@ -572,7 +572,7 @@ export const Footer = async ({ lng }) => {
 }
 ```
 
-The clientside part will use the new `i18n/client` version, `app/[lng]/components/Footer/client.js`:
+The client side part will use the new `i18n/client` version, `app/[lng]/components/Footer/client.js`:
 
 ```js
 'use client'
@@ -586,7 +586,7 @@ export const Footer = ({ lng }) => {
 }
 ```
 
-A clientside page could look like this - `app/[lng]/client-page/page.js`:
+A client side page could look like this - `app/[lng]/client-page/page.js`:
 
 ```js
 'use client'
