@@ -484,6 +484,7 @@ Let's introduce the `app/i18n/client.js` file:
 ```js
 'use client'
 
+import { useEffect } from 'react'
 import i18next from 'i18next'
 import { initReactI18next, useTranslation as useTranslationOrg } from 'react-i18next'
 import resourcesToBackend from 'i18next-resources-to-backend'
@@ -504,7 +505,10 @@ i18next
   })
 
 export function useTranslation(lng, ns, options) {
-  if (i18next.resolvedLanguage !== lng) i18next.changeLanguage(lng)
+  useEffect(() => {
+    if (i18next.resolvedLanguage === lng) return
+    i18next.changeLanguage(lng)
+  }, [lng])
   return useTranslationOrg(ns, options)
 }
 ```
