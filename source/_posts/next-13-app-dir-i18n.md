@@ -504,11 +504,17 @@ i18next
     }
   })
 
+const runsOnServerSide = typeof window === 'undefined'
+
 export function useTranslation(lng, ns, options) {
-  useEffect(() => {
-    if (i18next.resolvedLanguage === lng) return
+  if (runsOnServerSide && i18next.resolvedLanguage !== lng) {
     i18next.changeLanguage(lng)
-  }, [lng])
+  } else {
+    useEffect(() => {
+      if (i18next.resolvedLanguage === lng) return
+      i18next.changeLanguage(lng)
+    }, [lng])
+  }
   return useTranslationOrg(ns, options)
 }
 ```
