@@ -47,7 +47,7 @@ When it comes to handling missing translations, there are several strategies you
 
 **4. Systematically Track Missing Translations: Leveraging Community and Machine Translation Services**: When facing a large volume of translations or time constraints, leveraging community translation platforms or machine translation services can be beneficial. Platforms like locize enable collaboration with translators, making it easier to manage and update translations. Additionally, with the [`saveMissing`](https://www.i18next.com/overview/configuration-options#missing-keys) feature in i18next, you can automatically save missing translations and leverage [machine translation services](https://docs.locize.com/whats-inside/auto-machine-translation) to provide initial translations that can later be refined by human translators. This is how such a workflow [may look like](https://youtu.be/ds-yEEYP1Ks?t=578).
 
-![](auto-translate-missing.gif)
+[![](auto-translate-missing.gif)](https://youtu.be/ds-yEEYP1Ks?t=578)
 
 By implementing these strategies, you can ensure that your application gracefully handles missing translations, providing a seamless experience for users across different languages.
 
