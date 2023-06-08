@@ -844,7 +844,7 @@ Dies gibt Ihnen die Möglichkeit, die Übersetzungen an einige Übersetzer zu se
 Oder wenn Sie mit einem Übersetzungsmanagementsystem arbeiten, können Sie einfach [die Dateien mit einem CLI synchronisieren](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
-*🧑‍💻 Den Code dieses ersten Teils finden Sie [hier](https://github.com/locize/react-i18next-example-app/tree/i18next).*
+*🧑‍💻 Den Code dieses ersten Teils finden Sie [hier](https://github.com/locize/react-i18next-example-app/tree/i18next). Und eine TypeScript version [hier](https://github.com/locize/react-i18next-example-app-ts).*
 
 #### Mehrere Namespaces <a name="multiple-namespaces"></a>
 
