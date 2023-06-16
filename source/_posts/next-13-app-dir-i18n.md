@@ -489,7 +489,9 @@ import i18next from 'i18next'
 import { initReactI18next, useTranslation as useTranslationOrg } from 'react-i18next'
 import resourcesToBackend from 'i18next-resources-to-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import { getOptions } from './settings'
+import { getOptions, languages } from './settings'
+
+const runsOnServerSide = typeof window === 'undefined'
 
 // 
 i18next
@@ -501,10 +503,9 @@ i18next
     lng: undefined, // let detect the language on client side
     detection: {
       order: ['path', 'htmlTag', 'cookie', 'navigator'],
-    }
+    },
+    preload: runsOnServerSide ? languages : []
   })
-
-const runsOnServerSide = typeof window === 'undefined'
 
 export function useTranslation(lng, ns, options) {
   const ret = useTranslationOrg(ns, options)
