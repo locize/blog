@@ -1,6 +1,6 @@
 ---
-title: i18n with Next.js 13 and app directory (an i18next guide)
-description: Looking for a way to internationalize your Next.js 13 project with the new app directory feature? Then this guide is for you!
+title: i18n with Next.js 13 and app directory / App Router (an i18next guide)
+description: Looking for a way to internationalize your Next.js 13 project with the new app directory / App Router paradigm? Then this guide is for you!
 
 date: 2023-01-02
 tags:
@@ -23,7 +23,7 @@ lang: en
 
 ![](next-13-app-dir-i18n.jpg "locize © inweso GmbH")
 
-At [Next.js Conf](https://nextjs.org/conf), the [Vercel](https://vercel.com) team [announced Next.js 13](https://nextjs.org/blog/next-13) which introduced the new [app directory](https://beta.nextjs.org/docs/app-directory-roadmap).
+At [Next.js Conf](https://nextjs.org/conf), the [Vercel](https://vercel.com) team [announced Next.js 13](https://nextjs.org/blog/next-13) which introduced the new [app directory / App Router paradigm](https://nextjs.org/docs/app).
 <br />
 It includes support for [Layouts](https://nextjs.org/blog/next-13#layouts), [Server Components](https://nextjs.org/blog/next-13#server-components), [Streaming](https://nextjs.org/blog/next-13#streaming) and [Support for Data Fetching](https://nextjs.org/blog/next-13#data-fetching).
 
@@ -33,15 +33,20 @@ It seems pretty fast and it lays the foundations to be dynamic without limits.
 
 ## Afterthoughts...
 
-This sounds good, but looking more into the app directory, it looks like this is a completely new Next.js setup... not really comparable to the old one...
+This sounds good, but looking more into the app directory / App Router paradigm, it looks like this is a completely new Next.js setup... not really comparable to the old one...
 
 > What does this mean regarding i18n?
 
-Looking at the [docs](https://beta.nextjs.org/docs/app-directory-roadmap#not-planned-features) it seems our old approaches will not work anymore.
+Looking at the [docs](https://nextjs.org/docs/app/building-your-application/routing/internationalization) it seems our old approaches will not work anymore.
 
 ![](not-planned.jpg)
 
-Nice features provided by [next-i18next](https://next.i18next.com) *(and other Next.js related i18n modules)*, like described [here](../next-i18next/) and [here](../next-i18n-static/) are not suited to this new app directory setup.
+<b>
+Nice features provided by <a href="https://next.i18next.com" target="_blank">next-i18next</a> <i>(and other Next.js related i18n modules)</i>, like described <a href="../next-i18next/" target="_blank">here</a> and <a href="../next-i18n-static/" target="_blank">here</a> are not suited to this new app directory setup.
+<br />
+<span style="text-decoration: underline;">So you don't need next-i18next anymore!</span>
+</b>
+
 
 ## A new approach
 
@@ -59,7 +64,7 @@ In this section, you'll see how we can internationalize the new app directory wi
 
 ### 1. Folder structure <a name="step-1"></a>
 
-Let's start by creating a new folder structure that uses the language as url parameter. A so-called [dynamic segment](https://beta.nextjs.org/docs/routing/defining-routes#dynamic-segments):
+Let's start by creating a new folder structure that uses the language as url parameter. A so-called [dynamic segment](https://nextjs.org/docs/app/api-reference/functions/generate-static-params#single-dynamic-segment):
 
 ```
 .
