@@ -1,5 +1,5 @@
 ---
-title: "How to Choose the Right Translation Management System"
+title: "How to Choose the Best fitting Translation Management System"
 description: "This blog post explores the unique capabilities of locize, a comprehensive translation management tool closely integrated with i18next, making it the perfect choice to streamline localization workflows and meet the specific needs of i18next-powered projects."
 
 date: 2023-08-02
