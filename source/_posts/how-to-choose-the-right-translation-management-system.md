@@ -19,6 +19,8 @@ thumbnail: how-to-choose-the-right-translation-management-system/title.jpg
 
 ![](title.jpg)
 
+Multilingual support has become a necessity for web and application development. Enter i18next, a powerful [internationalization](../what-is-i18n/) framework that has redefined language translations for developers since its inception in 2011. As we venture into the realm of i18next and its ideal companion, we explore a seamless integration that empowers projects to flourish on the global stage.
+
 ## TOC
   * [I. Introduction](#introduction)
     - [A. The Significance of i18next as an Extensible Internationalization Framework](#i18next-significance)
@@ -48,9 +50,6 @@ thumbnail: how-to-choose-the-right-translation-management-system/title.jpg
 
 
 ## I. Introduction <a name="introduction"></a>
-
-Multilingual support has become a necessity for web and application development. Enter i18next, a powerful [internationalization](../what-is-i18n/) framework that has redefined language translations for developers since its inception in 2011. As we venture into the realm of i18next and its ideal companion, we explore a seamless integration that empowers projects to flourish on the global stage.
-
 
 ### A. The Significance of i18next as an Extensible Internationalization Framework <a name="i18next-significance"></a>
 
