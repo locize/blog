@@ -71,7 +71,7 @@ In this blog post, we embark on a journey to explore the capabilities of a TMS a
 
 Throughout this article, we will provide insights and practical tips for developers and localization teams looking to select the right TMS with seamless i18next integration. By the end, readers will have a clear understanding of several advantages, empowering them to make informed decisions when choosing a translation management system that optimizes their i18next-powered localization workflow.
 
-Join us as we unravel the strengths of i18next and the capabilities of a good translation management system, offering a powerful combination for efficient and effective [localization](../what-is-software-localization/) in the globalized digital landscape.
+Join us as we unravel the strengths of i18next and the capabilities of a good translation management system, offering a powerful combination for efficient and effective [software localization](../what-is-software-localization/) in the globalized digital landscape.
 
 
 ## II. Understanding i18next and the Need for an Effective TMS <a name="i18next-tms"></a>
