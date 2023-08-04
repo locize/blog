@@ -11,7 +11,9 @@ tags:
 thumbnail: localization-strategy/localization-strategy-concept.webp
 ---
 
-![](localization-strategy-concept.webp "Localization strategy")
+<br/>
+
+{% youtube PtFEPtsmp-Y %}
 
 
 Today, you're going to learn how to build your strategy for a successful globalization.
@@ -38,7 +40,7 @@ We'll also show you some examples of major brands and how they did it.
 ## What is a localization strategy?<a name="what"></a>
 A localization strategy is a <b>way of dealing with a company's customers' purchasing habits, behavior, and cultural differences</b> throughout globalization.
 
-{% youtube PtFEPtsmp-Y %}
+![](localization-strategy-concept.webp "Localization strategy")
 
 ## Why do you need it?<a name="why"></a>
 It will undoubtedly be difficult to develop local leadership, sales, and other skills. In a local market, there may be unanticipated obstacles, ranging from minor details to issues with complying with country-specific legislation.
@@ -250,7 +252,7 @@ Are you going to test your slogans and CTA? Or maybe you’re going to use our c
 
 Or maybe you have a question about something you read.
 
-Either way, let us know by leaving a message to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> right now.</b>
+Either way, let us know by leaving a message to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> right now.</br>
 
 The implementation of the software part can be assisted by our team's extensive knowledge and the appropriate <a href="https://locize.com/" title="localization software">localization software</a> of us.
 
