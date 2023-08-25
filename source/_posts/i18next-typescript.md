@@ -64,7 +64,7 @@ i18next.init({
 });
 ```
 
-You import the translation resources and your adding them via i18next [init](https://www.i18next.com/overview/api#init) function.
+You import the translation resources and you're adding them via i18next [init](https://www.i18next.com/overview/api#init) function.
 
 To make the translation type-safe, we create an `i18next.d.ts` file preferably in a `@types` folder and we import the translation resources of our reference language:
 
@@ -354,6 +354,9 @@ That's it!
 The translations are separated from our code repository and at the same time we maintain type safety with the help of an interface.
 
 🧑‍💻 A complete code example can be found [here](https://github.com/locize/i18next-typescript-examples/tree/main/5).
+
+There's also a [video](https://youtu.be/GLIas4DH3Ww) about this topic.
+{% youtube GLIas4DH3Ww %}
 
 
 ## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>

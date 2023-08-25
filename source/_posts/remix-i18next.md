@@ -60,7 +60,7 @@ This is a traditional way. But be aware sending files around creates always an o
 - [Easy to integrate](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
 - Continuous deployment? [Continuous localization](https://locize.com/how-it-works.html#continouslocalization)!
 - Manage the translation files with ease
-- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators)
 - Analytics & Statistics
 - [Profit from our content delivery network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
 - [Versioning of your translations](https://docs.locize.com/more/versioning)

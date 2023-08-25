@@ -20,7 +20,7 @@ lang: en
 ![website localization](website-localization.webp)
 
 
-This is the most comprehensive guide about <b>website localization</b>,  the process of <b>adapting an existing website to the language and culture of a target market</b>. 
+This is the most comprehensive guide about **website localization**,  the process of **adapting an existing website to the language and culture of a target market**. 
 
 This article is specific for websites, if you need more general information, check out our blogpost about [software localization](../what-is-software-localization/).
 
@@ -177,10 +177,10 @@ The author is unable to conduct a thorough analysis of the technical localizatio
 
 ### Locize examples
 
-We, at locize [localization management platform](https://locize.com), <b>have assisted many customers in achieving their goals with website-localization</b>. The following examples can assist you:
+We, at locize [localization management platform](/), <b>have assisted many customers in achieving their goals with website-localization</b>. The following examples can assist you:
 
 #### 1) [globalfinreg.com](https://globalfinreg.com/)
-Globalfinreg has been able to efficiently localize their two websites thanks to [locize](https://locize.com). They said locize is for them:
+Globalfinreg has been able to efficiently localize their two websites thanks to [locize](/). They said locize is for them:
 
 >An easy-to-use interface for managing translations. It is possible to regulate exactly what each translator sees, and they enjoy doing so. The UI also allows you to easily check which translations are needed and divide your application into separate namespaces.
 
@@ -262,13 +262,13 @@ The "How to locize your website?" is <b>easy to answer, select the right platfor
 
 
 ### Keep it organized
-The [localization management platform](https://locize.com) can assist you in remaining organized and adaptable during your continuous-localization.
+The [localization management platform](/) can assist you in remaining organized and adaptable during your continuous-localization.
 
 
 ## Why locize should be your choice 
-Our team has considerable experience to assist you with your project or development needs, thanks to many [customers](https://locize.com/customers.html) that we assisted with the localization of their website. 
+Our team has considerable experience to assist you with your project or development needs, thanks to many [customers](/customers.html) that we assisted with the localization of their website. 
 
-We've also supplied the <b>most valuable pricing</b> of our [website localization services](https://locize.com/website-localization-services.html) because of our many years of expertise with these consumers, and we don't require you to sign long-term contracts.
+We've also supplied the <b>most valuable pricing</b> of our [website localization services](/website-localization-services.html) because of our many years of expertise with these consumers, and we don't require you to sign long-term contracts.
 
 
 

@@ -31,7 +31,7 @@ The chances are high that your users will skip past your website if non-localize
 Therefore, without a multilingual website you might missing out on a large share of potential users.
 
 In the JavaScript ecosystem, there are a lot of internationalization frameworks. [Here](https://medium.com/@jamuhl/i18n-frameworks-the-unfair-showdown-8d436cd6f470) you can find some details about some JavaScript internationalization frameworks.
-In this article, we will be using the [i18next](https://www.i18next.com) framework to internationalize a [React.js](https://reactjs.org) app. This step-by-step guide is for you if you're looking for a way to create an internationalized React.js app (with or without Create React App). 
+In this article, we will be using the [i18next](https://www.i18next.com) framework to internationalize a [React.js](https://reactjs.org) app. This step-by-step guide is for you if you're looking for a way to create an internationalized React.js app (with or without Create React App).</br><div style="margin-top: -25px;">Basically, we're going to answer the following question: <h2 style="display: inline; font-size: 18px;">"How to use i18n in React?"</h2></div>
 
 ### TOC
   * [So first of all: "Why i18next?"](#why-i18next)
@@ -83,11 +83,11 @@ When it comes to React localization, one of the most popular is [i18next](https:
 [Here](https://www.i18next.com/overview/comparison-to-others) you can find more information about why i18next is special and [how it works](https://locize.com/i18next.html#how-does-i18next-work).
 
 
-## Let's get into it... <a name="start"></a>
+## Let's get into it <small style="font-size: 0.65em;">(react-i18next)</small>... <a name="start"></a>
 
 ### Prerequisites <a name="prerequisites"></a>
 
-Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React.js, before jumping to [react-i18next](https://react.i18next.com). This react localization example is not intended to be a React beginner tutorial.
+Make sure you have Node.js and npm installed. It's best, if you have some experience with simple HTML, JavaScript and basic React.js, before jumping to [react-i18next](https://react.i18next.com) - the powerful **React i18n** framework. This react-i18next localization example is not intended to be a React beginner tutorial.
 
 
 ### Getting started <a name="getting-started"></a>
@@ -898,7 +898,7 @@ This is a traditional way. But be aware sending files around creates always an o
 - [Easy to integrate](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
 - Continuous deployment? [Continuous localization](https://locize.com/how-it-works.html#continouslocalization)!
 - Manage the translation files with ease
-- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- [Order professional translations](https://docs.locize.com/guides-tips-and-tricks/working-with-translators)
 - Analytics & Statistics
 - [Profit from our content delivery network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
 - [Versioning of your translations](https://docs.locize.com/more/versioning)
@@ -1309,7 +1309,7 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 ![overwrite version](overwrite_version.jpg "locize © inweso GmbH")
 
-*🧑‍💻 The complete code can be found [here](https://github.com/locize/react-i18next-example-app). And a TypeScript version [here](https://github.com/locize/react-i18next-example-app-ts).*
+*🧑‍💻 The complete code for this React example can be found [here](https://github.com/locize/react-i18next-example-app). And a TypeScript version [here](https://github.com/locize/react-i18next-example-app-ts).*
 
 *Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
 

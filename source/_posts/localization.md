@@ -18,7 +18,7 @@ lang: en
 
 ## What is the meaning of localization?
 
-If you are asking yourself, <strong>what is localization</strong>, then this blog is here to help you. We take a closer look at what this means and how it can help you. As technology continues to make communicating with others across the globe easier than ever, localisation and internationalization are becoming increasingly more important. 
+If you are asking yourself, <strong>what is localization</strong>, then this blog is here to help you. We take a closer look at what this means and how it can help you. As technology continues to make communicating with others across the globe easier than ever, localization and internationalization are becoming increasingly more important. 
 
 For international brands and organizations, it is essential in helping to give their customers the very best experience possible. An effective process can transform a business, helping to increase reach and maximize engagements, but what exactly is it?
 
@@ -32,11 +32,11 @@ Let's get started.
   * [How it can be done](#process)
   * [Final thoughts](#thoughts)
 
-### What is localization? <a name="intro"></a>
+### Localization meaning - What is localization? <a name="intro"></a>
 
-Often confused with language translation, localisation is a far more comprehensive process. The use of it is about adapting your entire content so that it meets the norms and expectations of a specific location or market. 
+Often confused with language translation, localization is a far more comprehensive process. The use of it is about adapting your entire content so that it meets the norms and expectations of a specific location or market. 
 
-So while language translation is the process of converting written content from one language into another, localisation goes beyond this. It will look at things such as:
+So while language translation is the process of converting written content from one language into another, localization goes beyond this. It will look at things such as:
 
 -	How graphics and overall design impacts usability and expectations
 -	Which content needs amending to suit your target market
@@ -120,7 +120,7 @@ And watch the demo [video](https://youtu.be/ds-yEEYP1Ks) to learn more:
 
 ### Final thoughts <a name="thoughts"></a>
 
-Hopefully, this blog has helped to answer the initial question and given you more of an idea on how it can benefit your business. Implementing localisation can be applied to any aspect of your business, and our highly experienced team has years of experience in helping clients. These are companies, software developers, and project-managers with all of their translation- and localization-management needs.
+Hopefully, this blog has helped to answer the initial question and given you more of an idea on how it can benefit your business. Implementing localization can be applied to any aspect of your business, and our highly experienced team has years of experience in helping clients. These are companies, software developers, and project-managers with all of their translation- and localization-management needs.
 
 We have worked with thousands of clients over the years, giving them the skills and knowledge to transform their operations. Have a question about localization? Leave us a message to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> right now.</b>
 

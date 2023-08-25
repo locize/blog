@@ -61,7 +61,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 - [Einfach zu integrieren](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
 - Kontinuierlicher Einsatz? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
 - Einfache Verwaltung der Übersetzungsdateien
-- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators)
 - Analytik & Statistik
 - [Profitieren Sie von unserem Content Delivery Network (CDN)](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
 - [Versionierung Ihrer Übersetzungen](https://docs.locize.com/more/versioning)

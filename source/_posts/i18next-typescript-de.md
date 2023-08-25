@@ -356,6 +356,9 @@ Die Übersetzungen sind von unserem Code-Repository getrennt und gleichzeitig er
 
 🧑‍💻 Ein vollständiges Codebeispiel finden Sie [hier](https://github.com/locize/i18next-typescript-examples/tree/main/5).
 
+Es gibt auch ein [Video](https://youtu.be/GLIas4DH3Ww) zu diesem Thema.
+{% youtube GLIas4DH3Ww %}
+
 
 ## 🎉🥳 Herzlichen Glückwunsch 🎊🎁 <a name="congratulations"></a>
 

@@ -853,7 +853,7 @@ Dies ist ein traditioneller Weg. Beachten Sie jedoch, dass das Versenden von Dat
 - [Einfach zu integrieren](https://docs.locize.com/integration/instrumenting-your-code#i-18-next)
 - Kontinuierliche Bereitstellung? [Kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)!
 - Einfache Verwaltung der Übersetzungsdateien
-- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators/localistars)
+- [Professionelle Übersetzungen bestellen](https://docs.locize.com/guides-tips-and-tricks/working-with-translators)
 - Analytik & Statistik
 - [Versionierung Ihrer Übersetzungen](https://docs.locize.com/more/versioning)
 - [Automatische und maschinelle Übersetzung auf Abruf](https://docs.locize.com/whats-inside/auto-machine-translation)
