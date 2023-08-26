@@ -148,7 +148,7 @@ In conclusion, as Locize and Supertext embark on this exciting journey together,
       "name": "Can you provide an overview of the order placement process within the integrated platform?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The order placement process involves a few simple steps: After creating a Supertext account and API token, users configure their Supertext account settings within Locize. To place an order, users navigate to the "orders" page in Locize, select the content to be translated, and submit the order to Supertext. The translations are automatically merged back into Locize once completed, eliminating the need for manual updates."
+        "text": "The order placement process involves a few simple steps: After creating a Supertext account and API token, users configure their Supertext account settings within Locize. To place an order, users navigate to the orders page in Locize, select the content to be translated, and submit the order to Supertext. The translations are automatically merged back into Locize once completed, eliminating the need for manual updates."
       }
     }, {
       "@type": "Question",

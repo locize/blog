@@ -149,7 +149,7 @@ Locize und Supertext begeben sich gemeinsam auf eine spannende Reise und laden d
       "name": "Können Sie einen Überblick über den Prozess der Auftragserteilung innerhalb der integrierten Plattform geben?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Die Auftragserteilung erfolgt in wenigen einfachen Schritten: Nach der Erstellung eines Supertext-Kontos und eines API-Tokens konfigurieren Benutzer ihre Supertext-Kontoeinstellungen in Locize. Um einen Auftrag zu erteilen, navigieren Benutzer zur Seite "Aufträge" in Locize, wählen den zu übersetzenden Inhalt aus und übermitteln den Auftrag an Supertext. Die Übersetzungen werden nach ihrer Fertigstellung automatisch wieder in Locize zusammengeführt, so dass keine manuellen Aktualisierungen mehr erforderlich sind."
+        "text": "Die Auftragserteilung erfolgt in wenigen einfachen Schritten: Nach der Erstellung eines Supertext-Kontos und eines API-Tokens konfigurieren Benutzer ihre Supertext-Kontoeinstellungen in Locize. Um einen Auftrag zu erteilen, navigieren Benutzer zur Seite Aufträge in Locize, wählen den zu übersetzenden Inhalt aus und übermitteln den Auftrag an Supertext. Die Übersetzungen werden nach ihrer Fertigstellung automatisch wieder in Locize zusammengeführt, so dass keine manuellen Aktualisierungen mehr erforderlich sind."
       }
     }, {
       "@type": "Question",
