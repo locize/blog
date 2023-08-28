@@ -185,7 +185,7 @@ And finally create a `middleware.js` file:
 ```js
 import { NextResponse } from 'next/server'
 import acceptLanguage from 'accept-language'
-import { fallbackLng, languages } from './app/i18n/settings'
+import { fallbackLng, languages, cookieName } from './app/i18n/settings'
 
 acceptLanguage.languages(languages)
 
@@ -193,8 +193,6 @@ export const config = {
   // matcher: '/:lng*'
   matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)']
 }
-
-const cookieName = 'i18next'
 
 export function middleware(req) {
   let lng
@@ -266,6 +264,7 @@ In the `app/i18n/settings.js` file we'll add the i18next options:
 export const fallbackLng = 'en'
 export const languages = [fallbackLng, 'de']
 export const defaultNS = 'translation'
+export const cookieName = 'i18next'
 
 export function getOptions (lng = fallbackLng, ns = defaultNS) {
   return {
@@ -495,7 +494,7 @@ import { initReactI18next, useTranslation as useTranslationOrg } from 'react-i18
 import { useCookies } from 'react-cookie'
 import resourcesToBackend from 'i18next-resources-to-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import { getOptions, languages } from './settings'
+import { getOptions, languages, cookieName } from './settings'
 
 const runsOnServerSide = typeof window === 'undefined'
 
@@ -514,7 +513,7 @@ i18next
   })
 
 export function useTranslation(lng, ns, options) {
-  const [cookies, setCookie] = useCookies(['i18next'])
+  const [cookies, setCookie] = useCookies([cookieName])
   const ret = useTranslationOrg(ns, options)
   const { i18n } = ret
   if (runsOnServerSide && lng && i18n.resolvedLanguage !== lng) {
@@ -535,7 +534,7 @@ export function useTranslation(lng, ns, options) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(() => {
       if (cookies.i18next === lng) return
-      setCookie('i18next', lng, { path: '/' })
+      setCookie(cookieName, lng, { path: '/' })
     }, [lng, cookies.i18next])
   }
   return ret
