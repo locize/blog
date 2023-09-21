@@ -19,7 +19,7 @@ If you are asking yourself, <strong>what is localization</strong>, then this blo
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
 <h2 style="color:orange;">What is localization</h2>
-<p style="color:grey;">Localization involves adapting a product or service to align with the language, culture, or preferences of a specific audience. A successful localization effort results in a product or service that seamlessly integrates with the local culture, giving the impression that it was originally created for that specific market. </p>
+<p style="color:grey;">Localization involves adapting a product or service to align with the language, culture, or preferences of a specific audience. A successful localization effort results in a product or service that seamlessly integrates with the local culture, giving the impression that it was originally created for that specific market.</p>
 </div>
 
 
@@ -101,11 +101,11 @@ But first, let's look at some successful examples of well-known brands using it.
 </div>
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
-<p style="color:grey;">Check out our more real-life examples <a href="https://locize.com/customers.html" title="Customer Success Stories">on this page</a>.</p>
+<p style="color:grey;">Check out our more real-life examples <a href="/customers.html" title="Customer Success Stories">on this page</a>.</p>
 </div>
 
 
-## What are the goals of localization  <a name="goal"></a>
+## What are the goals of localization <a name="goal"></a>
 The ultimate goal is to develop a clear user experience that helps to drive your marketing and support you in achieving your goals. However, there are many benefits that can come from implementing it, including:
 
 #### Enter new markets 
@@ -155,7 +155,7 @@ Above all, though, the main goal of a strategy is to help companies maximize the
             <h3>Javascript Localization</h3>
             <p style="min-height: 120px;">
 JavaScript localization is the practice of adapting JavaScript code and web applications to function effectively in multiple languages and regions. </p>
-            <a title="Javascript Localization" href="https://locize.com/javascript-localization.html" style="text-decoration: none;">
+            <a title="Javascript Localization" href="/javascript-localization.html" style="text-decoration: none;">
                 <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn More</button>
             </a>
         </div>
@@ -220,9 +220,8 @@ Hopefully, this blog has helped to answer the initial question and given you mor
 We have worked with thousands of clients over the years, giving them the skills and knowledge to transform their operations. Have a question about localization? Leave us a message to <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> right now.</b>
 
 
-➡️ Find out more about our <a href="https://locize.com/website-localization-services.html" title="website-localization-service">website-localization-service</a>
+➡️ Find out more about our <a href="/website-localization-services.html" title="website-localization-service">website-localization-service</a>
 
 ➡️ Create a free new [user account](https://www.locize.app/register) to start free trial of our software
 
 ➡️ Want to read more about the topic? Then this <a href="/blog/what-is-software-localization/" title="article about software-localization">article about software-localization</a> is for you
-

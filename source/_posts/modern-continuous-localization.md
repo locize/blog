@@ -18,7 +18,7 @@ redirect_from:
 
 ## Why Continuous Localization?
 
-Because software development never stops when the first version of a product is released (bug fixes, minor updates and at some point major new versions and releases) — continuously. Your [localization](https://locize.com/blog/localization/) and translation process should follow the same pattern as your software development.
+Because software development never stops when the first version of a product is released (bug fixes, minor updates and at some point major new versions and releases) — continuously. Your [localization](../localization/) and translation process should follow the same pattern as your software development.
 
 >You're already using agile concepts in your software development, right?
 
@@ -78,10 +78,10 @@ You may also want to have some reviewing workflow, auditing, integrated ordering
 
 >Cool, but isn’t this a little over the top… an extra tooling and deployment — doesn’t all this just add more complexity and effort?
 
-#### You don’t have to build this yourself!!! — There is [locize](https://locize.com)!
+#### You don’t have to build this yourself!!! — There is [locize](/)!
 
 Watch the demo video to learn more:
 {% youtube ds-yEEYP1Ks %}
 
-[locize](https://locize.com) removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
+[locize](/) removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
 

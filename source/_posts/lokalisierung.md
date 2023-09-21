@@ -1,8 +1,8 @@
 ---
-title: Was ist Lokalisierung – Definition & Beispiele | lokalisieren
-description: In diesem Leitfaden definieren wir die Lokalisierung und ihre Ziele im Detail. Erfahren Sie anhand einiger Beispiele mehr über die Lokalisierung.
+title: Lokalisierungskonzept - ein Leitfaden für die Adaption | locize
+description: Wie passt man ein Produkt oder eine Dienstleistung an die Bedürfnisse einer bestimmten Sprache, einer bestimmten Kultur oder an das Erscheinungsbild einer bestimmten Bevölkerungsgruppe an?
 
-date: 2022-02-11
+date: 2023-09-21
 tags:
   - localization
   - l10n
@@ -16,72 +16,97 @@ hidden: true
 
 ![was ist Lokalisierung](../localization/localization.webp)
 
+Wenn Sie sich fragen, <strong>Was ist Lokalisierung</strong>, dann ist dieser Blogartikel für Sie da. Wir werfen einen genaueren Blick darauf, was das bedeutet und wie es Ihnen helfen kann. 
 
-## Was bedeutet Lokalisierung?
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+<h2 style="color:orange;">Was ist Lokalisierung?</h2>
+<p style="color:grey;">Bei der Lokalisierung wird ein Produkt oder eine Dienstleistung an die Sprache, die Kultur oder die Vorlieben einer bestimmten Zielgruppe angepasst. Das Ergebnis einer erfolgreichen Lokalisierung ist ein Produkt oder eine Dienstleistung, das bzw. die sich nahtlos in die lokale Kultur einfügt und den Eindruck vermittelt, dass es bzw. sie ursprünglich für diesen speziellen Markt entwickelt wurde.</p>
+</div>
 
-Wenn Sie sich fragen, <strong>was ist Lokalisierung</strong>, dann ist dieser Blogbeitrag hier, um Ihnen zu helfen. Was es bedeutet und wie es Ihnen helfen kann, sehen wir uns genauer an. Da die Technologie die Kommunikation mit anderen auf der ganzen Welt einfacher denn je macht, werden Lokalisierung und Internationalisierung immer wichtiger.
 
-Für internationale Marken und Organisationen ist es unerlässlich, ihren Kunden das bestmögliche Erlebnis zu bieten. Ein effektiver Prozess kann ein Unternehmen transformieren und dabei helfen, die Reichweite zu erhöhen und das Engagement zu maximieren, aber was genau ist das genau?
+Für internationale Marken und Organisationen ist es unerlässlich, ihren Kunden das bestmögliche Erlebnis zu bieten. Ein effektiver Lokalisierungs-Prozess kann ein Unternehmen transformieren und dabei helfen, die Reichweite zu erhöhen und das Engagement zu maximieren, aber was genau ist das genau?
 
 Lasst uns anfangen.
 
 
 ### Inhaltsverzeichnis
-  * [Was ist Lokalisierung?](#intro)
-  * [Beispiele nach Typ](#examples)
-  * [Was ist das Ziel davon](#goal)
-  * [Wie es gemacht werden kann](#process)
+  * [Was ist das Konzept der Lokalisierung](#concept)
+  * [Beispiele aus dem wirklichen Leben für erfolgreiche Lokalisierungsprojekte](#examples)
+  * [Informationen zu Lokalisierungsstrategien](#examples)
+  * [Was sind die Ziele der Lokalisierung](#goal)
+  * [Ressourcen zur Bedeutung der Lokalisierung auf internationalen Märkten](#resources)
+  * [Leitfäden für die Umsetzung der Lokalisierung](#guides)
   * [Abschliessende Gedanken](#thoughts)
 
-### Was ist Lokalisierung? <a name="intro"></a>
-
-Lokalisierung wird oft mit Sprachübersetzung verwechselt und ist ein weitaus umfassenderer Prozess. Bei der Verwendung geht es darum, Ihren gesamten Inhalt so anzupassen, dass er den Normen und Erwartungen eines bestimmten Standorts oder Marktes entspricht.
+## What does localization mean <a name="concept"></a>
 
 Während also die Sprachübersetzung der Prozess ist, schriftliche Inhalte von einer Sprache in eine andere umzuwandeln, geht die Lokalisierung darüber hinaus. Da geht es um Dinge wie:
 
-- Wie sich Grafik und Gesamtdesign auf die Benutzerfreundlichkeit und die Erwartungen auswirken
-- Welche Inhalte angepasst werden müssen, um sie an Ihren Zielmarkt anzupassen
-- Konvertieren von Dingen wie Massen und Währungen in das richtige lokale Format
-- Daten, Telefonnummern und Adressen entsprechend formatieren
-- Umschreiben von Inhalten und Anpassen der Schreibweise an die von Ihnen gewählte Zielgruppe
-- Stellen Sie sicher, dass alle Inhalte den lokalen und gesetzlichen Vorschriften entsprechen
+### Sprache
+Übersetzen von Texten und Sicherstellen, dass sie kulturell angemessen sind, unter Berücksichtigung von idiomatischen Ausdrücken, Slang und zielsprachenspezifischer Terminologie.
 
-Die Lokalisierung ist eine wichtige Strategie für Organisationen jeder Grösse und trägt dazu bei, ihre Inhalte für ihre Zielgruppe attraktiver zu machen.
+### Anpassung der Inhalte
+Anpassung von Inhalten an die kulturellen Normen, Überzeugungen und Werte der Zielgruppe. Dazu gehören Bilder, Symbole, Farben und Verweise, die in einer bestimmten Kultur empfindlich oder beleidigend sein könnten.
 
-Laut [diesem Artikel](https://insights.csa-research.com/reportaction/305013126/Marketing) haben 40% der Verbraucher angegeben, dass sie niemals auf einer Website einkaufen werden, die nicht in ihrer Muttersprache vorliegt. 75% gaben an, dass sie ein Geschäft eher wieder in Anspruch nehmen würden, wenn die Kundenbetreuung in ihrer Muttersprache erfolgt.
+### Regionale Präferenzen
+Anpassung des Produkts oder des Inhalts an regionale Präferenzen, wie Datumsformate, Währungen, Masseinheiten und andere regionale Unterschiede.
 
-Unabhängig davon, in welcher Branche Sie tätig sind, erhalten Sie mit diesem Artikel eine Vorstellung davon, wie er Ihrem Unternehmen helfen kann. Und wir geben Ihnen einige Werkzeuge an die Hand, die Ihr Unternehmen transformieren können.
+### Benutzeroberfläche (UI)
+Anpassung der Benutzeroberfläche, des Layouts und des Designs an verschiedene Sprachen und Leserichtungen (z. B. rechts-nach-links für Arabisch oder Hebräisch).
+
+### Einhaltung rechtlicher und behördlicher Vorschriften
+Sicherstellen, dass das Produkt oder der Inhalt mit den lokalen Gesetzen, Vorschriften und Industriestandards übereinstimmt.
+
+### Funktionalität
+Änderung von Merkmalen oder Funktionen, die für den Zielmarkt nicht relevant oder praktisch sind, oder Hinzufügen von Funktionen, die für diesen Markt spezifisch sind.
+
+### Testen
+Rigoroses Testen des lokalisierten Produkts oder Inhalts, um Probleme im Zusammenhang mit sprachlichen, kulturellen oder technischen Aspekten zu erkennen und zu beheben.
+
+Die Lokalisierung ist eine wichtige Strategie für Unternehmen jeder Grösse, denn sie macht ihre Inhalte für die Zielgruppe, die sie erreichen wollen, noch attraktiver. Der Prozess, ein Produkt zunächst zu lokalisieren und dann für verschiedene nationale Zielgruppen zu lokalisieren, wird manchmal als <a href="/blog/globalisierung-vs-lokalisierung/" title="globalisierung">Globalisierung</a> bezeichnet.
+
+Laut [diesem Artikel](https://insights.csa-research.com/reportaction/305013126/Marketing) gaben 40% der Verbraucher an, dass sie niemals von einer Website kaufen würden, die nicht in ihrer Muttersprache verfasst ist. Und 75% gaben an, dass sie eher wieder bei einem Unternehmen kaufen würden, wenn der Kundendienst in ihrer Muttersprache wäre.
+
+Mit Hilfe dieses Artikels können Sie lernen, wie Sie Ihre Dienstleistung oder Ihr Produkt an eine bestimmte Sprache, Kultur oder einen bestimmten Zielmarkt anpassen können, unabhängig davon, in welcher Branche Sie tätig sind.
+
+Ausserdem erklären wir Ihnen, wie Sie Inhalte oder Produkte für verschiedene Märkte und geografische Gebiete anpassen können.
+
+Doch zunächst wollen wir uns einige erfolgreiche Beispiele ansehen, die von bekannten Marken genutzt werden.
+
+![populations look and feel](../../localization/localization/populations-look-and-feel.webp)
 
 
-### Beispiele nach Typ <a name="examples"></a>
 
-#### Beispiel im Geschäft
+## Beispiele aus der Praxis für erfolgreiche Lokalisierungsbemühungen <a name="examples"></a>
 
-Die Internationalisierung wird immer häufiger, und Unternehmen interagieren jetzt mit Auftraggebern und Kunden aus der ganzen Welt. Die Lokalisierung sollte nun ein wesentlicher Bestandteil ihrer Wachstumsstrategie sein und alles von Unternehmenswebsites und Marketingmaterialien bis hin zu Rechtsdokumenten und Produkthandbüchern abdecken.
-
-![airbnb](../localization/airbnb.png)
-<span style="font-size:0.7rem">Quelle: <a href="https://www.airbnb.com/" title="airbnb">airbnb</a></span>
-
-Ein grossartiges Beispiel dafür ist Airbnb, das sein Geschäft erfolgreich in über 220 Länder ausdehnen konnte, von denen jedes dem Verbraucher eine persönliche und lokalisierte Note bietet.
-
-
-#### Beispiel in Software
-
-Lokalisierung ist auch in der Welt der Softwareentwicklung eine wichtige Strategie. Alles, von der Benutzererfahrung bis zum Gesamtdesign, muss berücksichtigt werden, um sicherzustellen, dass die Kunden die allerbeste Erfahrung machen.
-
-![netflix](../localization/netflix.png)
-<span style="font-size:0.7rem">Quelle: <a href="https://www.netflix.com/" title="netflix">netflix</a></span>
-
-
-Ein gutes Beispiel für <a href="/blog/what-is-software-localization/" title="software-localization">Software-Lokalisierung</a> ist Netflix. Der globale Streaming-Gigant ist zum Synonym für Bemühungen sowohl auf der Übersetzungsseite als auch auf der Entwicklerseite geworden. Die von ihnen verwendeten Technologien und Prozesse werden in jeder Region übersetzt und lokalisiert, was bedeutet, dass sich die Benutzeroberfläche und die Apps ändern, ebenso wie die Untertitel und die Sprachsynchronisierung von Inhalten. Sogar die von ihnen entwickelten Filme und Fernsehsendungen sind für bestimmte Länder lokalisiert.
-
-<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
-<h3 style="color:orange;">Bonus Tip</h3>
-<p style="color:grey;">Weitere Beispiele unserer Kunden finden Sie in unseren <a href="https://locize.com/customers.html" title="Kundenerfolgsgeschichten">Kundenerfolgsgeschichten</a>.</p>
+<div style="display: flex; background-color: #f0f0f0; padding: 20px;">
+<div style="flex: 1; margin-right: 20px;">
+    <img src="../localization/airbnb.png" alt="Airbnb Image">
+    <h3>Geschäftliches Beispiel</h3>
+    <p>Die Internationalisierung nimmt immer mehr zu, und die Unternehmen interagieren nun mit Kunden und Auftraggebern aus der ganzen Welt. Die Lokalisierung sollte nun ein wesentlicher Bestandteil ihrer Wachstumsstrategie sein und alles abdecken, von Unternehmenswebsites und Marketingmaterialien bis hin zu rechtlichen Dokumenten und Produkthandbüchern.</p> <p>
+    <p>Ein grossartiges Beispiel hierfür ist Airbnb, das sein Geschäft erfolgreich in über 220 Länder ausweiten konnte, wobei jedes einzelne Land dem Verbraucher eine persönliche und lokalisierte Note bietet.</p>
+    <span style="font-size:0.7rem">Quelle: <a href="https://www.airbnb.com/" title="airbnb">airbnb</a></span>
 </div>
 
 
-### Was ist das Ziel der Lokalisierung <a name="goal"></a>
+
+<div style="flex: 1;">
+    <img src="../localization/netflix.png" alt="Netflix Image">
+    <h3>Software Beispiel</h3>
+    <p>Lokalisierung ist auch in der Welt der Softwareentwicklung eine wichtige Strategie. Alles, von der Benutzererfahrung bis zum allgemeinen Design, muss berücksichtigt werden, um sicherzustellen, dass die Kunden die beste Erfahrung machen.</p>>
+    <p>Ein gutes Beispiel für die Software-Lokalisierung ist Netflix. Der globale Streaming-Riese ist zum Synonym für Bemühungen sowohl auf der Übersetzungs- als auch auf der Entwicklerseite geworden. Die Technologie und die Prozesse, die Netflix einsetzt, werden in jeder Region übersetzt und lokalisiert, was bedeutet, dass sich die Benutzeroberfläche und die Apps ebenso ändern wie die Untertitel und die Synchronisation der Inhalte. Sogar die Filme und Fernsehsendungen, die sie entwickeln, werden für bestimmte Länder lokalisiert.</p>
+    <span style="font-size:0.7rem">Quelle: <a href="https://www.netflix.com/" title="netflix">netflix</a></span>
+
+  </div>
+</div>
+
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+<p style="color:grey;">Weitere Beispiele aus der Praxis finden Sie <a href="/customers.html" title="Customer Success Stories">auf dieser Seite</a>.</p>
+</div>
+
+
+## Was sind die Ziele der Lokalisierung <a name="goal"></a>
 Das ultimative Ziel ist es, eine klare Benutzererfahrung zu entwickeln, die Ihr Marketing vorantreibt und Sie beim Erreichen Ihrer Ziele unterstützt. Es gibt jedoch viele Vorteile, die sich aus der Implementierung ergeben können, darunter:
 
 #### Betreten Sie neue Märkte
@@ -100,25 +125,90 @@ Wenn Sie in der Lage sind, die Kundenzufriedenheit zu verbessern, erhöhen Sie a
 Vor allem aber ist das Hauptziel einer Strategie, Unternehmen dabei zu helfen, ihren Gewinn zu maximieren. Wenn Sie ein viel grösseres und wirklich globales Publikum erreichen, müssen Sie auf persönliche Weise mit ihnen in Kontakt treten, um die Anzahl der Kunden und am Ende auch den Umsatz zu maximieren.
 
 
-### Wie kann es gemacht werden? <a name="process"></a>
-Obwohl die vielen Vorteile, die sich aus der Einbeziehung der Lokalisierung ergeben, unbestreitbar sind, kann es sich um ein komplexes Verfahren handeln. Das erste, was Sie tun müssen, ist festzustellen, ob der Inhalt, den Sie anpassen müssen, angepasst werden muss. Die Zusammenarbeit mit einem Fachmann hilft Ihnen, die Bereiche zu identifizieren, die geändert werden müssen, wie z. B. der schriftliche Inhalt, die verwendeten Bilder, die Währungs- und Datumsformate usw.
+## Ressourcen zur Bedeutung der Lokalisierung auf internationalen Märkten
 
-Um diese Veränderungen zu erkennen, ist oft eine umfassende Recherche der Kultur und des Verhaltens Ihrer neuen Zielgruppe erforderlich. Es ist jedoch eine lohnende Aufgabe und kann unglaublich lohnend sein, wenn sie abgeschlossen ist.
+<div style="background-color: #1976d2;">
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Sprachliche Lokalisierung</h3>
+            <p style="min-height: 120px;">Sprachlokalisierung ist der Prozess der Anpassung von Inhalten, Software oder Produkten an eine bestimmte Sprache oder Sprachregion.</p>
+            <a href="/blog/language-localization/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Mehr dazu erfahren</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Lokalisierungs-Strategie</h3>
+            <p style="min-height: 120px;">Eine Lokalisierungsstrategie ist ein umfassender Plan, der beschreibt, wie ein Unternehmen seine Produkte, Dienstleistungen oder Inhalte für bestimmte Märkte und Kulturen anpasst.</p>
+            <a href="/blog/localization-strategy/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Mehr dazu erfahren</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Software Lokalisierung</h3>
+            <p style="min-height: 120px;">
+                Es ist der Prozess der Anpassung von Softwareanwendungen und deren UI/UX-Design, um nahtlos in verschiedenen Sprachen und Regionen zu funktionieren.</p>
+            <a title="Software Localization" href="/blog/what-is-software-localization/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Mehr dazu erfahren</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Javascript Lokalisierung</h3>
+            <p style="min-height: 120px;">
+Unter JavaScript-Lokalisierung versteht man die Anpassung von JavaScript-Code und Webanwendungen, damit sie in mehreren Sprachen und Regionen effektiv funktionieren. </p>
+            <a title="Javascript Localization" href="https://locize.com/javascript-localization.html" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Mehr dazu erfahren</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Website Lokalisierung</h3>
+            <p style="min-height: 120px;">Bei der Website-Lokalisierung werden Inhalt, Design und Funktionalität einer Website so angepasst, dass sie den unterschiedlichen kulturellen und sprachlichen Präferenzen eines globalen Publikums gerecht werden.</p>
+            <a title="Website Localization" href="/blog/website-localization/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Mehr dazu erfahren</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Marketing Lokalisierung</h3>
+            <p style="min-height: 120px;">Bei der Marketinglokalisierung geht es darum, Marketingstrategien und -kampagnen so anzupassen, dass sie den kulturellen Nuancen und Vorlieben der internationalen Zielmärkte gerecht werden.</p>
+            <a  title="Marketing Localization" href="/blog/localization-marketing/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Mehr dazu erfahren</button>
+            </a>
+        </div>
+    </div>
+</div>
 
-Sobald Sie festgestellt haben, welche Änderungen erforderlich sind, ist es an der Zeit, mit diesen Änderungen zu beginnen. Dies kann sehr zeitaufwändig sein und sollte den Profis überlassen werden. Das Projektteam wird das gesamte Material sorgfältig übersetzen, bearbeiten und Korrektur lesen, um sicherzustellen, dass lokale Verbraucher die bestmögliche Erfahrung machen.
+## Leitfäden für die Umsetzung der Lokalisierung <a name="guides"></a>
 
-Wenn all diese Änderungen vorgenommen wurden, müssen sie einen umfassenden Qualitätssicherungsprozess durchlaufen. Dadurch gehen Sprachprofis alle Ihre Inhalte mit einem sehr feinen Zahnkamm durch, markieren und beheben alle Fehler, um ein nahtloses Endprodukt für die Kunden zu gewährleisten.
+<ol style="list-style-type: none; padding: 1rem; background-color: #f0f0f0;">
 
-Ganz gleich, ob Sie Ihre Website, Marketingmaterial, juristische Dokumente oder Computerspiele lokalisieren möchten, die Zusammenarbeit mit einem professionellen Team wird dazu beitragen, den Prozess so reibungslos wie möglich zu gestalten. Um jedoch die besten Ergebnisse mit Ihrer Strategie zu erzielen, ist es wichtig, dass Sie verstehen, wer Ihre Zielgruppe ist. Auf diese Weise können Sie sicherstellen, dass Ihre Inhalte immer daran arbeiten, potenzielle Kunden in treue Kunden umzuwandeln.
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">1. Feststellen, was lokalisiert werden muss</h3>
+    <p>Zunächst müssen Sie feststellen, ob der Inhalt, den Sie anpassen müssen,</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">2. die Bedeutung einer umfassenden Recherche</h3>
+    <p>Um diese Veränderungen zu erkennen, ist oft eine umfassende Untersuchung der Kultur und der Verhaltensweisen der neuen Zielgruppe erforderlich.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">3. professionelle Unterstützung bei der Durchführung von Änderungen</h3>
+    <p>Wenn Sie festgestellt haben, welche Änderungen erforderlich sind, ist es an der Zeit, diese Änderungen vorzunehmen.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">4. Qualitätssicherung für ein nahtloses Endprodukt</h3>
+    <p>Wenn alle diese Änderungen vorgenommen wurden, müssen sie anschliessend einen umfangreichen Qualitätssicherungsprozess durchlaufen.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">5. Lokalisierung für verschiedene Inhaltstypen</h3>
+    <p>Ganz gleich, ob Sie Ihre Website, Ihr Marketingmaterial, Ihre juristischen Dokumente oder Ihr Computerspiel lokalisieren möchten.</p>
+  </li>
+
+</ol>
 
 
-*Sehen Sie sich dieses [Video](https://youtu.be/YQryHo1iHb8) an, um zu erfahren, wie unsere <a href="/" title="localization software">Lokalisierungssoftware</a> Ihnen helfen kann, Ihren Übersetzungsprozess zu verbessern:*
+*Schauen Sie sich dieses [Video](https://youtu.be/YQryHo1iHb8) an, um zu erfahren, wie unsere Software Ihnen helfen kann, Ihren Prozess im Hinblick auf die Verwaltung von Übersetzungen zu verbessern:*
 {% youtube YQryHo1iHb8 %}
 
-Und sehen Sie sich das Demo [Video] (https://youtu.be/ds-yEEYP1Ks) an, um mehr zu erfahren:
-{% youtube ds-yEEYP1Ks %}
 
-### Abschliessende Gedanken <a name="thoughts"></a>
+## Abschliessende Gedanken <a name="thoughts"></a>
 
 Hoffentlich hat dieser Blogbeitrag dazu beigetragen, die anfängliche Frage zu beantworten und Ihnen eine bessere Vorstellung davon zu geben, wie Ihr Unternehmen davon profitieren kann. Die Implementierung der Lokalisierung kann auf jeden Aspekt Ihres Unternehmens angewendet werden, und unser äusserst erfahrenes Team verfügt über jahrelange Erfahrung in der Unterstützung von Kunden. Dies sind Unternehmen, Softwareentwickler und Projektmanager mit all ihren Anforderungen an das Übersetzungs- und Lokalisierungsmanagement.
 
