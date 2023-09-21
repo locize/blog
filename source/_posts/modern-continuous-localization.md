@@ -18,7 +18,7 @@ redirect_from:
 
 ## Why Continuous Localization?
 
-Because software development never stops when the first version of a product is released (bug fixes, minor updates and at some point major new versions and releases) — continuously. Your localization and translation process should follow the same pattern as your software development.
+Because software development never stops when the first version of a product is released (bug fixes, minor updates and at some point major new versions and releases) — continuously. Your [localization](https://locize.com/blog/localization/) and translation process should follow the same pattern as your software development.
 
 >You're already using agile concepts in your software development, right?
 

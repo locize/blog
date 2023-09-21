@@ -1,8 +1,8 @@
 ---
-title: What is localization - definition & examples | locize	
-description: In this guide, we define localization and its goals in detail. Find out more about localization with a few examples.
+title: Localization concept - a guide to adaption | locize	
+description: How to adapt a product or service to meet the needs of a particular language, culture, or desired population's look-and-feel. 
 
-date: 2022-02-11
+date: 2023-09-21
 tags:
   - localization
   - l10n
@@ -15,72 +15,97 @@ lang: en
 
 ![what is localization](localization.webp)
 
+If you are asking yourself, <strong>what is localization</strong>, then this blog is here to help you. We take a closer look at what this means and how it can help you. 
 
-## What is the meaning of localization?
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+<h2 style="color:orange;">What is localization</h2>
+<p style="color:grey;">Localization involves adapting a product or service to align with the language, culture, or preferences of a specific audience. A successful localization effort results in a product or service that seamlessly integrates with the local culture, giving the impression that it was originally created for that specific market. </p>
+</div>
 
-If you are asking yourself, <strong>what is localization</strong>, then this blog is here to help you. We take a closer look at what this means and how it can help you. As technology continues to make communicating with others across the globe easier than ever, localization and internationalization are becoming increasingly more important. 
 
-For international brands and organizations, it is essential in helping to give their customers the very best experience possible. An effective process can transform a business, helping to increase reach and maximize engagements, but what exactly is it?
+
+For international brands and organizations, it is essential in helping to give their customers the very best experience possible. An effective localization-process can transform a business, helping to increase reach and maximize engagements, but what exactly is it?
 
 Let's get started.
 
 
-### Table of contents
-  * [What is localization?](#intro)
-  * [Examples by type](#examples)
-  * [What is the goal of it](#goal)
-  * [How it can be done](#process)
+## Table of contents
+  * [What is the concept of localization](#concept)
+  * [Real-life examples of successful localization-efforts](#examples)
+  * [Information on localization-strategies](#examples)
+  * [What are the goals of localization](#goal)
+  * [Resources related to the importance of localization in international markets](#resources)
+  * [Guides on how to implement localization](#guides)
   * [Final thoughts](#thoughts)
 
-### Localization meaning - What is localization? <a name="intro"></a>
-
-Often confused with language translation, localization is a far more comprehensive process. The use of it is about adapting your entire content so that it meets the norms and expectations of a specific location or market. 
+## What does localization mean <a name="concept"></a>
 
 So while language translation is the process of converting written content from one language into another, localization goes beyond this. It will look at things such as:
 
--	How graphics and overall design impacts usability and expectations
--	Which content needs amending to suit your target market
--	Converting things such as measurements and currencies into the correct local format 
--	Formatting dates, telephone numbers, and addresses accordingly 
--	Rewriting content and amending spellings to suit your chosen audience 
--	Making sure all content meets the local and legal regulations 
+### Language
+Translating text and ensuring it's culturally appropriate, considering idiomatic expressions, slang, and terminology specific to the target language.
 
-Localization is an important strategy for organizations of all sizes and helps to make their content more appealing to their target audience. 
+### Content Adaptation
+Adapting content to align with the cultural norms, beliefs, and values of the target audience. This includes imagery, symbols, colors, and references that might be sensitive or offensive in a particular culture.
+
+### Regional Preferences
+Customizing the product or content to cater to regional preferences, such as date formats, currencies, units of measurement, and other regional differences.
+
+### User Interface (UI)
+Adjusting the user interface, layout, and design to accommodate different languages and reading directions (e.g., right-to-left for Arabic or Hebrew).
+
+### Legal and Regulatory Compliance
+Ensuring that the product or content complies with local laws, regulations, and industry standards.
+
+### Functionality
+Modifying features or functionality that may not be relevant or practical in the target market or adding features that are specific to that market.
+
+### Testing
+Rigorously testing the localized product or content to identify and resolve issues related to linguistic, cultural, or technical aspects.
+
+
+Localization is a crucial strategy for businesses of all sizes because it makes their content more appealing to the audience they are trying to reach. The process of first enabling a product to be localized, then localizing it for various national audiences is sometimes know as <a href="/blog/globalization-vs-localization/" title="globalization">globalization</a>.
 
 According to [this article](https://insights.csa-research.com/reportaction/305013126/Marketing) 40% of consumers have said that they will never purchase from a website that wasn’t in their native language. While 75% have said that they would be more likely to use a business again if their aftersales care was in their native language.
 
-No matter what industry you work in, with this article get an idea on how it can help your business. And we will give you some tools to the hand which can transform your business.
+With the help of this article, you can learn how to adapt your service or product to a specific language, culture, or target market, regardless of the industry you work in. 
+
+Additionally, we will explain how to adapt content or products for various markets and geographical areas.
+
+But first, let's look at some successful examples of well-known brands using it.
 
 
-### Examples by type <a name="examples"></a>
-
-#### Example in business
-
-Internationalization is becoming increasingly more common, and businesses are now interacting with clients and customers from across the globe. Localization should now be an essential part of their growth strategy, covering everything from company websites and marketing materials to legal documents and product manuals.  
-
-![airbnb](airbnb.png)
-<span style="font-size:0.7rem">Source: <a href="https://www.airbnb.com/" title="airbnb">airbnb</a></span>
-
-One great example of this is Airbnb, which has successfully been able to expand its business into over 220 countries, each one offering a personal and localized touch to the consumer. 
+![populations look and feel](populations-look-and-feel.webp)
 
 
-#### Example in software 
-
-Localization is also a vital strategy in the world of software development. Everything from user experience to overall design will need to be considered to ensure that customers are getting the very best experience. 
-
-![netflix](netflix.png)
-<span style="font-size:0.7rem">Source: <a href="https://www.netflix.com/" title="netflix">netflix</a></span>
+## Real-life examples of successful localization-efforts <a name="examples"></a>
 
 
-A good example of <a href="/blog/what-is-software-localization/" title="software-localization">software-localization</a> is Netflix. The global streaming giant has become synonymous with efforts on both the translation side of things and on the developer side. The technology and processes that they utilize are translated and localized in every region, meaning the interface and apps change, as do the subtitles and voice dubbing of content. Even the films and TV shows they develop are localized for specific countries. 
+<div style="display: flex; background-color: #f0f0f0; padding: 20px;">
+<div style="flex: 1; margin-right: 20px;">
+    <img src="airbnb.png" alt="Airbnb Image">
+    <h3>Business Example</h3>
+    <p>Internationalization is becoming increasingly more common, and businesses are now interacting with clients and customers from across the globe. Localization should now be an essential part of their growth strategy, covering everything from company websites and marketing materials to legal documents and product manuals.</p>
+    <p>One great example of this is Airbnb, which has successfully been able to expand its business into over 220 countries, each one offering a personal and localized touch to the consumer.</p>
+    <span style="font-size:0.7rem">Source: <a href="https://www.airbnb.com/" title="airbnb">airbnb</a></span>
+</div>
+
+<div style="flex: 1;">
+    <img src="netflix.png" alt="Netflix Image">
+    <h3>Software Example</h3>
+    <p>Localization is also a vital strategy in the world of software development. Everything from user experience to overall design will need to be considered to ensure that customers are getting the very best experience.</p>
+    <p>A good example of software-localization is Netflix. The global streaming giant has become synonymous with efforts on both the translation side of things and on the developer side. The technology and processes that they utilize are translated and localized in every region, meaning the interface and apps change, as do the subtitles and voice dubbing of content. Even the films and TV shows they develop are localized for specific countries.</p>
+    <span style="font-size:0.7rem">Source: <a href="https://www.netflix.com/" title="netflix">netflix</a></span>
+
+  </div>
+</div>
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
-<h3 style="color:orange;">Bonus Tip</h3>
-<p style="color:grey;">Check out our <a href="https://locize.com/customers.html" title="Customer Success Stories">Customer Success Stories</a> for more examples of our clients.</p>
+<p style="color:grey;">Check out our more real-life examples <a href="https://locize.com/customers.html" title="Customer Success Stories">on this page</a>.</p>
 </div>
 
 
-### What is the goal of localization  <a name="goal"></a>
+## What are the goals of localization  <a name="goal"></a>
 The ultimate goal is to develop a clear user experience that helps to drive your marketing and support you in achieving your goals. However, there are many benefits that can come from implementing it, including:
 
 #### Enter new markets 
@@ -100,25 +125,95 @@ When you are able to improve customer satisfaction, you will also increase brand
 Above all, though, the main goal of a strategy is to help companies maximize their profit. When reach a much bigger and truly global audience you need to engage with them in a personal way, that you maximize the number of customers and in the end also the revenue. 
 
 
-### How can it be done? <a name="process"></a>
-While there can be no denying the many benefits that come from incorporating localization, it can be a complex procedure. The first thing that you need to do is to determine if the content that you are needing to adapt. Working with a professional will help you to identify those areas which will need to be changed, such as the written content, the images being used, the currency and date formats, etc. 
+## Resources related to the importance of localization in international markets
 
-Identifying these changes often requires comprehensive research into the culture and behaviors of your new target audience. However, it is a worthwhile task and can be incredibly rewarding when completed. 
+<div style="background-color: #1976d2;">
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Language Localization</h3>
+            <p style="min-height: 120px;">Language localization is the process of adapting content, software, or products to a specific language or linguistic region.</p>
+            <a href="/blog/language-localization/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn more</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Localization-Strategy</h3>
+            <p style="min-height: 120px;">A localization strategy is a comprehensive plan that outlines how a company adapts its products, services, or content for specific markets and cultures.</p>
+            <a href="/blog/localization-strategy/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn More</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Software Localization</h3>
+            <p style="min-height: 120px;">
+                It's the process of customizing software applications and its UI/UX-design to function seamlessly in different languages and regions.</p>
+            <a title="Software Localization" href="/blog/what-is-software-localization/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn More</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Javascript Localization</h3>
+            <p style="min-height: 120px;">
+JavaScript localization is the practice of adapting JavaScript code and web applications to function effectively in multiple languages and regions. </p>
+            <a title="Javascript Localization" href="https://locize.com/javascript-localization.html" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn More</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Website Localization</h3>
+            <p style="min-height: 120px;">Website localization involves adapting a website's content, design, and functionality to cater to diverse cultural and linguistic preferences of global audiences.</p>
+            <a title="Website Localization" href="/blog/website-localization/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn More</button>
+            </a>
+        </div>
+        <div style="flex: 0 0 calc(45% - 10px); margin: 10px; color: white;">
+            <h3>Marketing Localization</h3>
+            <p style="min-height: 120px;">Marketing localization focuses on adapting marketing strategies and campaigns to resonate with the cultural nuances and preferences of target international markets.</p>
+            <a  title="Marketing Localization" href="/blog/localization-marketing/" style="text-decoration: none;">
+                <button style="background-color: #1b2431; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Learn More</button>
+            </a>
+        </div>
+    </div>
+</div>
 
-Once you have identified what changes are required, it is then time to begin making these changes. This can be a very time-consuming process and should be left to the professionals. The project-team will carefully translate, edit and proofread the entire material to ensure that local consumers will have the very best experience possible. 
-
-When all of those changes have been made, they will then need to go through an extensive Quality Assurance process. This will see language professionals going through all of your content with a very fine toothcomb, highlighting and fixing any errors to guarantee a seamless end product for customers. 
-
-No matter whether you are looking to localize your website, marketing material, legal documents, or computer game, working with a professional team will help to make the process as smooth as possible. However, in order to get the best results from your strategy, it is essential that you understand who your target audience is. This will allow you to ensure that your content is always working to convert potential customers into loyal clients. 
 
 
-*Check out this [video](https://youtu.be/YQryHo1iHb8) to explore how our <a href="https://locize.com/" title="localization software">localization-software</a> can help you improve your process in terms of translation:*
+
+
+## Guides on how to implement localization <a name="guides"></a>
+
+<ol style="list-style-type: none; padding: 1rem; background-color: #f0f0f0;">
+  
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">1. Identifying what needs localization</h3>
+    <p>The first thing that you need to do is to determine if the content that you are needing to adapt.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">2. The importance of comprehensive research</h3>
+    <p>Identifying these changes often requires comprehensive research into the culture and behaviors of your new target audience.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">3. Professional assistance in making changes</h3>
+    <p>Once you have identified what changes are required, it is then time to begin making these changes.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">4. Quality assurance for a seamless end product</h3>
+    <p>When all of those changes have been made, they will then need to go through an extensive Quality Assurance process.</p>
+  </li>
+  <li style="margin-bottom: 20px;">
+    <h3 style="font-weight: bold;">5. Localization for various content types</h3>
+    <p>No matter whether you are looking to localize your website, marketing material, legal documents, or computer game.</p>
+  </li>
+  
+</ol>
+
+
+
+*Check out this [video](https://youtu.be/YQryHo1iHb8) to explore how our software can help you improve your process in terms of managing translations:*
 {% youtube YQryHo1iHb8 %}
 
-And watch the demo [video](https://youtu.be/ds-yEEYP1Ks) to learn more:
-{% youtube ds-yEEYP1Ks %}
 
-### Final thoughts <a name="thoughts"></a>
+## Final thoughts <a name="thoughts"></a>
 
 Hopefully, this blog has helped to answer the initial question and given you more of an idea on how it can benefit your business. Implementing localization can be applied to any aspect of your business, and our highly experienced team has years of experience in helping clients. These are companies, software developers, and project-managers with all of their translation- and localization-management needs.
 
@@ -130,3 +225,4 @@ We have worked with thousands of clients over the years, giving them the skills 
 ➡️ Create a free new [user account](https://www.locize.app/register) to start free trial of our software
 
 ➡️ Want to read more about the topic? Then this <a href="/blog/what-is-software-localization/" title="article about software-localization">article about software-localization</a> is for you
+
