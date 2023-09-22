@@ -73,7 +73,7 @@ Ausserdem erklären wir Ihnen, wie Sie Inhalte oder Produkte für verschiedene M
 
 Doch zunächst wollen wir uns einige erfolgreiche Beispiele ansehen, die von bekannten Marken genutzt werden.
 
-![populations look and feel](../../localization/localization/populations-look-and-feel.webp)
+![populations look and feel](../localization/populations-look-and-feel.webp)
 
 
 
