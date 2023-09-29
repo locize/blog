@@ -22,11 +22,19 @@ Today you're going to be introduced to a topic every growing business should be 
 
 In fact, this is the same topic that has helped many of our clients in growing even faster.
 
-## i18n
+<div id="term-i18n" style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+<h2 style="color:orange;"> i18n</h2>
+<p>The number 18 represents letters between the first and last character, abbreviating 'internationalization' to 'i18n.' It's key for effectively localizing a product for diverse target markets.</p>
 
-It stands for internationalization because the number 18 represents the number of letters between the first and last character of internationalization.
 
-So, **what exactly is i18n**? Essentially, the meaning of it is a shortcut to internationalization, to make better use of it while write short instead of longer word.
+</div>
+
+
+
+
+So, **what exactly is i18n**?
+
+Essentially, the meaning of it is a shortcut to internationalization, to make better use of it while write short instead of longer word.
 
 ![i18n term](i18n-term.webp)
 
