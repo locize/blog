@@ -1,8 +1,8 @@
 ---
-title: Was ist i18n und was ist sein Zweck (2022) | locize
+title: Was ist i18n und was ist sein Zweck (2024) | locize
 description: Alles, was Sie über ✪ Internationalisierung wissen müssen. Eine leicht verständliche Anleitung, was i18n ist und wofür es verwendet wird.
 
-date: 2022-01-11
+date: 2023-09-29
 tags:
   - internationalization
   - i18n
@@ -21,13 +21,19 @@ hidden: true
 
 Heute werden Sie in ein Thema eingeführt, das jedes wachsende Unternehmen kennen sollte.
 
+Erfahren Sie mehr über den beliebten Big Mac von McDonald's und wie er mit diesem Thema zusammenhängt.
+
 Tatsächlich ist dies das gleiche Thema, das vielen unserer Kunden geholfen hat, noch schneller zu wachsen.
 
-## i18n
+<div id="term-i18n" style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+<h2 style="color:orange;"> i18n</h2>
+<p>Die Zahl 18 steht für die Buchstaben zwischen dem ersten und dem letzten Zeichen, die Abkürzung für "Internationalisierung" lautet "i18n". Sie ist der Schlüssel zur effektiven Lokalisierung eines Produkts für verschiedene Zielmärkte.</p>
+</div>
 
-Es steht für Internationalisierung, weil die Zahl 18 die Anzahl der Buchstaben zwischen dem ersten und dem letzten Wort der Internationalisierung (im Englischen: internationalization) darstellt.
 
-Also, **was genau ist i18n**? Im Wesentlichen ist die Bedeutung eine Abkürzung von Internationalisierung, um sie besser zu nutzen, während man kurze statt längere Wörter schreibt.
+Also, **was genau ist i18n**?
+
+Im Wesentlichen ist die Bedeutung eine Abkürzung von Internationalisierung, um sie besser zu nutzen, während man kurze statt längere Wörter schreibt.
 
 ![i18n Begriff](../what-is-i18n/i18n-term.webp)
 
@@ -52,11 +58,17 @@ Lässt uns beginnen.
 
 ### Was ist internationalisierung <a name="intro"></a>
 
-Im Allgemeinen bezieht es sich auf den Prozess, Unternehmen auf internationale Märkte zu bringen. Typischerweise wird diese Art von Unternehmen von einem Unternehmer geführt, der global denkt und ein gutes Verständnis für globale Kulturen hat. Wie in der Einleitung erwähnt, ist i18n eine Abkürzung für Internationalisierung und wird häufig in der Softwarebranche verwendet. Als Folge der Globalisierung leiden das Produktdesign und die Entwicklung von Unternehmen.
+Im Allgemeinen bezieht es sich auf den Prozess, Unternehmen auf internationale Märkte zu bringen.
+
+Typischerweise wird diese Art von Unternehmen von einem Unternehmer geführt, der global denkt und ein gutes Verständnis für globale Kulturen hat. Wie in der Einleitung erwähnt, ist i18n eine Abkürzung für Internationalisierung und wird häufig in der Softwarebranche verwendet.
+
+Als Folge der Globalisierung leiden das Produktdesign und die Entwicklung von Unternehmen.
 
 Sie planen, mit Ihrem Unternehmen ausländische Märkte zu erschliessen, es besteht eine grosse Nachfrage nach der Lokalisierung von Anwendungen, Website-Inhalten oder anderen damit zusammenhängenden Dokumenten. Während dieser Geschäftstransformation müssen die Manager dieser Unternehmen die neue Kultur, Region und Sprache berücksichtigen.
 
-Wir leben in einer unbestreitbar digitalen Welt, und die Dinge werden immer schneller. Infolgedessen hat die Softwarebranche ein eigenes Geschäftsmodell entwickelt, bei dem Anbieter mit verschiedenen digitalen Diensten beim Eintritt in neue Märkte helfen. Diese Dienste sind auch als <a href="https://locize.com/" title="localization-service">Localization-service</a> bekannt. Schliesslich werden die Begriffe Internationalisierung und Internationalisierungssoftware häufig synonym verwendet, sodass wir <b>"was ist i18n"</b> mit einem Branchenbegriff für international agierende Unternehmen beantworten können.
+Wir leben in einer unbestreitbar digitalen Welt, und die Dinge werden immer schneller. Infolgedessen hat die Softwarebranche ein eigenes Geschäftsmodell entwickelt, bei dem Anbieter mit verschiedenen digitalen Diensten beim Eintritt in neue Märkte helfen.
+
+Diese Dienste sind auch als <a href="/" title="localization-service">Localization-service</a> bekannt. Schliesslich werden die Begriffe Internationalisierung und Internationalisierungssoftware häufig synonym verwendet, sodass wir <b>"was ist i18n"</b> mit einem Branchenbegriff für international agierende Unternehmen beantworten können.
 
 ![Internationale Geschäfte](../what-is-i18n/international-business.jpg)
 
@@ -106,6 +118,18 @@ Die Bereitstellung Ihrer digitalen Infrastruktur mit den geeigneten Technologien
 - Die Reichweite des Internetmarktes wächst schnell
 - Nutzen Sie globales Marketing zu Ihrem Vorteil
 
+Unternehmen sollten das lokale Verbraucherverhalten studieren, um ihre Produktangebote und Marketingstrategien darauf abzustimmen.
+
+Der Big-Mac-Index beispielsweise bietet eine einfache Möglichkeit, die Komplexität der internationalen Märkte zu verstehen. Der Big Mac ist ein weltweit standardisiertes Produkt, das einen einfachen Preisvergleich zwischen den Ländern ermöglicht.
+
+![big mac](../what-is-i18n/bigmac.jpg)
+
+
+<a href="https://www.statista.com/statistics/274326/big-mac-index-global-prices-for-a-big-mac/" title="Der Big Mac für 7,73 $ in der Schweiz">Der Big Mac für 7,73 $ in der Schweiz</a> im Vergleich zu den USA (5,58 $) und der Eurozone (5,82 $) verdeutlicht, wie wichtig es ist, die Preisgestaltung und die Strategien für Produkte durch Internationalisierung (i18n) anzupassen, um den lokalen Marktbedingungen und der Kaufkraft der Verbraucher Rechnung zu tragen. 
+
+Localization goes beyond pricing; it includes adapting products, marketing messages, and customer experiences to align with local cultures and norms. Businesses should be aware of cultural nuances and tailor their offerings accordingly.
+
+
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
   <h3 style="color:orange;"> Global wachsen mit locize</h3>
   Wir bei locize sind Spezialisten, um Ihre Internationalisierung zu einer Erfolgsgeschichte zu machen.<br>
@@ -114,9 +138,14 @@ Die Bereitstellung Ihrer digitalen Infrastruktur mit den geeigneten Technologien
 
 ### Wie sind Entwickler davon betroffen <a name="developers"></a>
 
-Hier kommt l10n ins Spiel. L10n, oder Lokalisierung, ist die Softwarekomponente oder Service der Internationalisierung. Somit sind die beteiligten Entwickler ein entscheidender Bestandteil für den Erfolg Ihrer Internationalisierung. i18n ist der Prozess, bei dem Entwickler ein Softwareprodukt für den Einsatz in anderen Märkten als dem, in dem ihr Unternehmen tätig ist, vorbereiten.
+Hier kommt l10n ins Spiel. L10n, oder Lokalisierung, ist die Softwarekomponente oder Service der Internationalisierung. Somit sind die beteiligten Entwickler ein entscheidender Bestandteil für den Erfolg Ihrer Internationalisierung.
+An dieser Stelle kommt l10n ins Spiel. L10n, oder Lokalisierung, ist die Softwarekomponente oder Dienstleistung der Internationalisierung. Folglich sind die beteiligten Entwickler eine entscheidende Komponente für den Erfolg Ihrer Internationalisierung.
 
-Entwickler sind indirekt für die Ergebnisse verantwortlich, die in Suchmaschinenergebnissen wie Google erscheinen. Sie können die Google-Suchergebnisse für Ihre Website optimieren, wenn sie Nutzern in verschiedenen Sprachen, Ländern oder Regionen unterschiedliche Inhalte bietet. Dieser <a href="https://developers.google.com/search/docs/advanced/crawling/managing-multi-regional-sites?visit_id=637780250358013835-1550662745&rd=1" title="guide">Leitfaden</a > hilft dir dabei.
+i18n ist der Prozess, mit dem Entwickler ein Softwareprodukt für die Verwendung in anderen Märkten als dem ihres Unternehmens vorbereiten.
+
+Entwickler sind indirekt für die Ergebnisse verantwortlich, die in Suchmaschinenergebnissen wie Google erscheinen. Sie können die Google-Suchergebnisse für Ihre Website optimieren, wenn sie den Nutzern in verschiedenen Sprachen, Ländern oder Regionen unterschiedliche Inhalte bietet.
+
+Dieser <a href="https://developers.google.com/search/docs/advanced/crawling/managing-multi-regional-sites?visit_id=637780250358013835-1550662745&rd=1" title="guide">Guide</a> wird Ihnen dabei helfen.
 
 
 #### Was ist Softwarelokalisierung
@@ -160,9 +189,15 @@ Weitere Informationen finden Sie in der <a href="https://docs.locize.com/issues"
 
 
 ### Fazit <a name="conclusion"></a>
-Wie managen Sie die Internationalisierung Ihrer Anwendung? <b>In jedem Fall lassen Sie es uns wissen, indem Sie uns eine E-Mail an <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> schreiben oder uns ein Kommentar auf <a href="https://twitter.com/locize" title="twitter locize">twitter</a> oder <a href="https://www.facebook.com/locize" title= "facebook locize">facebook</a> teilen.</b>
+Wie managen Sie die Internationalisierung Ihrer Anwendung?
 
-Der Begriff "i18n" wird meist mit dem Softwaregeschäft in Verbindung gebracht. Es definiert die erforderlichen Entwicklungstätigkeiten, wenn ein Unternehmen in neue Länder oder Märkte expandiert. i18n bezieht sich auf ein komplettes Unternehmen, das geschaffen wurde, um die Bedürfnisse von Kunden zu erfüllen, die ihre Programme, Websites oder <a href="../what-is-video-game-localization/" title="video-games ">Videospiele</a>.
+<b>In jedem Fall lassen Sie es uns wissen, indem Sie uns eine E-Mail an <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> schreiben oder uns ein Kommentar auf <a href="https://twitter.com/locize" title="twitter locize">twitter</a> oder <a href="https://www.facebook.com/locize" title= "facebook locize">facebook</a> teilen.</b>
+
+Der Begriff "i18n" wird meist mit dem Softwaregeschäft in Verbindung gebracht.
+
+Es definiert die erforderlichen Entwicklungstätigkeiten, wenn ein Unternehmen in neue Länder oder Märkte expandiert.
+
+i18n bezieht sich auf ein komplettes Unternehmen, das geschaffen wurde, um die Bedürfnisse von Kunden zu erfüllen, die ihre Programme, Websites oder <a href="../what-is-video-game-localization/" title="video-games ">Videospiele</a>.
 
 Wenn Sie gerade erst anfangen und mehr darüber erfahren möchten, „was i18n ist“, können die folgenden Links hilfreich sein.
 

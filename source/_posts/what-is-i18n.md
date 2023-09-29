@@ -1,6 +1,6 @@
 ---
 title: What is i18n and what is its purpose (2024) | locize
-description: Everything you need to know about internationalization. An easy-to-understand guide ✪ of what i18n is and what it's used for.
+description: Everything you need to know about internationalization. An easy-to-understand guide of what i18n is and what it's used for.
 
 date: 2023-09-29
 tags:
@@ -71,7 +71,7 @@ You plan to enter foreign markets with your company, there is a huge demand for 
 
 We live in an undeniably digital world, and things are only going to get faster. As a result, the software industry has developed it's own business model, with providers assisting with various digital services while entering new markets. 
 
-These services are also known as <a href="https://locize.com/" title="localization-service">localization-service</a>. Finally, the terms internationalization and internationalizing-software are frequently used interchangeably, so we can answer <b>"what is i18n"</b> with an industry-term for businesses going international.
+These services are also known as <a href="/" title="localization-service">localization-service</a>. Finally, the terms internationalization and internationalizing-software are frequently used interchangeably, so we can answer <b>"what is i18n"</b> with an industry-term for businesses going international.
 
 ![international business](international-business.jpg)
 
