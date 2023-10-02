@@ -1,3 +1,4 @@
+---
 title: A tale of the last 10 years in web development
 
 date: 2018-08-28
@@ -9,7 +10,9 @@ tags:
   - l10n
   - i18n
   - i18next
+
 thumbnail: a-tale-of-the-last-10-years-in-web-development/title.png
+
 redirect_from:
 - /2018-08-28-a-tale-of-the-last-10-years-in-web-development
 ---
