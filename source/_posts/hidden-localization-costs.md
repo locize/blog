@@ -21,7 +21,7 @@ Big companies that reach hundreds of countries can spend millions on translation
 
 There are [revealing facts](../grow-online-business/) about the business growth for high-quality localized content to engage new audiences, grow brand recognition and loyalty and boost revenue.
 
-Localized content is important to enhance top of funnel efforts. Everyone can estimate the cost of content localization by obtaining bids from language service providers or [translation job marketplaces](https://localistars.com).
+Localized content is important to enhance top of funnel efforts. Everyone can estimate the cost of content localization by obtaining bids from [language service providers](/services.html#translationservices).
 But companies often forget the actual translation work cost is just a minimal part of the complete localization costs.
 
 What many may not consider when calculating the budget are the hidden costs of localization, for example:

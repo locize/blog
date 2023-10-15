@@ -22,7 +22,7 @@ Grosse Unternehmen, welche Hunderte von Ländern erreichen, können Millionen al
 
 Es gibt [aufschlussreiche Fakten](../grow-online-business/) über das Geschäftswachstum für hochwertige lokalisierte Inhalte, um neue Zielgruppen anzusprechen, die Markenbekanntheit und -treue zu erhöhen und den Umsatz zu steigern.
 
-Lokalisierte Inhalte sind wichtig, um die Top-of-Funnel-Bemühungen zu verbessern. Jeder kann die Kosten für die Lokalisierung von Inhalten abschätzen, indem er Angebote von Sprachdienstleistern oder [Übersetzungsjobbörsen](https://localistars.com) einholt.
+Lokalisierte Inhalte sind wichtig, um die Top-of-Funnel-Bemühungen zu verbessern. Jeder kann die Kosten für die Lokalisierung von Inhalten abschätzen, indem er Angebote von Sprachdienstleistern oder [Übersetzungsjobbörsen](https://locize.com/services.html#translationservices) einholt.
 Unternehmen vergessen jedoch oft, dass die tatsächlichen Kosten für die Übersetzungsarbeit nur einen minimalen Teil der gesamten Lokalisierungskosten ausmachen.
 
 Was vielleicht viele bei der Kalkulation des Budgets nicht berücksichtigen, sind die versteckten Kosten der Lokalisierung, zum Beispiel:

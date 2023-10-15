@@ -166,7 +166,7 @@ When you compare different TMS software, then ask the following questions regard
 
 locize is an excellent product for several reasons: Simple interface for managing translations. It is possible to regulate exactly what each translator sees, and they like doing so. The interface also allows you to check what translations are lacking and divide your application into multiple namespaces.
 <br />
-Additionally, locize is the [key piece](../i18n-l10n-t9n-tms/) to localize your software project, together with [i18next](https://www.i18next.com) and [localistars](https://www.localistars.com).
+Additionally, locize is the [key piece](../i18n-l10n-t9n-tms/) to localize your software project, together with [i18next](https://www.i18next.com).
 
 locize removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
 

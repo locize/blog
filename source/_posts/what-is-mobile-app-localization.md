@@ -171,9 +171,9 @@ When engaging with a translator, you should make sure that you are as clear and 
 #### 3)  	Ask for examples  
 Another top tip when it comes to finding the very best translator possible is to ask for examples. Any professional translator will be happy to showcase their past work, allowing you to review their results. 
 
-In our ecosystem, there is a way we make this much easier for you. Learn here how to <a href="https://www.localistars.com/en/translator/" title="find a translator">find a translator</a> with localistars.
+In our ecosystem, there is a way we make this much easier for you. Learn here how to <a href="/services.html#translationservices" title="find a translator">find a translator</a>.
 
-<a class="btn btn-outline btn-xl" style="color:white" href="https://www.localistars.com/en/translator/" title="find a translator">find a translator</a>
+<a class="btn btn-outline btn-xl" style="color:white" href="/services.html#translationservices" title="find a translator">find a translator</a>
 
 ![find a translator](find-a-translator.jpg "find a translator")
 

@@ -8,7 +8,6 @@ tags:
   - i18next
   - localization
   - l10n
-  - localistars
   - translation management
   - tms
   - locize
@@ -60,12 +59,7 @@ You can have your translation done by freelancers, agencies or in-house employee
 
 <div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
   <h3 style="color:limegreen; margin-bottom: 0px;">Advice</h3>
-  <p style="color:grey; margin-top: 5px;"><a href="https://www.localistars.com" title="localistars - The Translation Marketplace that connects clients with translators">localistars</a> is the go-to marketplace for clients and translators to get translation jobs done.
-  As client you'll find translators and as translator you'll find translation jobs. Direct contact, no middleman – just localistars working together!
-  <br />
-  <a href="https://www.localistars.com" title="localistars - The Translation Marketplace that connects clients with translators">
-    <img src="localistars-logo.svg" />
-  </a>
+  <p style="color:grey; margin-top: 5px;">Use one of the <a href="/services.html#translationservices" title="Integrated professional translation partners">integrated services</a> to order the translations from a third party.
   </p>
 </div>
 
@@ -117,8 +111,8 @@ Because software development never stops when the first version of a product is 
 
 ## i18n, l10n, TMS - So which are the key pieces to localize your software project?
 
-[![](puzzle_specific.png "The key pieces to localize your software project")](https://www.localistars.com/ecosystem/)
+![](puzzle_specific.png "The key pieces to localize your software project")
 
 - [i18next](https://www.i18next.com)
 - [locize](https://www.locize.com)
-- [localistars](https://www.localistars.com)
+- [Translation services](https://locize.com/services.html#translationservices)

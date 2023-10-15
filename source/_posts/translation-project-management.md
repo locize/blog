@@ -143,5 +143,5 @@ Coordination with translators, management of timetables and budgets, and ensurin
 
 Translation project managers may help guarantee that localization projects are finished on time and under budget, while also ensuring that the end result is of high quality by following the best practices and utilizing the appropriate tools.
 
-To increase the accuracy and efficiency of the translation process, the <a href="https://www.localistars.com/blog/translation-industry/" title="translation industry">translation industry</a> is facing rule-based automation and artificial intelligence.
+To increase the accuracy and efficiency of the translation process, the <a href="/services.html#translationservices" title="translation industry">translation industry</a> is facing rule-based automation and artificial intelligence.
 

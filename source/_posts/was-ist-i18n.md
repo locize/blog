@@ -104,7 +104,7 @@ Während des Prozesses kann ein i18n-Framework für die Vorbereitung Ihrer Softw
 <h3 style="color:orange;"> Bonus Tip</h3>
 <p style="color:grey;">Wer kennt eine Kultur besser als die Menschen, die dort leben? Nutzen Sie lokale Spezialisten in jedem Ihrer Zielmärkte. Dadurch kann Ihr Team den Benutzern die genaueste Benutzererfahrung bieten, die möglich ist.
    <br><br>
-   Dies ist ohne Zweifel ein sehr wichtiger Aspekt des i18n-Ansatzes. Ein Übersetzungsmarktplatz kann Ihnen dabei helfen, sehr schnell <a href="https://www.localistars.com/de/translator/" title="einen Übersetzer finden">einen Übersetzer zu finden</a>, und Ihr i18n wird weit effektiver sein.</p>
+   Dies ist ohne Zweifel ein sehr wichtiger Aspekt des i18n-Ansatzes. Ein Übersetzungsmarktplatz kann Ihnen dabei helfen, sehr schnell <a href="/services.html#translationservices" title="einen Übersetzer finden">einen Übersetzer zu finden</a>, und Ihr i18n wird weit effektiver sein.</p>
 </div>
 
 ### Die Vorteile der i18n-Lokalisierung <a name="benefits"></a>

@@ -107,7 +107,7 @@ An i18n-framework can be used for the preparation of your software during the pr
 <h3 style="color:orange;"> Bonus Tip</h3>
 <p style="color:grey;">Who knows a culture better than the people who live there? Make use of local specialists in each of your target markets. As a result, your team will be able to provide users with the most accurate, user-experience possible. 
   <br><br>
-  This is, without a doubt, a very important aspect of i18n-approach. A translation-marketplace can help you <a href="https://www.localistars.com/en/translator/" title="find a translator">find a translator</a> very quickly, and your i18n will be far more effective.</p>
+  This is, without a doubt, a very important aspect of i18n-approach. A translation-marketplace can help you <a href="/services.html#translationservices" title="find a translator">find a translator</a> very quickly, and your i18n will be far more effective.</p>
 </div>
 
 ### The benefits of i18n-localization <a name="benefits"></a>
