@@ -2,7 +2,7 @@
 title: "Interview with WebsitePlanet"
 description: Explore how Locize is revolutionizing software localization and breaking language barriers in our in-depth interview with WebsitePlanet.
 
-date: 2023-10-23
+date: 2023-10-24
 tags:
   - localization
   - internationalization
