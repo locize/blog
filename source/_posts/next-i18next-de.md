@@ -134,6 +134,7 @@ Das Entfernen von `serverSideTranslation` zu [`getStaticProps`](https://nextjs.o
 //
 // Without the getStaticProps or getServerSideProps function,
 // the translsations are loaded via configured i18next backend.
+// Also make sure you set the partialBundledLanguages option to true, like here: https://github.com/i18next/i18next-http-backend/blob/master/example/next/next-i18next.config.js#L14
 //
 // export const getStaticProps = async ({ locale }) => {
 //   return {
