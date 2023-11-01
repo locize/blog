@@ -1,6 +1,6 @@
 ---
-title: i18n with Next.js 13 and app directory / App Router (an i18next guide)
-description: Looking for a way to internationalize your Next.js 13 project with the new app directory / App Router paradigm? Then this guide is for you!
+title: i18n with Next.js 13/14 and app directory / App Router (an i18next guide)
+description: Looking for a way to internationalize your Next.js 13/14 project with the new app directory / App Router paradigm? Then this guide is for you!
 
 date: 2023-01-02
 tags:
@@ -19,11 +19,15 @@ thumbnail: next-13-app-dir-i18n/next-13-app-dir-i18n.jpg
 
 label: next-13-app-dir-i18n
 lang: en
+redirect_from:
+- /next-14-app-dir-i18n
 ---
 
 ![](next-13-app-dir-i18n.jpg "locize © inweso GmbH")
 
 At [Next.js Conf](https://nextjs.org/conf), the [Vercel](https://vercel.com) team [announced Next.js 13](https://nextjs.org/blog/next-13) which introduced the new [app directory / App Router paradigm](https://nextjs.org/docs/app).
+<br />
+This article is also valid for newer Next.js versions like [Next.js 14](https://nextjs.org/blog/next-14).
 <br />
 It includes support for [Layouts](https://nextjs.org/blog/next-13#layouts), [Server Components](https://nextjs.org/blog/next-13#server-components), [Streaming](https://nextjs.org/blog/next-13#streaming) and [Support for Data Fetching](https://nextjs.org/blog/next-13#data-fetching).
 
