@@ -15,15 +15,17 @@ tags:
   - internationalization
   - i18n
   - translation
-thumbnail: next-13-app-dir-i18n/next-13-app-dir-i18n.jpg
+thumbnail: next-app-dir-i18n/next-app-dir-i18n.jpg
 
-label: next-13-app-dir-i18n
+label: next-app-dir-i18n
 lang: en
 redirect_from:
+- /next-13-app-dir-i18n
 - /next-14-app-dir-i18n
+- /next-15-app-dir-i18n
 ---
 
-![](next-13-app-dir-i18n.jpg "locize © inweso GmbH")
+![](next-app-dir-i18n.jpg "locize © inweso GmbH")
 
 At [Next.js Conf](https://nextjs.org/conf), the [Vercel](https://vercel.com) team [announced Next.js 13](https://nextjs.org/blog/next-13) which introduced the new [app directory / App Router paradigm](https://nextjs.org/docs/app).
 <br />
@@ -728,7 +730,7 @@ The result should look like this:
 
 ![](result.gif)
 
-*🧑‍💻 The complete code of an example app can be found [here](https://github.com/i18next/next-13-app-dir-i18next-example).*
+*🧑‍💻 The complete code of an example app can be found [here](https://github.com/i18next/next-app-dir-i18next-example).*
 
 
 ### 6. Bonus <a name="step-6"></a>
@@ -744,12 +746,12 @@ This can be done on-demand or on the CI-Server or before deploying the app.
 1. in locize: signup at https://locize.app/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
 2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
 3. install the [locize-cli](https://github.com/locize/locize-cli) (`npm i locize-cli`)
-4. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language) or with using the [migrate command](https://github.com/i18next/next-13-app-dir-i18next-example/blob/main/package.json#L10) of the locize-cli)
+4. in locize: add all your additional languages (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language) or with using the [migrate command](https://github.com/i18next/next-app-dir-i18next-example/blob/main/package.json#L10) of the locize-cli)
 
 #### Use the [locize-cli](https://github.com/locize/locize-cli)
-Use the `locize download` command to always download the published locize translations to your local repository (`app/i18n/locales`) before bundling your app. *[example](https://github.com/i18next/next-13-app-dir-i18next-example/blob/main/package.json#L11)*
+Use the `locize download` command to always download the published locize translations to your local repository (`app/i18n/locales`) before bundling your app. *[example](https://github.com/i18next/next-app-dir-i18next-example/blob/main/package.json#L11)*
 
-Alternatively, you can also use the `locize sync` command to synchronize your local repository (`app/i18n/locales`) with what is published on locize. *[example](https://github.com/i18next/next-13-app-dir-i18next-example/blob/main/package.json#L12)*
+Alternatively, you can also use the `locize sync` command to synchronize your local repository (`app/i18n/locales`) with what is published on locize. *[example](https://github.com/i18next/next-app-dir-i18next-example/blob/main/package.json#L12)*
 
 
 ## 🎉🥳 Congratulations 🎊🎁 <a name="congratulations"></a>
