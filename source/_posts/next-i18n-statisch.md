@@ -26,7 +26,7 @@ hidden: true
 
 Sie kennen [Next.js](https://nextjs.org), richtig? - Wenn nicht, hören Sie auf, diesen Artikel zu lesen und machen Sie etwas anderes.
 
-*Wenn Next.js 13 mit app directory verwendet wir, sich [diesen Blogbeitrag an](../next-13-app-dir-i18n/) anschauen.*
+*Wenn Next.js 13 mit app directory verwendet wir, sich [diesen Blogbeitrag an](../next-app-dir-i18n/) anschauen.*
 
 Next.js ist grossartig! Es bietet Ihnen die beste Entwicklererfahrung mit allen Funktionen, die Sie benötigen ...
 

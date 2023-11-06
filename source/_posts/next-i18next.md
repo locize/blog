@@ -31,7 +31,7 @@ The code is written once and depending on your needs it is then executed as SSG 
 
 ## How to optimize Next.js apps to best work with translations on server side and on client side with next-i18next?
 
-*If you're using Next.js 13 with app directory, have a look at [this blog post](../next-13-app-dir-i18n/).*
+*If you're using Next.js 13 with app directory, have a look at [this blog post](../next-app-dir-i18n/).*
 
 Let's take the example of [next-i18next](https://github.com/i18next/next-i18next).
 While next-i18next uses [i18next](https://www.i18next.com) and [react-i18next](https://react.i18next.com) under the hood, users of next-i18next simply need to include their translation content as JSON files and don't have to worry about much else.
