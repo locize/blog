@@ -15,7 +15,7 @@ label: tms
 lang: en
 ---
 
-![what is a translation management system](translation-management-system.webp)
+{% youtube 9cWiivvy_zs %}
 
 
 
@@ -47,7 +47,7 @@ A TMS is made for the purpose of centrally managing translation and <a href="/bl
 6. Integration API
 
 
-{% youtube 9cWiivvy_zs %}
+![what is a translation management system](translation-management-system.webp)
 
 
 ### Managing translation workflows
