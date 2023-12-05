@@ -42,6 +42,6 @@ I found [locize](/) to be invaluable to my localization effort. I will continue 
 
 In [this article](https://betterprogramming.pub/how-i-built-a-social-network-in-4-years-as-a-solo-developer-4af70fb2d4c8) you can read a lot more about how I built this social network in 4 years as a solo developer.
 
-If you're new to locize, watch the [demo video](https://youtu.be/ds-yEEYP1Ks) to learn more about it:
-{% youtube ds-yEEYP1Ks %}
+If you're new to locize, watch the [demo video](https://youtu.be/TFV_vhJs5DY) to learn more about it:
+{% youtube TFV_vhJs5DY %}
 

@@ -124,7 +124,7 @@ You may also want to have some reviewing workflow, a history, integrated orderin
 
 By using [locize](https://locize.com), tech team leader / engineering manager enables collaboration to bridge the gap between localization and development. This makes you faster, more efficient and saves you money overall. Just start with the free trial. There's no harm... Try everything, set up your locize project, compare it with your existing process and validate it with [your team members](/for-your-team.html).
 
-Watch the [demo video](https://youtu.be/ds-yEEYP1Ks) to learn more about it:
-{% youtube ds-yEEYP1Ks %}
+Watch the [demo video](https://youtu.be/TFV_vhJs5DY) to learn more about it:
+{% youtube TFV_vhJs5DY %}
 
 *btw: If you're already using the open source internationalization (i18n) framework [i18next](https://www.i18next.com), then you are already using locize's best partner. Because locize was created by the maintainers of i18next. [Integrating i18next with locize is even easier.](/i18next.html#already-using-i18next)*

@@ -65,7 +65,7 @@ i18next supports different [i18n formats](https://www.i18next.com/overview/plugi
 ## 9. Integrate with locize:
 
 [locize](/) is a cloud-based translation management system ([TMS](../tms/)) that integrates seamlessly with [i18next](https://www.i18next.com). By using locize, you can easily manage your translations and collaborate with translators and editors. locize also provides a powerful [editor](https://docs.locize.com/different-views) and a [translation memory](https://docs.locize.com/whats-inside/translation-memory), making it easy to reuse translations and ensure consistency across your application.
-To integrate locize with i18next, you can for example use the [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) plugin. This plugin allows you to load translations from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) and automatically syncs them with your application. [Here](https://youtu.be/ds-yEEYP1Ks?t=423) you can see what this could look like.
+To integrate locize with i18next, you can for example use the [i18next-locize-backend](https://github.com/locize/i18next-locize-backend) plugin. This plugin allows you to load translations from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) and automatically syncs them with your application. [Here](https://www.youtube.com/watch?v=TFV_vhJs5DY&t=294s) you can see what this could look like.
 <br />
 *Check out [this section in the video](https://youtu.be/SA_9i4TtxLQ?t=1076) crash course!*
 

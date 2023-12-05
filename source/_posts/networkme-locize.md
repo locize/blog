@@ -38,5 +38,5 @@ The ability to create different projects and having RBAS implemented was especia
 [locize](/) really changed positively our dynamic inside Networkme between business and technical teams by reducing the amount of time managing copy in the web applications and empowering the copywriters with the autonomy to move at the speed they expect.
 The development team became **at least 20% more productive**, since the only thing they needed to do was to create the keys through the development process and all the copy management afterwards was outside the set of their responsibilities.
 
-If you're new to locize, watch the [demo video](https://youtu.be/ds-yEEYP1Ks) to learn more about it:
-{% youtube ds-yEEYP1Ks %}
+If you're new to locize, watch the [demo video](https://youtu.be/TFV_vhJs5DY) to learn more about it:
+{% youtube TFV_vhJs5DY %}

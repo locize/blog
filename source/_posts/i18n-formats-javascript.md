@@ -524,5 +524,5 @@ So with choosing [locize](https://locize.com) you directly support the future of
 <br />
 ➡️ [i18next](https://www.i18next.com) + [locize](https://locize.com) = true [continuous localization](https://locize.com/how-it-works.html#continouslocalization)
 
-Watch the demo [video](https://youtu.be/ds-yEEYP1Ks) to learn more:
-{% youtube ds-yEEYP1Ks %}
+Watch the demo [video](https://youtu.be/TFV_vhJs5DY) to learn more:
+{% youtube TFV_vhJs5DY %}

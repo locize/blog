@@ -523,5 +523,5 @@ Mit der Wahl von [locize](https://locize.com) unterstützen Sie also direkt die 
 <br />
 ➡️ [i18next](https://www.i18next.com) + [locize](https://locize.com) = echte [kontinuierliche Lokalisierung](https://locize.com/how-it-works.html#continouslocalization)
 
-Sehen Sie sich dieses [Video](https://youtu.be/ds-yEEYP1Ks) an, um mehr darüber zu erfahren:
-{% youtube ds-yEEYP1Ks %}
+Sehen Sie sich dieses [Video](https://youtu.be/TFV_vhJs5DY) an, um mehr darüber zu erfahren:
+{% youtube TFV_vhJs5DY %}

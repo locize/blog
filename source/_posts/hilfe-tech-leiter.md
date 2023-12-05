@@ -125,7 +125,7 @@ Vielleicht möchten Sie auch einen Überarbeitungs-Workflow, eine Historie, eine
 
 Durch die Verwendung von [locize](https://locize.com) ermöglicht der technische Teamleiter/Engineering Manager die Zusammenarbeit, um die Lücke zwischen Lokalisierung und Entwicklung zu schliessen. Das macht Sie schneller, effizienter und spart insgesamt Geld. Beginnen Sie einfach mit der kostenlosen Testversion. Es schadet nichts... Probieren Sie alles aus, richten Sie Ihr Locize-Projekt ein, vergleichen Sie es mit Ihrem bestehenden Prozess und validieren Sie es mit [Ihren Teammitgliedern](/for-your-team.html).
 
-Sehen Sie sich das [Demo-Video](https://youtu.be/ds-yEEYP1Ks) an, um mehr darüber zu erfahren:
-{% youtube ds-yEEYP1Ks %}
+Sehen Sie sich das [Demo-Video](https://youtu.be/TFV_vhJs5DY) an, um mehr darüber zu erfahren:
+{% youtube TFV_vhJs5DY %}
 
 *Übrigens: Wenn Sie bereits das Open-Source Internationalisierungs (i18n) Framework [i18next](https://www.i18next.com) verwenden, dann verwenden Sie bereits den besten Partner von locize. Weil locize von den Betreuern von i18next erstellt wurde. [Die Integration von i18next mit locize ist noch einfacher.](/i18next.html#already-using-i18next)*

@@ -276,7 +276,7 @@ As you embark on your internationalization journey with i18next, let [locize](/)
 
 Try [locize](https://www.locize.app/register) today and see the difference it can make for your business.
 
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 
 <script type="application/ld+json">

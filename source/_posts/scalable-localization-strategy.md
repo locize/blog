@@ -33,4 +33,4 @@ In conclusion, implementing a scalable [localization strategy](../localization-s
 
 Try [locize](https://www.locize.app/register) today and see the difference it can make for your business.
 
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}

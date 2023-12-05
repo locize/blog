@@ -143,6 +143,6 @@ You should keep full overview about what is translated and what not — even
 > Don't worry, [locize](https://locize.com) can help!
 
 Watch the demo video to learn more:
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 [locize](https://locize.com) removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.

@@ -69,9 +69,9 @@ A fintech company used locize's InContext view to connect content from their app
 
 Context is critical for accurate translations, and locize's context features offer powerful tools to improve translation accuracy. By using specific context information, InContext view, terminology glossary, and screenshot feature, businesses and organizations can provide translators with the context they need to produce more accurate translations. To get the most out of locize's context features, it's essential to provide as much context as possible, involve the translation team in the context-gathering process, and try out different context-gathering methods to find what works best for your content.
 
-*If you like to see how locize looks like, check out [this video](https://youtu.be/ds-yEEYP1Ks) and try the [free trial](https://www.locize.app/register).*
+*If you like to see how locize looks like, check out [this video](https://youtu.be/TFV_vhJs5DY) and try the [free trial](https://www.locize.app/register).*
 
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 <script type="application/ld+json">
   {

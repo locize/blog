@@ -114,7 +114,7 @@ Allows users to keep track of changes to translations over time and, if necessar
 #### Analytics
 Provides information on how translations are used and how people interact with them, which can aid in the localization process.
 
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 Locize, the management system for translations and localization, is designed to interact with a wide number of platforms and tools, including website builders, content management systems, and software development kits.
 

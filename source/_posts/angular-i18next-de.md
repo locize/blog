@@ -540,7 +540,7 @@ export class AppModule { }
 
 *🧑‍💻 Den vollständigen Code finden Sie [hier](https://github.com/locize/locize-angular-example).*
 
-*Sehen Sie sich auch den [Teil zur Code-Integration](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in diesem [YouTube-Video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
+*Sehen Sie sich auch den [Teil zur Code-Integration](https://www.youtube.com/watch?v=TFV_vhJs5DY&t=294s) in diesem [YouTube-Video](https://www.youtube.com/watch?v=TFV_vhJs5DY).*
 
 Es gibt auch ein [i18next-Crashkurs-Video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}

@@ -232,9 +232,9 @@ In summary, i18next and a translation management system like locize are powerful
 - *If you're already using i18next and want to unleash its full potential, have a look at [this](../i18next-migrate/).*
 - *If you're new to i18next, have a look at [this guide](../react-i18next/) and check out the free [crash course](https://youtu.be/SA_9i4TtxLQ).*
 - *If you want to see a nice overview of the different i18n formats, have a look at [this](../i18n-formats-javascript/).*
-- *If you like to see how locize looks like, check out [this video](https://youtu.be/ds-yEEYP1Ks) and try the [free trial](https://www.locize.app/register).*
+- *If you like to see how locize looks like, check out [this video](https://youtu.be/TFV_vhJs5DY) and try the [free trial](https://www.locize.app/register).*
 
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 <script type="application/ld+json">
   {

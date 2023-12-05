@@ -1144,7 +1144,7 @@ And in production environment, you should disable or remove the `saveMissing` an
 
 *🧑‍💻 The complete code can be found [here](https://github.com/i18next/jquery-i18next/tree/master/example/landing).*
 
-*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
+*Check also the [code integration part](https://www.youtube.com/watch?v=TFV_vhJs5DY&t=294s) in this [YouTube video](https://www.youtube.com/watch?v=TFV_vhJs5DY).*
 
 There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}

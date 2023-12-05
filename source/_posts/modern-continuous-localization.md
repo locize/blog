@@ -81,7 +81,7 @@ You may also want to have some reviewing workflow, auditing, integrated ordering
 #### You don’t have to build this yourself!!! — There is [locize](/)!
 
 Watch the demo video to learn more:
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 [locize](/) removes the pain in the translation process. No more delays in shipping your software because of missing translations. Translators can keep up with changes from day one. The continuous localization process keeps up with your demanding business.
 

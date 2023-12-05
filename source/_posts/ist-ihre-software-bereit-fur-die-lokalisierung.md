@@ -142,6 +142,6 @@ Sie sollten den vollen Überblick darüber behalten, was übersetzt wird und was
 > Keine Sorge, [locize](https://locize.com) kann Sie dabei unterstützen!
 
 Sehen Sie sich das Demo-Video an, um mehr zu erfahren:
-{% youtube ds-yEEYP1Ks %}
+{% youtube TFV_vhJs5DY %}
 
 [locize](https://locize.com) beseitigt den Schmerz im Übersetzungsprozess. Keine Verzögerungen mehr beim Publizieren Ihrer Software aufgrund fehlender Übersetzungen. Übersetzer können vom ersten Tag an mit Änderungen Schritt halten. Der kontinuierliche Lokalisierungsprozess hält mit Ihrem anspruchsvollen Geschäft Schritt.

@@ -1311,7 +1311,7 @@ And in production environment, saveMissing and lastused are disabled, and also t
 
 *🧑‍💻 The complete code for this React example can be found [here](https://github.com/locize/react-i18next-example-app). And a TypeScript version [here](https://github.com/locize/react-i18next-example-app-ts).*
 
-*Check also the [code integration part](https://www.youtube.com/watch?v=ds-yEEYP1Ks&t=423s) in this [YouTube video](https://www.youtube.com/watch?v=ds-yEEYP1Ks).*
+*Check also the [code integration part](https://www.youtube.com/watch?v=TFV_vhJs5DY&t=294s) in this [YouTube video](https://www.youtube.com/watch?v=TFV_vhJs5DY).*
 
 There's also an [i18next crash course video](https://youtu.be/SA_9i4TtxLQ).
 {% youtube SA_9i4TtxLQ %}
