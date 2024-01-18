@@ -18,6 +18,9 @@ redirect_from:
 - /2021-04-14-how-to-internationalize-react-i18next
 - /how-to-internationalize-react-i18next
 
+# meta:
+#   - name="description";content="Integrate i18next seamlessly into your React applications. Follow this easily with this ✅ step-by-step guide."
+
 label: react-i18next
 lang: en
 ---
