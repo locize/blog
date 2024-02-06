@@ -24,7 +24,7 @@ thumbnail: i18next-in-react/react-i18next-approaches.jpg
 
 ![](react-i18next-approaches.jpg)
 
-In the dynamic realm of React.js-based projects, the implementation of i18next for internationalization isn't a one-size-fits-all endeavor. The versatile nature of React.js projects, coupled with diverse tech stacks and project types, gives rise to a spectrum of approaches for integrating i18next seamlessly. Understanding the nuances of these approaches is pivotal in crafting a tailored and efficient internationalization strategy for your specific project.
+In the dynamic realm of React.js-based projects, the implementation of [i18next](/i18next.html) for [internationalization](../what-is-i18n/) isn't a one-size-fits-all endeavor. The versatile nature of React.js projects, coupled with diverse tech stacks and project types, gives rise to a spectrum of approaches for integrating i18next seamlessly. Understanding the nuances of these approaches is pivotal in crafting a tailored and efficient internationalization strategy for your specific project.
 
 As we delve into the expansive world of i18next in React.js, this guide aims to unravel the intricacies of different implementation methods. Whether you're working on a standard React project, leveraging the power of Next.js, embracing the App Router paradigm, exploring Remix, or navigating the intricacies of Gatsby, we'll walk through each approach step-by-step. From plain React.js applications to the more complex structures of Next.js, Remix, and Gatsby, we'll explore how i18next can be harnessed to its full potential.
 
