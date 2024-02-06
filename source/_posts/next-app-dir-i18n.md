@@ -23,6 +23,7 @@ redirect_from:
 - /next-13-app-dir-i18n
 - /next-14-app-dir-i18n
 - /next-15-app-dir-i18n
+- /next-app-router-i18n
 ---
 
 ![](next-app-dir-i18n.jpg "locize © inweso GmbH")
@@ -730,7 +731,7 @@ The result should look like this:
 
 ![](result.gif)
 
-*🧑‍💻 The complete code of an example app can be found [here](https://github.com/i18next/next-app-dir-i18next-example).*
+*🧑‍💻 The complete code of an example app can be found [here](https://github.com/i18next/next-app-dir-i18next-example). And a TypeScript version [here](https://github.com/i18next/next-app-dir-i18next-example-ts).*
 
 
 ### 6. Bonus <a name="step-6"></a>

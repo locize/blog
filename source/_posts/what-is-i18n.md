@@ -134,10 +134,8 @@ Localization goes beyond pricing; it includes adapting products, marketing messa
 
 <div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
 <h3 style="color:orange;"> Grow global with locize</h3>
-We at locize are specialists to make your internationalization a success story.<br>
+We at locize are specialists to make your internationalization a success story.<br />
 ➡️ Check out the features of our <a href="https://locize.com/#features" title="localization management platform">localization management platform</a>
-
-
 </div>
 
 ### How are developers affected from it <a name="developers"></a>
