@@ -93,7 +93,7 @@ Machine translation would be the most cost-effective approach because it is virt
 
 As a developer, your primary focus should be on writing clean, functional code that delivers the desired features and functionality to your end users.
 
-It's important to remember that internationalization is an essential aspect of software development. By making your software accessible to a global audience, you can [reach new markets](../grow-online-business/) and [make your product more widely used](../scalable-localization-strategy/). But it's also important to stay focused on your main goals and not let translation issues distract you from delivering a quality product.
+It's important to remember that internationalization is an essential aspect of software development. By making your software accessible to a global audience, you can [reach new markets](../grow-online-business/) and [make your product more widely used](../localization-strategy/). But it's also important to stay focused on your main goals and not let translation issues distract you from delivering a quality product.
 
 To ensure that internationalization doesn't distract you from your primary goals, it's important to prioritize it in your development process. By making i18n a fundamental part of your software design, you can create a product that is easier to adapt to different languages and cultures. This can include everything from using a localization platform like [locize](/) to conducting thorough testing and [working closely with translation teams](https://docs.locize.com/guides-tips-and-tricks/working-with-translators).
 
