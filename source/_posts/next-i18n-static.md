@@ -1,6 +1,6 @@
 ---
-title: Static HTML Export with i18n compatibility in Next.js
-description: How to generate a static HTML export with i18n compatibility in Next.js.
+title: Next.js i18n-Compatible Static HTML Export
+description: Learn how to optimize Next.js static HTML export for internationalization (i18n) with step-by-step instructions and helpful tips. 
 
 date: 2021-12-07
 tags:

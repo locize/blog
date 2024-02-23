@@ -12,6 +12,9 @@ tags:
 
 thumbnail: what-is-i18n/what-is-i18n.webp
 
+redirect_from:
+- /i18n-missverstandnisse
+
 label: what-is-i18n
 lang: de
 hidden: true
@@ -31,25 +34,23 @@ Tatsächlich ist dies das gleiche Thema, das vielen unserer Kunden geholfen hat,
 </div>
 
 
-Also, **was genau ist i18n**?
-
-Im Wesentlichen ist die Bedeutung eine Abkürzung von Internationalisierung, um sie besser zu nutzen, während man kurze statt längere Wörter schreibt.
 
 ![i18n Begriff](../what-is-i18n/i18n-term.webp)
 
-Es gibt eine einfache Möglichkeit, alle Ihre Anforderungen an i18n in Bezug auf Software zu erfüllen.
+Es gibt einen einfachen Weg, alle Ihre Anforderungen an i18n in Bezug auf Software zu erfüllen.
 
-Der beste Teil?
+Und das Beste daran?
 
 Sie müssen keine grossen Investitionen in einen Technologie-Stack tätigen.
 
-Lässt uns beginnen.
+Lasst uns beginnen.
 
 
 ### Inhaltsverzeichnis
   * [Was ist internationalisierung](#intro)
   * [Wie die Industrie damit umgeht](#industry)
   * [Die verschiedenen Schritte bei der Internationalisierung](#fields)
+  * [Missverständnisse über i18n](#missverstaendnisse)
   * [Die Vorteile der i18n-Lokalisierung](#benefits)
   * [Wie sind Entwickler davon betroffen](#developers)
   * [Wie man den Erfolg misst](#measure)
@@ -106,6 +107,30 @@ Während des Prozesses kann ein i18n-Framework für die Vorbereitung Ihrer Softw
    <br><br>
    Dies ist ohne Zweifel ein sehr wichtiger Aspekt des i18n-Ansatzes. Ein Übersetzungsmarktplatz kann Ihnen dabei helfen, sehr schnell <a href="/services.html#translationservices" title="einen Übersetzer finden">einen Übersetzer zu finden</a>, und Ihr i18n wird weit effektiver sein.</p>
 </div>
+
+### Missverständnisse über i18n <a name="missverstaendnisse"></a>
+
+
+## Mythos 1: i18n ist nur für multinationale Unternehmen wichtig
+
+Viele Menschen glauben, dass i18n nur für grosse multinationale Unternehmen mit Kunden auf der ganzen Welt relevant ist. Dies könnte nicht weiter von der Wahrheit entfernt sein. In der heutigen globalisierten Welt können sogar kleine Unternehmen von i18n profitieren. Indem Sie Ihre Anwendung in mehreren Sprachen zur Verfügung stellen, können Sie Ihren Kundenstamm erweitern und Ihren Umsatz steigern. Wer würde das nicht wollen?
+
+## Mythos 2: i18n ist nur Übersetzung
+
+Ein weiteres häufiges Missverständnis über i18n ist, dass es nur darum geht, Text von einer Sprache in eine andere zu übersetzen. Tatsächlich ist i18n viel mehr als das. Dabei müssen Benutzeroberflächen, Datums- und Zeitformate und sogar kulturelle Normen wie Währungssymbole und Masseinheiten angepasst werden. Wenn Sie also dachten, bei i18n ginge es nur darum, Text durch [Google Translate](../google-translate-accuracy/) laufen zu lassen, denken Sie noch einmal darüber nach!
+
+## Mythos 3: i18n ist zu teuer und zeitaufwändig
+
+Einige Entwickler glauben, dass die Implementierung von i18n in ihrer Anwendung zu teuer und zeitaufwändig ist. Sicher, es kann im Vorfeld etwas zusätzlichen Aufwand erfordern, aber die Vorteile überwiegen die Kosten bei weitem. Indem Sie Ihre Anwendung Benutzern auf der ganzen Welt zur Verfügung stellen, können Sie neue Märkte erreichen und Ihre Gewinne steigern. Und mit [Übersetzungsmanagement-Software](../tms/)-Tools wie Locize war die Implementierung von i18n nie einfacher oder günstiger.
+
+## Mythos 4: i18n ist nur für bestimmte Branchen relevant
+
+Einige Leute glauben, dass i18n nur für bestimmte Branchen wie E-Commerce oder Reisen relevant ist. Dies könnte nicht weiter von der Wahrheit entfernt sein. Nahezu jede Art von Anwendung kann von i18n profitieren, von Social-Media-Plattformen bis hin zu Videospielen. Schliesslich verdient es jeder, eine Anwendung in seiner eigenen Sprache und gemäss seinen eigenen kulturellen Normen nutzen zu können. [Spielen Sie das Spiel](../ist-ihre-software-bereit-fur-die-lokalisierung/) und versuchen Sie, Ihre Anwendung bereit für die Lokalisierung zu machen!
+
+## Mythos 5: i18n ist nur für nicht-englische Sprachen relevant
+
+Schliesslich glauben einige Leute, dass i18n nur für nicht-englische Sprachen relevant sei. Tatsächlich ist i18n für englischsprachige Anwendungen genauso wichtig. Schliesslich ist Englisch nicht die Muttersprache aller, die es verwenden. Und verschiedene englischsprachige Länder haben ihre eigenen kulturellen Normen und sprachlichen Macken. Durch die Implementierung von i18n können Sie sicherstellen, dass Ihre Anwendung für alle englischsprachigen Benutzer zugänglich ist, unabhängig davon, woher sie kommen.
+
 
 ### Die Vorteile der i18n-Lokalisierung <a name="benefits"></a>
 Die Bereitstellung Ihrer digitalen Infrastruktur mit den geeigneten Technologien bietet zahlreiche Vorteile. Wenn Sie sich für den richtigen Partner entscheiden, können Sie umfassende Lokalisierungsautomatisierungslösungen bereitstellen, mit denen Sie die Lokalisierung in Ihren Continuous-Delivery-Workflow integrieren können.
@@ -191,15 +216,9 @@ Weitere Informationen finden Sie in der <a href="https://docs.locize.com/issues"
 ### Fazit <a name="conclusion"></a>
 Wie managen Sie die Internationalisierung Ihrer Anwendung?
 
-<b>In jedem Fall lassen Sie es uns wissen, indem Sie uns eine E-Mail an <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> schreiben oder uns ein Kommentar auf <a href="https://twitter.com/locize" title="twitter locize">twitter</a> oder <a href="https://www.facebook.com/locize" title= "facebook locize">facebook</a> teilen.</b>
+<b>Lassen Sie es uns wissen unter <a href="mailto:support@locize.com" title="support@locize.com">support@locize.com</a> oder hinterlassen Sie uns einen Kommentar auf <a href="https://twitter.com/locize" title="X">X</a> oder <a href="https://www.facebook.com/locize" title= "facebook locize">facebook</a> teilen.</b>
 
-Der Begriff "i18n" wird meist mit dem Softwaregeschäft in Verbindung gebracht.
-
-Es definiert die erforderlichen Entwicklungstätigkeiten, wenn ein Unternehmen in neue Länder oder Märkte expandiert.
-
-i18n bezieht sich auf ein komplettes Unternehmen, das geschaffen wurde, um die Bedürfnisse von Kunden zu erfüllen, die ihre Programme, Websites oder <a href="../what-is-video-game-localization/" title="video-games ">Videospiele</a>.
-
-Wenn Sie gerade erst anfangen und mehr darüber erfahren möchten, „was i18n ist“, können die folgenden Links hilfreich sein.
+Der Begriff "i18n" wird gemeinhin mit der Softwarebranche in Verbindung gebracht. Es handelt sich dabei um die operativen Verfahren, die erforderlich sind, wenn ein Unternehmen in neue Märkte oder Länder expandiert. i18n ist ein vollwertiger Industriezweig, der entstanden ist, um Kunden bei der Anpassung ihrer Software, Websites oder Videospiele zu unterstützen. Wenn Sie mehr über "Was ist i18n" erfahren möchten, können die folgenden Links hilfreich sein.
 
 
 ### Zusätzliche Links <a name="links"></a>

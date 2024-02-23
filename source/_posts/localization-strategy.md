@@ -9,6 +9,9 @@ tags:
   - transnational strategy
   - successful global localization 
 thumbnail: localization-strategy/localization-strategy-insights.webp
+
+redirect_from:
+- /scalable-localization-strategy
 ---
 
 <br/>
