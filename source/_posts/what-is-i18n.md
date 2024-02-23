@@ -12,6 +12,9 @@ tags:
 
 thumbnail: what-is-i18n/what-is-i18n.webp
 
+redirect_from:
+- /i18n-misconceptions
+
 label: what-is-i18n
 lang: en
 ---
