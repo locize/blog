@@ -1,5 +1,5 @@
 ---
-title: All side optimized Next.js translations (a next-i18next guide)
+title: Optimize Next.js translations (next-i18next guide)
 description: Optimize your Next.js app to best work with translations on server side and on client side with next-i18next.
 
 date: 2022-04-03
