@@ -10,14 +10,14 @@ tags:
   - Produktentwicklung
   - Diversifikation
 
-thumbnail: markterweiterung/markterweiterung.webp
+thumbnail: market-expansion/market-expansion-strategy.webp
 
 label: market-expansion
 lang: de
 hidden: true
 ---
 
-![markterweiterung](markterweiterung.webp)
+![markterweiterung](../market-expansion/market-expansion-strategy.webp)
 
 
 Eine Expansion kann viele Vorteile mit sich bringen. Schließlich zielt sie darauf ab, in einen neuen Markt vorzudringen oder eine neue Zielgruppe anzusprechen. Indem du deine unternehmerische Aktivität erweiterst, legst du das Fundament für nachhaltiges Wachstum und einen steigenden Absatz deiner Produkte oder Dienstleistungen. Bevor du allerdings mit deinem Projekt startest, bedarf es einer guten Vorbereitung. Und hier kommt die Market Expansion Strategy ins Spiel. Denn ohne wird es schwer, erfolgreich zu expandieren.
@@ -131,7 +131,7 @@ Wenn du dich zwischen den vier Market Expansion Strategy nicht entscheiden kanns
 ### Wie bei der Entwicklung einer Market Expansion Strategy vorgehen? <a name="howto"></a>
 Nun weißt du, was eine Market Expansion Strategy ist, kennst ihre Vorteile und ihre vier gängigen Modelle. Kommen wir jetzt zu einem der interessantesten Teile: Wie entwickelst du nun in der Praxis eine solche Strategie?
 
-![ziele setzen](../markterweiterung/SMART-ziele-definition.png)
+![ziele setzen](../market-expansion/SMART-goals-definition.png)
 
 ### 1. Schritt: Ziele definieren
 Vor dem Start deiner Marktexpansion solltest du klare, messbare und realistische Ziele festlegen. Alle Ziele sollten sich auf verschiedene Aspekte deiner Expansion beziehen, darunter Umsatz, Marktanteil, Kundenakquise und Markenbekanntheit. Gehe bei der Zielsetzung nach dem SMART-Prinzip vor.
