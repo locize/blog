@@ -95,7 +95,7 @@ Both the globalization or <a href="/blog/localization-strategy" title="localizat
 ### Pros and cons of globalization 
 Globalization is able to provide businesses with a wide range of benefits, helping them to reach a far greater audience. Not only can this help to increase revenue by expanding your customer base, but it is also able to significantly enhance your overall brand reputation and global image. This, in turn, can help to decrease dependence on a single market, ensuring your business is more resilient in the face of economic challenges.
 
-However, globalization can be a very time-consuming process and does require additional resources alongside the many challenges of expanding a business.
+However, globalization can be a very time-consuming process and does require additional resources alongside the many challenges of a <a href="/blog/market-expansion/" title="market expansion">market expansion</a>.
 
 ### Pros and cons of localization 
 If you are looking to enter specific new markets, then localization is essential in helping to facilitate this. It can help to create significant brand loyalty from customers, improving their overall experience with your company. By building loyal customers, you will be able to increase revenue and secure a more competitive advantage in that market.
