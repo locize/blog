@@ -1,6 +1,6 @@
 ---
 title: "Say Hello to CAT (Computer-Assisted Translation): The Personal Translator in Your Pocket"
-description: Discover the power of Computer-Assisted Translation Software (CAT) for professional translators and anyone in need of a helping hand with translations. CATs are like having a personal translator that remembers everything and can access a vast library of translations, making your work faster and more consistent.
+description: Learn how to ensure efficiency, accuracy, and overall quality in your translation work with  cat tools for translation.
 
 date: 2024-04-11
 tags:
