@@ -2,7 +2,7 @@
 title: "Say Hello to CAT (Computer-Assisted Translation): The Personal Translator in Your Pocket"
 description: Learn how to ensure efficiency, accuracy, and overall quality in your translation work with  cat tools for translation.
 
-date: 2024-04-11
+date: 2024-04-12
 tags:
   - localization
   - l10n
@@ -17,7 +17,7 @@ lang: en
 
 ![](title.jpg)
 
-Welcome to the world of CAT Tools, or Computer-Assisted Translation Software! 
+Welcome to the world of CAT Tools, or Computer-Assisted Translation Software!
 
 ### Table of contents
   * [What are CAT tools?](#what)
@@ -35,7 +35,7 @@ But what exactly is a [CAT](https://en.wikipedia.org/wiki/Computer-assisted_tran
 
 Now, I know what you might be thinking: "But wait, don't we already have [Google Translate](../google-translate-accuracy/)?" And yes, you're right! Google Translate is a great tool for quick and easy translations. But CATs are a bit different. Unlike typical web translators, CAT tools are significantly more robust and tailored specifically to meet the needs of professional translators and businesses, ensuring enhanced efficiency, accuracy, and overall quality in translations.
 
-{% youtube PtFEPtsmp-Y %}
+{% youtube l6NCrY2Ad9o %}
 
 ## What computer assisted translation tools can do? <a name="features"></a>
 
@@ -70,7 +70,7 @@ You can work effectively on a single namespace in a single language with the foc
 <br />
 
 ### In-Context View
-Your website, where the content is displayed, is always the best context. Thefefore there is also an [in-context view](https://docs.locize.com/different-views/incontext).<br /><br />
+Your website, where the content is displayed, is always the best context. Therefore there is also an [in-context view](https://docs.locize.com/different-views/incontext).<br /><br />
 ![](incontext.webp)
 
 ## Benefits of using CAT tools for translation <a name="benefits"></a>
@@ -93,7 +93,7 @@ When it comes to CAT instruments, precision and efficiency work together to prod
 
 
 ## TMS and CAT tools, what is different? <a name="tms"></a>
-TMS and CAT tools play distinct roles in translation workflows, with CAT often being a component of TMS. <a href="https://locize.com/blog/tms/" title="Translation management systems (TMS)">Translation management systems (TMS)</a> oversee project logistics, while Computer-Assisted Translation (CAT) tools provide specialized support to translators. CAT tools, commonly integrated within TMS platforms, offer features like translation memory and glossary management, enhancing efficiency and consistency in translation tasks.
+TMS and CAT tools play distinct roles in translation workflows, with CAT often being a component of TMS. <a href="../tms/" title="Translation management systems (TMS)">Translation management systems (TMS)</a> oversee project logistics, while Computer-Assisted Translation (CAT) tools provide specialized support to translators. CAT tools, commonly integrated within TMS platforms, offer features like translation memory and glossary management, enhancing efficiency and consistency in translation tasks.
 
 ## Choosing the right CAT tool: a buyer's guide <a name="choosing"></a>
 When selecting a Computer-Assisted Translation (CAT) tool, consider the following factors to ensure it aligns with your needs:
