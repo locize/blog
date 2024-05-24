@@ -21,7 +21,10 @@ redirect_from:
 
 label: next-i18n-static
 lang: en
+
+
 ---
+
 
 ![](title.jpg "Next.js SSG example")
 

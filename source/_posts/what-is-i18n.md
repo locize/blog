@@ -1,8 +1,8 @@
 ---
-title: What is i18n and what is its purpose (2024) | locize
+title: What is i18n and what is its purpose (2024)
 description: Everything you need to know about internationalization. An easy-to-understand guide of what i18n is and what it's used for.
 
-date: 2024-02-23
+date: 2024-05-24
 tags:
   - internationalization
   - i18n
@@ -14,6 +14,7 @@ thumbnail: what-is-i18n/what-is-i18n.webp
 
 redirect_from:
 - /i18n-misconceptions
+- /i18n-l10n-t9n-tms
 
 label: what-is-i18n
 lang: en
@@ -181,6 +182,106 @@ Following three main points with JavaScript are very well for localizing any app
 This guide of <a href="/javascript-localization.html" title="javascript localization">JavaScript localization</a> helps you find the right solution for your software-localization need with JavaScript. In this guide, you'll also find details on managing locales in applications using React, Vue, Angular, and other supported frameworks like Flutter and Rails, among others.  
 </div>
 
+
+
+![](puzzle.png "The key pieces to localize your software project")
+![](puzzle_specific.png "The key pieces to localize your software project")
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+  <h3 style="color:orange; margin-bottom: 0px;">More information</h3>
+  <p style="color:grey; margin-top: 5px;">In this guide we help you to understand i18n and <a href="../is-your-software-ready-for-localization/" title="Is your software ready for localization?">here you can check if your software is ready for localization</a>.</p>
+</div>
+
+To answer the questions about i18n, you will finally probably use a corresponding i18n framework that meets your needs.
+
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Advice</h3>
+  <p style="color:grey; margin-top: 5px;">When it comes to web localization, one of the most popular i18n frameworks is <a href="https://www.i18next.com" title="i18next - The best i18n frameworks for JavaScript">i18next</a>.
+  <br />
+  <a href="https://www.i18next.com" title="i18next - The best i18n frameworks for JavaScript">
+    <img src="i18next-logo.png" />
+  </a>
+  </p>
+</div>
+
+
+The biggest mistake one can do is looking on software localization as it’s only based on instrumenting your code and extract texts into resource files so you can translate them later.
+
+The requirements are clear: enable the application to be translated later but without time to think more about it. It ends with reaching the release day with an application ready to be published in one language.
+
+
+## t9n - translation <a name="t9n"></a>
+
+When the code is ready to be localized, someone needs to translate the content.
+
+You can have your translation done by freelancers, agencies or in-house employees. You can also start with some machine translation, but a translator should at least proofread the machine translated texts.
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Advice</h3>
+  <p style="color:grey; margin-top: 5px;">Use one of the <a href="/services.html#translationservices" title="Integrated professional translation partners">integrated services</a> to order the translations from a third party.
+  </p>
+</div>
+
+Text translations are just one element in the localization process. You may also think of images, documents that differs not only for different languages, but also for different countries or regions.
+
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Next Steps</h3>
+  <p style="color:grey; margin-top: 5px;">After having internationalized the code and knowing how the content is translated, how will these 2 parts interact with each other?
+  </p>
+</div>
+
+
+
+
+## What is Translation Management <a name="tms"></a>
+
+
+
+ Translation management is the systematic process and automation that manages translations and other digital assets, eliminating repetitive and laborious manual tasks while enabling progress overview and control, increasing collaboration and delivering greater efficiency.</p>
+
+
+### Is manually merging the translation files the best approach?
+
+Before release, the localization team will request resource files from the developer for translation. Despite knowing changes will occur before and after the release, the developer provides the files.
+
+Weeks later, translated files are returned, but many terms have changed or are new, leading to discrepancies. This situation highlights the need for effective translation management system.
+
+Exporting, importing, and merging files amidst ongoing content changes can be chaotic. 
+
+There it is good to choose a TMS that best fits your needs to streamline this process.
+
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+  <h3 style="color:orange; margin-bottom: 0px;">TMS with continuous localization</h3>
+  <p style="color:grey; margin-top: 5px;">Not every continuous localization offered by the various translation management systems is the same. Check out the main differences <a href="../modern-continuous-localization/" title="Continuous Localization vs. Continuous Localization">here</a>.</p>
+</div>
+
+New content in your application should instantly be available in your translation management tool, and finished translations should be integrated without developer intervention.
+
+Since software development is continuous, your localization process should match this pace. 
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+  <h3 style="color:orange; margin-bottom: 0px;">This is key</h3>
+  <p style="color:grey; margin-top: 5px;">Translation files should be deployable independently from the software, allowing updates and management without new releases.</p>
+</div>
+ 
+
+Maintain multiple translation versions: 
+- one for the current release and one for the development branch. 
+
+This enables translators to manage updates from day one and adapt to changes easily, allowing for translation updates without needing a new software release.
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Advice</h3>
+  <p style="color:grey; margin-top: 5px;">locize ends translation headaches. No more software delays due to missing translations. 
+  </p>
+  <p style="color:grey; margin-top: 5px;">Translators update from day one, seamlessly integrating changes. Continuous localization matches your development pace, with independent deployment and management of translation files.
+  </p>
+  <p style="color:grey; margin-top: 5px;">Maintain multiple versions for releases and development branches. locize ensures your localization process meets business demands effortlessly.
+  </p>
+</div>
 
 ### How to measure the success <a name="measure"></a>
 

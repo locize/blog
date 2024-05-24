@@ -1,5 +1,7 @@
 ---
-title: vue.js - from internationalization (i18n) to localization (l10n) and back again
+title: vue.js - from i18n to localization (l10n)
+description: "Explore how Vue.js supports global reach with i18n and adapts to local nuances through l10n."
+
 date: 2018-07-05
 tags:
   - vue

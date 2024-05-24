@@ -1,6 +1,6 @@
 ---
-title: Beste React Lokalisierung – Internationalisieren Sie mit i18next (ein vollständiger Leitfaden für react-i18next)
-description: Integrieren Sie i18next nahtlos in Ihre React-Anwendungen. Mit dieser ✅ Schritt-für-Schritt-Anleitung ist das ganz einfach.
+title: Beste React Lokalisierung, Leitfaden für react-i18next
+description: Integrieren Sie i18next nahtlos in Ihre React-Anwendungen. Mit dieser ✅ Schritt-für-Schritt-Anleitung.
 
 date: 2021-04-14
 tags:

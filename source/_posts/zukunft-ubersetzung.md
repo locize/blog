@@ -1,6 +1,6 @@
 ---
-title: "Sprachbarrieren überwinden: Ein Blick in die Zukunft der Übersetzung und Lokalisierung"
-description: Dieser Artikel untersucht die neuesten Technologien und Trends, welche die Übersetzungs- und Lokalisierungsbranche prägen. Der Artikel hebt die Bedeutung von neuronaler maschineller Übersetzung, Verarbeitung natürlicher Sprache, Multimedia-Lokalisierung und Crowdsourcing für effiziente und genaue Übersetzungen hervor.
+title: "Sprachbarrieren überwinden: Die Zukunft der Übersetzung"
+description: Dieser Artikel untersucht die neuesten Technologien und Trends, welche die Übersetzungs- und Lokalisierungsbranche prägen. 
 
 date: 2023-09-06
 tags:

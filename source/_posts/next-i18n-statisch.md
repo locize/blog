@@ -20,7 +20,10 @@ thumbnail: next-i18n-static/title.jpg
 label: next-i18n-static
 lang: de
 hidden: true
+
 ---
+
+<meta name="robots" content="noindex, nofollow">
 
 ![](../next-i18n-static/title.jpg "Next.js SSG Beispiel")
 

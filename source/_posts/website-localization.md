@@ -12,6 +12,10 @@ tags:
   - localization project
 thumbnail: website-localization/website-localization.webp
 
+
+redirect_from:
+- /tags/website-localization-techniques
+
 label: website-localization
 lang: en
 ---

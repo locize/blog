@@ -23,6 +23,7 @@ redirect_from:
 label: is-your-software-ready-for-localization
 lang: en
 ---
+<meta name="robots" content="noindex, nofollow">
 
 ![software ready for localization](title.png "locize © inweso GmbH")
 

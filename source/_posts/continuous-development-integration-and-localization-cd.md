@@ -1,10 +1,10 @@
 ---
-title: Continuous Development, Integration and Localization => Continuous Deployment
+title: Continuous Development, Integration and Localization
+description: "Discover the evolution from traditional to agile development with continuous integration and localization."
 
 date: 2016-10-05
 tags:
   - locize
-  - localization
   - l10n
   - internationalization
   - continuous development

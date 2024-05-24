@@ -1,5 +1,5 @@
 ---
-title: Beam your Svelte internationalization up to a new level❕ (a svelte-i18n guide)
+title: A svelte-i18n guide for internationalization
 description: Simple Svelte localization made easy with this ✅step-by-step guide using svelte-i18n.
 
 date: 2022-04-05
