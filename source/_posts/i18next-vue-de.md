@@ -19,7 +19,7 @@ label: i18next-vue
 lang: de
 hidden: true
 ---
-
+<meta name="robots" content="noindex, nofollow">
 ![Vue-Lokalisierung leicht gemacht dank dieser ✅ Schritt-für-Schritt-Anleitung mit i18next](../i18next-vue/vue-localization.jpg "Vue-Lokalisierungs-Beispiel")
 
 Da [Vue.js](https://vuejs.org/) ein zugängliches, leistungsfähiges und vielseitiges Framework zum Erstellen von Web-Benutzeroberflächen ist, benötigt es auch eine erstklassige Internationalisierungslösung.

@@ -1,6 +1,6 @@
 ---
-title: "KI in der Lokalisierung: ChatGPT entmystifizieren und die Dominanz der maschinellen Übersetzung feiern"
-description: "Erkunden Sie die dynamische Landschaft der KI in der Lokalisierung, während wir die Rolle von ChatGPT entlarven, die unübertroffene Effizienz der nahtlos in Übersetzungsmanagementsysteme integrierten maschinellen Übersetzung feiern und den zukünftigen Showdown zwischen den Branchenriesen Google und OpenAI vorwegnehmen."
+title: "KI in der Lokalisierung: ChatGPT entmystifizieren"
+description: "Erkunden Sie die Rolle der KI in der Lokalisierung, entlarven Sie die Funktion von ChatGPT, feiern Sie die Effizienz der maschinellen Übersetzung in Übersetzungsmanagementsystemen."
 
 date: 2024-01-08
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Uniting Swiss Excellence: Locize and Supertext Join Forces for Seamless Software Localization"
-description: "Swiss software localization pioneers Locize and Supertext form an unparalleled partnership, seamlessly integrating Supertext's expert translation services into the Locize platform, revolutionizing global expansion with precision and artistry."
+description: "Swiss localization pioneers Locize and Supertext partner to integrate Supertext's expert translation services into the Locize platform."
 
 date: 2023-08-25
 tags:

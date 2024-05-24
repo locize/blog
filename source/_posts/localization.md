@@ -1,5 +1,5 @@
 ---
-title: Localization concept - a guide to adaption | locize	
+title: Localization concept - a guide to adaption	
 description: How to adapt a product or service to meet the needs of a particular language, culture, or desired population's look-and-feel. 
 
 date: 2023-09-21
@@ -7,6 +7,9 @@ tags:
   - localization
   - l10n
 thumbnail: localization/localization.webp
+
+redirect_from:
+- /localization-for-business
 
 label: localization
 lang: en

@@ -2,7 +2,7 @@
 title: Was ist i18n und was ist sein Zweck (2024) | locize
 description: Alles, was Sie über ✪ Internationalisierung wissen müssen. Eine leicht verständliche Anleitung, was i18n ist und wofür es verwendet wird.
 
-date: 2023-09-29
+date: 2024-05-24
 tags:
   - internationalization
   - i18n
@@ -188,6 +188,88 @@ Die folgenden drei Hauptpunkte mit JavaScript eignen sich sehr gut für die Loka
 <h3 style="color:orange;">Finden Sie Ihren Weg zu i18n</h3>
 Dieser Leitfaden zur <a href="/javascript-localization.html" title="javascript localization">JavaScript-Lokalisierung</a> hilft Ihnen, die richtige Lösung für Ihre Softwarelokalisierungsanforderungen mit JavaScript zu finden. In diesem Handbuch finden Sie auch weitere Informationen darüber, wie Sie das Gebietsschema bei React-, Vue- oder Angular-Anwendungen oder mehr unterstützten Frameworks, z. Flutter, Rails und mehr.
 </div>
+
+
+locize beseitigt die Schmerzen im Übersetzungsprozess. Keine Verzögerungen bei der Softwareauslieferung mehr wegen fehlender Übersetzungen. Übersetzer können von Anfang an Änderungen nachverfolgen und nahtlos in das Übersetzungsmanagement-Tool integrieren. Der kontinuierliche Lokalisierungsprozess hält Schritt mit der Softwareentwicklung und ermöglicht eine unabhängige Bereitstellung und Verwaltung von Übersetzungsdateien. Mit locize können Sie mehrere Übersetzungsversionen für aktuelle Releases und Entwicklungszweige pflegen, Updates ohne neue Software-Releases durchführen und sicherstellen, dass Ihr Lokalisierungsprozess den Anforderungen Ihres Unternehmens gerecht wird.
+
+
+
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+  <h3 style="color:orange; margin-bottom: 0px;">Mehr Informationen</h3>
+  <p style="color:grey; margin-top: 5px;">In diesem Leitfaden helfen wir Ihnen, i18n zu verstehen und <a href="../is-your-software-ready-for-localization/" title="Ist Ihre Software bereit für die Lokalisierung?">hier können Sie überprüfen, ob Ihre Software bereit für die Lokalisierung ist</a>.</p>
+</div>
+Um Fragen zu i18n zu beantworten, werden Sie wahrscheinlich ein entsprechendes i18n-Framework verwenden, das Ihren Bedürfnissen entspricht.
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Ratschlag</h3>
+  <p style="color:grey; margin-top: 5px;">Eines der beliebtesten i18n-Frameworks für die Web-Lokalisierung ist <a href="https://www.i18next.com" title="i18next - Die besten i18n-Frameworks für JavaScript">i18next</a>.
+  <br />
+  <a href="https://www.i18next.com" title="i18next - Die besten i18n-Frameworks für JavaScript">
+    <img src="i18next-logo.png" />
+  </a>
+  </p>
+</div>
+Der größte Fehler ist, Software-Lokalisierung nur auf das Instrumentieren Ihres Codes und das Extrahieren von Texten in Ressourcen-Dateien zu beschränken, um sie später zu übersetzen.
+
+Die Anforderungen sind klar: die Anwendung soll später übersetzt werden können, ohne darüber weiter nachzudenken. Das führt dazu, dass die Anwendung am Veröffentlichungstag bereit ist, in einer Sprache veröffentlicht zu werden.
+
+t9n - Übersetzung <a name="t9n"></a>
+Wenn der Code bereit zur Lokalisierung ist, muss jemand den Inhalt übersetzen.
+
+Sie können Ihre Übersetzungen von Freiberuflern, Agenturen oder internen Mitarbeitern durchführen lassen. Sie können auch mit maschinellen Übersetzungen beginnen, aber ein Übersetzer sollte die maschinell übersetzten Texte zumindest Korrektur lesen.
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Ratschlag</h3>
+  <p style="color:grey; margin-top: 5px;">Nutzen Sie einen der <a href="/services.html#translationservices" title="Integrierte professionelle Übersetzungsdienste">integrierten Dienste</a>, um die Übersetzungen von Dritten zu bestellen.
+  </p>
+</div>
+Textübersetzungen sind nur ein Element im Lokalisierungsprozess. Denken Sie auch an Bilder und Dokumente, die sich nicht nur für verschiedene Sprachen, sondern auch für verschiedene Länder oder Regionen unterscheiden können.
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Nächste Schritte</h3>
+  <p style="color:grey; margin-top: 5px;">Nach der Internationalisierung des Codes und dem Wissen, wie der Inhalt übersetzt wird, wie werden diese beiden Teile miteinander interagieren?
+  </p>
+</div>
+Was ist Translation Management? <a name="tms"></a>
+Translation Management ist der systematische Prozess und die Automatisierung, die Übersetzungen und andere digitale Assets verwaltet. Es eliminiert wiederholte und mühsame manuelle Aufgaben, ermöglicht Fortschrittsübersicht und Kontrolle, erhöht die Zusammenarbeit und steigert die Effizienz.
+
+Ist das manuelle Zusammenführen der Übersetzungsdateien der beste Ansatz?
+Vor der Veröffentlichung wird das Lokalisierungsteam vom Entwickler die Ressourcendateien zur Übersetzung anfordern. Trotz des Wissens, dass vor und nach der Veröffentlichung Änderungen auftreten werden, liefert der Entwickler die Dateien.
+
+Wochen später werden die übersetzten Dateien zurückgegeben, aber viele Begriffe haben sich geändert oder sind neu, was zu Diskrepanzen führt. Diese Situation unterstreicht die Notwendigkeit eines effektiven Übersetzungsmanagementsystems.
+
+Das Exportieren, Importieren und Zusammenführen von Dateien bei laufenden Inhaltsänderungen kann chaotisch sein.
+
+Deshalb ist es gut, ein TMS auszuwählen, das Ihren Bedürfnissen entspricht, um diesen Prozess zu optimieren.
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+  <h3 style="color:orange; margin-bottom: 0px;">TMS mit kontinuierlicher Lokalisierung</h3>
+  <p style="color:grey; margin-top: 5px;">Nicht jede kontinuierliche Lokalisierung, die von den verschiedenen Übersetzungsmanagementsystemen angeboten wird, ist gleich. Überprüfen Sie die Hauptunterschiede <a href="../modern-continuous-localization/" title="Kontinuierliche Lokalisierung vs. Kontinuierliche Lokalisierung">hier</a>.</p>
+</div>
+Neuer Inhalt in Ihrer Anwendung sollte sofort in Ihrem Übersetzungsmanagement-Tool verfügbar sein, und fertiggestellte Übersetzungen sollten ohne Entwicklerintervention integriert werden.
+
+Da die Softwareentwicklung kontinuierlich ist, sollte Ihr Lokalisierungsprozess dieses Tempo beibehalten.
+
+<div style="border-left: 0.5px solid orange;padding: 0.5rem 2rem">
+  <h3 style="color:orange; margin-bottom: 0px;">Das ist entscheidend</h3>
+  <p style="color:grey; margin-top: 5px;">Übersetzungsdateien sollten unabhängig von der Software bereitgestellt werden können, um Updates und Verwaltung ohne neue Releases zu ermöglichen.</p>
+</div>
+Pflegen Sie mehrere Übersetzungsversionen:
+
+eine für die aktuelle Version und eine für den Entwicklungszweig.
+Dies ermöglicht es den Übersetzern, Änderungen von Anfang an zu verwalten und sich leicht anzupassen, sodass Übersetzungsupdates ohne neue Software-Releases möglich sind.
+
+<div style="border-left: 0.5px solid limegreen;padding: 0.5rem 2rem">
+  <h3 style="color:limegreen; margin-bottom: 0px;">Ratschlag</h3>
+  <p style="color:grey; margin-top: 5px;">locize beseitigt Übersetzungsprobleme. Keine Software-Verzögerungen mehr wegen fehlender Übersetzungen.
+  </p>
+  <p style="color:grey; margin-top: 5px;">Übersetzer aktualisieren von Anfang an und integrieren Änderungen nahtlos. Kontinuierliche Lokalisierung entspricht Ihrem Entwicklungstempo, mit unabhängiger Bereitstellung und Verwaltung von Übersetzungsdateien.
+  </p>
+  <p style="color:grey; margin-top: 5px;">Pflegen Sie mehrere Versionen für Releases und Entwicklungszweige. locize stellt sicher, dass Ihr Lokalisierungsprozess mühelos den Anforderungen Ihres Unternehmens entspricht.
+  </p>
+</div>
+
 
 
 ### Wie man den Erfolg misst <a name="measure"></a>

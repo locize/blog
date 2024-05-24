@@ -24,7 +24,7 @@ label: is-your-software-ready-for-localization
 lang: de
 hidden: true
 ---
-
+<meta name="robots" content="noindex, nofollow">
 ![Software bereit für die Lokalisierung](../is-your-software-ready-for-localization/title.png "locize © inweso GmbH")
 
 > Sie möchten also, dass Menschen auf der ganzen Welt Ihre Software verwenden und verstehen...

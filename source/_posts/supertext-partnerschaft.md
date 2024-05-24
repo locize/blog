@@ -1,6 +1,6 @@
 ---
 title: "Vereinigung von Schweizer Exzellenz: Locize und Supertext bündeln ihre Kräfte für nahtlose Softwarelokalisierung"
-description: "Die Schweizer Softwarelokalisierungs-Pioniere Locize und Supertext gehen eine beispiellose Partnerschaft ein. Die fachkundigen Übersetzungsdienste von Supertext werden nahtlos in die Locize-Plattform integriert und revolutionieren die globale Expansion mit Präzision und Kunstfertigkeit."
+description: "Die Schweizer Lokalisierungspioniere Locize und Supertext gehen eine Partnerschaft ein und integrieren Supertexts professionelle Übersetzungsdienste nahtlos in die Locize-Plattform"
 
 date: 2023-08-25
 tags:

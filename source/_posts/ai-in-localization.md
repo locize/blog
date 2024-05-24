@@ -1,6 +1,6 @@
 ---
-title: "AI in Localization: Demystifying ChatGPT and Celebrating the Dominance of Machine Translation"
-description: "Explore the dynamic landscape of AI in localization as we debunk the role of ChatGPT, celebrating the unmatched efficiency of Machine Translation seamlessly integrated into Translation Management Systems, and anticipate the future showdown between industry giants Google and OpenAI."
+title: "AI in Localization: ChatGPT vs Machine Translation"
+description: "Explore AI in localization as we debunk ChatGPT's role, celebrate Machine Translation's efficiency in Translation Management Systems."
 
 date: 2024-01-08
 tags:

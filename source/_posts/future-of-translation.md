@@ -1,6 +1,6 @@
 ---
-title: "Breaking Down Language Barriers: A Look into the Future of Translation and Localization"
-description: This article explores the latest technology and trend that are shaping the industry of translation and localization. The article highlights the importance of neural machine translation, natural language processing, multimedia localization, and crowdsourcing for efficient and accurate translations.
+title: "A Look into the Future of Translation and Localization"
+description: This article explores the latest technology and trend that are shaping the industry of translation and localization. 
 
 date: 2023-09-06
 tags:

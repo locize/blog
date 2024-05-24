@@ -12,6 +12,10 @@ tags:
 
 thumbnail: market-expansion/market-expansion-strategies.webp
 
+redirect_from:
+- /grow-online-business
+
+
 label: market-expansion
 lang: en
 ---
@@ -45,7 +49,60 @@ Overall, market expansion strategies are actually your maps that show you the wa
 
 
 ## Why consider market expansion? <a name="why"></a>
-There are various reasons why a company decides to expand its market. One of the most frequently mentioned is increasing sales. Especially if your own market is saturated, it is worth thinking outside the box and expanding into a target market where demand and, as a result, sales potential are still high.
+There are various reasons why a company decides to expand its market. One of the most frequently mentioned is increasing sales. 
+
+Especially if your own market is saturated, it is worth thinking outside the box and expanding into a target market where demand and, as a result, sales potential are still high.
+
+Usually, a business starts in a specific region or offers everything in English.
+<br />
+So basically, it starts with one language only.
+
+Now think about offering your content in other languages, starting with your website.
+<br /><br />
+<b>Do you think this is not relevant?</b>
+<br /><br />
+Ok, then consider [this article](https://insights.csa-research.com/reportaction/305013126/Marketing). 
+
+According to it, 40% of consumers say they will never purchase from a website not in their native language. 
+
+While 75% say they are more likely to use a business again if aftersales care is in their native language.
+
+Effective localization ensures your product meets the needs of your demographics and helps you reach new audiences.
+
+With nearly five billion smartphone users globally, the localization of apps and websites ensures customers can enjoy your product wherever they are.
+
+You won't add or change any features. You simply offer what you have in a few more languages.
+
+Here are the top 10 most spoken languages in the world:
+
+1. Chinese — 1.3 Billion Native Speakers
+2. Spanish — 471 Million Native Speakers
+3. English — 370 Million Native Speakers
+4. Hindi — 342 Million Native Speakers
+5. Arabic — 315 Million Native Speakers
+6. Portuguese — 232 Million Native Speakers
+7. Bengali — 229 Million Native Speakers
+8. Russian — 154 Million Native Speakers
+9. Japanese — 126 Million Native Speakers
+10. Lahnda (Western Punjabi) — 118 Million Native Speakers
+
+
+When we count the top 10 most spoken languages according to the total number of people who speak them (whether or not the language is their mother tongue), it looks slightly different:
+1. English — 1.348 billion total speakers
+2. Mandarin Chinese — 1.120 billion total speakers
+3. Hindi — 600 million total speakers
+4. Spanish — 543 million total speakers
+5. Standard Arabic — 274 million total speakers
+6. Bengali — 268 million total speakers
+7. French — 267 million total speakers
+8. Russian — 258 million total speakers
+9. Portuguese — 258 million total speakers
+10. Urdu — 230 million total speakers
+
+A little mind experiment: What if you offered your website and product in Chinese, Hindi, and Spanish, besides English?
+
+<b>You would target an additional audience of 2.266 billion speakers.
+This makes a potential growth of 268%!</b>
 
 With a market expansion strategy in hand, diversification always goes hand in hand. This gives you the significant advantage of spreading the risk that you have when you only depend on one market. Even in the face of fluctuations in the economy, political events or the unforeseeable, your company remains much more robust.
 
