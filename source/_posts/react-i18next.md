@@ -846,7 +846,7 @@ export default function WrappedApp() {
 Now your app looks still the same, but your translations are separated.
 If you want to support a new language, you just create a new folder and a new translation json file.
 This gives you the possibility to send the translations to some translators.
-Or if you're working with a translation management system you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
+Or if you're working with a <a href="../tms/" title="translation management systems">translation management system</a> you can just [synchronize the files with a cli](https://github.com/locize/react-tutorial#use-the-locize-cli).
 
 
 *🧑‍💻 The code of this first part can be found [here](https://github.com/locize/react-i18next-example-app/tree/i18next).*
