@@ -8,6 +8,7 @@ tags:
   - internationalization
   - globalisation
   - process
+  - language localization
 thumbnail: language-localization/language-localization.webp
 
 label: language-localization
@@ -28,7 +29,7 @@ Many people believe that language localization and translation are interchangeab
 For example, while English might be spoken by one in four people across the globe, there are very distinctive differences between British and American English. Understanding these nuances is essential in building a strong relationship with your customers. Equally, perhaps you are looking to transfer your Spanish-language video game to a wider audience in another language. While translating the voiceovers is essential, there are also various cultural references and idioms that will need to be adapted. 
 
 ## Why is language localization important?
-For any business or organization looking to work globally, language localization is essential in helping them to break into new markets. In the highly competitive world that we live in, it is vital that you are able to effectively communicate with your target audience in terms of language and cultural norms. 
+For any business or organization looking to work globally, language localization is essential in helping them to <a href="/blog/market-expansion/" title="market expansion strategy">break into new markets</a>. In the highly competitive world that we live in, it is vital that you are able to effectively communicate with your target audience in terms of language and cultural norms. 
   
 Language localization will help to ensure that your brand feels completely natural to your audience. When consumers feel like they are working with a brand that understands them and is talking to them directly, they are far more likely to engage with them and utilize their services. In turn, this will help you to increase your reach and boost your sales.
 

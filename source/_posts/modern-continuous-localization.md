@@ -69,7 +69,7 @@ You should be able to deploy your translation files separated from your software
 
 The process could look like this:
 
-1. The developers work as usual on their features and create strings on-the-fly. Those new keys get's automatically pushed as missing strings to the translation management system (TMS).
+1. The developers work as usual on their features and create strings on-the-fly. Those new keys get's automatically pushed as missing strings to the <a href="../tms/" title="translation management systems">translation management system</a>.
 2. The translators work on new translations and can instantaneously validate the translations.
 3. Since translations are "connected" directly to your software product, they can be released at any time. This way you can also fix translations of your previously released product, without having to redeploy it.
 

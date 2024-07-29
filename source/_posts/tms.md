@@ -111,7 +111,7 @@ The control center of our <a href="/" title="localization software">localization
 
 With this capability, the TMS attempts to entirely automate the translation process. Traditionally, an application program interface (API) is used to connect translated texts to an engine that handles the translation automatically. 
 
-Because the results from artificial intelligence are typically not 100% fine, a translator is frequently needed to evaluate the auto translation output.
+Because the results from artificial intelligence are typically not 100% fine, a translator is frequently needed to evaluate the auto translation output. Read more in the <a href="/blog/ai-in-localization" title="AI in Localization">AI in Localization</a> article. 
 
 For locize, the entire automatic machine translation process occurs in the backend, which means you'll see the translated result after saving the new keys in reference language.
 
