@@ -163,7 +163,7 @@ The next decision is whether it is right for you. If your software targets a spe
 
 However, if you are looking to expand into wider communities or give yourself the opportunity to do that at a later date, then it is something you should consider. Even if you are not considering an international move just yet, you should prepare as much as you can during the development stage.
 
-The industry you work in should also be a major consideration. <b>Software localization should be a major consideration</b> for those working in the e-commerce, legal, or governmental sectors. Of course, it is not just limited to these sectors, so make sure you consider both your current and future requirements when deciding if you need l10n.
+The industry you work in should also be a major consideration. <b>Software localization should be a major consideration</b> for those working in the e-commerce, legal, or governmental sectors. Of course, it is not just limited to these sectors, so make sure you consider both your current and future requirements when deciding if you need <a href="/blog/l10n/" titel="l10n">l10n</a>.
 
 In this technology-driven world, globalization means seeing an increasing number of organizations and companies working beyond their traditional localities. Software localization is crucial in helping you to successfully expand your business to other countries, allowing you to maximize your sales, boost your profits, and stand out from the crowd.
 
