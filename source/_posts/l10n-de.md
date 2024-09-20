@@ -8,20 +8,20 @@ tags:
   - Internationalisierung
   - Globalisierung
   - Softwareentwicklung  
-thumbnail: l10n/l10n-intro.webp  
+thumbnail: l10n/l10n-definition.webp  
 
 label: l10n  
 lang: de  
 hidden: true  
 ---
 
-![L10n Lokalisierung](l10n-lokalisierung.webp)
+![L10n Lokalisierung](../l10n/l10n-definition.webp)
 
 ## L10n – Was Du Wissen Musst
 
 Vielleicht bist du auf die Begriffe L10n und i18n gestossen und fragst dich, was sie bedeuten. 
 
-Diese Abkürzungen stehen für Lokalisierung (L10n) und <a href="/blog/what-is-i18n" title="Internationalisierung (i18n)">Internationalisierung (i18n)</a> im Kontext der Softwareentwicklung. 
+Diese Abkürzungen stehen für Lokalisierung (L10n) und <a href="../was-ist-i18n" title="Internationalisierung (i18n)">Internationalisierung (i18n)</a> im Kontext der Softwareentwicklung. 
 
 Sie sind entscheidend, wenn du planst, deine Produkte oder Dienstleistungen in mehreren Ländern anzubieten, da sie sicherstellen, dass deine Angebote sprachlich und kulturell an die jeweiligen Märkte angepasst sind.
 
@@ -37,7 +37,7 @@ Hier steht allerdings nicht die reine Übersetzung von Texten im Vordergrund, so
 
 L10n und damit die Lokalisierung sind wesentliche Bestandteile der Globalisierung, da sie es dir und deinem Unternehmen ermöglichen, ein internationales Publikum zu erreichen, indem du die Benutzererfahrung maximierst. 
 
-![](mann-arbeitet-an-l10n.webp "Mann arbeitet an l10n mit Locize")
+![](../l10n/guy-working-on-localization-l10n.webp "Mann arbeitet an l10n mit Locize")
 
 ### Ein Beispiel: 
 

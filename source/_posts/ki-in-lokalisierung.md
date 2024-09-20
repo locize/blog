@@ -11,14 +11,14 @@ tags:
   - machine translation
   - international strategy
 
-thumbnail: ki-in-localization/ai-in-localization.webp
+thumbnail: ai-in-localization/ai-in-localization.webp
 
 label: ai-in-localization
 lang: de
 hidden: true
 ---
 
-![KI in Localization](ai-in-localization.webp)
+![KI in Localization](../ai-in-localization/ai-in-localization.webp)
 
 Die KI in Lokalisierung hat weltweit grosse Auswirkungen auf Marken, indem sie ermöglicht, mit der Übersetzung in nur zehn Sprachen 90 % des Zielmarktes zu erreichen. 
 
@@ -71,7 +71,7 @@ Bei Anforderungen an Präzision, Genauigkeit und domänenspezifisches Fachwissen
 ➡️ [Kostenlos ein neues Benutzerkonto erstellen und sofort mit KI-Lokalisierung starten](https://www.locize.app/register)
 
 
-![chatgpt](chatgpt-debunked.jpg)
+![chatgpt](../ai-in-localization/chatgpt-debunked.jpg)
 
 ## Welche Rolle nimmt KI in der Lokalisierung ein?
 KI-gesteuerte Tools revolutionieren das Management von Lokalisierungsprojekten durch Automatisierung repetitiver Aufgaben, Optimierung von Arbeitsabläufen und Bereitstellung prädiktiver Analysen zur Verbesserung der Entscheidungsfindung. 
