@@ -16,11 +16,11 @@ lang: de
 hidden: true
 ---
 
-![Enterprise Translation Management System](../enterprise-translation-management-system/enterprise-translation-management-system.webp)
+![Enterprise Translation Management System / Übersetzungsmanagementsystem für Unternehmen](../enterprise-translation-management-system/enterprise-translation-management-system.webp)
 
 ## Enterprise Translation Management System
 
-Mit einem Enterprise Translation Management System lassen sich Übersetzungsprozesse für Produktinformationen automatisieren, wodurch mühsame manuelle und wiederkehrende Aufgaben entfallen. 
+Mit einem Enterprise Translation Management System (Übersetzungsmanagementsystem für Unternehmen) lassen sich Übersetzungsprozesse für Produktinformationen automatisieren, wodurch mühsame manuelle und wiederkehrende Aufgaben entfallen. 
 
 Ein Enterprise Translation Management System schafft dir eine umfassende Möglichkeit, deine Übersetzungsprozesse zu steuern, was wiederum eine engere Zusammenarbeit im Team und eine deutliche Steigerung der Effizienz gewährleistet. 
 
