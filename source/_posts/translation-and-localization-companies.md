@@ -15,7 +15,7 @@ lang: en
 hidden: false
 ---
 
-![Translation and Localization Companies](../translation-and-localization-companies/translation_and_localization_companies.webp)
+![Translation and Localization Companies](translation_and_localization_companies.webp)
 
 ## How to Find the Best Translation Agency – and What Most People Overlook
 
@@ -85,57 +85,57 @@ Yes, finding the right Translation and Localization Companies requires some effo
 Did you know there are around 18,000 Translation and Localization Companies worldwide? To help keep track, some consumer associations and independent market research firms evaluate Translation and Localization Companies. Below, we have compiled the top five translation and localization providers worldwide along with other recommended options.
 
 ### 1. **Supertext**  
-![Supertext](../translation-and-localization-companies/supertext.webp)
+![Supertext](supertext.webp)
    - Top-class localization solutions, Swiss made since 2005.
    - Price: $0.16 - $0.24 per word.
    - Over 3,000 professional translators and copywriters, ideal for app developers and SaaS companies.
    - Local teams in Zurich, Berlin, and Los Angeles support projects every step of the way.
 
 ### 2. **TextMaster**  
-![TextMaster](../translation-and-localization-companies/textmaster.webp)
+![TextMaster](textmaster.webp)
    - SaaS translation service suitable for simple web content to complex documents.
    - Price: $0.066 - $0.132 per word.
    - Offers specialized translations, including financial, technical, and legal.
 
 ### 3. **BLEND**  
-![BLEND](../translation-and-localization-companies/blend.webp)
+![BLEND](blend.webp)
    - End-to-end localization solutions focused on cultural nuances and consumer behavior.
    - Price: $0.079 - $0.139 per word.
    - A global community of over 25,000 translators and language experts.
    - BLEND Express as a self-service platform for personal and business projects.
 
 ### 4. **Translated**  
-![Translated](../translation-and-localization-companies/translated.webp)
+![Translated](translated.webp)
    - Professional language solutions with a mix of human expertise and AI.
    - Pricing varies based on contract.
    - Supports over 200 languages and serves various industries, including legal, <a href="https://locize.com/blog/localization-marketing/" title="marketing localization">marketing</a>, and technical.
 
 ### 5. **TransPerfect**  
-![TransPerfect](../translation-and-localization-companies/transperfect.webp)
+![TransPerfect](transperfect.webp)
    - Global company with over 5,000 experts and offices in more than 90 countries.
    - Supports over 170 languages with specialized services such as website and <a href="https://locize.com/blog/what-is-software-localization/" title="software localization">software localization</a>.
    - Utilizes the <a href="https://locize.com/blog/tms/" title="Translation Management System">Translation Management System</a> and GlobalLink to improve quality and efficiency.
 
 ### 6. **LanguageLine Solutions**  
-![LanguageLine Solutions](../translation-and-localization-companies/language-solutions.webp)
+![LanguageLine Solutions](language-solutions.webp)
    - Leader in healthcare, covering over 160 languages.
    - Provides specialized language services in digital and print formats.
    - Continuously expanding into new sectors like gaming and media localization.
 
 ### 7. **RWS**  
-![RWS](../translation-and-localization-companies/rws.webp)
+![RWS](rws.webp)
    - Over 60 years of experience in translation and localization.
    - Focused on advanced technology and a global team, especially in tech, pharma, and automotive industries.
    - Over 3,000 employees and 35 offices worldwide.
 
 ### 8. **Keywords Studios**  
-![Keywords Studios](../translation-and-localization-companies/keyword-studios.webp)
+![Keywords Studios](keyword-studios.webp)
    - Focused on gaming and multimedia localization.
    - Offers a range of services: website, software, and <a href="https://locize.com/blog/what-is-mobile-app-localization/" title="app localization">app localization</a>, content creation, voice-over, and subtitling.
    - Supports machine translation (MT) via the KantanMT platform.
 
 ### 9. **LionBridge Technologies LLC**  
-![Lionbridge](../translation-and-localization-companies/lionbridge.webp)
+![Lionbridge](lionbridge.webp)
    - Global language services for businesses and individuals.
    - Services include technical writing, multimedia localization, and creative transcreation.
    - Uses modern translation management systems based on AI and machine learning.
