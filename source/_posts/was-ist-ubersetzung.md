@@ -21,7 +21,7 @@ hidden: true
 
 In einer global vernetzten Welt wird kulturelle Kommunikation zu einem strategischen Erfolgsfaktor für Unternehmen, die weltweit agieren. Während es unzählige Methoden zur Übersetzung gibt, bleibt das zentrale Ziel stets, Inhalte präzise und ansprechend an die Zielgruppe zu vermitteln. 
 
-Übersetzungen sollten daher als integraler Bestandteil einer umfassenden <a href="https://locize.com/blog/localization-strategy/" title="localization strategy">Lokalisierungsstrategie</a> betrachtet werden und nicht als isolierter Prozess.
+Übersetzungen sollten daher als integraler Bestandteil einer umfassenden <a href="../localization-strategy/" title="localization strategy">Lokalisierungsstrategie</a> betrachtet werden und nicht als isolierter Prozess.
 Was aber sind Übersetzungen genau, welche Arten gibt es und welche Faktoren sind bei der Localization Translation wichtig?
 
 
@@ -62,7 +62,7 @@ Hierbei handelt es sich um die Übersetzung von Büchern, Gedichten und anderen 
 Ob Verträge, Urkunden, Patente und andere rechtliche Dokumente, juristische Übersetzungen stellen hohe Anforderungen an den Übersetzer. Da diese bindend sind, müssen sie genau sein und den rechtlichen Standards beider Länder entsprechen. Eine weitere Untergruppe des Spezialbereichs sind Übersetzungen von Gerichts- und Rechtsdokumentation. Haftbefehle, Registrierungen, Bescheinigungen, Erklärungen, eidesstattliche Erklärungen, Patente, Marken, Verfahren, Prozesse, Dekrete, Verträge und Versicherungspolicen sind nur einige Beispiele für rechtliche Dokumente, die übersetzt werden müssen.
 
 ### Marketing- und Werbeübersetzung
-Im <a href="https://locize.com/blog/localization-marketing/" title=" marketing localization">Marketing</a> ist oft eine kreative Übersetzung gefragt, bei der die Botschaft an die kulturellen und emotionalen Erwartungen der Zielgruppe angepasst wird. Die Übersetzung soll das gleiche Gefühl und die gleiche Wirkung erzielen wie im Original.
+Im <a href="../localization-marketing/" title=" marketing localization">Marketing</a> ist oft eine kreative Übersetzung gefragt, bei der die Botschaft an die kulturellen und emotionalen Erwartungen der Zielgruppe angepasst wird. Die Übersetzung soll das gleiche Gefühl und die gleiche Wirkung erzielen wie im Original.
 
 ### Medizinische Übersetzung
 Die medizinische Übersetzung unterliegt strengen Vorgaben und umfasst Protokolle klinischer Studien, Patienteninformationen, regulatorische Dokumente und andere kritische Texte. Aufgrund potenzieller lebenswichtiger Konsequenzen erfordert diese Art der Übersetzung spezialisierte Fachkenntnisse, höchste Präzision und ein besonderes Augenmerk auf Details.
@@ -102,7 +102,7 @@ Greifen wir einmal die Localization Translation auf und schauen uns diese Übers
 Localization Translations lassen sich durch die Kombination von Strategien und Technologien umsetzen, die zusammen gewährleisten, dass die Inhalte korrekt und kulturell angemessen in die Zielsprachen übertragen werden.
 Der erste Schritt besteht in der Findung und Auswahl professioneller Übersetzer oder spezialisierter Übersetzungsagenturen, die über das nötige Fachwissen und Verständnis für die Zielkultur verfügen. Die Experten erstellen im Anschluss eine erste Übersetzung.
 
-Zur Effizienzsteigerung kommen meist moderne Übersetzungstools wie <a href="https://locize.com/blog/tms/" title="what is a translation management system">Translation-Management-Systeme</a> zum Einsatz, die bereits übersetzte Segmente speichern und bei Bedarf wiederverwenden. So bleibt die Konsistenz erhalten und der Übersetzungsprozess lässt sich erheblich beschleunigen. Zu den weiteren Kernwerkzeugen gehören CAT-Tools (computergestützte Übersetzung), die den Übersetzern durch Automatisierung helfen, die Inhalte noch präziser zu übersetzen.
+Zur Effizienzsteigerung kommen meist moderne Übersetzungstools wie <a href="../tms/" title="what is a translation management system">Translation-Management-Systeme</a> zum Einsatz, die bereits übersetzte Segmente speichern und bei Bedarf wiederverwenden. So bleibt die Konsistenz erhalten und der Übersetzungsprozess lässt sich erheblich beschleunigen. Zu den weiteren Kernwerkzeugen gehören CAT-Tools (computergestützte Übersetzung), die den Übersetzern durch Automatisierung helfen, die Inhalte noch präziser zu übersetzen.
 Wesentliche Funktionen umfassen bei CAT-Tools:
 - Übersetzungsspeicher: Speichert Segmente für konsistente Wiederverwendung, um Arbeitszeit zu sparen.
 - Glossare: Erlauben die Verwaltung terminologischer Vorgaben, um einheitliche Begriffe zu gewährleisten.

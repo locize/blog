@@ -21,7 +21,7 @@ hidden: false
 
 In a globally networked world, cultural communication is becoming a strategic success factor for companies that operate worldwide. While there are countless methods of translation, the central goal always remains to convey content accurately and engagingly to the target audience. 
 
-<strong>Translation should therefore be seen as an integral part of a comprehensive <a href="https://locize.com/blog/localization-strategy/" title="localization strategy">localization strategy</a></strong> and not as an isolated process.
+<strong>Translation should therefore be seen as an integral part of a comprehensive <a href="../localization-strategy/" title="localization strategy">localization strategy</a></strong> and not as an isolated process.
 But what exactly are translations, what types are there and what factors are important in localization translation?
 
 
@@ -65,7 +65,7 @@ Whether contracts, deeds, patents or other legal documents, legal translations p
 Arrest warrants, registrations, certificates, declarations, affidavits, patents, trademarks, proceedings, lawsuits, decrees, contracts and insurance policies are just a few examples of legal documents that need to be translated.
 
 ### Marketing and advertisement translation
-<a href="https://locize.com/blog/localization-marketing/" title=" marketing localization">Marketing</a> and advertising translation
+<a href="../localization-marketing/" title=" marketing localization">Marketing</a> and advertising translation
  often requires a creative translation that adapts the message to the cultural and emotional expectations of the target audience. The translation should achieve the same feeling and effect as the original.
 
 ### Medical translation
@@ -107,7 +107,7 @@ Let's take a closer look at localization translation and take a closer look at t
 
 Localization translations can be implemented through a combination of strategies and technologies that together ensure that the content is translated into the target languages in an accurate and culturally appropriate way.
 The first step is to find and select professional translators or specialized translation agencies who have the necessary expertise and understanding of the target culture. The experts then produce an initial translation.
-To increase efficiency, modern translation tools such as <a href="https://locize.com/blog/tms/" title="what is a translation management system">translation management systems</a> are usually used, which store previously translated segments and reuse them as required. 
+To increase efficiency, modern translation tools such as <a href="../tms/" title="what is a translation management system">translation management systems</a> are usually used, which store previously translated segments and reuse them as required. 
 
 This maintains consistency and speeds up the translation process considerably. Other core tools include CAT tools (computer-aided translation), which help translators to translate content even more accurately through automation.
 Key functions of CAT tools include
