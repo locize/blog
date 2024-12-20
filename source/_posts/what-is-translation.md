@@ -1,6 +1,6 @@
 ---
 title: "What is translation and why it's important"
-description: "What is  translation and why is a localization translation so important for companies? "
+description: "What is  translation and why is a localization translation so important for companies?"
 date: 2024-11-28
 tags:
   - Translation
