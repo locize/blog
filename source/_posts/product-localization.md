@@ -30,7 +30,7 @@ Product localization is therefore the key to making offers relevant and appealin
 
 ## What is product localization?
 
-Product localization <a href="  https://locize.com/blog/localization/" title="localization">localization</a> describes the targeted adaptation of content to the specific requirements of a new market.
+Product localization <a href="../localization/" title="localization">localization</a> describes the targeted adaptation of content to the specific requirements of a new market.
 
 The process includes the translation of texts, the adaptation of formats such as date, time or currency and the consideration of cultural sensitivities and regional preferences. In the end, it must be ensured that local, cultural and functional needs are taken into account.
 
@@ -114,7 +114,7 @@ A localized support offering, including customized FAQs, service hours and langu
 
 ## How can product localization be implemented in practice?
 
-In order to successfully adapt a product for global markets, internationalization (<a href="/blog/what-is-i18n" title="what is i18n">i18n</a>) is the crucial first step. 
+In order to successfully adapt a product for global markets, internationalization (<a href="../what-is-i18n" title="what is i18n">i18n</a>) is the crucial first step. 
 
 The product is designed in such a way that it is flexible for different languages and cultural requirements right from the start. This process creates the basis for smooth localization. Only these preparatory measures ensure that the product can be easily adapted to the specific expectations and requirements of a target market.
 
@@ -132,7 +132,7 @@ For comprehensive planning of product localization, goals are defined, prioritie
 <p> <b>Linguistic adaptation</b></p>
 Content must now be translated into the language of the target market in such a way that it sounds natural and authentic. This includes taking regional dialects, idiomatic expressions and the cultural context into account. 
 
-Professional translators or localization agencies and <a href="https://locize.com/blog/tms/" title="what is a translation management system">translation management system</a> that are familiar with the language and culture ensure high quality.
+Professional translators or localization agencies and <a href="../tms/" title="what is a translation management system">translation management system</a> that are familiar with the language and culture ensure high quality.
 This is followed, as required, by cultural adaptation, technical localization, format and currency adaptation, legal and regulatory adaptation and design adaptation.
 
 <p> <b>Testing and quality assurance</b></p>

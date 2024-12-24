@@ -75,7 +75,7 @@ Darüber hinaus gewährleistet Product Localization, dass rechtliche und regulat
 
 ## Welche Arten von Product Localization gibt es?
 
-Bei der Product Localization <a href="https://locize.com/blog/lokalisierung/" title="Localization">Localization</a> kann man mehrere Ansätze beziehungsweise Arten unterscheiden. Diese sollten und dürfen selbstverständlich miteinander kombiniert werden. Welche Varianten infrage kommen, richtet sich immer nach dem tatsächlichen Bedarf des Unternehmens. 
+Bei der Product Localization <a href="../lokalisierung/" title="Localization">Localization</a> kann man mehrere Ansätze beziehungsweise Arten unterscheiden. Diese sollten und dürfen selbstverständlich miteinander kombiniert werden. Welche Varianten infrage kommen, richtet sich immer nach dem tatsächlichen Bedarf des Unternehmens. 
 
 <ol>
   <p> <li><b> Sprachliche Anpassung</li></b>
@@ -115,7 +115,7 @@ Ein lokalisiertes Support-Angebot, einschließlich angepasster FAQs, Servicezeit
 
 ## Wie kann man Product Localization konkret umsetzen?
 
-Um ein Produkt erfolgreich für globale Märkte anzupassen, ist die Internationalisierung (i18n) der entscheidende erste Schritt. 
+Um ein Produkt erfolgreich für globale Märkte anzupassen, ist die Internationalisierung ([i18n](../was-ist-i18n)) der entscheidende erste Schritt. 
 
 Dabei wird das Produkt so gestaltet, dass es von Beginn an flexibel für verschiedene Sprachen und kulturelle Anforderungen ist. Dieser Prozess schafft die Grundlage für eine reibungslose Lokalisierung. Erst durch diese vorbereitenden Maßnahmen wird sichergestellt, dass das Produkt problemlos an die spezifischen Erwartungen und Anforderungen eines Zielmarktes angepasst werden kann.
 
@@ -131,7 +131,7 @@ Für eine umfassende Planung der Product Localization werden Ziele definiert, Pr
 <p> <b>Sprachliche Anpassung</b></p>
 Inhalte müssen nun in die Sprache des Zielmarktes so übersetzt werden, dass sie natürlich und authentisch klingen. Dazu gehört auch die Berücksichtigung regionaler Dialekte, idiomatischer Ausdrücke und des kulturellen Kontexts. 
 
-Professionelle Übersetzer oder Lokalisierungsagenturen sowie dabei genutzte Übersetzungsmanagementsysteme (TMS), die mit der Sprache und Kultur vertraut sind, gewährleisten dafür eine hohe Qualität.
+Professionelle Übersetzer oder Lokalisierungsagenturen sowie dabei genutzte Übersetzungsmanagementsysteme ([TMS](../tms/)), die mit der Sprache und Kultur vertraut sind, gewährleisten dafür eine hohe Qualität.
 Im Anschluss folgen, je nach Bedarf, die kulturelle Anpassung, die technische Lokalisierung, die Format- und Währungsanpassung, die rechtliche und regulatorische Anpassung und die Designanpassungen.
 
 <p> <b>Testing und Qualitätssicherung</b></p>
