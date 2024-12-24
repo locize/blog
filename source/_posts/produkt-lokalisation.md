@@ -3,11 +3,11 @@ title: "Product Localization – global verkaufen?"
 description: "Mit Product Localization werden Produkte an den Zielmarkt angepasst und Zielgruppen im jeweiligen Land angesprochen."
 date: 2024-12-24
 tags:
-  - Übersetzung
-  - Lokalisierung
-  - Unternehmen
-  - Globalisierung
-  - Softwareentwicklung
+  - Translation
+  - Localization
+  - Business
+  - Globalization
+  - Software Development
   
 thumbnail: product-localization/product-localization.webp
 
