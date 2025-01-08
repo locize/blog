@@ -1,6 +1,6 @@
 ---
 title: "Product localization - selling globally"
-description: "Product localization is used to adapt products to the target market and address target groups in the respective country. "
+description: "Product localization is used to adapt products to the target market and address target groups in the respective country."
 date: 2024-12-24
 tags:
   - Translation

@@ -21,6 +21,7 @@ label: i18next-vue
 lang: en
 ---
 <meta name="robots" content="noindex, nofollow">
+
 ![Vue Localization made easy with this step-by-step guide using i18next ✅](vue-localization.jpg "Vue Localization example")
 
 Since [Vue.js](https://vuejs.org/) is an approachable, performant and versatile framework for building web user interfaces, it also needs a best-in-class internationalization solution.
