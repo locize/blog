@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.12",
-    "hexo": "5.4.2",
+    "hexo": "7.2.0",
     "hexo-auto-canonical": "^0.1.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^3.0.0",
